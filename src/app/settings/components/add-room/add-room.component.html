@@ -1,0 +1,46 @@
+<div class="simple-modal">
+  <mdl-icon (click)="dismiss()" class="close-button">close</mdl-icon>
+  <p class="title">{{room ? 'Edit' : 'Add'}} Room</p>
+  <mdl-textfield
+    label="Room Name" floating-label
+    class="room-name"
+    [(ngModel)]="name">
+  </mdl-textfield>
+  <div class="select-row">
+    <mdl-select
+      [(ngModel)]="ageFrom"
+      (change)="handleSelect($event, 'from')"
+      placeholder="Age Group (from)">
+      <mdl-option *ngFor="let option of ageFromAvailable" [value]="option">
+        {{option}}
+      </mdl-option>
+    </mdl-select>
+    <mdl-select
+      #ageToSelect
+      [(ngModel)]="ageTo"
+      (change)="handleSelect($event, 'to')"
+      placeholder="Age Group (to)">
+      <mdl-option *ngFor="let option of ageToAvailable" [value]="option">
+        {{option}}
+      </mdl-option>
+    </mdl-select>
+  </div>
+  <div class="select-row">
+    <mdl-textfield
+      label="Capacity" floating-label
+      class="capacity"
+      pattern="-?[0-9]*(\.[0-9]+)?"
+      error-msg="Capacity needs to be a number"
+      [(ngModel)]="capacity">
+    </mdl-textfield>
+    <div class="ecce-capitations">
+      <label>ECCE Capitations</label>
+      <app-ecce-capitations [model]="ecceCapitations" (valueSet)="ecceCapitations = $event"></app-ecce-capitations>
+    </div>
+  </div>
+  <p class="error-message">{{errorMessage}}</p>
+  <div class="save-button">
+    <mdl-spinner [active]="saving"></mdl-spinner>
+    <button mdl-button mdl-ripple (click)="saveRoom()">Save</button>
+  </div>
+</div>

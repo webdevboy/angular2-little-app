@@ -1,0 +1,206 @@
+<div class="ecce-modal">
+  <div class="modal-header">
+    <button
+      mdl-button mdl-button-type="icon"
+      (click)="dismiss()"
+      class="close-button">
+      <mdl-icon>close</mdl-icon>
+    </button>
+    <div class="child-details">
+      <p class="name">
+        {{ pageModel.name }}
+      </p>
+      <div class="ecce-status">
+        STATUS
+        <app-colored-button
+          [message]="pageModel.status ? 'ECCE' : 'NOT ECCE'"
+          (click)="toggleStatus()"
+          type="status">
+        </app-colored-button>
+      </div>
+      <div class="start-date">
+        <app-datepicker
+          [(ngModel)]="date"
+          label="Start Date"
+          view-format="Do MMM YYYY">
+        </app-datepicker>
+      </div>
+    </div>
+    <div class="control-pills">
+      <button mdl-button [class.active-pill]="step === 0" [disabled]="true">
+        ECCE Days
+      </button>
+      <button mdl-button [class.active-pill]="step === 1" [disabled]="true">
+        Optional Extras &amp; Other Costs
+      </button>
+    </div>
+  </div>
+  <div class="modal-body">
+    <div *ngIf="step === 0" class="ecce">
+        <div class="payment-model">
+          <p class="header">
+            How do you charge for this child:
+          </p>
+          <mdl-switch [(ngModel)]="pageModel.monthly">
+           {{pageModel.monthly ? 'Monthly' : 'Weekly' }}
+         </mdl-switch>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="header">
+              Please select a weekly ECCE model for this child:
+            </p>
+            <div class="button-bar">
+              <label>Annual Model: </label>
+              <app-list-buttons
+                [values]="pageModel.annualModel"
+                [interactive]="true"
+                (change)="handleAnnualModel($event)"
+                [buttons]="'38::38 WEEK|41::41 WEEK|50::50 WEEK|52::52 WEEK'"
+                [toggle]="true"></app-list-buttons>
+            </div>
+          </div>
+          <div class="col">
+            <div class="weekly-total">
+              <p class="header">
+                Weekly ECCE Total
+              </p>
+              <p class="total-value">
+                {{weeklyTotal | currency:'EUR':'1-1.2'}}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="button-bar">
+          <label>Days in Attendance: </label>
+          <app-list-buttons
+            [values]="pageModel.days"
+            [interactive]="true"
+            (change)="handleDays($event)"
+            [buttons]="'monday::MONDAY|tuesday::TUESDAY|wednesday::WEDNESDAY|thursday::THURSDAY|friday::FRIDAY'">
+          </app-list-buttons>
+        </div>
+        <p class="error-message" [hidden]="!errorMessage">
+          {{errorMessage}}
+        </p>
+    </div>
+    <div *ngIf="step === 1" class="costs">
+      <div class="row">
+        <div class="col col-40">
+          <p class="header">
+            Enter {{ pageModel.monthly ? 'Monthly' : 'Weekly' }} Parent Fee Before ECCE
+          </p>
+        </div>
+        <div class="col col-10">
+          <mdl-textfield
+            class="with-currency euro"
+            step="any"
+            [(ngModel)]="pageModel.normalFee"
+            type="number">
+          </mdl-textfield>
+        </div>
+      </div>
+      <div class="parent-fee">
+      </div>
+      <p class="header">
+        Add Optional Weekly Extras for this child
+      </p>
+      <div class="row extras">
+        <div class="col col-10">
+          <p>Meals</p>
+          <mdl-textfield
+            class="with-currency euro"
+            type="number"
+            step="any"
+            [(ngModel)]="pageModel.extras.meals"></mdl-textfield>
+        </div>
+        <div class="col col-10">
+          <p>Extra Hours</p>
+          <mdl-textfield
+            class="with-currency euro"
+            type="number"
+            step="any"
+            [(ngModel)]="pageModel.extras.hours"></mdl-textfield>
+        </div>
+        <div class="col col-10">
+          <p>Trips</p>
+          <mdl-textfield
+            class="with-currency euro"
+            type="number"
+            step="any"
+            [(ngModel)]="pageModel.extras.trips"></mdl-textfield>
+        </div>
+        <div class="col col-10">
+          <p>Other</p>
+          <mdl-textfield
+            class="with-currency euro"
+            type="number"
+            step="any"
+            [(ngModel)]="pageModel.extras.other"></mdl-textfield>
+        </div>
+        <div class="col col-10">
+          <p>Voluntary</p>
+          <mdl-textfield
+            class="with-currency euro"
+            type="number"
+            step="any"
+            [(ngModel)]="pageModel.extras.voluntary"></mdl-textfield>
+        </div>
+        <div class="col">
+          <p>Total weekly extras</p>
+          <span class="extras-value">
+            {{weeklyTotalExtras | currency:'EUR':'1-1.2'}}
+          </span>
+        </div>
+      </div>
+
+      <div class="row totals">
+        <div class="col  col-90">
+          <p class="header">
+            {{ pageModel.monthly ? 'Monthly' : 'Weekly' }} Parent Reduced Fee
+          </p>
+          <p class="fee">
+            {{ reducedFee  | currency:'EUR':'1-1.2' }}
+          </p>
+        </div>
+        <div class="col col-10">
+          <p class="header">
+            Total Annual ECCE
+          </p>
+          <p class="fee">
+            {{
+              (capitation === 'HIGH' ? 2850 : 2451)
+              | currency:'EUR':'1-1.2'
+            }}
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="control-bar">
+    <button
+      [hidden]="step === 0"
+      (click)="step = step - 1"
+      mdl-button>
+        Back
+    </button>
+    <button
+      mdl-button
+      [hidden]="step === 1"
+      [disabled]="isDisabled()"
+      (click)="step = step + 1"
+      class="button-right">
+        Next
+    </button>
+    <div class="button-right" [hidden]="step !== 1">
+        <mdl-spinner [active]="saving"></mdl-spinner>
+        <button
+          mdl-button
+          [disabled]="isDisabled()"
+          (click)="saveChanges()">
+            Save
+        </button>
+    </div>
+  </div>
+</div>

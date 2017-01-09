@@ -1,0 +1,175 @@
+<div class="plan-setup">
+  <!--//Popup for add staff or edit staff-->
+  <app-add-staff 
+      [showOccupancyModal]="showOccupancyModal"
+      [title]="title"
+      [rooms]="rooms"
+      [staff]="selectedStaff"
+      [qualification]="qualification"
+      [isEdit]="isEdit"
+      (closeModal)="modalClosed()">
+  </app-add-staff>
+
+  <!--//start room panel-->
+  <div class="panel flex column" mdl-shadow="2">
+    <div class="panel-header flex" [hidden]="!rooms">
+      <app-scroll-navbar [datas]="rooms" (sendData)="selectRoom($event)" class="flex"></app-scroll-navbar>
+    </div>
+    <div class="panel-body">
+      <div class="panel-body-inner flex">
+        <div *ngIf="selectedRoom.assignedStaff.length<=0">Please add staff to this room by assigning a staff memeber in the table below.</div>
+        <div class="list flex column" *ngIf="selectedRoom.assignedStaff.length>0">
+            <div class="row flex bottom-border">
+              <div class="row flex flex3">
+                <div class="col flex flex1"></div>
+                <div class="col flex flex3 column">
+                  <div class="row flex">
+                    <span class="col flex">Mon</span>
+                    <span class="col flex">Tue</span>
+                    <span class="col flex">Wed</span>
+                    <span class="col flex">Thu</span>
+                    <span class="col flex">Fri</span>
+                  </div>
+                  <div class="row flex">
+                    <div class="row flex" *ngFor="let num of [1,2,3,4,5]">
+                      <span class="col flex strong-text align-items">AM</span>
+                      <span class="col flex strong-text align-items">PM</span>
+                      <span class="col flex"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col flex flex1"></div>
+              </div>
+              <div class="row flex flex2">
+                <div class="trans-title col flex flex3 strong-text">Transition Setup</div>
+              </div>
+            </div>
+            <div class="row flex">
+              <div class="row flex flex3 column" >
+                <div class="row flex padding-top-bottom-20" *ngFor="let staff of selectedRoom.assignedStaff;">
+                  <div class="col flex flex1 align-items text-indent10">{{staff.name}}</div>
+                  <div class="col flex flex3">
+                    <div class="row flex">
+                      <span class="col flex align-items"><mdl-icon class="icon" *ngIf="staff.assignedRoom.mon.am===selectedRoomID">lens</mdl-icon></span>
+                      <span class="col flex align-items"><mdl-icon class="icon" *ngIf="staff.assignedRoom.mon.pm===selectedRoomID">lens</mdl-icon></span>
+                      <span class="col flex"></span>
+                    </div>
+                    <div class="row flex">
+                      <span class="col flex align-items"><mdl-icon class="icon" *ngIf="staff.assignedRoom.tue.am===selectedRoomID">lens</mdl-icon></span>
+                      <span class="col flex align-items"><mdl-icon class="icon" *ngIf="staff.assignedRoom.tue.pm===selectedRoomID">lens</mdl-icon></span>
+                      <span class="col flex"></span>
+                    </div>
+                    <div class="row flex">
+                      <span class="col flex align-items"><mdl-icon class="icon" *ngIf="staff.assignedRoom.wed.am===selectedRoomID">lens</mdl-icon></span>
+                      <span class="col flex align-items"><mdl-icon class="icon" *ngIf="staff.assignedRoom.wed.pm===selectedRoomID">lens</mdl-icon></span>
+                      <span class="col flex"></span>
+                    </div>
+                    <div class="row flex">
+                      <span class="col flex align-items"><mdl-icon class="icon" *ngIf="staff.assignedRoom.thu.am===selectedRoomID">lens</mdl-icon></span>
+                      <span class="col flex align-items"><mdl-icon class="icon" *ngIf="staff.assignedRoom.thu.pm===selectedRoomID">lens</mdl-icon></span>
+                      <span class="col flex"></span>
+                    </div>
+                    <div class="row flex">
+                      <span class="col flex align-items"><mdl-icon class="icon" *ngIf="staff.assignedRoom.fri.am===selectedRoomID">lens</mdl-icon></span>
+                      <span class="col flex align-items"><mdl-icon class="icon" *ngIf="staff.assignedRoom.fri.pm===selectedRoomID">lens</mdl-icon></span>
+                      <span class="col flex"></span>
+                    </div>
+                  </div>
+                  <div class="col flex flex1"></div>
+                </div>
+                <div class="row flex padding-top-bottom-20">
+                  <div class="col flex flex1 align-items text-indent10">Capacity</div>
+                  <div class="col flex flex3">
+                    <div class="row flex">
+                      <span class="col flex align-items">{{selectedRoom.capacity.mon.am}}</span>
+                      <span class="col flex align-items">{{selectedRoom.capacity.mon.pm}}</span>
+                      <span class="col flex"></span>
+                    </div>
+                    <div class="row flex">
+                      <span class="col flex align-items">{{selectedRoom.capacity.tue.am}}</span>
+                      <span class="col flex align-items">{{selectedRoom.capacity.tue.pm}}</span>
+                      <span class="col flex"></span>
+                    </div>
+                    <div class="row flex">
+                      <span class="col flex align-items">{{selectedRoom.capacity.wed.am}}</span>
+                      <span class="col flex align-items">{{selectedRoom.capacity.wed.pm}}</span>
+                      <span class="col flex"></span>
+                    </div>
+                    <div class="row flex">
+                      <span class="col flex align-items">{{selectedRoom.capacity.thu.am}}</span>
+                      <span class="col flex align-items">{{selectedRoom.capacity.thu.pm}}</span>
+                      <span class="col flex"></span>
+                    </div>
+                    <div class="row flex">
+                      <span class="col flex align-items">{{selectedRoom.capacity.fri.am}}</span>
+                      <span class="col flex align-items">{{selectedRoom.capacity.fri.pm}}</span>
+                      <span class="col flex"></span>
+                    </div>
+                  </div>
+                  <div class="col flex flex1"></div>
+                </div>
+              </div>
+              <div class="row flex flex2 column">
+                <div class="row flex header">This is a class setting. Transition Rooms & Ages can also be set for individual children in the Class Room List.</div>
+                <div class="row flex">
+                  <div class="col flex flex1 align-items-center">Transition Room</div>
+                  <div class="col flex flex2">
+                    <mdl-select [(ngModel)]="selectedRoom.transitionRoom" placeholder="Select Room">
+                      <mdl-option *ngFor="let room of rooms" [value]="room.id">
+                        {{room.name}}
+                      </mdl-option>
+                    </mdl-select>
+                  </div>
+                </div>
+                <div class="row flex">
+                  <div class="col flex flex1 align-items-center">Transition Age</div>
+                  <div class="col flex flex2">
+                    <mdl-select [(ngModel)]="selectedRoom.transitionAge" placeholder="Select Age">
+                      <mdl-option *ngFor="let group of ageGroup" [value]="group.id">
+                        {{group.name}}
+                      </mdl-option>
+                    </mdl-select>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--//end room panel-->
+  <br><br>
+  <!--//start staff panel-->
+  <div class="panel flex column" mdl-shadow="2">
+    <div class="panel-header flex">
+      <span class="text-indent10">Manage Staff & Room Capacity</span>
+    </div>
+    <div class="panel-body">
+      <div class="panel-body-inner flex">
+        <div *ngIf="staffs.length===0">No staff added yet. Please click on the + icon to begin adding staff.</div>
+        <div class="list flex column" *ngIf="staffs.length>0">
+          <div class="row flex header bottom-border padding-top-bottom-10">
+            <div class="col flex">Name</div>
+            <div class="col flex">Room Assigned to AM</div>
+            <div class="col flex">Room Assigned to PM</div>
+            <div class="col flex">Start Date</div>
+            <div class="col flex">Finish Date</div>
+            <div class="col flex">Qualification</div>
+          </div>
+          <div class="row flex bottom-border padding-top-bottom-10" *ngFor="let staff of staffs" (click)="controlStaffs(true, staff)">
+            <div class="col flex">{{staff.name}}</div>
+            <div class="col flex">{{getRoomNameById(staff.assignedRoom.mon.am)}}</div>
+            <div class="col flex">{{getRoomNameById(staff.assignedRoom.mon.pm)}}</div>
+            <div class="col flex">{{staff.startdate}}</div>
+            <div class="col flex">{{staff.enddate}}</div>
+            <div class="col flex">{{getQualificationNameById(staff.qualification)}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--//end staff panel-->
+  <mdl-button mdl-button-type="fab" class="add-staff" mdl-colored="accent" mdl-ripple mdl-shadow="8" (click)="controlStaffs(false)">
+    <mdl-icon>add</mdl-icon>
+  </mdl-button>
+</div>

@@ -1,0 +1,13 @@
+<div class="scroll-holder" (window:resize)="onResize($event)">
+  <div [class.show]="showLeftArrow" class="arrow arrow-back" (click)="scroll()" mdl-ripple>
+    <mdl-icon>arrow_back</mdl-icon>
+  </div>
+  <div class="navbar-scroll" #nav>
+    <span class="btn-tab" *ngFor="let data of datas; let idx=index;" (click)="selectData(data.id)" [class.active]="data.selected">
+      <button mdl-button mdl-ripple>{{data.name}}</button>
+    </span>
+  </div>
+  <div [class.show]="showRightArrow" class="arrow arrow-forward" #arrow (click)="scroll('right')" mdl-ripple>
+    <mdl-icon>arrow_forward</mdl-icon>
+  </div>
+</div>

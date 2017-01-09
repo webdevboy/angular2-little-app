@@ -1,0 +1,33 @@
+<div class="landing-page">
+  <div class="vista-logo">
+    <img src="/assets/img/logo-large.png" alt="Little Vista logo" />
+  </div>
+  <div class="stabilizer">
+    <div class="lite-preview">
+      <p>The <b>easy</b> way to manage <br /> your <b>creche.</b></p>
+      <img src="/assets/img/preview.png" alt="LITE application preview">
+    </div>
+    <div class="controls-wrapper">
+      <app-login-card *ngIf="showLogin"></app-login-card>
+      <app-register-card  *ngIf="!showLogin"></app-register-card>
+      <div class="controls" *ngIf="showLogin">
+        <p>
+          Don't have account yet?
+        </p>
+        <mdl-button mdl-ripple (click)="toggleView()">
+          Sign up for free
+        </mdl-button>
+      </div>
+      <div class="controls">
+        <div class="controls" *ngIf="!showLogin">
+          <p>
+            Already have an account?
+          </p>
+          <mdl-button class="clean" mdl-ripple  (click)="toggleView()">
+            Login
+          </mdl-button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

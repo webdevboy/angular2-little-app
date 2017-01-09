@@ -1,0 +1,23 @@
+.timepicker {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  background-color: #f7afc1;
+  color: #fff;
+  mdl-button {
+    color: #fff;
+    padding: 0;
+    margin: 0 !important;
+    min-width: 20px;
+    margin: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  span {
+    cursor: pointer;
+  }
+
+}

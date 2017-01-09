@@ -1,0 +1,13 @@
+.simple-modal {
+  box-sizing: content-box;
+  .dialog-content {
+    min-width: 400px;
+
+    .modal-controls {
+      text-align: right;
+      mdl-spinner {
+        vertical-align: middle;
+      }
+    }
+  }
+}

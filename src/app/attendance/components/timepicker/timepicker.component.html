@@ -1,0 +1,11 @@
+<div class="timepicker">
+  <mdl-button (click)="subtractMinutes()">
+    <mdl-icon>keyboard_arrow_left</mdl-icon>
+  </mdl-button>
+  <span (click)="setTime()">
+    {{parseDate()}}
+  </span>
+  <mdl-button (click)="addMinutes()">
+    <mdl-icon>keyboard_arrow_right</mdl-icon>
+  </mdl-button>
+</div>

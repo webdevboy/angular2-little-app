@@ -1,0 +1,27 @@
+/* Warning this component uses no ViewEncapsulation */
+.attendance {
+  .flex-card {
+    margin: 0;
+    margin-right: 20px;
+    .col {
+      &:first-child {
+        flex: 0 0 5%;
+        img {
+          border-radius: 50%;
+          width: 3rem;
+        }
+      }
+      &.presence-col {
+        text-align: center;
+        min-width: 30%;
+      }
+      &.time-col span {
+        cursor: pointer;
+      }
+    }
+  }
+}
+// Temporary fix for blurry text, until it gets fixed in MDL
+.mdl-snackbar {
+  will-change: unset;
+}

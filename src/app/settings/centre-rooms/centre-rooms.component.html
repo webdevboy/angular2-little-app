@@ -1,0 +1,30 @@
+<app-modal [showModal]="showModal">
+  <app-add-room (closeModal)="modalClosed()" [room]="selectedRoom"></app-add-room>
+</app-modal>
+<app-confirm-dialog [showDialog]="confirmDelete" (closeDialog)="confirmDeleteRoom($event)" [message]="deleteMessage"></app-confirm-dialog>
+<app-flex-card
+  [loading]="loading"
+  [options]="tableOptions"
+  [collection]="rooms"
+  class="centre-rooms">
+  <app-searchbar (searchFilter)="handleFilter($event)"></app-searchbar>
+  <div class="row" *ngFor="let room of rooms" (click)="editRoom(room)">
+    <div class="col name-col">
+      {{room.name}}
+    </div>
+    <div class="col">
+      {{room.ageGroup || '-'}}
+    </div>
+    <div class="col">
+      {{room.capacity || '-'}}
+    </div>
+    <div class="col">
+      <mdl-button class="remove-rooms" mdl-button-type="icon" mdl-colored="accent" (click)="deleteRoom($event, room)">
+        <mdl-icon>delete</mdl-icon>
+      </mdl-button>
+    </div>
+  </div>
+  <mdl-button mdl-button-type="fab" class="add-rooms" mdl-colored="accent" mdl-ripple mdl-shadow="8" (click)="showModal = true">
+    <mdl-icon>add</mdl-icon>
+  </mdl-button>
+</app-flex-card>

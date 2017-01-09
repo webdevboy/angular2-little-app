@@ -1,0 +1,326 @@
+<div class="easy-fees-setup">
+  <app-modal [showModal]="showModal" (closeModal)="modalClosed()">
+    <app-choose-org-type (closeModal)="modalClosed($event)"></app-choose-org-type>
+  </app-modal>
+  <div class="setup-header">
+    <h2 class="header">
+      Easy Fees
+    </h2>
+    <p class="info">
+      In order to set up your business to take direct debits payments you
+      will need to scan &amp; upload the documentation relevant to your
+      organisation. <br /> Click here for information about what
+      documentation is required:
+      <mdl-button mdl-ripple (click)="chooseOrgType()">
+        Select Your Organisation Type
+      </mdl-button>
+    </p>
+  </div>
+  <div class="setup-form">
+    <div class="progress-tracker">
+      <div
+        class="step-pill"
+        [class.active-pill]="setupStep === 1"
+        (click)="setupStep = 1">
+          1. Business Name
+      </div>
+      <div
+        class="step-pill"
+        [class.active-pill]="setupStep === 2"
+        (click)="setupStep = 2">
+          2. Contact Details
+      </div>
+      <div
+        class="step-pill"
+        [class.active-pill]="setupStep === 3"
+        (click)="setupStep = 3">
+          3. Direct Debit Profile
+      </div>
+      <div
+        class="step-pill"
+        [class.active-pill]="setupStep === 4"
+        (click)="setupStep = 4">
+          4. Documentation
+      </div>
+    </div>
+    <form [formGroup]="merchantSignupForm">
+      <div class="step" [hidden]="setupStep !== 1" formGroupName="step1">
+        <div>
+          <mdl-textfield
+            type="text"
+            floating-label
+            formControlName="merchantName"
+            [class.is-invalid]="merchantName.invalid && merchantName.touched"
+            error-msg="Merchant Name is required"
+            disableNativeValidityChecking
+            label="Merchant Name">
+          </mdl-textfield>
+        </div>
+        <div>
+          <mdl-textfield
+            type="text"
+            floating-label
+            formControlName="companyNumber"
+            [class.is-invalid]="companyNumber.invalid && companyNumber.touched"
+            error-msg="Company Registered Number is required"
+            disableNativeValidityChecking
+            label="Company Registered No">
+          </mdl-textfield>
+        </div>
+        <div *ngIf="CURRENCIES.length">
+          <mdl-select
+            formControlName="currency"
+            placeholder="Currency">
+              <mdl-option
+                *ngFor="let value of CURRENCIES"
+                [value]="value">
+                  {{value}}
+              </mdl-option>
+          </mdl-select>
+        </div>
+        <div>
+          <mdl-checkbox mdl-ripple="true" formControlName="differentName">
+            Company Registered Full Business Name different to your Business Name
+          </mdl-checkbox>
+        </div>
+        <mdl-textfield
+          type="text"
+          floating-label
+          formControlName="companyName"
+          [class.is-invalid]="companyName.invalid && companyName.touched"
+          [required]="differentName.value"
+          disableNativeValidityChecking
+          error-msg="Registered Business Name is required if different"
+          label="Company Registered Business Name">
+        </mdl-textfield>
+        <div>
+          <mdl-checkbox mdl-ripple="true" formControlName="alreadyCollecting">
+            Are You Already Collecting Direct Debits?
+          </mdl-checkbox>
+        </div>
+        <mdl-textfield
+          type="text"
+          floating-label
+          [class.is-invalid]="creditorSchemeId.invalid && creditorSchemeId.touched"
+          [required]="alreadyCollecting.value"
+          formControlName="creditorSchemeId"
+          disableNativeValidityChecking
+          error-msg="Creditor Scheme Id is required if collecting"
+          label="Creditor Scheme Id">
+        </mdl-textfield>
+      </div>
+      <div class="step" [hidden]="setupStep !== 2" formGroupName="step2">
+        <div>
+          <mdl-textfield
+            type="text"
+            floating-label
+            formControlName="website"
+            label="Website">
+          </mdl-textfield>
+        </div>
+        <div>
+          <mdl-textfield
+            type="text"
+            floating-label
+            [class.is-invalid]="address.invalid && address.touched"
+            formControlName="address"
+            disableNativeValidityChecking
+            error-msg="Address is required"
+            label="Address">
+          </mdl-textfield>
+        </div>
+        <div>
+          <mdl-textfield
+            type="text"
+            floating-label
+            [class.is-invalid]="city.invalid && city.touched"
+            formControlName="city"
+            disableNativeValidityChecking
+            error-msg="City is required"
+            label="City">
+          </mdl-textfield>
+        </div>
+        <div>
+          <mdl-textfield
+            type="text"
+            floating-label
+            formControlName="state"
+            label="State / Province / Region">
+          </mdl-textfield>
+        </div>
+        <div>
+          <mdl-select
+            formControlName="countryCode"
+            placeholder="Country">
+              <mdl-option value="IR">Republic Of Ireland</mdl-option>
+          </mdl-select>
+        </div>
+        <div>
+          <mdl-textfield
+            type="text"
+            floating-label
+            [class.is-invalid]="contactName.invalid && contactName.touched"
+            formControlName="contactName"
+            disableNativeValidityChecking
+            error-msg="Business Contact Name is required"
+            label="Business Contact Name">
+          </mdl-textfield>
+        </div>
+        <div>
+          <mdl-textfield
+            type="email"
+            floating-label
+            [class.is-invalid]="contactEmail.invalid && contactEmail.touched"
+            formControlName="contactEmail"
+            disableNativeValidityChecking
+            error-msg="Please enter a valid e-mail"
+            label="Business E-Mail">
+          </mdl-textfield>
+        </div>
+      </div>
+      <div class="step" [hidden]="setupStep !== 3" formGroupName="step3">
+        <div class="long-field">
+          <mdl-textfield
+            type="number"
+            floating-label
+            [class.is-invalid]="estimatedCustomers.invalid && estimatedCustomers.touched"
+            formControlName="estimatedCustomers"
+            disableNativeValidityChecking
+            error-msg="Please enter a valid number"
+            label="Estimated number of your customers who will pay by direct debit">
+          </mdl-textfield>
+        </div>
+        <div class="long-field">
+          <mdl-textfield
+            type="number"
+            floating-label
+            [class.is-invalid]="estimatedAvgValue.invalid && estimatedAvgValue.touched"
+            formControlName="estimatedAvgValue"
+            disableNativeValidityChecking
+            error-msg="Please enter a valid number"
+            label="Estimated average value of each direct debit">
+          </mdl-textfield>
+        </div>
+        <div class="long-field">
+          <mdl-textfield
+            type="number"
+            floating-label
+            [class.is-invalid]="estimatedMaxValue.invalid && estimatedMaxValue.touched"
+            formControlName="estimatedMaxValue"
+            disableNativeValidityChecking
+            error-msg="Please enter a valid number"
+            label="Estimated maximum value of each direct debit">
+          </mdl-textfield>
+        </div>
+        <div>
+          <p>Direct Debit Frequency</p>
+          <mdl-select
+            formControlName="frequency"
+            placeholder="Direct Debit Frequency">
+              <mdl-option
+                *ngFor="let value of FREQUENCIES"
+                [value]="value">
+                  {{value}}
+              </mdl-option>
+          </mdl-select>
+        </div>
+        <div class="long-field">
+          <mdl-textfield
+            type="text"
+            floating-label
+            [class.is-invalid]="iban.invalid && iban.touched"
+            formControlName="iban"
+            disableNativeValidityChecking
+            error-msg="IBAN is required"
+            label="Nominated Bank A/C number(IBAN)">
+          </mdl-textfield>
+        </div>
+        <div class="long-field">
+          <mdl-textfield
+            type="text"
+            floating-label
+            formControlName="reportPhone"
+            label="Contact phone number">
+          </mdl-textfield>
+        </div>
+        <div class="long-field">
+          <mdl-textfield
+            type="text"
+            floating-label
+            formControlName="reportContact"
+            label="Company contact for payment reports reciept">
+          </mdl-textfield>
+        </div>
+        <div class="long-field">
+          <mdl-textfield
+            type="text"
+            floating-label
+            formControlName="reportEmail"
+            [class.is-invalid]="reportEmail.invalid && reportEmail.touched"
+            disableNativeValidityChecking
+            error-msg="Please enter a valid email"
+            label="Company email for payment reports reciept">
+          </mdl-textfield>
+        </div>
+      </div>
+      <div class="step" [hidden]="setupStep !== 4" formGroupName="step4">
+        <div>
+          <mdl-select
+            formControlName="businessType"
+            placeholder="Select Your Organisation Type">
+            <mdl-option *ngFor="let type of COMPANY_TYPES" [value]="type.value">
+              {{type.name}}
+            </mdl-option>
+          </mdl-select>
+        </div>
+        <div>
+          <mdl-textfield
+            type="text"
+            floating-label
+            label="VAT Number">
+          </mdl-textfield>
+        </div>
+        <div class="file-dropzone"
+          [class.files-over]="highlightDropZone"
+          [attr.mdl-shadow]="highlightDropZone ? 2 : null"
+          (dragover)="onDragOver($event)"
+          (dragleave)="onDragLeave($event)"
+          (drop)="onDragDrop($event)">
+            <input type="file" multiple #fileInput (change)="onInputChange($event)">
+            <span>
+              Drop files here or
+            </span>
+            <button mdl-button mdl-button-type="raised" (click)="selectFiles()">
+              Select Files
+            </button>
+        </div>
+        <div class="attached-files">
+          <mdl-chip
+            mdl-action-icon="cancel"
+            *ngFor="let file of uploadFiles; let i = index"
+            (action-click)="removeFile(i)"
+            [mdl-label]="file.name">
+          </mdl-chip>
+        </div>
+        <div *ngIf="businessType.valid">
+          <p>Required Documents: </p>
+          <ul>
+            <li *ngFor="let document of getDocuments()">
+                {{ document }}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </form>
+    <div class="next-button" [hidden]="setupStep === 4">
+      <mdl-button mdl-button-type="raised" [disabled]="!canSkip()" (click)="setupStep = setupStep + 1">
+        Next
+      </mdl-button>
+    </div>
+    <div class="next-button" [hidden]="setupStep !== 4">
+      <mdl-button mdl-button-type="raised" [disabled]="!canSubmit()" (click)="composeForm()">
+        Submit
+      </mdl-button>
+    </div>
+  </div>
+</div>
