@@ -15,6 +15,7 @@ import { AddStaffComponent } from './components/add-staff/add-staff.component';
 import { RemoveWaitingChildComponent } from './components/remove-waiting-child/remove-waiting-child.component';
 import { OccupancyTransitionsComponent } from './occupancy-transitions/occupancy-transitions.component';
 import { ScrollNavbarComponent } from './components/scroll-navbar/scroll-navbar.component';
+import { OccupancyChlidComponent } from './components/occupancy-chlid/occupancy-chlid.component';
 
 @NgModule({
   imports: [
@@ -33,7 +34,8 @@ import { ScrollNavbarComponent } from './components/scroll-navbar/scroll-navbar.
     PlanRoomListsComponent,
     RemoveWaitingChildComponent,
     OccupancyTransitionsComponent,
-    ScrollNavbarComponent
+    ScrollNavbarComponent,
+    OccupancyChlidComponent
   ]
 })
 export class OccupancyModule { }

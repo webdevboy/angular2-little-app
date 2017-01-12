@@ -12,14 +12,15 @@
         <span class="col flex align-items-center text-indent20">{{roomInfo.mdate}}</span>
         <span class="col flex align-items-center">{{getRoomNameById(roomID)}}</span>
       </div>
-      <div class="week-picker flex flex2">
+      <div class="flex flex2"></div>
+      <!--<div class="week-picker flex flex2">
         <span class="col flex p-btn align-items-center justify-content-center" *ngFor="let wtab of weekTabs; let idx = index;" (click)="selectWeekPicker(idx)" [class.active]="wtab.active">
           <button mdl-button mdl-ripple>{{wtab.name}}</button>
         </span>
         <span class="col flex" *ngFor="let num of [1,2,3,4,5];">&nbsp;</span>
-      </div>
+      </div>-->
     </div>
-    <div class="available-info flex">
+    <!--<div class="available-info flex">
       <div class="row flex flex1">
         <span class="col flex">&nbsp;</span>
         <span class="col flex align-items-center">Spaces Available</span>
@@ -31,15 +32,19 @@
         </div>
         <div class="row flex" *ngFor="let num of [1,2,3,4,5];">&nbsp;</div>
       </div>
-    </div>
+    </div>-->
   </div>
   <!--//end accordian header-->
   <!--//start accordian body-->
   <div class="accordian-body flex">
     <!--//start room info-->
-    <div class="room-info flex">
+    <div class="room-info flex flex1">
       <div class="room-info-inner flex column">
-        <div class="row flex bottom-border strong-text no-padding">
+        <div class="row flex bottom-border">
+          <span class="col flex5 strong-text">Maximum Room Capacity</span>
+          <span class="col flex1 text-right">20</span>
+        </div>
+        <div class="row flex strong-text">
           <span class="col flex5">Staff</span>
           <span class="col flex1 text-center">AM</span>
           <span class="col flex1 text-center">PM</span>
@@ -50,7 +55,7 @@
           <span class="col flex1 text-center"><mdl-icon class="icon" *ngIf="_staff.am">lens</mdl-icon></span>
           <span class="col flex1 text-center"><mdl-icon class="icon" *ngIf="_staff.pm">lens</mdl-icon></span>
         </div>
-        <div class="row flex strong-text top-border">
+        <!--<div class="row flex strong-text top-border">
           <span class="col flex5">TOTAL Capacity <br><small>(Age group: 12 - 24 months)</small></span>
           <span class="col flex1 text-center">10</span>
           <span class="col flex1 text-center">10</span>
@@ -62,12 +67,12 @@
           <span class="col flex5">Available Spaces</span>
           <span class="col flex1 text-center">1</span>
           <span class="col flex1 text-center">2</span>
-        </div>
+        </div>-->
       </div>
     </div>
     <!--//end room info-->
     <!--//start child info am-->
-    <div class="children-info-am flex">
+    <!--<div class="children-info-am flex">
       <div class="children-info-am-inner flex column">
         <div class="row flex strong-text bottom-border no-padding">
           <span class="col flex5">{{selectedWeeKFullName}} AM</span>
@@ -87,9 +92,9 @@
           <span class="col">Marius Stanely</span>
         </div>
       </div>
-    </div>
+    </div>-->
     <!--//end child info ap-->
-    <div class="children-info-pm flex">
+    <!--<div class="children-info-pm flex">
       <div class="children-info-pm-inner flex column">
         <div class="row flex strong-text bottom-border no-padding">
           <span class="col flex5">{{selectedWeeKFullName}} AM</span>
@@ -110,6 +115,87 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>-->
   <!--//end accordian body-->
+  <div class="child-info flex flex2">
+    <div class="child-info-inner flex column">
+      <div class="row flex bottom-border strong-text">occupied Spaces</div>
+      <div class="row flex no-padding">
+        <span class="col flex2">Monday</span>
+        <span class="col flex1"></span>
+        <span class="col flex2">Tuesday</span>
+        <span class="col flex1"></span>
+        <span class="col flex2">Wednesday</span>
+        <span class="col flex1"></span>
+        <span class="col flex2">Thursday</span>
+        <span class="col flex1"></span>
+        <span class="col flex2">Friday</span>
+        <span class="col flex1"></span>
+      </div>
+      <div class="row flex no-padding bottom-border">
+        <div class="flex" *ngFor="let num of [1,2,3,4,5];">
+          <span class="col flex2">AM</span>
+          <span class="col flex2">PM</span>
+          <span class="col flex1"></span>
+        </div>
+      </div>
+      <div class="row flex padding-bottom30">
+        <div class="flex" *ngFor="let num of [1,2,3,4,5];">
+          <span class="col flex2">6</span>
+          <span class="col flex2">6</span>
+          <span class="col flex1"></span>
+        </div>
+      </div>
+
+      <div class="row flex bottom-border strong-text">Available Spaces</div>
+      <div class="row flex no-padding">
+        <span class="col flex2">Monday</span>
+        <span class="col flex1"></span>
+        <span class="col flex2">Tuesday</span>
+        <span class="col flex1"></span>
+        <span class="col flex2">Wednesday</span>
+        <span class="col flex1"></span>
+        <span class="col flex2">Thursday</span>
+        <span class="col flex1"></span>
+        <span class="col flex2">Friday</span>
+        <span class="col flex1"></span>
+      </div>
+      <div class="row flex no-padding bottom-border">
+        <div class="flex" *ngFor="let num of [1,2,3,4,5];">
+          <span class="col flex2">AM</span>
+          <span class="col flex2">PM</span>
+          <span class="col flex1"></span>
+        </div>
+      </div>
+      <div class="row flex padding-bottom30">
+        <div class="flex" *ngFor="let num of [1,2,3,4,5];">
+          <span class="col flex2">14</span>
+          <span class="col flex2">14</span>
+          <span class="col flex1"></span>
+        </div>
+      </div>
+
+      <div class="row flex">
+        <div class="row flex flex4 column">
+          <div class="row flex strong-text bottom-border no-padding">
+            <span class="col flex5">Starting next month AM</span>
+            <span class="col flex1 text-right">1</span>
+          </div>
+          <div class="row flex">
+            <span class="col">Marius Stanely</span>
+          </div>
+        </div>
+        <div class="row flex flex1"></div>
+        <div class="row flex flex4 column">
+          <div class="row flex strong-text bottom-border no-padding">
+            <span class="col flex5">Starting next month PM</span>
+            <span class="col flex1 text-right">1</span>
+          </div>
+          <div class="row flex">
+            <span class="col">Marius Stanely</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

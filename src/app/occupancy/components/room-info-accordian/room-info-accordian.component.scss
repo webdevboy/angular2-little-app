@@ -13,6 +13,7 @@
           color: white;
           font-size: 1em;
           font-weight: bold;
+          height: 30px;
       }
       .available-info{
           background-color: #c0e5e4;
@@ -52,32 +53,31 @@
         line-height: 25px !important;
     }
 
+    .row{
+        display: flex;
+        padding: 10px 0px;
+
+        .icon{
+            font-size: 1em;
+            color: #6dc49c;
+            &.stuff-no{
+                color: #afafaf !important;
+            }
+        }
+    }
+
     .room-info{
         .room-info-inner{
             min-height:50px;
             padding: 20px;
         }
-
-        .row{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 10px 0px;
-
-            
-
-            .icon{
-                font-size: 1em;
-                color: #6dc49c;
-                &.stuff-no{
-                    color: #afafaf !important;
-                }
-            }
-        }
     }
-    .child-list{
-        flex-wrap: wrap;
-        .row{ width: 50%; }
+    
+    .child-info{
+        .child-info-inner{
+            min-height: 50px;
+            padding: 20px;
+        }
     }
 
     .children-info-am{
@@ -93,6 +93,10 @@
         }
     }
 
+    .child-list{
+        flex-wrap: wrap;
+        .row{ width: 50%; }
+    }
     .children-info-pm{
         .children-info-pm-inner
         {

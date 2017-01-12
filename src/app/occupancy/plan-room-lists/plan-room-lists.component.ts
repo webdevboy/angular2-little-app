@@ -1,5 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
+import * as moment from 'moment';
 
 import { Staff, QualificationType, AgeGroup, Rooms, Child } from '../occupancy.model';
 
@@ -17,7 +18,11 @@ export class PlanRoomListsComponent implements OnInit, OnDestroy {
   deposit: any = [];
   selectedChild: Child;
 
+  week: any[] = [];
+  currentDate: moment.Moment = moment().startOf('isoWeek');
+  
   showOccupancyModal: boolean = false;
+  showChildModal: boolean = false;
 
   title: string = "";
   selectedRoomID: string = "0";
@@ -75,6 +80,8 @@ export class PlanRoomListsComponent implements OnInit, OnDestroy {
       {id: "7", name: "After School", ageGroup: "7", capacity: { mon:{am:"0",pm:"0"}, tue:{am:"0",pm:"0"}, wed:{am:"0",pm:"0"}, thu:{am:"0",pm:"0"}, fri:{am:"0",pm:"0"} }, transitionRoom: "1", transitionAge: "7", ecceCapitations: "", selected: false, assignedStaff:[]}
     ];
     /****************** //fake data ********************* */
+
+    this.dateChange();
   }
 
   ngOnInit() {
@@ -114,11 +121,60 @@ export class PlanRoomListsComponent implements OnInit, OnDestroy {
     let _deposit =  this.deposit.find(deposit => deposit.id === id);
     return id == "0" ? "NOT IN" : _deposit.name;
   }
+  //get capacity number
+  getRoomCapacityByRoomId( week:string, apm:string ):string {
+    let _room = this.rooms.find(room => room.id === this.selectedRoomID);
+    let _capacity = "0";
+    switch( week ){
+      case "mon":
+          if( apm == "am" ){
+            _capacity = _room.capacity.mon.am;
+          } else {
+            _capacity = _room.capacity.mon.pm;
+          }
+        break;
+      case "tue":
+          if( apm == "am" ){
+            _capacity = _room.capacity.tue.am;
+          } else {
+            _capacity = _room.capacity.tue.pm;
+          }
+        break;
+      case "wed":
+          if( apm == "am" ){
+            _capacity = _room.capacity.wed.am;
+          } else {
+            _capacity = _room.capacity.wed.pm;
+          }
+        break;
+      case "thu":
+          if( apm == "am" ){
+            _capacity = _room.capacity.thu.am;
+          } else {
+            _capacity = _room.capacity.thu.pm;
+          }
+        break;
+      case "fri":
+          if( apm == "am" ){
+            _capacity = _room.capacity.fri.am;
+          } else {
+            _capacity = _room.capacity.fri.pm;
+          }
+        break;
+    }
+    return _capacity;
+  }
 
   //Click row waiting child
   selectWaitChild(child: Child){
     this.selectedChild = child;
     this.showOccupancyModal = true;
+  }
+
+  //Click a row in the room list
+  selectRoomChild(child: Child){
+    this.selectedChild = child;
+    this.showChildModal = true;
   }
 
   //move to room
@@ -132,6 +188,44 @@ export class PlanRoomListsComponent implements OnInit, OnDestroy {
 
   modalClosed() {
     this.showOccupancyModal = false;
+    this.showChildModal = false;
+  }
+
+  prevMonth() {
+    this.currentDate.subtract(1, 'month');
+    this.dateChange();
+  }
+
+  nextMonth() {
+    this.currentDate.add(1, 'month');
+    this.dateChange();
+  }
+
+  prevWeek() {
+    this.currentDate.subtract(1, 'week');
+    this.dateChange();
+  }
+
+  nextWeek() {
+    this.currentDate.add(1, 'week');
+    this.dateChange();
+  }
+
+  dateChange() {
+    let startOfWeek = moment(this.currentDate).startOf('isoWeek');
+    let currentWeek = { start: +startOfWeek.format('x'), end: 0 };
+    let daysOfWeek = [];
+
+    while(startOfWeek.isoWeekday() <= 5) {
+      daysOfWeek.push({
+        day: startOfWeek.format('dddd'),
+        date: startOfWeek.format('Do'),
+        inactive: !startOfWeek.isSame(moment(this.currentDate), 'month')
+      });
+      startOfWeek.add(1, 'day');
+    }
+    currentWeek.end = +startOfWeek.format('x');
+    this.week = daysOfWeek;
   }
 
 }
