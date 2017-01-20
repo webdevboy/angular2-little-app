@@ -280,6 +280,9 @@
             label="VAT Number">
           </mdl-textfield>
         </div>
+        <div class="echosign">
+          <iframe src="https://secure.eu1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhCx80vOuPsLWeleU7_BwjtXUeETWf_miqn0zFjlQZ-WB7U9Wscmmicf6Bsc1WwMCvI*&hosted=false" width="100%" height="100%" frameborder="0" style="border: 0; overflow: hidden; min-height: 500px; min-width: 600px;"></iframe>
+        </div>
         <div class="file-dropzone"
           [class.files-over]="highlightDropZone"
           [attr.mdl-shadow]="highlightDropZone ? 2 : null"
@@ -312,6 +315,7 @@
         </div>
       </div>
     </form>
+
     <div class="next-button" [hidden]="setupStep === 4">
       <mdl-button mdl-button-type="raised" [disabled]="!canSkip()" (click)="setupStep = setupStep + 1">
         Next

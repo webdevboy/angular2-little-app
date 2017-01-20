@@ -1,0 +1,132 @@
+<div class="easy-fees-dashboard flex column">
+  <!--//start header panel-->
+  <div class="pane-info flex justify-content-start" mdl-shadow="2">
+    <div class="row flex flex1"></div>
+    <div class="info row flex flex3 column">
+      <div class="title row flex">TOTAL</div>
+      <div class="row flex">
+        <span class="col">
+          <mdl-icon class="account">supervisor_account</mdl-icon>
+        </span>
+        <span class="col count">
+          <b class="num">97</b>
+          <br>
+          (€19,847)
+        </span>
+      </div>
+    </div>
+    <div class="row flex flex1"></div>
+    <div class="info row flex flex3 column">
+      <div class="title row flex">Confirmed</div>
+      <div class="row flex">
+        <span class="col">
+          <mdl-icon class="confirm">credit_card</mdl-icon>
+        </span>
+        <span class="col count">
+          <b class="num">8</b>
+          <br>
+          (€19,847)
+        </span>
+      </div>
+    </div>
+    <div class="row flex flex1"></div>
+    <div class="info row flex flex3 column">
+      <div class="title row flex">Pending</div>
+      <div class="row flex">
+        <span class="col">
+          <mdl-icon class="pending">credit_card</mdl-icon>
+        </span>
+        <span class="col count">
+          <b class="num">7</b>
+          <br>
+          (€19,847)
+        </span>
+      </div>
+    </div>
+    <div class="row flex flex1"></div>
+    <div class="info row flex flex3 column">
+      <div class="title row flex">Rejected</div>
+      <div class="row flex">
+        <span class="col">
+          <mdl-icon class="reject">credit_card</mdl-icon>
+        </span>
+        <span class="col count">
+          <b class="num">5</b>
+          <br>
+          (€19,847)
+        </span>
+      </div>
+    </div>
+  </div>
+  <!--//end header panel-->
+  <br>
+  <!--//start list panel-->
+  <div class="pane-list flex column" mdl-shadow="2">
+    <div class="list-header row flex">
+        <div class="col flex flex2 h-name">CURRENT</div>
+        <div class="col flex flex3 picker-row">
+          <div class="month-picker">
+            <mdl-icon (click)="prevMonth()">keyboard_arrow_left</mdl-icon>
+            <span class="title">
+              <b>{{currentDate.toDate() | date:'MMMM'}}</b> {{currentDate.toDate() | date:'yyyy'}}
+            </span>
+            <mdl-icon (click)="nextMonth()">keyboard_arrow_right</mdl-icon>
+          </div>
+        </div>
+        <div class="col flex flex2 h-name">Pending</div>
+        <div class="col flex flex3 sort-button" (mouseenter)="sortFlag=true" (mouseleave)="sortFlag=false">Sort By</div>
+        <ul class="sort-popup" mdl-shadow="2" [hidden]="!sortFlag" (mouseenter)="sortFlag=true" (mouseleave)="sortFlag=false">
+          <li (click)="sortOrder('1')">CASH</li>
+          <li (click)="sortOrder('2')">Direct Debit</li>
+          <li (click)="sortOrder('3')">E-mandate Pending</li>
+        </ul>
+    </div>
+
+    <div class="list-body row flex column">
+      <div class="row flex header">
+        <span class="col flex flex2">Children</span>
+        <span class="col flex flex3">Guardians(Debtors)</span>
+        <span class="col flex flex5 balance">Balance</span>
+      </div>
+      <!--//children or familes list-->
+      <div class="childron-list row flex">
+        <span class="col flex flex2">Tommy, Anna</span>
+        <span class="col flex flex3">
+          <b class="mandate not-sent">&nbsp;</b>&nbsp; Lorraine Murphy
+        </span>
+        <span class="col flex flex5 balance">Guardians(Debtors)</span>
+      </div>
+      
+      <div class="childron-list row flex column">
+        <div class="row flex">
+          <span class="col flex flex2">Tommy</span>
+          <span class="col flex flex3">
+            <b class="mandate active">&nbsp;</b>&nbsp; Lorraine Murphy
+          </span>
+          <span class="col flex flex5 balance">Guardians(Debtors)</span>
+        </div>
+      </div>
+
+      <div class="childron-list row flex column">
+        <div class="row flex" (click)="selectRow()">
+          <span class="col flex flex2">Tommy, Anna</span>
+          <span class="col flex flex3">
+            <b class="mandate pending">&nbsp;</b>&nbsp; Lorraine Murphy
+          </span>
+          <span class="col flex flex5 balance">
+              <div class="pp-icons icon-pastdue">PAST DUE</div>
+              <div class="pp-icons icon-projected">PROJECTED</div>
+              <div class="pp-icons icon-unpaid">UN PAID &nbsp;<span class="iv">-</span></div>
+              <div class="pp-icons icon-money">€675.00</div>
+          </span>
+        </div>
+        <div class="row flex" [hidden]="!accordionState">
+          <app-accordion-payments-view  class="flex"></app-accordion-payments-view>
+        </div>
+      </div>
+      <!--//end children or families list-->
+
+    </div>
+  </div>
+  <!--//end list panel-->
+</div>

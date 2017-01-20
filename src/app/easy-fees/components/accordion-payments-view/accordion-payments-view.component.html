@@ -1,0 +1,103 @@
+<div class="payment-view flex column">
+  <app-popup-print-mandate 
+      [showPopup]="showPopup"
+      (closePopup)="popupClosed()">
+  </app-popup-print-mandate>
+
+  <!--//start accordion header-->
+  <div class="accordion-header row flex">
+    <span class="col flex flex2 text-indent20">CURRENT CYCLE</span>
+    <span class="col flex flex3">03/01/2017</span>
+  </div>
+  <!--//end accordion header-->
+  <!--//start accordion body-->
+  <div class="accordion-body flex">
+
+    <div class="accordion-body-inner flex column">
+      <!--//if existing email invoice-->
+      <div class="email-invoice row flex">
+        <div class="pp-icons icon-inarrears">EMAIL INVOICE</div>
+      </div>
+      <!--//end email invoice-->
+      <div class="row flex">
+        <!--//start direct-debit element-->
+        <div class="v-payments direct-debit flex column">
+          <div class="v-header row flex">
+            <span class="col flex">DIRECT DEBIT</span>
+            <span class="col flex justify-content-end not-bold"><b class="mandate not-sent">&nbsp;</b>&nbsp; Not Sent</span>
+          </div>
+          <div class="v-body row flex column">
+            <div class="row flex">
+              <div class="col">EMAIL an E-MANDATE to the Guardian</div>
+            </div>
+            <div class="row flex padding-bottom20">
+              <div class="col">
+                <div class="pp-icons icon-active">SEND E-MANDATE</div>
+              </div>
+            </div>
+            <div class="row flex">
+              <div class="col">PRINT and file an E-MANDATE to the Guardian</div>
+            </div>
+            <div class="row flex">
+              <div class="col">
+                <div class="pp-icons icon-projected" (click)="printMandate()">PRINT E-MANDATE</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--//end direct-debit-->
+        <div class="flex flex1"></div>
+        <!--//start total-cash-invoice-->
+        <div class="v-payments total-cash-invoice flex column">
+          <div class="v-header row flex">
+            <div class="col flex width-8">TOTAL Cash Invoice</div>
+            <div class="col flex width-1"></div>
+            <div class="col flex width-2">€875</div>
+          </div>
+          <div class="v-body row flex column">
+            <!--//start payment list-->
+            <div class="row flex">
+              <div class="col flex width-8 bottom-border">
+                <div class="col flex justify-content-start">Monthly Fees</div>
+                <div class="col flex justify-content-end">
+                  <div class="pp-icons icon-pastdue">PAST DUE</div>
+                  <div class="pp-icons icon-remove">REMOVE</div>
+                  <div class="pp-icons icon-unpaid">UN PAID &nbsp;<span class="iv">-</span></div>
+                </div>
+              </div>
+              <div class="col flex width-1"></div>
+              <div class="col flex width-2 bottom-border">€850</div>
+            </div>
+            <div class="row flex">
+              <div class="col flex width-8 bottom-border">
+                <div class="col flex justify-content-start">Trip to the Zoo</div>
+                <div class="col flex justify-content-end">
+                  <div class="pp-icons icon-inarrears">IN ARREARS</div>
+                  <div class="pp-icons icon-late">LATE</div>
+                  <div class="pp-icons icon-paid">PAID &nbsp;<span class="iv">x</span></div>
+                </div>
+              </div>
+              <div class="col flex width-1"></div>
+              <div class="col flex width-2 bottom-border">€25</div>
+            </div>
+            <!--//end payment list-->
+          </div>
+          <div class="v-footer row flex column">
+            <div class="row flex align-items-center">
+              <div class="col flex width-8"><mdl-textfield placeholder="Type here to add to the current invoice"></mdl-textfield></div>
+              <div class="col flex width-1"></div>
+              <div class="col flex width-2"><mdl-textfield placeholder="€0"></mdl-textfield></div>
+            </div>
+            <div class="row flex">
+              <div class="col flex">
+                <div class="pp-icons icon-active">Add to next CASH invoice</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--//end total-cash-invoice-->
+      </div>
+    </div>
+  </div>
+  <!--//end accordion body-->
+</div>

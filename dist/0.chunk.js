@@ -4,11 +4,11 @@ webpackJsonp([0,4],Array(656).concat([
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(670);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__attendance_component__ = __webpack_require__(724);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_timepicker_timepicker_component__ = __webpack_require__(807);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_presence_bar_presence_bar_component__ = __webpack_require__(806);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__attendance_routing__ = __webpack_require__(805);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__attendance_component__ = __webpack_require__(725);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_timepicker_timepicker_component__ = __webpack_require__(809);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_presence_bar_presence_bar_component__ = __webpack_require__(808);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__attendance_routing__ = __webpack_require__(807);
 /* harmony export (binding) */ __webpack_require__.d(exports, "AttendanceModule", function() { return AttendanceModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -48,9 +48,9 @@ var AttendanceModule = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(670);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard_info_component__ = __webpack_require__(725);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__dashboard_info_routing__ = __webpack_require__(808);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard_info_component__ = __webpack_require__(726);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__dashboard_info_routing__ = __webpack_require__(810);
 /* harmony export (binding) */ __webpack_require__.d(exports, "DashboardInfoModule", function() { return DashboardInfoModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -88,9 +88,9 @@ var DashboardInfoModule = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(670);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard_component__ = __webpack_require__(726);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__dashboard_routing__ = __webpack_require__(809);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard_component__ = __webpack_require__(727);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__dashboard_routing__ = __webpack_require__(811);
 /* harmony export (binding) */ __webpack_require__.d(exports, "DashboardModule", function() { return DashboardModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -128,13 +128,16 @@ var DashboardModule = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(670);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__easy_fees_component__ = __webpack_require__(730);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__easy_fees_intro_easy_fees_intro_component__ = __webpack_require__(727);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__easy_fees_setup_easy_fees_setup_component__ = __webpack_require__(729);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_choose_org_type_choose_org_type_component__ = __webpack_require__(810);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__easy_fees_manager_service__ = __webpack_require__(728);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__easy_fees_routing__ = __webpack_require__(811);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__easy_fees_component__ = __webpack_require__(732);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__easy_fees_intro_easy_fees_intro_component__ = __webpack_require__(729);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__easy_fees_setup_easy_fees_setup_component__ = __webpack_require__(731);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_choose_org_type_choose_org_type_component__ = __webpack_require__(813);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__easy_fees_manager_service__ = __webpack_require__(730);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__easy_fees_routing__ = __webpack_require__(816);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__easy_fees_dashboard_easy_fees_dashboard_component__ = __webpack_require__(728);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_accordion_payments_view_accordion_payments_view_component__ = __webpack_require__(812);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_popup_print_mandate_popup_print_mandate_component__ = __webpack_require__(814);
 /* harmony export (binding) */ __webpack_require__.d(exports, "EasyFeesModule", function() { return EasyFeesModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -145,6 +148,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
+
+
 
 
 
@@ -166,7 +172,10 @@ var EasyFeesModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_2__easy_fees_component__["a" /* EasyFeesComponent */],
                 __WEBPACK_IMPORTED_MODULE_3__easy_fees_intro_easy_fees_intro_component__["a" /* EasyFeesIntroComponent */],
                 __WEBPACK_IMPORTED_MODULE_4__easy_fees_setup_easy_fees_setup_component__["a" /* EasyFeesSetupComponent */],
-                __WEBPACK_IMPORTED_MODULE_5__components_choose_org_type_choose_org_type_component__["a" /* ChooseOrgTypeComponent */]
+                __WEBPACK_IMPORTED_MODULE_5__components_choose_org_type_choose_org_type_component__["a" /* ChooseOrgTypeComponent */],
+                __WEBPACK_IMPORTED_MODULE_8__easy_fees_dashboard_easy_fees_dashboard_component__["a" /* EasyFeesDashboardComponent */],
+                __WEBPACK_IMPORTED_MODULE_9__components_accordion_payments_view_accordion_payments_view_component__["a" /* AccordionPaymentsViewComponent */],
+                __WEBPACK_IMPORTED_MODULE_10__components_popup_print_mandate_popup_print_mandate_component__["a" /* PopupPrintMandateComponent */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_6__easy_fees_manager_service__["a" /* EasyFeesManagerService */]
@@ -184,11 +193,11 @@ var EasyFeesModule = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(670);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__landing_page_component__ = __webpack_require__(731);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_card_login_card_component__ = __webpack_require__(813);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__register_card_register_card_component__ = __webpack_require__(814);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__landing_page_routing__ = __webpack_require__(812);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__landing_page_component__ = __webpack_require__(733);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_card_login_card_component__ = __webpack_require__(818);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__register_card_register_card_component__ = __webpack_require__(819);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__landing_page_routing__ = __webpack_require__(817);
 /* harmony export (binding) */ __webpack_require__.d(exports, "LandingPageModule", function() { return LandingPageModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -233,19 +242,20 @@ var LandingPageModule = (function () {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_shared_module__ = __webpack_require__(670);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__occupancy_component__ = __webpack_require__(733);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__plan_dashboard_plan_dashboard_component__ = __webpack_require__(735);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__plan_setup_plan_setup_component__ = __webpack_require__(737);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__plan_room_lists_plan_room_lists_component__ = __webpack_require__(736);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__occupancy_routing__ = __webpack_require__(821);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_room_info_accordian_room_info_accordian_component__ = __webpack_require__(819);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_move_class_move_class_component__ = __webpack_require__(816);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_occupancy_modal_occupancy_modal_component__ = __webpack_require__(817);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_add_staff_add_staff_component__ = __webpack_require__(815);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_remove_waiting_child_remove_waiting_child_component__ = __webpack_require__(818);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__occupancy_transitions_occupancy_transitions_component__ = __webpack_require__(732);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_scroll_navbar_scroll_navbar_component__ = __webpack_require__(820);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_shared_module__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__occupancy_component__ = __webpack_require__(735);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__plan_dashboard_plan_dashboard_component__ = __webpack_require__(737);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__plan_setup_plan_setup_component__ = __webpack_require__(739);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__plan_room_lists_plan_room_lists_component__ = __webpack_require__(738);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__occupancy_routing__ = __webpack_require__(827);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_room_info_accordian_room_info_accordian_component__ = __webpack_require__(825);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_move_class_move_class_component__ = __webpack_require__(821);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_occupancy_modal_occupancy_modal_component__ = __webpack_require__(823);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_add_staff_add_staff_component__ = __webpack_require__(820);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_remove_waiting_child_remove_waiting_child_component__ = __webpack_require__(824);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__occupancy_transitions_occupancy_transitions_component__ = __webpack_require__(734);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_scroll_navbar_scroll_navbar_component__ = __webpack_require__(826);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_occupancy_chlid_occupancy_chlid_component__ = __webpack_require__(822);
 /* harmony export (binding) */ __webpack_require__.d(exports, "OccupancyModule", function() { return OccupancyModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -256,6 +266,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -292,7 +303,8 @@ var OccupancyModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_6__plan_room_lists_plan_room_lists_component__["a" /* PlanRoomListsComponent */],
                 __WEBPACK_IMPORTED_MODULE_12__components_remove_waiting_child_remove_waiting_child_component__["a" /* RemoveWaitingChildComponent */],
                 __WEBPACK_IMPORTED_MODULE_13__occupancy_transitions_occupancy_transitions_component__["a" /* OccupancyTransitionsComponent */],
-                __WEBPACK_IMPORTED_MODULE_14__components_scroll_navbar_scroll_navbar_component__["a" /* ScrollNavbarComponent */]
+                __WEBPACK_IMPORTED_MODULE_14__components_scroll_navbar_scroll_navbar_component__["a" /* ScrollNavbarComponent */],
+                __WEBPACK_IMPORTED_MODULE_15__components_occupancy_chlid_occupancy_chlid_component__["a" /* OccupancyChlidComponent */]
             ]
         }), 
         __metadata('design:paramtypes', [])
@@ -307,10 +319,10 @@ var OccupancyModule = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(670);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reports_component__ = __webpack_require__(738);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_attendance_status_attendance_status_component__ = __webpack_require__(822);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__reports_routing__ = __webpack_require__(823);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reports_component__ = __webpack_require__(740);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_attendance_status_attendance_status_component__ = __webpack_require__(828);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__reports_routing__ = __webpack_require__(829);
 /* harmony export (binding) */ __webpack_require__.d(exports, "ReportsModule", function() { return ReportsModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -349,18 +361,18 @@ var ReportsModule = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(670);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__settings_component__ = __webpack_require__(746);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__centre_rooms_centre_rooms_component__ = __webpack_require__(744);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__centre_children_centre_children_component__ = __webpack_require__(739);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__centre_details_centre_details_component__ = __webpack_require__(740);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__centre_subventions_centre_subventions_component__ = __webpack_require__(745);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_add_room_add_room_component__ = __webpack_require__(827);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_ecce_capitations_ecce_capitations_component__ = __webpack_require__(828);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__settings_routing__ = __webpack_require__(829);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_add_child_add_child_component__ = __webpack_require__(826);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__centre_families_centre_families_component__ = __webpack_require__(741);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__centre_families_components_add_new_families_add_new_families_component__ = __webpack_require__(825);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__settings_component__ = __webpack_require__(748);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__centre_rooms_centre_rooms_component__ = __webpack_require__(746);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__centre_children_centre_children_component__ = __webpack_require__(741);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__centre_details_centre_details_component__ = __webpack_require__(742);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__centre_subventions_centre_subventions_component__ = __webpack_require__(747);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_add_room_add_room_component__ = __webpack_require__(833);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_ecce_capitations_ecce_capitations_component__ = __webpack_require__(834);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__settings_routing__ = __webpack_require__(835);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_add_child_add_child_component__ = __webpack_require__(832);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__centre_families_centre_families_component__ = __webpack_require__(743);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__centre_families_components_add_new_families_add_new_families_component__ = __webpack_require__(831);
 /* harmony export (binding) */ __webpack_require__.d(exports, "SettingsModule", function() { return SettingsModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -418,13 +430,13 @@ var SettingsModule = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(670);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__subventions_manager_service__ = __webpack_require__(701);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__subventions_component__ = __webpack_require__(748);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_list_buttons_list_buttons_component__ = __webpack_require__(847);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_colored_button_colored_button_component__ = __webpack_require__(845);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_ecce_modal_ecce_modal_component__ = __webpack_require__(846);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__subventions_routing__ = __webpack_require__(848);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__subventions_manager_service__ = __webpack_require__(702);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__subventions_component__ = __webpack_require__(750);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_list_buttons_list_buttons_component__ = __webpack_require__(853);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_colored_button_colored_button_component__ = __webpack_require__(851);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_ecce_modal_ecce_modal_component__ = __webpack_require__(852);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__subventions_routing__ = __webpack_require__(854);
 /* harmony export (binding) */ __webpack_require__.d(exports, "SubventionsModule", function() { return SubventionsModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -474,9 +486,9 @@ var SubventionsModule = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(670);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__verify_component__ = __webpack_require__(749);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__verify_routing__ = __webpack_require__(849);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__verify_component__ = __webpack_require__(751);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__verify_routing__ = __webpack_require__(855);
 /* harmony export (binding) */ __webpack_require__.d(exports, "VerifyModule", function() { return VerifyModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -514,8 +526,8 @@ var VerifyModule = (function () {
 
 "use strict";
 "use strict";
-var AsyncAction_1 = __webpack_require__(688);
-var AsyncScheduler_1 = __webpack_require__(689);
+var AsyncAction_1 = __webpack_require__(689);
+var AsyncScheduler_1 = __webpack_require__(690);
 exports.async = new AsyncScheduler_1.AsyncScheduler(AsyncAction_1.AsyncAction);
 //# sourceMappingURL=async.js.map
 
@@ -543,333 +555,6 @@ function booleanProperty() {
 
 /***/ },
 /* 668 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(377);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__session_manager_service__ = __webpack_require__(691);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__lite_app_api__ = __webpack_require__(669);
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return HttpClientService; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-var HttpClientService = (function () {
-    function HttpClientService(http, sessionManager) {
-        var _this = this;
-        this.http = http;
-        this.sessionManager = sessionManager;
-        this.headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
-            'Content-Type': 'application/json'
-        });
-        this.sessionManager.session$.subscribe(function (authState) {
-            if (authState.authorized) {
-                _this.currentToken = authState.token;
-                _this.headers.set('x-auth-token', authState.token);
-            }
-            else {
-                _this.currentToken = null;
-                _this.headers.delete('x-auth-token');
-            }
-        });
-    }
-    HttpClientService.prototype.requestLogin = function (username, password) {
-        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
-            'Content-Type': 'application/json'
-        });
-        return this.http.post(__WEBPACK_IMPORTED_MODULE_3__lite_app_api__["a" /* LiteAppAPI */].AUTH_ENDPOINT, JSON.stringify({ username: username, password: password }), { headers: headers });
-    };
-    HttpClientService.prototype.requestRegister = function (email, password, name, businessName) {
-        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
-            'Content-Type': 'application/json'
-        });
-        return this.http.post(__WEBPACK_IMPORTED_MODULE_3__lite_app_api__["a" /* LiteAppAPI */].REGISTER_ENDPOINT, JSON.stringify({ email: email, password: password, name: name, businessName: businessName }), { headers: headers });
-    };
-    HttpClientService.prototype.requestVerification = function (token) {
-        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
-            'Content-Type': 'application/json'
-        });
-        return this.http.post(__WEBPACK_IMPORTED_MODULE_3__lite_app_api__["a" /* LiteAppAPI */].VERIFICATION_ENDPOINT + ("/" + token), null, { headers: headers });
-    };
-    HttpClientService.prototype.post = function (url, data) {
-        return this.http.post(url, JSON.stringify(data), { headers: this.headers });
-    };
-    HttpClientService.prototype.postMultipart = function (url, data) {
-        var multipartHeaders = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({});
-        if (this.currentToken) {
-            multipartHeaders.append('x-auth-token', this.currentToken);
-        }
-        return this.http.post(url, data, { headers: multipartHeaders });
-    };
-    HttpClientService.prototype.get = function (url) {
-        return this.http.get(url, { headers: this.headers });
-    };
-    HttpClientService.prototype.put = function (url, data) {
-        return this.http.put(url, JSON.stringify(data), { headers: this.headers });
-    };
-    HttpClientService.prototype.delete = function (url) {
-        return this.http.delete(url, { headers: this.headers });
-    };
-    HttpClientService = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(), 
-        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__session_manager_service__["a" /* SessionManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__session_manager_service__["a" /* SessionManagerService */]) === 'function' && _b) || Object])
-    ], HttpClientService);
-    return HttpClientService;
-    var _a, _b;
-}());
-//# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/http-client.service.js.map
-
-/***/ },
-/* 669 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__environments_environment__ = __webpack_require__(378);
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return LiteAppAPI; });
-
-/**
- * List all the API endpoints, to be used by the services.
- */
-var LiteAppAPI = (function () {
-    function LiteAppAPI() {
-    }
-    Object.defineProperty(LiteAppAPI, "API_BASE_LOCAL", {
-        get: function () { return 'http://localhost:8080'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "API_BASE", {
-        get: function () {
-            return __WEBPACK_IMPORTED_MODULE_0__environments_environment__["a" /* environment */].local ? LiteAppAPI.API_BASE_LOCAL : 'https://legapi.littlevista.net';
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "PARENT_APP_BASE", {
-        get: function () { return LiteAppAPI.API_BASE + '/lite'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "AUTH_ENDPOINT", {
-        get: function () { return LiteAppAPI.API_BASE + '/auth'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "REGISTER_ENDPOINT", {
-        get: function () { return LiteAppAPI.API_BASE + '/register'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "VERIFICATION_ENDPOINT", {
-        get: function () { return LiteAppAPI.API_BASE + '/register/confirm'; },
-        enumerable: true,
-        configurable: true
-    });
-    LiteAppAPI.UPDATE_SUBVENTION = function (id) { return LiteAppAPI.PARENT_APP_BASE + '/subvention/child/' + id; };
-    Object.defineProperty(LiteAppAPI, "ECCE_CHILDREN_ENDPOINT", {
-        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/ecce/children/'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "UPDATE_ECCE_STATUS_ENDPOINT", {
-        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/ecce/status/'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "UPDATE_ECCE_DAYS_ENDPOINT", {
-        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/ecce/days/'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "UPDATE_ECCE_START_ENDPOINT", {
-        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/ecce/start/'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "UPDATE_ECCE_EXTRAS_ENDPOINT", {
-        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/ecce/extras/'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "ECCE_ATTENDANCE_ENDPOINT", {
-        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/ecce/attendance/'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "IMAGE_ENDPOINT", {
-        get: function () { return 'https://littlevista.net/app/image'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "FACILITY_ENDPOINT", {
-        get: function () { return LiteAppAPI.PARENT_APP_BASE; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "FACILITY_PROFILE_ENDPOINT", {
-        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/centre'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "ROOMS_ENDPOINT", {
-        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/rooms'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "CHILDREN_ENDPOINT", {
-        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/children'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "FAMILY_ENDPOINT", {
-        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/family'; },
-        enumerable: true,
-        configurable: true
-    });
-    LiteAppAPI.ATTENDANCE_CHECK = function (id) { return LiteAppAPI.PARENT_APP_BASE + '/attendance/' + id; };
-    Object.defineProperty(LiteAppAPI, "ATTENDANCE_REPORT", {
-        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/attendance/report'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "MERCHANT_SIGNUP", {
-        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/payments/merchant/signup'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "MERCHANT_FORM", {
-        get: function () { return LiteAppAPI.MERCHANT_SIGNUP + '/form'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "MERCHANT_STATUS", {
-        get: function () { return LiteAppAPI.MERCHANT_SIGNUP + '/status'; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LiteAppAPI, "MERCHANT_CURRENCY", {
-        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/payments/config/currencies'; },
-        enumerable: true,
-        configurable: true
-    });
-    return LiteAppAPI;
-}());
-//# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/lite-app-api.js.map
-
-/***/ },
-/* 670 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(371);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(369);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angular2_mdl__ = __webpack_require__(693);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular2_mdl_ext_select__ = __webpack_require__(803);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__http_client_service__ = __webpack_require__(668);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__session_manager_service__ = __webpack_require__(691);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__profile_manager_service__ = __webpack_require__(678);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__children_manager_service__ = __webpack_require__(683);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__rooms_manager_service__ = __webpack_require__(674);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__reports_manager_service__ = __webpack_require__(700);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_angular2_cookie_core__ = __webpack_require__(750);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_angular2_cookie_core___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_angular2_cookie_core__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_navbar___ = __webpack_require__(839);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_navbar_small___ = __webpack_require__(837);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_modal___ = __webpack_require__(834);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_searchbar___ = __webpack_require__(841);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_confirm_dialog___ = __webpack_require__(831);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_datepicker_datepicker_component__ = __webpack_require__(832);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_flex_card_flex_card_component__ = __webpack_require__(833);
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return SharedModule; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var sharedProviders = [
-    __WEBPACK_IMPORTED_MODULE_6__http_client_service__["a" /* HttpClientService */],
-    __WEBPACK_IMPORTED_MODULE_7__session_manager_service__["a" /* SessionManagerService */],
-    __WEBPACK_IMPORTED_MODULE_8__profile_manager_service__["a" /* ProfileManagerService */],
-    __WEBPACK_IMPORTED_MODULE_9__children_manager_service__["a" /* ChildrenManagerService */],
-    __WEBPACK_IMPORTED_MODULE_10__rooms_manager_service__["a" /* RoomsManagerService */],
-    __WEBPACK_IMPORTED_MODULE_11__reports_manager_service__["a" /* ReportsManagerService */],
-    __WEBPACK_IMPORTED_MODULE_12_angular2_cookie_core__["CookieService"]
-];
-var sharedComponents = [
-    __WEBPACK_IMPORTED_MODULE_13__components_navbar___["a" /* NavbarComponent */],
-    __WEBPACK_IMPORTED_MODULE_14__components_navbar_small___["a" /* NavbarSmallComponent */],
-    __WEBPACK_IMPORTED_MODULE_15__components_modal___["a" /* ModalComponent */],
-    __WEBPACK_IMPORTED_MODULE_16__components_searchbar___["a" /* SearchbarComponent */],
-    __WEBPACK_IMPORTED_MODULE_17__components_confirm_dialog___["a" /* ConfirmDialogComponent */],
-    __WEBPACK_IMPORTED_MODULE_18__components_datepicker_datepicker_component__["a" /* DatepickerComponent */],
-    __WEBPACK_IMPORTED_MODULE_19__components_flex_card_flex_card_component__["a" /* FlexCardComponent */]
-];
-var SharedModule = (function () {
-    function SharedModule() {
-    }
-    SharedModule = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1__angular_common__["CommonModule"],
-                __WEBPACK_IMPORTED_MODULE_4_angular2_mdl__["MdlModule"],
-                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["b" /* FormsModule */],
-                __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* RouterModule */],
-                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["e" /* ReactiveFormsModule */]
-            ],
-            declarations: sharedComponents.slice(),
-            exports: [
-                __WEBPACK_IMPORTED_MODULE_1__angular_common__["CommonModule"],
-                __WEBPACK_IMPORTED_MODULE_4_angular2_mdl__["MdlModule"],
-                __WEBPACK_IMPORTED_MODULE_5__angular2_mdl_ext_select__["a" /* MdlSelectModule */],
-                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["b" /* FormsModule */],
-                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["e" /* ReactiveFormsModule */]
-            ].concat(sharedComponents),
-            providers: sharedProviders.slice()
-        }), 
-        __metadata('design:paramtypes', [])
-    ], SharedModule);
-    return SharedModule;
-}());
-//# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/shared.module.js.map
-
-/***/ },
-/* 671 */
 /***/ function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module) {//! moment.js
@@ -2686,7 +2371,7 @@ function loadLocale(name) {
             module && module.exports) {
         try {
             oldLocale = globalLocale._abbr;
-            __webpack_require__(1209)("./" + name);
+            __webpack_require__(1222)("./" + name);
             // because defineLocale currently also sets the global locale, we
             // want to undo that for lazy loaded locales
             getSetGlobalLocale(oldLocale);
@@ -5174,13 +4859,340 @@ return hooks;
 
 })));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1208)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1221)(module)))
+
+/***/ },
+/* 669 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(377);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__session_manager_service__ = __webpack_require__(691);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__lite_app_api__ = __webpack_require__(670);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return HttpClientService; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var HttpClientService = (function () {
+    function HttpClientService(http, sessionManager) {
+        var _this = this;
+        this.http = http;
+        this.sessionManager = sessionManager;
+        this.headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
+            'Content-Type': 'application/json'
+        });
+        this.sessionManager.session$.subscribe(function (authState) {
+            if (authState.authorized) {
+                _this.currentToken = authState.token;
+                _this.headers.set('x-auth-token', authState.token);
+            }
+            else {
+                _this.currentToken = null;
+                _this.headers.delete('x-auth-token');
+            }
+        });
+    }
+    HttpClientService.prototype.requestLogin = function (username, password) {
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
+            'Content-Type': 'application/json'
+        });
+        return this.http.post(__WEBPACK_IMPORTED_MODULE_3__lite_app_api__["a" /* LiteAppAPI */].AUTH_ENDPOINT, JSON.stringify({ username: username, password: password }), { headers: headers });
+    };
+    HttpClientService.prototype.requestRegister = function (email, password, name, businessName) {
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
+            'Content-Type': 'application/json'
+        });
+        return this.http.post(__WEBPACK_IMPORTED_MODULE_3__lite_app_api__["a" /* LiteAppAPI */].REGISTER_ENDPOINT, JSON.stringify({ email: email, password: password, name: name, businessName: businessName }), { headers: headers });
+    };
+    HttpClientService.prototype.requestVerification = function (token) {
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
+            'Content-Type': 'application/json'
+        });
+        return this.http.post(__WEBPACK_IMPORTED_MODULE_3__lite_app_api__["a" /* LiteAppAPI */].VERIFICATION_ENDPOINT + ("/" + token), null, { headers: headers });
+    };
+    HttpClientService.prototype.post = function (url, data) {
+        return this.http.post(url, JSON.stringify(data), { headers: this.headers });
+    };
+    HttpClientService.prototype.postMultipart = function (url, data) {
+        var multipartHeaders = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({});
+        if (this.currentToken) {
+            multipartHeaders.append('x-auth-token', this.currentToken);
+        }
+        return this.http.post(url, data, { headers: multipartHeaders });
+    };
+    HttpClientService.prototype.get = function (url) {
+        return this.http.get(url, { headers: this.headers });
+    };
+    HttpClientService.prototype.put = function (url, data) {
+        return this.http.put(url, JSON.stringify(data), { headers: this.headers });
+    };
+    HttpClientService.prototype.delete = function (url) {
+        return this.http.delete(url, { headers: this.headers });
+    };
+    HttpClientService = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(), 
+        __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__session_manager_service__["a" /* SessionManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__session_manager_service__["a" /* SessionManagerService */]) === 'function' && _b) || Object])
+    ], HttpClientService);
+    return HttpClientService;
+    var _a, _b;
+}());
+//# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/http-client.service.js.map
+
+/***/ },
+/* 670 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__environments_environment__ = __webpack_require__(378);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return LiteAppAPI; });
+
+/**
+ * List all the API endpoints, to be used by the services.
+ */
+var LiteAppAPI = (function () {
+    function LiteAppAPI() {
+    }
+    Object.defineProperty(LiteAppAPI, "API_BASE_LOCAL", {
+        get: function () { return 'http://localhost:8080'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "API_BASE", {
+        get: function () {
+            return __WEBPACK_IMPORTED_MODULE_0__environments_environment__["a" /* environment */].local ? LiteAppAPI.API_BASE_LOCAL : 'https://legapi.littlevista.net';
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "PARENT_APP_BASE", {
+        get: function () { return LiteAppAPI.API_BASE + '/lite'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "AUTH_ENDPOINT", {
+        get: function () { return LiteAppAPI.API_BASE + '/auth'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "REGISTER_ENDPOINT", {
+        get: function () { return LiteAppAPI.API_BASE + '/register'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "VERIFICATION_ENDPOINT", {
+        get: function () { return LiteAppAPI.API_BASE + '/register/confirm'; },
+        enumerable: true,
+        configurable: true
+    });
+    LiteAppAPI.UPDATE_SUBVENTION = function (id) { return LiteAppAPI.PARENT_APP_BASE + '/subvention/child/' + id; };
+    Object.defineProperty(LiteAppAPI, "ECCE_CHILDREN_ENDPOINT", {
+        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/ecce/children/'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "UPDATE_ECCE_STATUS_ENDPOINT", {
+        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/ecce/status/'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "UPDATE_ECCE_DAYS_ENDPOINT", {
+        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/ecce/days/'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "UPDATE_ECCE_START_ENDPOINT", {
+        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/ecce/start/'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "UPDATE_ECCE_EXTRAS_ENDPOINT", {
+        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/ecce/extras/'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "ECCE_ATTENDANCE_ENDPOINT", {
+        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/ecce/attendance/'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "IMAGE_ENDPOINT", {
+        get: function () { return 'https://littlevista.net/app/image'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "FACILITY_ENDPOINT", {
+        get: function () { return LiteAppAPI.PARENT_APP_BASE; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "FACILITY_PROFILE_ENDPOINT", {
+        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/centre'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "ROOMS_ENDPOINT", {
+        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/rooms'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "CHILDREN_ENDPOINT", {
+        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/children'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "FAMILY_ENDPOINT", {
+        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/family'; },
+        enumerable: true,
+        configurable: true
+    });
+    LiteAppAPI.ATTENDANCE_CHECK = function (id) { return LiteAppAPI.PARENT_APP_BASE + '/attendance/' + id; };
+    Object.defineProperty(LiteAppAPI, "ATTENDANCE_REPORT", {
+        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/attendance/report'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "MERCHANT_SIGNUP", {
+        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/payments/merchant/signup'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "MERCHANT_FORM", {
+        get: function () { return LiteAppAPI.MERCHANT_SIGNUP + '/form'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "MERCHANT_STATUS", {
+        get: function () { return LiteAppAPI.MERCHANT_SIGNUP + '/status'; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(LiteAppAPI, "MERCHANT_CURRENCY", {
+        get: function () { return LiteAppAPI.PARENT_APP_BASE + '/payments/config/currencies'; },
+        enumerable: true,
+        configurable: true
+    });
+    return LiteAppAPI;
+}());
+//# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/lite-app-api.js.map
+
+/***/ },
+/* 671 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(371);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(369);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angular2_mdl__ = __webpack_require__(693);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular2_mdl_ext_select__ = __webpack_require__(805);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__http_client_service__ = __webpack_require__(669);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__session_manager_service__ = __webpack_require__(691);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__profile_manager_service__ = __webpack_require__(679);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__children_manager_service__ = __webpack_require__(684);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__rooms_manager_service__ = __webpack_require__(674);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__reports_manager_service__ = __webpack_require__(701);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_angular2_cookie_core__ = __webpack_require__(752);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_angular2_cookie_core___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_angular2_cookie_core__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_navbar___ = __webpack_require__(845);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_navbar_small___ = __webpack_require__(843);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_modal___ = __webpack_require__(840);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_searchbar___ = __webpack_require__(847);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_confirm_dialog___ = __webpack_require__(837);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_datepicker_datepicker_component__ = __webpack_require__(838);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_flex_card_flex_card_component__ = __webpack_require__(839);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return SharedModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var sharedProviders = [
+    __WEBPACK_IMPORTED_MODULE_6__http_client_service__["a" /* HttpClientService */],
+    __WEBPACK_IMPORTED_MODULE_7__session_manager_service__["a" /* SessionManagerService */],
+    __WEBPACK_IMPORTED_MODULE_8__profile_manager_service__["a" /* ProfileManagerService */],
+    __WEBPACK_IMPORTED_MODULE_9__children_manager_service__["a" /* ChildrenManagerService */],
+    __WEBPACK_IMPORTED_MODULE_10__rooms_manager_service__["a" /* RoomsManagerService */],
+    __WEBPACK_IMPORTED_MODULE_11__reports_manager_service__["a" /* ReportsManagerService */],
+    __WEBPACK_IMPORTED_MODULE_12_angular2_cookie_core__["CookieService"]
+];
+var sharedComponents = [
+    __WEBPACK_IMPORTED_MODULE_13__components_navbar___["a" /* NavbarComponent */],
+    __WEBPACK_IMPORTED_MODULE_14__components_navbar_small___["a" /* NavbarSmallComponent */],
+    __WEBPACK_IMPORTED_MODULE_15__components_modal___["a" /* ModalComponent */],
+    __WEBPACK_IMPORTED_MODULE_16__components_searchbar___["a" /* SearchbarComponent */],
+    __WEBPACK_IMPORTED_MODULE_17__components_confirm_dialog___["a" /* ConfirmDialogComponent */],
+    __WEBPACK_IMPORTED_MODULE_18__components_datepicker_datepicker_component__["a" /* DatepickerComponent */],
+    __WEBPACK_IMPORTED_MODULE_19__components_flex_card_flex_card_component__["a" /* FlexCardComponent */]
+];
+var SharedModule = (function () {
+    function SharedModule() {
+    }
+    SharedModule = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1__angular_common__["CommonModule"],
+                __WEBPACK_IMPORTED_MODULE_4_angular2_mdl__["MdlModule"],
+                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["b" /* FormsModule */],
+                __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* RouterModule */],
+                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["e" /* ReactiveFormsModule */]
+            ],
+            declarations: sharedComponents.slice(),
+            exports: [
+                __WEBPACK_IMPORTED_MODULE_1__angular_common__["CommonModule"],
+                __WEBPACK_IMPORTED_MODULE_4_angular2_mdl__["MdlModule"],
+                __WEBPACK_IMPORTED_MODULE_5__angular2_mdl_ext_select__["a" /* MdlSelectModule */],
+                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["b" /* FormsModule */],
+                __WEBPACK_IMPORTED_MODULE_2__angular_forms__["e" /* ReactiveFormsModule */]
+            ].concat(sharedComponents),
+            providers: sharedProviders.slice()
+        }), 
+        __metadata('design:paramtypes', [])
+    ], SharedModule);
+    return SharedModule;
+}());
+//# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/shared.module.js.map
 
 /***/ },
 /* 672 */
 /***/ function(module, exports) {
 
-module.exports = ".flex {\n  width: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex; }\n\n.column {\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column; }\n\n.panel {\n  border-radius: 5px; }\n\n.flex1 {\n  -webkit-box-flex: 1;\n      -ms-flex: 1;\n          flex: 1; }\n\n.flex2 {\n  -webkit-box-flex: 2;\n      -ms-flex: 2;\n          flex: 2; }\n\n.flex3 {\n  -webkit-box-flex: 3;\n      -ms-flex: 3;\n          flex: 3; }\n\n.flex4 {\n  -webkit-box-flex: 4;\n      -ms-flex: 4;\n          flex: 4; }\n\n.flex5 {\n  -webkit-box-flex: 5;\n      -ms-flex: 5;\n          flex: 5; }\n\n.flex6 {\n  -webkit-box-flex: 6;\n      -ms-flex: 6;\n          flex: 6; }\n\n.flex7 {\n  -webkit-box-flex: 7;\n      -ms-flex: 7;\n          flex: 7; }\n\n.flex8 {\n  -webkit-box-flex: 8;\n      -ms-flex: 8;\n          flex: 8; }\n\n.justify-content-start {\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start; }\n\n.justify-content-end {\n  -webkit-box-pack: end;\n      -ms-flex-pack: end;\n          justify-content: flex-end; }\n\n.justify-content-center {\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n\n.justify-content-between {\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between; }\n\n.justify-content-around {\n  -ms-flex-pack: distribute;\n      justify-content: space-around; }\n\n.align-items-start {\n  -webkit-box-align: start;\n      -ms-flex-align: start;\n          align-items: flex-start; }\n\n.align-items-end {\n  -webkit-box-align: end;\n      -ms-flex-align: end;\n          align-items: flex-end; }\n\n.align-items-center {\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center; }\n\n.align-items-stretch {\n  -webkit-box-align: stretch;\n      -ms-flex-align: stretch;\n          align-items: stretch; }\n\n.align-items-baseline {\n  -webkit-box-align: baseline;\n      -ms-flex-align: baseline;\n          align-items: baseline; }\n\n.bottom-border {\n  border-bottom: 2px #cdcecf solid; }\n\n.top-border {\n  border-top: 2px #cdcecf solid; }\n\n.strong-text {\n  font-weight: bold; }\n\n.text-center {\n  text-align: center; }\n\n.text-right {\n  text-align: right; }\n\n.no-padding {\n  padding: 0px !important; }\n\n.padding-bottom10 {\n  padding-bottom: 10px; }\n\n.padding-bottom20 {\n  padding-bottom: 20px; }\n\n.padding-bottom30 {\n  padding-bottom: 30px; }\n\n.padding-top-bottom-5 {\n  padding: 5px 0px !important; }\n\n.padding-top-bottom-10 {\n  padding: 10px 0px !important; }\n\n.padding-top-bottom-15 {\n  padding: 15px 0px !important; }\n\n.padding-top-bottom-20 {\n  padding: 17px 0px !important; }\n\n.text-indent10 {\n  text-indent: 10px; }\n\n.text-indent20 {\n  text-indent: 20px; }\n\n.text-indent30 {\n  text-indent: 30px; }\n"
+module.exports = ".flex {\n  width: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex; }\n\n.column {\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column; }\n\n.panel {\n  border-radius: 5px; }\n\n.flex1 {\n  -webkit-box-flex: 1;\n      -ms-flex: 1;\n          flex: 1; }\n\n.flex2 {\n  -webkit-box-flex: 2;\n      -ms-flex: 2;\n          flex: 2; }\n\n.flex3 {\n  -webkit-box-flex: 3;\n      -ms-flex: 3;\n          flex: 3; }\n\n.flex4 {\n  -webkit-box-flex: 4;\n      -ms-flex: 4;\n          flex: 4; }\n\n.flex5 {\n  -webkit-box-flex: 5;\n      -ms-flex: 5;\n          flex: 5; }\n\n.flex6 {\n  -webkit-box-flex: 6;\n      -ms-flex: 6;\n          flex: 6; }\n\n.flex7 {\n  -webkit-box-flex: 7;\n      -ms-flex: 7;\n          flex: 7; }\n\n.flex8 {\n  -webkit-box-flex: 8;\n      -ms-flex: 8;\n          flex: 8; }\n\n.justify-content-start {\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start; }\n\n.justify-content-end {\n  -webkit-box-pack: end;\n      -ms-flex-pack: end;\n          justify-content: flex-end; }\n\n.justify-content-center {\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n\n.justify-content-between {\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between; }\n\n.justify-content-around {\n  -ms-flex-pack: distribute;\n      justify-content: space-around; }\n\n.align-items-start {\n  -webkit-box-align: start;\n      -ms-flex-align: start;\n          align-items: flex-start; }\n\n.align-items-end {\n  -webkit-box-align: end;\n      -ms-flex-align: end;\n          align-items: flex-end; }\n\n.align-items-center {\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center; }\n\n.align-items-stretch {\n  -webkit-box-align: stretch;\n      -ms-flex-align: stretch;\n          align-items: stretch; }\n\n.align-items-baseline {\n  -webkit-box-align: baseline;\n      -ms-flex-align: baseline;\n          align-items: baseline; }\n\n.bottom-border {\n  border-bottom: 1px #cdcecf solid; }\n\n.top-border {\n  border-top: 1px #cdcecf solid; }\n\n.strong-text {\n  font-weight: bold;\n  color: #999; }\n\n.text-center {\n  text-align: center; }\n\n.text-right {\n  text-align: right; }\n\n.no-padding {\n  padding: 0px !important; }\n\n.padding-bottom10 {\n  padding-bottom: 10px; }\n\n.padding-bottom20 {\n  padding-bottom: 20px; }\n\n.padding-bottom30 {\n  padding-bottom: 30px; }\n\n.padding-top-bottom-5 {\n  padding: 5px 0px !important; }\n\n.padding-top-bottom-10 {\n  padding: 10px 0px !important; }\n\n.padding-top-bottom-15 {\n  padding: 15px 0px !important; }\n\n.padding-top-bottom-20 {\n  padding: 17px 0px !important; }\n\n.text-indent10 {\n  text-indent: 10px; }\n\n.text-indent20 {\n  text-indent: 20px; }\n\n.text-indent30 {\n  text-indent: 30px; }\n"
 
 /***/ },
 /* 673 */
@@ -5199,80 +5211,64 @@ var Observable_1 = __webpack_require__(13);
 exports.Observable = Observable_1.Observable;
 // statics
 /* tslint:disable:no-use-before-declare */
-__webpack_require__(947);
-__webpack_require__(948);
-__webpack_require__(949);
-__webpack_require__(950);
-__webpack_require__(951);
-__webpack_require__(954);
-__webpack_require__(955);
-__webpack_require__(956);
-__webpack_require__(957);
-__webpack_require__(958);
-__webpack_require__(959);
 __webpack_require__(960);
 __webpack_require__(961);
 __webpack_require__(962);
 __webpack_require__(963);
-__webpack_require__(968);
 __webpack_require__(964);
-__webpack_require__(965);
-__webpack_require__(966);
 __webpack_require__(967);
+__webpack_require__(968);
 __webpack_require__(969);
-__webpack_require__(972);
 __webpack_require__(970);
 __webpack_require__(971);
+__webpack_require__(972);
 __webpack_require__(973);
-//dom
-__webpack_require__(952);
-__webpack_require__(953);
-//operators
+__webpack_require__(974);
+__webpack_require__(975);
 __webpack_require__(976);
+__webpack_require__(981);
 __webpack_require__(977);
 __webpack_require__(978);
 __webpack_require__(979);
 __webpack_require__(980);
-__webpack_require__(981);
 __webpack_require__(982);
+__webpack_require__(985);
 __webpack_require__(983);
 __webpack_require__(984);
-__webpack_require__(985);
 __webpack_require__(986);
-__webpack_require__(987);
-__webpack_require__(988);
+//dom
+__webpack_require__(965);
+__webpack_require__(966);
+//operators
 __webpack_require__(989);
-__webpack_require__(995);
 __webpack_require__(990);
 __webpack_require__(991);
 __webpack_require__(992);
 __webpack_require__(993);
 __webpack_require__(994);
+__webpack_require__(995);
 __webpack_require__(996);
 __webpack_require__(997);
 __webpack_require__(998);
 __webpack_require__(999);
 __webpack_require__(1000);
+__webpack_require__(1001);
+__webpack_require__(1002);
+__webpack_require__(1008);
 __webpack_require__(1003);
 __webpack_require__(1004);
 __webpack_require__(1005);
-__webpack_require__(1001);
 __webpack_require__(1006);
 __webpack_require__(1007);
-__webpack_require__(1008);
 __webpack_require__(1009);
 __webpack_require__(1010);
 __webpack_require__(1011);
 __webpack_require__(1012);
 __webpack_require__(1013);
-__webpack_require__(974);
-__webpack_require__(975);
-__webpack_require__(1014);
-__webpack_require__(1015);
-__webpack_require__(1002);
 __webpack_require__(1016);
 __webpack_require__(1017);
 __webpack_require__(1018);
+__webpack_require__(1014);
 __webpack_require__(1019);
 __webpack_require__(1020);
 __webpack_require__(1021);
@@ -5281,15 +5277,18 @@ __webpack_require__(1023);
 __webpack_require__(1024);
 __webpack_require__(1025);
 __webpack_require__(1026);
+__webpack_require__(987);
+__webpack_require__(988);
 __webpack_require__(1027);
 __webpack_require__(1028);
+__webpack_require__(1015);
 __webpack_require__(1029);
 __webpack_require__(1030);
 __webpack_require__(1031);
 __webpack_require__(1032);
 __webpack_require__(1033);
-__webpack_require__(1035);
 __webpack_require__(1034);
+__webpack_require__(1035);
 __webpack_require__(1036);
 __webpack_require__(1037);
 __webpack_require__(1038);
@@ -5301,8 +5300,8 @@ __webpack_require__(1043);
 __webpack_require__(1044);
 __webpack_require__(1045);
 __webpack_require__(1046);
-__webpack_require__(1047);
 __webpack_require__(1048);
+__webpack_require__(1047);
 __webpack_require__(1049);
 __webpack_require__(1050);
 __webpack_require__(1051);
@@ -5330,47 +5329,60 @@ __webpack_require__(1072);
 __webpack_require__(1073);
 __webpack_require__(1074);
 __webpack_require__(1075);
+__webpack_require__(1076);
+__webpack_require__(1077);
+__webpack_require__(1078);
+__webpack_require__(1079);
+__webpack_require__(1080);
+__webpack_require__(1081);
+__webpack_require__(1082);
+__webpack_require__(1083);
+__webpack_require__(1084);
+__webpack_require__(1085);
+__webpack_require__(1086);
+__webpack_require__(1087);
+__webpack_require__(1088);
 /* tslint:disable:no-unused-variable */
 var Subscription_1 = __webpack_require__(145);
 exports.Subscription = Subscription_1.Subscription;
 var Subscriber_1 = __webpack_require__(24);
 exports.Subscriber = Subscriber_1.Subscriber;
-var AsyncSubject_1 = __webpack_require__(696);
+var AsyncSubject_1 = __webpack_require__(697);
 exports.AsyncSubject = AsyncSubject_1.AsyncSubject;
-var ReplaySubject_1 = __webpack_require__(697);
+var ReplaySubject_1 = __webpack_require__(698);
 exports.ReplaySubject = ReplaySubject_1.ReplaySubject;
 var BehaviorSubject_1 = __webpack_require__(148);
 exports.BehaviorSubject = BehaviorSubject_1.BehaviorSubject;
-var MulticastObservable_1 = __webpack_require__(783);
+var MulticastObservable_1 = __webpack_require__(785);
 exports.MulticastObservable = MulticastObservable_1.MulticastObservable;
-var ConnectableObservable_1 = __webpack_require__(718);
+var ConnectableObservable_1 = __webpack_require__(719);
 exports.ConnectableObservable = ConnectableObservable_1.ConnectableObservable;
 var Notification_1 = __webpack_require__(373);
 exports.Notification = Notification_1.Notification;
 var EmptyError_1 = __webpack_require__(150);
 exports.EmptyError = EmptyError_1.EmptyError;
-var ArgumentOutOfRangeError_1 = __webpack_require__(698);
+var ArgumentOutOfRangeError_1 = __webpack_require__(699);
 exports.ArgumentOutOfRangeError = ArgumentOutOfRangeError_1.ArgumentOutOfRangeError;
 var ObjectUnsubscribedError_1 = __webpack_require__(240);
 exports.ObjectUnsubscribedError = ObjectUnsubscribedError_1.ObjectUnsubscribedError;
 var UnsubscriptionError_1 = __webpack_require__(382);
 exports.UnsubscriptionError = UnsubscriptionError_1.UnsubscriptionError;
-var timeInterval_1 = __webpack_require__(792);
+var timeInterval_1 = __webpack_require__(794);
 exports.TimeInterval = timeInterval_1.TimeInterval;
-var timestamp_1 = __webpack_require__(793);
+var timestamp_1 = __webpack_require__(795);
 exports.Timestamp = timestamp_1.Timestamp;
-var TestScheduler_1 = __webpack_require__(1200);
+var TestScheduler_1 = __webpack_require__(1213);
 exports.TestScheduler = TestScheduler_1.TestScheduler;
-var VirtualTimeScheduler_1 = __webpack_require__(794);
+var VirtualTimeScheduler_1 = __webpack_require__(796);
 exports.VirtualTimeScheduler = VirtualTimeScheduler_1.VirtualTimeScheduler;
-var AjaxObservable_1 = __webpack_require__(784);
+var AjaxObservable_1 = __webpack_require__(786);
 exports.AjaxResponse = AjaxObservable_1.AjaxResponse;
 exports.AjaxError = AjaxObservable_1.AjaxError;
 exports.AjaxTimeoutError = AjaxObservable_1.AjaxTimeoutError;
-var asap_1 = __webpack_require__(795);
+var asap_1 = __webpack_require__(797);
 var async_1 = __webpack_require__(666);
-var queue_1 = __webpack_require__(796);
-var animationFrame_1 = __webpack_require__(1197);
+var queue_1 = __webpack_require__(798);
+var animationFrame_1 = __webpack_require__(1210);
 var rxSubscriber_1 = __webpack_require__(154);
 var iterator_1 = __webpack_require__(149);
 var observable_1 = __webpack_require__(153);
@@ -5424,8 +5436,8 @@ exports.Symbol = Symbol;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(673);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__http_client_service__ = __webpack_require__(668);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__lite_app_api__ = __webpack_require__(669);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__http_client_service__ = __webpack_require__(669);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__lite_app_api__ = __webpack_require__(670);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return RoomsManagerService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -5602,10 +5614,10 @@ function numberProperty() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mdl_simple_dialog_component__ = __webpack_require__(708);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mdl_dialog_host_component__ = __webpack_require__(707);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__internal_dialog_reference__ = __webpack_require__(758);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__dialog_outlet_mdl_dialog_outlet_service__ = __webpack_require__(687);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mdl_simple_dialog_component__ = __webpack_require__(709);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mdl_dialog_host_component__ = __webpack_require__(708);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__internal_dialog_reference__ = __webpack_require__(760);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__dialog_outlet_mdl_dialog_outlet_service__ = __webpack_require__(688);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MDL_CONFIGUARTION; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return MIN_DIALOG_Z_INDEX; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return MdlDialogReference; });
@@ -5857,12 +5869,59 @@ var MdlDialogService = (function () {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
+/* unused harmony export Rooms */
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return Staff; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return Child; });
+/* unused harmony export DashBoardRoomInfo */
+/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return RoomInfo; });
+//room model(fake model for testing)
+var Rooms = (function () {
+    function Rooms(data) {
+        Object.assign(this, data);
+    }
+    return Rooms;
+}());
+//staff model
+var Staff = (function () {
+    function Staff(data) {
+        Object.assign(this, data);
+    }
+    return Staff;
+}());
+//child model
+var Child = (function () {
+    function Child(data) {
+        Object.assign(this, data);
+    }
+    return Child;
+}());
+//dashboard room information model
+var DashBoardRoomInfo = (function () {
+    function DashBoardRoomInfo(data) {
+        Object.assign(this, data);
+    }
+    return DashBoardRoomInfo;
+}());
+//roomInfo type
+var RoomInfo = (function () {
+    function RoomInfo(data) {
+        Object.assign(this, data);
+    }
+    return RoomInfo;
+}());
+//# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/occupancy.model.js.map
+
+/***/ },
+/* 679 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(673);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__models_profile_model__ = __webpack_require__(843);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__http_client_service__ = __webpack_require__(668);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__lite_app_api__ = __webpack_require__(669);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__models_profile_model__ = __webpack_require__(849);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__http_client_service__ = __webpack_require__(669);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__lite_app_api__ = __webpack_require__(670);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__session_manager_service__ = __webpack_require__(691);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return ProfileManagerService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -5961,7 +6020,7 @@ var ProfileManagerService = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/profile-manager.service.js.map
 
 /***/ },
-/* 679 */
+/* 680 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6095,7 +6154,7 @@ var MdlButtonModule = (function () {
 //# sourceMappingURL=mdl-button.component.js.map
 
 /***/ },
-/* 680 */
+/* 681 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6144,13 +6203,13 @@ var MdlIconModule = (function () {
 //# sourceMappingURL=mdl-icon.component.js.map
 
 /***/ },
-/* 681 */
+/* 682 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var MulticastObservable_1 = __webpack_require__(783);
-var ConnectableObservable_1 = __webpack_require__(718);
+var MulticastObservable_1 = __webpack_require__(785);
+var ConnectableObservable_1 = __webpack_require__(719);
 /**
  * Returns an Observable that emits the results of invoking a specified selector on items
  * emitted by a ConnectableObservable that shares a single subscription to the underlying stream.
@@ -6188,64 +6247,55 @@ exports.multicast = multicast;
 //# sourceMappingURL=multicast.js.map
 
 /***/ },
-/* 682 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-/* unused harmony export Rooms */
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return Staff; });
-/* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return Child; });
-/* unused harmony export DashBoardRoomInfo */
-/* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return RoomInfo; });
-//room model(fake model for testing)
-var Rooms = (function () {
-    function Rooms(data) {
-        Object.assign(this, data);
-    }
-    return Rooms;
-}());
-//staff model
-var Staff = (function () {
-    function Staff(data) {
-        Object.assign(this, data);
-    }
-    return Staff;
-}());
-//child model
-var Child = (function () {
-    function Child(data) {
-        Object.assign(this, data);
-    }
-    return Child;
-}());
-//dashboard room information model
-var DashBoardRoomInfo = (function () {
-    function DashBoardRoomInfo(data) {
-        Object.assign(this, data);
-    }
-    return DashBoardRoomInfo;
-}());
-//roomInfo type
-var RoomInfo = (function () {
-    function RoomInfo(data) {
-        Object.assign(this, data);
-    }
-    return RoomInfo;
-}());
-//# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/occupancy.model.js.map
-
-/***/ },
 /* 683 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__models_child_model__ = __webpack_require__(684);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__models_general_model__ = __webpack_require__(747);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return occupancyModalAnimations; });
+
+var animationCurve = 'cubic-bezier(0.47,0,0.745,0.715)';
+var timingCurve = function (time) {
+    if (time === void 0) { time = .2; }
+    return time + 's ' + animationCurve;
+};
+var occupancyModalAnimations = [
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["trigger"])('modal', [
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["state"])('true', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ transform: 'none' })),
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["state"])('false', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ transform: 'translateY(-80vh)' })),
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])('0 => 1', [
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])(timingCurve(0.3), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ transform: 'none', opacity: 1 }))
+        ]),
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])('1 => 0', [
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: 0.3 }),
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])(timingCurve(), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ transform: 'translateY(-80vh)', opacity: 0 }))
+        ])
+    ]),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["trigger"])('backdrop', [
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["state"])('true', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ visibility: 'visible' })),
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["state"])('false', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ visibility: 'hidden' })),
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])('0 => 1', [
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])(timingCurve(), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: 1 }))
+        ]),
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])('1 => 0', [
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])(timingCurve(), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: 0 }))
+        ])
+    ])
+];
+//# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/occupancy-modal.animations.js.map
+
+/***/ },
+/* 684 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__models_child_model__ = __webpack_require__(685);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__models_general_model__ = __webpack_require__(749);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs__ = __webpack_require__(673);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__http_client_service__ = __webpack_require__(668);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__lite_app_api__ = __webpack_require__(669);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__http_client_service__ = __webpack_require__(669);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__lite_app_api__ = __webpack_require__(670);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return ChildrenManagerService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -6374,11 +6424,11 @@ var ChildrenManagerService = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/children-manager.service.js.map
 
 /***/ },
-/* 684 */
+/* 685 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__lite_app_api__ = __webpack_require__(669);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__lite_app_api__ = __webpack_require__(670);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return Child; });
 
 // REVIEW
@@ -6399,7 +6449,7 @@ var Child = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/child.model.js.map
 
 /***/ },
-/* 685 */
+/* 686 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6536,12 +6586,12 @@ var MdlCheckboxModule = (function () {
 //# sourceMappingURL=mdl-checkbox.component.js.map
 
 /***/ },
-/* 686 */
+/* 687 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ripple_vendor__ = __webpack_require__(851);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ripple_vendor__ = __webpack_require__(857);
 /* unused harmony export MdlRippleDirective */
 /* unused harmony export MdlButtonRippleDirective */
 /* unused harmony export MdlCheckboxRippleDirective */
@@ -6815,13 +6865,13 @@ var MdlRippleModule = (function () {
 //# sourceMappingURL=mdl-ripple.directive.js.map
 
 /***/ },
-/* 687 */
+/* 688 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_dialog_outlet_component__ = __webpack_require__(706);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mdl_backdrop_overlay_component__ = __webpack_require__(705);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_dialog_outlet_component__ = __webpack_require__(707);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mdl_backdrop_overlay_component__ = __webpack_require__(706);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlDialogOutletService; });
 
 
@@ -6881,7 +6931,7 @@ var MdlDialogOutletService = (function () {
 //# sourceMappingURL=mdl-dialog-outlet.service.js.map
 
 /***/ },
-/* 688 */
+/* 689 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6892,7 +6942,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var root_1 = __webpack_require__(46);
-var Action_1 = __webpack_require__(1190);
+var Action_1 = __webpack_require__(1203);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @ignore
@@ -7029,7 +7079,7 @@ exports.AsyncAction = AsyncAction;
 //# sourceMappingURL=AsyncAction.js.map
 
 /***/ },
-/* 689 */
+/* 690 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7039,7 +7089,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Scheduler_1 = __webpack_require__(946);
+var Scheduler_1 = __webpack_require__(959);
 var AsyncScheduler = (function (_super) {
     __extends(AsyncScheduler, _super);
     function AsyncScheduler() {
@@ -7086,44 +7136,6 @@ exports.AsyncScheduler = AsyncScheduler;
 //# sourceMappingURL=AsyncScheduler.js.map
 
 /***/ },
-/* 690 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return occupancyModalAnimations; });
-
-var animationCurve = 'cubic-bezier(0.47,0,0.745,0.715)';
-var timingCurve = function (time) {
-    if (time === void 0) { time = .2; }
-    return time + 's ' + animationCurve;
-};
-var occupancyModalAnimations = [
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["trigger"])('modal', [
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["state"])('true', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ transform: 'none' })),
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["state"])('false', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ transform: 'translateY(-80vh)' })),
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])('0 => 1', [
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])(timingCurve(0.3), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ transform: 'none', opacity: 1 }))
-        ]),
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])('1 => 0', [
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: 0.3 }),
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])(timingCurve(), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ transform: 'translateY(-80vh)', opacity: 0 }))
-        ])
-    ]),
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["trigger"])('backdrop', [
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["state"])('true', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ visibility: 'visible' })),
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["state"])('false', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ visibility: 'hidden' })),
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])('0 => 1', [
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])(timingCurve(), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: 1 }))
-        ]),
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])('1 => 0', [
-            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])(timingCurve(), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: 0 }))
-        ])
-    ])
-];
-//# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/occupancy-modal.animations.js.map
-
-/***/ },
 /* 691 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -7131,9 +7143,9 @@ var occupancyModalAnimations = [
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(673);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular2_cookie_core__ = __webpack_require__(750);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular2_cookie_core__ = __webpack_require__(752);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular2_cookie_core___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_angular2_cookie_core__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_moment__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_moment__ = __webpack_require__(668);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_moment__);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return SessionManagerService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -7198,9 +7210,9 @@ var SessionManagerService = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_dialog_outlet_component__ = __webpack_require__(706);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mdl_dialog_outlet_service__ = __webpack_require__(687);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mdl_backdrop_overlay_component__ = __webpack_require__(705);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_dialog_outlet_component__ = __webpack_require__(707);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mdl_dialog_outlet_service__ = __webpack_require__(688);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mdl_backdrop_overlay_component__ = __webpack_require__(706);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlDialogOutletModule; });
 /* unused harmony namespace reexport */
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__mdl_dialog_outlet_service__["a"]; });
@@ -7249,34 +7261,34 @@ var MdlDialogOutletModule = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__common_mdl_ripple_directive__ = __webpack_require__(686);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__button_mdl_button_component__ = __webpack_require__(679);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__badge_mdl_badge_directive__ = __webpack_require__(753);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shadow_mdl_shadow_directive__ = __webpack_require__(772);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__card_mdl_card_component__ = __webpack_require__(754);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__chips_index__ = __webpack_require__(755);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__dialog_index__ = __webpack_require__(757);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__common_mdl_ripple_directive__ = __webpack_require__(687);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__button_mdl_button_component__ = __webpack_require__(680);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__badge_mdl_badge_directive__ = __webpack_require__(755);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shadow_mdl_shadow_directive__ = __webpack_require__(774);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__card_mdl_card_component__ = __webpack_require__(756);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__chips_index__ = __webpack_require__(757);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__dialog_index__ = __webpack_require__(759);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__dialog_outlet_index__ = __webpack_require__(692);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__checkbox_mdl_checkbox_component__ = __webpack_require__(685);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__radio_mdl_radio_component__ = __webpack_require__(771);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__progress_mdl_progress_component__ = __webpack_require__(770);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__icon_mdl_icon_component__ = __webpack_require__(680);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__icon_toggle_mdl_icon_toggle_component__ = __webpack_require__(761);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__list_mdl_list_component__ = __webpack_require__(767);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__spinner_mdl_spinner_component__ = __webpack_require__(775);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__slider_mdl_slider_component__ = __webpack_require__(773);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__switch_mdl_switch_component__ = __webpack_require__(776);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__snackbar_mdl_snackbar_service__ = __webpack_require__(774);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__tooltip_index__ = __webpack_require__(781);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__table_index__ = __webpack_require__(777);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__menu_index__ = __webpack_require__(768);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__layout_index__ = __webpack_require__(762);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__checkbox_mdl_checkbox_component__ = __webpack_require__(686);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__radio_mdl_radio_component__ = __webpack_require__(773);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__progress_mdl_progress_component__ = __webpack_require__(772);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__icon_mdl_icon_component__ = __webpack_require__(681);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__icon_toggle_mdl_icon_toggle_component__ = __webpack_require__(763);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__list_mdl_list_component__ = __webpack_require__(769);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__spinner_mdl_spinner_component__ = __webpack_require__(777);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__slider_mdl_slider_component__ = __webpack_require__(775);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__switch_mdl_switch_component__ = __webpack_require__(778);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__snackbar_mdl_snackbar_service__ = __webpack_require__(776);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__tooltip_index__ = __webpack_require__(783);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__table_index__ = __webpack_require__(779);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__menu_index__ = __webpack_require__(770);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__layout_index__ = __webpack_require__(764);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__tabs_index__ = __webpack_require__(695);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__textfield_mdl_textfield_component__ = __webpack_require__(780);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__dialog_outlet_mdl_backdrop_overlay_component__ = __webpack_require__(705);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__dialog_mdl_dialog_host_component__ = __webpack_require__(707);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__dialog_mdl_simple_dialog_component__ = __webpack_require__(708);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__common_append_view_container_ref_directive__ = __webpack_require__(756);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__textfield_mdl_textfield_component__ = __webpack_require__(782);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__dialog_outlet_mdl_backdrop_overlay_component__ = __webpack_require__(706);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__dialog_mdl_dialog_host_component__ = __webpack_require__(708);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__dialog_mdl_simple_dialog_component__ = __webpack_require__(709);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__common_append_view_container_ref_directive__ = __webpack_require__(758);
 /* harmony export (binding) */ __webpack_require__.d(exports, "MdlModule", function() { return MdlModule; });
 /* unused harmony export MdlNonRootModule */
 /* unused harmony namespace reexport */
@@ -7455,9 +7467,9 @@ var MdlNonRootModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__common_mdl_error__ = __webpack_require__(675);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__common_boolean_property__ = __webpack_require__(667);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__common_number_property__ = __webpack_require__(676);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__mdl_layout_header_component__ = __webpack_require__(711);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__mdl_layout_drawer_component__ = __webpack_require__(710);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__mdl_layout_content_component__ = __webpack_require__(709);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__mdl_layout_header_component__ = __webpack_require__(712);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__mdl_layout_drawer_component__ = __webpack_require__(711);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__mdl_layout_content_component__ = __webpack_require__(710);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_Subject__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_Subject__);
 /* unused harmony export LAYOUT_SCREEN_SIZE_THRESHOLD */
@@ -7770,12 +7782,12 @@ var MdlLayoutComponent = (function () {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mdl_tabs_component__ = __webpack_require__(779);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_tab_panel_component__ = __webpack_require__(716);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mdl_tab_panel_title_component__ = __webpack_require__(715);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__mdl_tabs_component__ = __webpack_require__(781);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_tab_panel_component__ = __webpack_require__(717);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mdl_tab_panel_title_component__ = __webpack_require__(716);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__common_mdl_ripple_directive__ = __webpack_require__(686);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__common_index__ = __webpack_require__(704);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__common_mdl_ripple_directive__ = __webpack_require__(687);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__common_index__ = __webpack_require__(705);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_common__ = __webpack_require__(100);
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return MdlTabsModule; });
 /* unused harmony namespace reexport */
@@ -7821,6 +7833,12 @@ var MdlTabsModule = (function () {
 
 /***/ },
 /* 696 */
+/***/ function(module, exports) {
+
+module.exports = ".flex {\n  width: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex; }\n\n.column {\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column; }\n\n.panel {\n  border-radius: 5px; }\n\n.flex1 {\n  -webkit-box-flex: 1;\n      -ms-flex: 1;\n          flex: 1; }\n\n.flex2 {\n  -webkit-box-flex: 2;\n      -ms-flex: 2;\n          flex: 2; }\n\n.flex3 {\n  -webkit-box-flex: 3;\n      -ms-flex: 3;\n          flex: 3; }\n\n.flex4 {\n  -webkit-box-flex: 4;\n      -ms-flex: 4;\n          flex: 4; }\n\n.flex5 {\n  -webkit-box-flex: 5;\n      -ms-flex: 5;\n          flex: 5; }\n\n.flex6 {\n  -webkit-box-flex: 6;\n      -ms-flex: 6;\n          flex: 6; }\n\n.flex7 {\n  -webkit-box-flex: 7;\n      -ms-flex: 7;\n          flex: 7; }\n\n.flex8 {\n  -webkit-box-flex: 8;\n      -ms-flex: 8;\n          flex: 8; }\n\n.justify-content-start {\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start; }\n\n.justify-content-end {\n  -webkit-box-pack: end;\n      -ms-flex-pack: end;\n          justify-content: flex-end; }\n\n.justify-content-center {\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n\n.justify-content-between {\n  -webkit-box-pack: justify;\n      -ms-flex-pack: justify;\n          justify-content: space-between; }\n\n.justify-content-around {\n  -ms-flex-pack: distribute;\n      justify-content: space-around; }\n\n.align-items-start {\n  -webkit-box-align: start;\n      -ms-flex-align: start;\n          align-items: flex-start; }\n\n.align-items-end {\n  -webkit-box-align: end;\n      -ms-flex-align: end;\n          align-items: flex-end; }\n\n.align-items-center {\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center; }\n\n.align-items-stretch {\n  -webkit-box-align: stretch;\n      -ms-flex-align: stretch;\n          align-items: stretch; }\n\n.align-items-baseline {\n  -webkit-box-align: baseline;\n      -ms-flex-align: baseline;\n          align-items: baseline; }\n\n.bottom-border {\n  border-bottom: 1px #cdcecf solid; }\n\n.top-border {\n  border-top: 1px #cdcecf solid; }\n\n.strong-text {\n  font-weight: bold;\n  color: #999; }\n\n.text-center {\n  text-align: center; }\n\n.text-right {\n  text-align: right; }\n\n.no-padding {\n  padding: 0px !important; }\n\n.padding-bottom10 {\n  padding-bottom: 10px; }\n\n.padding-bottom20 {\n  padding-bottom: 20px; }\n\n.padding-bottom30 {\n  padding-bottom: 30px; }\n\n.padding-top-bottom-5 {\n  padding: 5px 0px !important; }\n\n.padding-top-bottom-10 {\n  padding: 10px 0px !important; }\n\n.padding-top-bottom-15 {\n  padding: 15px 0px !important; }\n\n.padding-top-bottom-20 {\n  padding: 17px 0px !important; }\n\n.text-indent10 {\n  text-indent: 10px; }\n\n.text-indent20 {\n  text-indent: 20px; }\n\n.text-indent30 {\n  text-indent: 30px; }\n"
+
+/***/ },
+/* 697 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7874,7 +7892,7 @@ exports.AsyncSubject = AsyncSubject;
 //# sourceMappingURL=AsyncSubject.js.map
 
 /***/ },
-/* 697 */
+/* 698 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7885,7 +7903,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subject_1 = __webpack_require__(64);
-var queue_1 = __webpack_require__(796);
+var queue_1 = __webpack_require__(798);
 var observeOn_1 = __webpack_require__(376);
 /**
  * @class ReplaySubject<T>
@@ -7959,7 +7977,7 @@ var ReplayEvent = (function () {
 //# sourceMappingURL=ReplaySubject.js.map
 
 /***/ },
-/* 698 */
+/* 699 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -7993,7 +8011,7 @@ exports.ArgumentOutOfRangeError = ArgumentOutOfRangeError;
 //# sourceMappingURL=ArgumentOutOfRangeError.js.map
 
 /***/ },
-/* 699 */
+/* 700 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -8005,16 +8023,16 @@ exports.isDate = isDate;
 //# sourceMappingURL=isDate.js.map
 
 /***/ },
-/* 700 */
+/* 701 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(673);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__http_client_service__ = __webpack_require__(668);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__lite_app_api__ = __webpack_require__(669);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_moment__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__http_client_service__ = __webpack_require__(669);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__lite_app_api__ = __webpack_require__(670);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_moment__ = __webpack_require__(668);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_moment__);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return ReportsManagerService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -8094,15 +8112,15 @@ var ReportsManagerService = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/reports-manager.service.js.map
 
 /***/ },
-/* 701 */
+/* 702 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(673);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_http_client_service__ = __webpack_require__(668);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_lite_app_api__ = __webpack_require__(669);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_http_client_service__ = __webpack_require__(669);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_lite_app_api__ = __webpack_require__(670);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return SubventionsManagerService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -8186,12 +8204,12 @@ var SubventionsManagerService = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/subventions-manager.service.js.map
 
 /***/ },
-/* 702 */
+/* 703 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_chip_component__ = __webpack_require__(703);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_chip_component__ = __webpack_require__(704);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__common_mdl_error__ = __webpack_require__(675);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlChipContactDirective; });
 
@@ -8223,12 +8241,12 @@ var MdlChipContactDirective = (function () {
 //# sourceMappingURL=mdl-chip-contact.directive.js.map
 
 /***/ },
-/* 703 */
+/* 704 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_chip_contact_directive__ = __webpack_require__(702);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_chip_contact_directive__ = __webpack_require__(703);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlChipComponent; });
 
 
@@ -8263,12 +8281,12 @@ var MdlChipComponent = (function () {
 //# sourceMappingURL=mdl-chip.component.js.map
 
 /***/ },
-/* 704 */
+/* 705 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__append_view_container_ref_directive__ = __webpack_require__(756);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__append_view_container_ref_directive__ = __webpack_require__(758);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlCommonsModule; });
 
 
@@ -8289,7 +8307,7 @@ var MdlCommonsModule = (function () {
 //# sourceMappingURL=index.js.map
 
 /***/ },
-/* 705 */
+/* 706 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8345,12 +8363,12 @@ var MdlBackdropOverlayComponent = (function () {
 //# sourceMappingURL=mdl-backdrop-overlay.component.js.map
 
 /***/ },
-/* 706 */
+/* 707 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_dialog_outlet_service__ = __webpack_require__(687);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_dialog_outlet_service__ = __webpack_require__(688);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlDialogOutletComponent; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return MdlDialogInnerOutletComponent; });
 
@@ -8404,14 +8422,14 @@ var MdlDialogInnerOutletComponent = (function () {
 //# sourceMappingURL=mdl-dialog-outlet.component.js.map
 
 /***/ },
-/* 707 */
+/* 708 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_dialog_service__ = __webpack_require__(677);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__button_mdl_button_component__ = __webpack_require__(679);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__internal_dialog_reference__ = __webpack_require__(758);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__button_mdl_button_component__ = __webpack_require__(680);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__internal_dialog_reference__ = __webpack_require__(760);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlDialogHostComponent; });
 
 
@@ -8607,7 +8625,7 @@ var MdlDialogHostComponent = (function () {
 //# sourceMappingURL=mdl-dialog-host.component.js.map
 
 /***/ },
-/* 708 */
+/* 709 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8661,12 +8679,12 @@ var MdlSimpleDialogComponent = (function () {
 //# sourceMappingURL=mdl-simple-dialog.component.js.map
 
 /***/ },
-/* 709 */
+/* 710 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_layout_tab_panel_component__ = __webpack_require__(712);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_layout_tab_panel_component__ = __webpack_require__(713);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlLayoutContentComponent; });
 
 
@@ -8697,7 +8715,7 @@ var MdlLayoutContentComponent = (function () {
 //# sourceMappingURL=mdl-layout-content.component.js.map
 
 /***/ },
-/* 710 */
+/* 711 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8734,7 +8752,7 @@ var MdlLayoutDrawerComponent = (function () {
 //# sourceMappingURL=mdl-layout-drawer.component.js.map
 
 /***/ },
-/* 711 */
+/* 712 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8791,7 +8809,7 @@ var MdlLayoutHeaderComponent = (function () {
 //# sourceMappingURL=mdl-layout-header.component.js.map
 
 /***/ },
-/* 712 */
+/* 713 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8826,12 +8844,12 @@ var MdlLayoutTabPanelComponent = (function () {
 //# sourceMappingURL=mdl-layout-tab-panel.component.js.map
 
 /***/ },
-/* 713 */
+/* 714 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_menu_component__ = __webpack_require__(714);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_menu_component__ = __webpack_require__(715);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__common_boolean_property__ = __webpack_require__(667);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlMenuItemComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -8900,12 +8918,12 @@ var MdlMenuItemComponent = (function () {
 //# sourceMappingURL=mdl-menu-item.component.js.map
 
 /***/ },
-/* 714 */
+/* 715 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_menu_item_component__ = __webpack_require__(713);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_menu_item_component__ = __webpack_require__(714);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__common_mdl_error__ = __webpack_require__(675);
 /* unused harmony export MdlMenuError */
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return MdlMenuRegisty; });
@@ -9140,7 +9158,7 @@ var MdlMenuComponent = (function () {
 //# sourceMappingURL=mdl-menu.component.js.map
 
 /***/ },
-/* 715 */
+/* 716 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9167,12 +9185,12 @@ var MdlTabPanelTitleComponent = (function () {
 //# sourceMappingURL=mdl-tab-panel-title.component.js.map
 
 /***/ },
-/* 716 */
+/* 717 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_tab_panel_title_component__ = __webpack_require__(715);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_tab_panel_title_component__ = __webpack_require__(716);
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return MdlTabPanelContent; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlTabPanelComponent; });
 
@@ -9218,12 +9236,12 @@ var MdlTabPanelComponent = (function () {
 //# sourceMappingURL=mdl-tab-panel.component.js.map
 
 /***/ },
-/* 717 */
+/* 718 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_tooltip_position_service__ = __webpack_require__(854);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_tooltip_position_service__ = __webpack_require__(860);
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return MdlSimpleTooltipComponent; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlTooltipComponent; });
 var __extends = (this && this.__extends) || function (d, b) {
@@ -9320,7 +9338,7 @@ var MdlTooltipComponent = (function (_super) {
 //# sourceMappingURL=mdl-tooltip.component.js.map
 
 /***/ },
-/* 718 */
+/* 719 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9480,7 +9498,7 @@ var RefCountSubscriber = (function (_super) {
 //# sourceMappingURL=ConnectableObservable.js.map
 
 /***/ },
-/* 719 */
+/* 720 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9633,7 +9651,7 @@ exports.CombineLatestSubscriber = CombineLatestSubscriber;
 //# sourceMappingURL=combineLatest.js.map
 
 /***/ },
-/* 720 */
+/* 721 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9747,7 +9765,7 @@ exports.concatStatic = concatStatic;
 //# sourceMappingURL=concat.js.map
 
 /***/ },
-/* 721 */
+/* 722 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10007,7 +10025,7 @@ var ZipBufferIterator = (function (_super) {
 //# sourceMappingURL=zip.js.map
 
 /***/ },
-/* 722 */
+/* 723 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10025,7 +10043,7 @@ exports.isNumeric = isNumeric;
 //# sourceMappingURL=isNumeric.js.map
 
 /***/ },
-/* 723 */
+/* 724 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10103,16 +10121,16 @@ var MdlOptionComponent = (function () {
 
 
 /***/ },
-/* 724 */
+/* 725 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(369);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angular2_mdl__ = __webpack_require__(693);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_children_manager_service__ = __webpack_require__(683);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_children_manager_service__ = __webpack_require__(684);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_rooms_manager_service__ = __webpack_require__(674);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_moment__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_moment__ = __webpack_require__(668);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_moment__);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return AttendanceComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10292,8 +10310,8 @@ var AttendanceComponent = (function () {
     AttendanceComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-attendance',
-            template: __webpack_require__(899),
-            styles: [__webpack_require__(855)],
+            template: __webpack_require__(908),
+            styles: [__webpack_require__(861)],
             encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewEncapsulation"].None
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3__shared_children_manager_service__["a" /* ChildrenManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_3__shared_children_manager_service__["a" /* ChildrenManagerService */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */]) === 'function' && _b) || Object, (typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_4__shared_rooms_manager_service__["a" /* RoomsManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_4__shared_rooms_manager_service__["a" /* RoomsManagerService */]) === 'function' && _c) || Object, (typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2_angular2_mdl__["MdlSnackbarService"] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2_angular2_mdl__["MdlSnackbarService"]) === 'function' && _d) || Object, (typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_2_angular2_mdl__["MdlDialogOutletService"] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2_angular2_mdl__["MdlDialogOutletService"]) === 'function' && _e) || Object, (typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewContainerRef"] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewContainerRef"]) === 'function' && _f) || Object])
@@ -10304,7 +10322,7 @@ var AttendanceComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/attendance.component.js.map
 
 /***/ },
-/* 725 */
+/* 726 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10327,8 +10345,8 @@ var DashboardInfoComponent = (function () {
     DashboardInfoComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-dashboard-info',
-            template: __webpack_require__(902),
-            styles: [__webpack_require__(858)]
+            template: __webpack_require__(911),
+            styles: [__webpack_require__(864)]
         }), 
         __metadata('design:paramtypes', [])
     ], DashboardInfoComponent);
@@ -10337,12 +10355,12 @@ var DashboardInfoComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/dashboard-info.component.js.map
 
 /***/ },
-/* 726 */
+/* 727 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_profile_manager_service__ = __webpack_require__(678);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_profile_manager_service__ = __webpack_require__(679);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_session_manager_service__ = __webpack_require__(691);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return DashboardComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10381,8 +10399,8 @@ var DashboardComponent = (function () {
     DashboardComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-dashboard',
-            template: __webpack_require__(903),
-            styles: [__webpack_require__(859)],
+            template: __webpack_require__(912),
+            styles: [__webpack_require__(865)],
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__shared_profile_manager_service__["a" /* ProfileManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__shared_profile_manager_service__["a" /* ProfileManagerService */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__shared_session_manager_service__["a" /* SessionManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__shared_session_manager_service__["a" /* SessionManagerService */]) === 'function' && _b) || Object])
     ], DashboardComponent);
@@ -10392,7 +10410,83 @@ var DashboardComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/dashboard.component.js.map
 
 /***/ },
-/* 727 */
+/* 728 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_moment__ = __webpack_require__(668);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_moment__);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return EasyFeesDashboardComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var EasyFeesDashboardComponent = (function () {
+    function EasyFeesDashboardComponent() {
+        this.week = [];
+        this.currentDate = __WEBPACK_IMPORTED_MODULE_1_moment__().startOf('isoWeek');
+        this.sortFlag = false;
+        this.accordionState = false;
+        this.sort = "0";
+        this.dateChange();
+    }
+    EasyFeesDashboardComponent.prototype.ngOnInit = function () {
+    };
+    EasyFeesDashboardComponent.prototype.sortOrder = function (sort) {
+        this.sort = sort;
+        this.sortFlag = false;
+    };
+    EasyFeesDashboardComponent.prototype.prevMonth = function () {
+        this.currentDate.subtract(1, 'month');
+        this.dateChange();
+    };
+    EasyFeesDashboardComponent.prototype.nextMonth = function () {
+        this.currentDate.add(1, 'month');
+        this.dateChange();
+    };
+    EasyFeesDashboardComponent.prototype.dateChange = function () {
+        var startOfWeek = __WEBPACK_IMPORTED_MODULE_1_moment__(this.currentDate).startOf('isoWeek');
+        var currentWeek = { start: +startOfWeek.format('x'), end: 0 };
+        var daysOfWeek = [];
+        while (startOfWeek.isoWeekday() <= 5) {
+            daysOfWeek.push({
+                day: startOfWeek.format('dddd'),
+                date: startOfWeek.format('Do'),
+                inactive: !startOfWeek.isSame(__WEBPACK_IMPORTED_MODULE_1_moment__(this.currentDate), 'month')
+            });
+            startOfWeek.add(1, 'day');
+        }
+        currentWeek.end = +startOfWeek.format('x');
+        this.week = daysOfWeek;
+    };
+    EasyFeesDashboardComponent.prototype.selectRow = function () {
+        if (!this.accordionState)
+            this.accordionState = true;
+        else
+            this.accordionState = false;
+    };
+    EasyFeesDashboardComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-easy-fees-dashboard',
+            template: __webpack_require__(916),
+            styles: [__webpack_require__(869), __webpack_require__(696)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], EasyFeesDashboardComponent);
+    return EasyFeesDashboardComponent;
+}());
+//# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/easy-fees-dashboard.component.js.map
+
+/***/ },
+/* 729 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10416,8 +10510,8 @@ var EasyFeesIntroComponent = (function () {
     EasyFeesIntroComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-easy-fees-intro',
-            template: __webpack_require__(905),
-            styles: [__webpack_require__(861)]
+            template: __webpack_require__(917),
+            styles: [__webpack_require__(870)]
         }), 
         __metadata('design:paramtypes', [])
     ], EasyFeesIntroComponent);
@@ -10426,13 +10520,13 @@ var EasyFeesIntroComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/easy-fees-intro.component.js.map
 
 /***/ },
-/* 728 */
+/* 730 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_http_client_service__ = __webpack_require__(668);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_lite_app_api__ = __webpack_require__(669);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_http_client_service__ = __webpack_require__(669);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_lite_app_api__ = __webpack_require__(670);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return EasyFeesManagerService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -10488,13 +10582,13 @@ var EasyFeesManagerService = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/easy-fees-manager.service.js.map
 
 /***/ },
-/* 729 */
+/* 731 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(371);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__easy_fees_manager_service__ = __webpack_require__(728);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__easy_fees_manager_service__ = __webpack_require__(730);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return EasyFeesSetupComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -10777,8 +10871,8 @@ var EasyFeesSetupComponent = (function () {
     EasyFeesSetupComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-easy-fees-setup',
-            template: __webpack_require__(906),
-            styles: [__webpack_require__(862)]
+            template: __webpack_require__(918),
+            styles: [__webpack_require__(871)]
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* FormBuilder */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_forms__["h" /* FormBuilder */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__easy_fees_manager_service__["a" /* EasyFeesManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__easy_fees_manager_service__["a" /* EasyFeesManagerService */]) === 'function' && _b) || Object])
     ], EasyFeesSetupComponent);
@@ -10788,7 +10882,7 @@ var EasyFeesSetupComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/easy-fees-setup.component.js.map
 
 /***/ },
-/* 730 */
+/* 732 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10810,6 +10904,9 @@ var EasyFeesComponent = (function () {
                 path: 'intro',
                 link: 'Get Started'
             }, {
+                path: 'view',
+                link: 'Dashboard'
+            }, {
                 path: 'setup',
                 link: 'Easy Fees Setup'
             }];
@@ -10819,8 +10916,8 @@ var EasyFeesComponent = (function () {
     EasyFeesComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-easy-fees',
-            template: __webpack_require__(907),
-            styles: [__webpack_require__(863)]
+            template: __webpack_require__(919),
+            styles: [__webpack_require__(696)]
         }), 
         __metadata('design:paramtypes', [])
     ], EasyFeesComponent);
@@ -10829,7 +10926,7 @@ var EasyFeesComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/easy-fees.component.js.map
 
 /***/ },
-/* 731 */
+/* 733 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10857,8 +10954,8 @@ var LandingPageComponent = (function () {
     LandingPageComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-landing-page',
-            template: __webpack_require__(908),
-            styles: [__webpack_require__(864)],
+            template: __webpack_require__(920),
+            styles: [__webpack_require__(872)],
         }), 
         __metadata('design:paramtypes', [])
     ], LandingPageComponent);
@@ -10867,7 +10964,7 @@ var LandingPageComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/landing-page.component.js.map
 
 /***/ },
-/* 732 */
+/* 734 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10914,8 +11011,8 @@ var OccupancyTransitionsComponent = (function () {
     OccupancyTransitionsComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-occupancy-transitions',
-            template: __webpack_require__(917),
-            styles: [__webpack_require__(872), __webpack_require__(672)]
+            template: __webpack_require__(930),
+            styles: [__webpack_require__(881), __webpack_require__(672)]
         }), 
         __metadata('design:paramtypes', [])
     ], OccupancyTransitionsComponent);
@@ -10924,7 +11021,7 @@ var OccupancyTransitionsComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/occupancy-transitions.component.js.map
 
 /***/ },
-/* 733 */
+/* 735 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10961,7 +11058,7 @@ var OccupancyComponent = (function () {
     OccupancyComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-occupancy',
-            template: __webpack_require__(918),
+            template: __webpack_require__(931),
             styles: [__webpack_require__(672)]
         }), 
         __metadata('design:paramtypes', [])
@@ -10971,14 +11068,14 @@ var OccupancyComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/occupancy.component.js.map
 
 /***/ },
-/* 734 */
+/* 736 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(673);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_http_client_service__ = __webpack_require__(668);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_http_client_service__ = __webpack_require__(669);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return OccupancyService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -11037,7 +11134,7 @@ var OccupancyService = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/occupancy.service.js.map
 
 /***/ },
-/* 735 */
+/* 737 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11205,8 +11302,8 @@ var PlanDashboardComponent = (function () {
     PlanDashboardComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-plan-dashboard',
-            template: __webpack_require__(919),
-            styles: [__webpack_require__(873), __webpack_require__(672)]
+            template: __webpack_require__(932),
+            styles: [__webpack_require__(882), __webpack_require__(672)]
         }), 
         __metadata('design:paramtypes', [])
     ], PlanDashboardComponent);
@@ -11215,11 +11312,13 @@ var PlanDashboardComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/plan-dashboard.component.js.map
 
 /***/ },
-/* 736 */
+/* 738 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_moment__ = __webpack_require__(668);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_moment__);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return PlanRoomListsComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -11231,13 +11330,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var PlanRoomListsComponent = (function () {
     function PlanRoomListsComponent() {
         this.childs = [];
         this.pureStore = [];
         this.waitingChild = [];
         this.deposit = [];
+        this.week = [];
+        this.currentDate = __WEBPACK_IMPORTED_MODULE_1_moment__().startOf('isoWeek');
         this.showOccupancyModal = false;
+        this.showChildModal = false;
         this.title = "";
         this.selectedRoomID = "0";
         /******************** fake data ********************* */
@@ -11275,6 +11378,7 @@ var PlanRoomListsComponent = (function () {
             { id: "7", name: "After School", ageGroup: "7", capacity: { mon: { am: "0", pm: "0" }, tue: { am: "0", pm: "0" }, wed: { am: "0", pm: "0" }, thu: { am: "0", pm: "0" }, fri: { am: "0", pm: "0" } }, transitionRoom: "1", transitionAge: "7", ecceCapitations: "", selected: false, assignedStaff: [] }
         ];
         /****************** //fake data ********************* */
+        this.dateChange();
     }
     PlanRoomListsComponent.prototype.ngOnInit = function () {
         this.selectedChild = { id: "1", name: "", age: "", birthdate: "", officialStartdate: "", roomStartdate: "", roomEnddate: "", paperwork: false, assignedRoom: "0", movetoRoom: "0", movetoDate: "", parentName: "parent", parentEmail: "parent@mail.com", deposit: "1",
@@ -11310,10 +11414,64 @@ var PlanRoomListsComponent = (function () {
         var _deposit = this.deposit.find(function (deposit) { return deposit.id === id; });
         return id == "0" ? "NOT IN" : _deposit.name;
     };
+    //get capacity number
+    PlanRoomListsComponent.prototype.getRoomCapacityByRoomId = function (week, apm) {
+        var _this = this;
+        var _room = this.rooms.find(function (room) { return room.id === _this.selectedRoomID; });
+        var _capacity = "0";
+        switch (week) {
+            case "mon":
+                if (apm == "am") {
+                    _capacity = _room.capacity.mon.am;
+                }
+                else {
+                    _capacity = _room.capacity.mon.pm;
+                }
+                break;
+            case "tue":
+                if (apm == "am") {
+                    _capacity = _room.capacity.tue.am;
+                }
+                else {
+                    _capacity = _room.capacity.tue.pm;
+                }
+                break;
+            case "wed":
+                if (apm == "am") {
+                    _capacity = _room.capacity.wed.am;
+                }
+                else {
+                    _capacity = _room.capacity.wed.pm;
+                }
+                break;
+            case "thu":
+                if (apm == "am") {
+                    _capacity = _room.capacity.thu.am;
+                }
+                else {
+                    _capacity = _room.capacity.thu.pm;
+                }
+                break;
+            case "fri":
+                if (apm == "am") {
+                    _capacity = _room.capacity.fri.am;
+                }
+                else {
+                    _capacity = _room.capacity.fri.pm;
+                }
+                break;
+        }
+        return _capacity;
+    };
     //Click row waiting child
     PlanRoomListsComponent.prototype.selectWaitChild = function (child) {
         this.selectedChild = child;
         this.showOccupancyModal = true;
+    };
+    //Click a row in the room list
+    PlanRoomListsComponent.prototype.selectRoomChild = function (child) {
+        this.selectedChild = child;
+        this.showChildModal = true;
     };
     //move to room
     PlanRoomListsComponent.prototype.moveFromWaitRoomToRoom = function (child) {
@@ -11325,12 +11483,44 @@ var PlanRoomListsComponent = (function () {
     };
     PlanRoomListsComponent.prototype.modalClosed = function () {
         this.showOccupancyModal = false;
+        this.showChildModal = false;
+    };
+    PlanRoomListsComponent.prototype.prevMonth = function () {
+        this.currentDate.subtract(1, 'month');
+        this.dateChange();
+    };
+    PlanRoomListsComponent.prototype.nextMonth = function () {
+        this.currentDate.add(1, 'month');
+        this.dateChange();
+    };
+    PlanRoomListsComponent.prototype.prevWeek = function () {
+        this.currentDate.subtract(1, 'week');
+        this.dateChange();
+    };
+    PlanRoomListsComponent.prototype.nextWeek = function () {
+        this.currentDate.add(1, 'week');
+        this.dateChange();
+    };
+    PlanRoomListsComponent.prototype.dateChange = function () {
+        var startOfWeek = __WEBPACK_IMPORTED_MODULE_1_moment__(this.currentDate).startOf('isoWeek');
+        var currentWeek = { start: +startOfWeek.format('x'), end: 0 };
+        var daysOfWeek = [];
+        while (startOfWeek.isoWeekday() <= 5) {
+            daysOfWeek.push({
+                day: startOfWeek.format('dddd'),
+                date: startOfWeek.format('Do'),
+                inactive: !startOfWeek.isSame(__WEBPACK_IMPORTED_MODULE_1_moment__(this.currentDate), 'month')
+            });
+            startOfWeek.add(1, 'day');
+        }
+        currentWeek.end = +startOfWeek.format('x');
+        this.week = daysOfWeek;
     };
     PlanRoomListsComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-plan-room-lists',
-            template: __webpack_require__(920),
-            styles: [__webpack_require__(874), __webpack_require__(672)]
+            template: __webpack_require__(933),
+            styles: [__webpack_require__(883), __webpack_require__(672)]
         }), 
         __metadata('design:paramtypes', [])
     ], PlanRoomListsComponent);
@@ -11339,13 +11529,13 @@ var PlanRoomListsComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/plan-room-lists.component.js.map
 
 /***/ },
-/* 737 */
+/* 739 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__occupancy_service__ = __webpack_require__(734);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__occupancy_model__ = __webpack_require__(682);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__occupancy_service__ = __webpack_require__(736);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__occupancy_model__ = __webpack_require__(678);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return PlanSetupComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -11465,8 +11655,8 @@ var PlanSetupComponent = (function () {
     PlanSetupComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-plan-setup',
-            template: __webpack_require__(921),
-            styles: [__webpack_require__(875), __webpack_require__(672)],
+            template: __webpack_require__(934),
+            styles: [__webpack_require__(884), __webpack_require__(672)],
             providers: [__WEBPACK_IMPORTED_MODULE_1__occupancy_service__["a" /* OccupancyService */]]
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__occupancy_service__["a" /* OccupancyService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__occupancy_service__["a" /* OccupancyService */]) === 'function' && _a) || Object])
@@ -11477,17 +11667,17 @@ var PlanSetupComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/plan-setup.component.js.map
 
 /***/ },
-/* 738 */
+/* 740 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(369);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_rooms_manager_service__ = __webpack_require__(674);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_reports_manager_service__ = __webpack_require__(700);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_reports_manager_service__ = __webpack_require__(701);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs__ = __webpack_require__(673);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_moment__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_moment__ = __webpack_require__(668);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_moment__);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return ReportsComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -11607,8 +11797,8 @@ var ReportsComponent = (function () {
     ReportsComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-reports',
-            template: __webpack_require__(923),
-            styles: [__webpack_require__(877)]
+            template: __webpack_require__(936),
+            styles: [__webpack_require__(886)]
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__shared_rooms_manager_service__["a" /* RoomsManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__shared_rooms_manager_service__["a" /* RoomsManagerService */]) === 'function' && _b) || Object, (typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__shared_reports_manager_service__["a" /* ReportsManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_3__shared_reports_manager_service__["a" /* ReportsManagerService */]) === 'function' && _c) || Object])
     ], ReportsComponent);
@@ -11618,13 +11808,13 @@ var ReportsComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/reports.component.js.map
 
 /***/ },
-/* 739 */
+/* 741 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angular2_mdl__ = __webpack_require__(693);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_children_manager_service__ = __webpack_require__(683);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_children_manager_service__ = __webpack_require__(684);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_rooms_manager_service__ = __webpack_require__(674);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return CentreChildrenComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -11731,8 +11921,8 @@ var CentreChildrenComponent = (function () {
     CentreChildrenComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-centre-children',
-            template: __webpack_require__(924),
-            styles: [__webpack_require__(878)],
+            template: __webpack_require__(937),
+            styles: [__webpack_require__(887)],
             encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewEncapsulation"].None
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__shared_children_manager_service__["a" /* ChildrenManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__shared_children_manager_service__["a" /* ChildrenManagerService */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__shared_rooms_manager_service__["a" /* RoomsManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_3__shared_rooms_manager_service__["a" /* RoomsManagerService */]) === 'function' && _b) || Object, (typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_angular2_mdl__["MdlSnackbarService"] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1_angular2_mdl__["MdlSnackbarService"]) === 'function' && _c) || Object, (typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_angular2_mdl__["MdlDialogOutletService"] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1_angular2_mdl__["MdlDialogOutletService"]) === 'function' && _d) || Object, (typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewContainerRef"] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewContainerRef"]) === 'function' && _e) || Object])
@@ -11743,12 +11933,12 @@ var CentreChildrenComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/centre-children.component.js.map
 
 /***/ },
-/* 740 */
+/* 742 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_profile_manager_service__ = __webpack_require__(678);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_profile_manager_service__ = __webpack_require__(679);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return CentreDetailsComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -11791,8 +11981,8 @@ var CentreDetailsComponent = (function () {
     CentreDetailsComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-centre-details',
-            template: __webpack_require__(925),
-            styles: [__webpack_require__(879)]
+            template: __webpack_require__(938),
+            styles: [__webpack_require__(888)]
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__shared_profile_manager_service__["a" /* ProfileManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__shared_profile_manager_service__["a" /* ProfileManagerService */]) === 'function' && _a) || Object])
     ], CentreDetailsComponent);
@@ -11802,13 +11992,13 @@ var CentreDetailsComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/centre-details.component.js.map
 
 /***/ },
-/* 741 */
+/* 743 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_rooms_manager_service__ = __webpack_require__(674);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__family_manager_service__ = __webpack_require__(742);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__family_manager_service__ = __webpack_require__(744);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return CentreFamiliesComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -11928,8 +12118,8 @@ var CentreFamiliesComponent = (function () {
     CentreFamiliesComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-centre-families',
-            template: __webpack_require__(926),
-            styles: [__webpack_require__(880)],
+            template: __webpack_require__(939),
+            styles: [__webpack_require__(889)],
             providers: [__WEBPACK_IMPORTED_MODULE_2__family_manager_service__["a" /* FamilyManagerService */]],
             encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewEncapsulation"].None
         }), 
@@ -11941,17 +12131,17 @@ var CentreFamiliesComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/centre-families.component.js.map
 
 /***/ },
-/* 742 */
+/* 744 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(673);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_http_client_service__ = __webpack_require__(668);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_lite_app_api__ = __webpack_require__(669);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__family_model__ = __webpack_require__(743);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__shared_models_child_model__ = __webpack_require__(684);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_http_client_service__ = __webpack_require__(669);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_lite_app_api__ = __webpack_require__(670);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__family_model__ = __webpack_require__(745);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__shared_models_child_model__ = __webpack_require__(685);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return FamilyManagerService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -12046,7 +12236,7 @@ var FamilyManagerService = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/family-manager.service.js.map
 
 /***/ },
-/* 743 */
+/* 745 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12069,7 +12259,7 @@ var Family = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/family.model.js.map
 
 /***/ },
-/* 744 */
+/* 746 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12172,8 +12362,8 @@ var CentreRoomsComponent = (function () {
     CentreRoomsComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-centre-rooms',
-            template: __webpack_require__(928),
-            styles: [__webpack_require__(882)],
+            template: __webpack_require__(941),
+            styles: [__webpack_require__(891)],
             encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewEncapsulation"].None
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__shared_rooms_manager_service__["a" /* RoomsManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__shared_rooms_manager_service__["a" /* RoomsManagerService */]) === 'function' && _a) || Object])
@@ -12184,12 +12374,12 @@ var CentreRoomsComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/centre-rooms.component.js.map
 
 /***/ },
-/* 745 */
+/* 747 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_profile_manager_service__ = __webpack_require__(678);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_profile_manager_service__ = __webpack_require__(679);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return CentreSubventionsComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -12243,8 +12433,8 @@ var CentreSubventionsComponent = (function () {
     CentreSubventionsComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-centre-subventions',
-            template: __webpack_require__(929),
-            styles: [__webpack_require__(883)]
+            template: __webpack_require__(942),
+            styles: [__webpack_require__(892)]
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__shared_profile_manager_service__["a" /* ProfileManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__shared_profile_manager_service__["a" /* ProfileManagerService */]) === 'function' && _a) || Object])
     ], CentreSubventionsComponent);
@@ -12254,7 +12444,7 @@ var CentreSubventionsComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/centre-subventions.component.js.map
 
 /***/ },
-/* 746 */
+/* 748 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12294,7 +12484,7 @@ var SettingsComponent = (function () {
     SettingsComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-settings',
-            template: __webpack_require__(933)
+            template: __webpack_require__(946)
         }), 
         __metadata('design:paramtypes', [])
     ], SettingsComponent);
@@ -12303,7 +12493,7 @@ var SettingsComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/settings.component.js.map
 
 /***/ },
-/* 747 */
+/* 749 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12321,12 +12511,12 @@ var AttendanceStates;
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/general.model.js.map
 
 /***/ },
-/* 748 */
+/* 750 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__subventions_manager_service__ = __webpack_require__(701);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__subventions_manager_service__ = __webpack_require__(702);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return SubventionsComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -12398,8 +12588,8 @@ var SubventionsComponent = (function () {
     SubventionsComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-subventions',
-            template: __webpack_require__(944),
-            styles: [__webpack_require__(897)],
+            template: __webpack_require__(957),
+            styles: [__webpack_require__(906)],
             encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewEncapsulation"].None
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__subventions_manager_service__["a" /* SubventionsManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__subventions_manager_service__["a" /* SubventionsManagerService */]) === 'function' && _a) || Object])
@@ -12410,13 +12600,13 @@ var SubventionsComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/subventions.component.js.map
 
 /***/ },
-/* 749 */
+/* 751 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(369);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_profile_manager_service__ = __webpack_require__(678);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_profile_manager_service__ = __webpack_require__(679);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return VerifyComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -12464,8 +12654,8 @@ var VerifyComponent = (function () {
     VerifyComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-verify',
-            template: __webpack_require__(945),
-            styles: [__webpack_require__(898)]
+            template: __webpack_require__(958),
+            styles: [__webpack_require__(907)]
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["d" /* Router */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_router__["d" /* Router */]) === 'function' && _b) || Object, (typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__shared_profile_manager_service__["a" /* ProfileManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__shared_profile_manager_service__["a" /* ProfileManagerService */]) === 'function' && _c) || Object])
     ], VerifyComponent);
@@ -12475,7 +12665,7 @@ var VerifyComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/verify.component.js.map
 
 /***/ },
-/* 750 */
+/* 752 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12489,8 +12679,8 @@ var VerifyComponent = (function () {
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-var services_1 = __webpack_require__(751);
-__export(__webpack_require__(751));
+var services_1 = __webpack_require__(753);
+__export(__webpack_require__(753));
 exports.ANGULAR2_COOKIE_PROVIDERS = [
     { provide: services_1.CookieOptions, useClass: services_1.BaseCookieOptions },
     { provide: services_1.CookieService, useFactory: cookieServiceFactory, deps: [services_1.CookieOptions] }
@@ -12504,7 +12694,7 @@ exports.cookieServiceFactory = cookieServiceFactory;
 
 
 /***/ },
-/* 751 */
+/* 753 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12515,17 +12705,17 @@ exports.cookieServiceFactory = cookieServiceFactory;
  * @license MIT
  */
 "use strict";
-var base_cookie_options_1 = __webpack_require__(752);
+var base_cookie_options_1 = __webpack_require__(754);
 exports.BaseCookieOptions = base_cookie_options_1.BaseCookieOptions;
 exports.CookieOptions = base_cookie_options_1.CookieOptions;
-var cookies_service_1 = __webpack_require__(850);
+var cookies_service_1 = __webpack_require__(856);
 exports.CookieService = cookies_service_1.CookieService;
 
 //# sourceMappingURL=services.js.map
 
 
 /***/ },
-/* 752 */
+/* 754 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12602,7 +12792,7 @@ exports.BaseCookieOptions = BaseCookieOptions;
 
 
 /***/ },
-/* 753 */
+/* 755 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12693,7 +12883,7 @@ var MdlBadgeModule = (function () {
 //# sourceMappingURL=mdl-badge.directive.js.map
 
 /***/ },
-/* 754 */
+/* 756 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12935,15 +13125,15 @@ var MdlCardModule = (function () {
 //# sourceMappingURL=mdl-card.component.js.map
 
 /***/ },
-/* 755 */
+/* 757 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__icon_mdl_icon_component__ = __webpack_require__(680);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mdl_chip_component__ = __webpack_require__(703);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mdl_chip_contact_directive__ = __webpack_require__(702);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__icon_mdl_icon_component__ = __webpack_require__(681);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mdl_chip_component__ = __webpack_require__(704);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mdl_chip_contact_directive__ = __webpack_require__(703);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlChipModule; });
 /* unused harmony namespace reexport */
 /* unused harmony namespace reexport */
@@ -12978,7 +13168,7 @@ var MdlChipModule = (function () {
 //# sourceMappingURL=index.js.map
 
 /***/ },
-/* 756 */
+/* 758 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13011,21 +13201,21 @@ var AppendViewContainerRefDirective = (function () {
 //# sourceMappingURL=append-view-container-ref-directive.js.map
 
 /***/ },
-/* 757 */
+/* 759 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mdl_dialog_service__ = __webpack_require__(677);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mdl_dialog_component__ = __webpack_require__(760);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mdl_simple_dialog_component__ = __webpack_require__(708);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__common_index__ = __webpack_require__(704);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__mdl_dialog_host_component__ = __webpack_require__(707);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__mdl_alert_component__ = __webpack_require__(759);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mdl_dialog_component__ = __webpack_require__(762);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mdl_simple_dialog_component__ = __webpack_require__(709);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__common_index__ = __webpack_require__(705);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__mdl_dialog_host_component__ = __webpack_require__(708);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__mdl_alert_component__ = __webpack_require__(761);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__dialog_outlet_index__ = __webpack_require__(692);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__button_mdl_button_component__ = __webpack_require__(679);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__mdl_dialog_configuration__ = __webpack_require__(852);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__button_mdl_button_component__ = __webpack_require__(680);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__mdl_dialog_configuration__ = __webpack_require__(858);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__mdl_dialog_configuration___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__mdl_dialog_configuration__);
 /* harmony export (binding) */ __webpack_require__.d(exports, "MdlDialogModule", function() { return MdlDialogModule; });
 /* unused harmony namespace reexport */
@@ -13084,7 +13274,7 @@ var MdlDialogModule = (function () {
 //# sourceMappingURL=index.js.map
 
 /***/ },
-/* 758 */
+/* 760 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13134,7 +13324,7 @@ var InternalMdlDialogReference = (function () {
 //# sourceMappingURL=internal-dialog-reference.js.map
 
 /***/ },
-/* 759 */
+/* 761 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13179,7 +13369,7 @@ var MdlAlertComponent = (function () {
 //# sourceMappingURL=mdl-alert.component.js.map
 
 /***/ },
-/* 760 */
+/* 762 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13268,15 +13458,15 @@ var MdlDialogComponent = (function () {
 //# sourceMappingURL=mdl-dialog.component.js.map
 
 /***/ },
-/* 761 */
+/* 763 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(371);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__icon_mdl_icon_component__ = __webpack_require__(680);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__checkbox_mdl_checkbox_component__ = __webpack_require__(685);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__icon_mdl_icon_component__ = __webpack_require__(681);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__checkbox_mdl_checkbox_component__ = __webpack_require__(686);
 /* unused harmony export MdlIconToggleComponent */
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlIconToggleModule; });
 var __extends = (this && this.__extends) || function (d, b) {
@@ -13344,23 +13534,23 @@ var MdlIconToggleModule = (function () {
 //# sourceMappingURL=mdl-icon-toggle.component.js.map
 
 /***/ },
-/* 762 */
+/* 764 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_layout_component__ = __webpack_require__(694);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mdl_layout_header_component__ = __webpack_require__(711);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mdl_layout_drawer_component__ = __webpack_require__(710);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mdl_layout_content_component__ = __webpack_require__(709);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__mdl_layout_header_transparent_directive__ = __webpack_require__(764);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__mdl_layout_header_row_component__ = __webpack_require__(763);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__mdl_layout_title_component__ = __webpack_require__(766);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__mdl_layout_spacer_component__ = __webpack_require__(765);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__mdl_layout_tab_panel_component__ = __webpack_require__(712);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__icon_mdl_icon_component__ = __webpack_require__(680);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__common_mdl_ripple_directive__ = __webpack_require__(686);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__common_index__ = __webpack_require__(704);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mdl_layout_header_component__ = __webpack_require__(712);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mdl_layout_drawer_component__ = __webpack_require__(711);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__mdl_layout_content_component__ = __webpack_require__(710);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__mdl_layout_header_transparent_directive__ = __webpack_require__(766);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__mdl_layout_header_row_component__ = __webpack_require__(765);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__mdl_layout_title_component__ = __webpack_require__(768);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__mdl_layout_spacer_component__ = __webpack_require__(767);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__mdl_layout_tab_panel_component__ = __webpack_require__(713);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__icon_mdl_icon_component__ = __webpack_require__(681);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__common_mdl_ripple_directive__ = __webpack_require__(687);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__common_index__ = __webpack_require__(705);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_common__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__tabs_index__ = __webpack_require__(695);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlLayoutModule; });
@@ -13433,7 +13623,7 @@ var MdlLayoutModule = (function () {
 //# sourceMappingURL=index.js.map
 
 /***/ },
-/* 763 */
+/* 765 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13460,7 +13650,7 @@ var MdlLayoutHeaderRowComponent = (function () {
 //# sourceMappingURL=mdl-layout-header-row.component.js.map
 
 /***/ },
-/* 764 */
+/* 766 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13485,7 +13675,7 @@ var MdlLayoutHeaderTransparentDirective = (function () {
 //# sourceMappingURL=mdl-layout-header-transparent.directive.js.map
 
 /***/ },
-/* 765 */
+/* 767 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13512,7 +13702,7 @@ var MdlLayoutSpacerComponent = (function () {
 //# sourceMappingURL=mdl-layout-spacer.component.js.map
 
 /***/ },
-/* 766 */
+/* 768 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13539,7 +13729,7 @@ var MdlLayoutTitleComponent = (function () {
 //# sourceMappingURL=mdl-layout-title.component.js.map
 
 /***/ },
-/* 767 */
+/* 769 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13861,16 +14051,16 @@ var MdlListModule = (function () {
 //# sourceMappingURL=mdl-list.component.js.map
 
 /***/ },
-/* 768 */
+/* 770 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_menu_component__ = __webpack_require__(714);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mdl_menu_item_component__ = __webpack_require__(713);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mdl_menu_item_directive__ = __webpack_require__(769);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_menu_component__ = __webpack_require__(715);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mdl_menu_item_component__ = __webpack_require__(714);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mdl_menu_item_directive__ = __webpack_require__(771);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_common__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__mdl_toggle_menu_directive__ = __webpack_require__(853);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__mdl_toggle_menu_directive__ = __webpack_require__(859);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlMenuModule; });
 /* unused harmony namespace reexport */
 /* unused harmony namespace reexport */
@@ -13913,7 +14103,7 @@ var MdlMenuModule = (function () {
 //# sourceMappingURL=index.js.map
 
 /***/ },
-/* 769 */
+/* 771 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13938,7 +14128,7 @@ var MdlMenuItemFullBleedDeviderComponent = (function () {
 //# sourceMappingURL=mdl-menu-item.directive.js.map
 
 /***/ },
-/* 770 */
+/* 772 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14019,7 +14209,7 @@ var MdlProgressModule = (function () {
 //# sourceMappingURL=mdl-progress.component.js.map
 
 /***/ },
-/* 771 */
+/* 773 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14233,7 +14423,7 @@ var MdlRadioModule = (function () {
 //# sourceMappingURL=mdl-radio.component.js.map
 
 /***/ },
-/* 772 */
+/* 774 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14324,7 +14514,7 @@ var MdlShadowModule = (function () {
 //# sourceMappingURL=mdl-shadow.directive.js.map
 
 /***/ },
-/* 773 */
+/* 775 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14468,13 +14658,13 @@ var MdlSliderModule = (function () {
 //# sourceMappingURL=mdl-slider.component.js.map
 
 /***/ },
-/* 774 */
+/* 776 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dialog_outlet_mdl_dialog_outlet_service__ = __webpack_require__(687);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dialog_outlet_mdl_dialog_outlet_service__ = __webpack_require__(688);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__dialog_outlet_index__ = __webpack_require__(692);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__);
@@ -14631,7 +14821,7 @@ var MdlSnackbaModule = (function () {
 //# sourceMappingURL=mdl-snackbar.service.js.map
 
 /***/ },
-/* 775 */
+/* 777 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14706,13 +14896,13 @@ var MdlSpinnerModule = (function () {
 //# sourceMappingURL=mdl-spinner.component.js.map
 
 /***/ },
-/* 776 */
+/* 778 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(371);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__checkbox_mdl_checkbox_component__ = __webpack_require__(685);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__checkbox_mdl_checkbox_component__ = __webpack_require__(686);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__(100);
 /* unused harmony export MdlSwitchComponent */
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlSwitchModule; });
@@ -14781,14 +14971,14 @@ var MdlSwitchModule = (function () {
 //# sourceMappingURL=mdl-switch.component.js.map
 
 /***/ },
-/* 777 */
+/* 779 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_table_component__ = __webpack_require__(778);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__checkbox_mdl_checkbox_component__ = __webpack_require__(685);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__common_mdl_ripple_directive__ = __webpack_require__(686);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_table_component__ = __webpack_require__(780);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__checkbox_mdl_checkbox_component__ = __webpack_require__(686);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__common_mdl_ripple_directive__ = __webpack_require__(687);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_common__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_forms__ = __webpack_require__(371);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlTableModule; });
@@ -14827,7 +15017,7 @@ var MdlTableModule = (function () {
 //# sourceMappingURL=index.js.map
 
 /***/ },
-/* 778 */
+/* 780 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14918,14 +15108,14 @@ var MdlSelectableTableComponent = (function (_super) {
 //# sourceMappingURL=mdl-table.component.js.map
 
 /***/ },
-/* 779 */
+/* 781 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__common_boolean_property__ = __webpack_require__(667);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__common_number_property__ = __webpack_require__(676);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mdl_tab_panel_component__ = __webpack_require__(716);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mdl_tab_panel_component__ = __webpack_require__(717);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlTabsComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -15000,7 +15190,7 @@ var MdlTabsComponent = (function () {
 //# sourceMappingURL=mdl-tabs.component.js.map
 
 /***/ },
-/* 780 */
+/* 782 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15008,8 +15198,8 @@ var MdlTabsComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(371);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__common_boolean_property__ = __webpack_require__(667);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__common_number_property__ = __webpack_require__(676);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__button_mdl_button_component__ = __webpack_require__(679);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__icon_mdl_icon_component__ = __webpack_require__(680);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__button_mdl_button_component__ = __webpack_require__(680);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__icon_mdl_icon_component__ = __webpack_require__(681);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_common__ = __webpack_require__(100);
 /* unused harmony export DISABLE_NATIVE_VALIDITY_CHECKING */
 /* unused harmony export MdlTextFieldComponent */
@@ -15239,13 +15429,13 @@ var MdlTextFieldModule = (function () {
 //# sourceMappingURL=mdl-textfield.component.js.map
 
 /***/ },
-/* 781 */
+/* 783 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_tooltip_component__ = __webpack_require__(717);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mdl_tooltip_directive__ = __webpack_require__(782);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_tooltip_component__ = __webpack_require__(718);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mdl_tooltip_directive__ = __webpack_require__(784);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlTooltipModule; });
 /* unused harmony namespace reexport */
 /* unused harmony namespace reexport */
@@ -15283,12 +15473,12 @@ var MdlTooltipModule = (function () {
 //# sourceMappingURL=index.js.map
 
 /***/ },
-/* 782 */
+/* 784 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_tooltip_component__ = __webpack_require__(717);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__mdl_tooltip_component__ = __webpack_require__(718);
 /* unused harmony export AbstractMdlTooltipDirective */
 /* harmony export (binding) */ __webpack_require__.d(exports, "b", function() { return MdlTooltipDirective; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlTooltipLargeDirective; });
@@ -15392,7 +15582,7 @@ var MdlTooltipLargeDirective = (function (_super) {
 //# sourceMappingURL=mdl-tooltip.directive.js.map
 
 /***/ },
-/* 783 */
+/* 785 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15403,7 +15593,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Observable_1 = __webpack_require__(13);
-var ConnectableObservable_1 = __webpack_require__(718);
+var ConnectableObservable_1 = __webpack_require__(719);
 var MulticastObservable = (function (_super) {
     __extends(MulticastObservable, _super);
     function MulticastObservable(source, subjectFactory, selector) {
@@ -15425,7 +15615,7 @@ exports.MulticastObservable = MulticastObservable;
 //# sourceMappingURL=MulticastObservable.js.map
 
 /***/ },
-/* 784 */
+/* 786 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15824,7 +16014,7 @@ exports.AjaxTimeoutError = AjaxTimeoutError;
 //# sourceMappingURL=AjaxObservable.js.map
 
 /***/ },
-/* 785 */
+/* 787 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15913,7 +16103,7 @@ exports.DistinctSubscriber = DistinctSubscriber;
 //# sourceMappingURL=distinct.js.map
 
 /***/ },
-/* 786 */
+/* 788 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15996,7 +16186,7 @@ var DistinctUntilChangedSubscriber = (function (_super) {
 //# sourceMappingURL=distinctUntilChanged.js.map
 
 /***/ },
-/* 787 */
+/* 789 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16102,7 +16292,7 @@ exports.FindValueSubscriber = FindValueSubscriber;
 //# sourceMappingURL=find.js.map
 
 /***/ },
-/* 788 */
+/* 790 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16238,7 +16428,7 @@ exports.mergeStatic = mergeStatic;
 //# sourceMappingURL=merge.js.map
 
 /***/ },
-/* 789 */
+/* 791 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16398,7 +16588,7 @@ exports.MergeMapToSubscriber = MergeMapToSubscriber;
 //# sourceMappingURL=mergeMapTo.js.map
 
 /***/ },
-/* 790 */
+/* 792 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16479,7 +16669,7 @@ var OnErrorResumeNextSubscriber = (function (_super) {
 //# sourceMappingURL=onErrorResumeNext.js.map
 
 /***/ },
-/* 791 */
+/* 793 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16596,7 +16786,7 @@ exports.RaceSubscriber = RaceSubscriber;
 //# sourceMappingURL=race.js.map
 
 /***/ },
-/* 792 */
+/* 794 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16661,7 +16851,7 @@ var TimeIntervalSubscriber = (function (_super) {
 //# sourceMappingURL=timeInterval.js.map
 
 /***/ },
-/* 793 */
+/* 795 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16717,7 +16907,7 @@ var TimestampSubscriber = (function (_super) {
 //# sourceMappingURL=timestamp.js.map
 
 /***/ },
-/* 794 */
+/* 796 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16727,8 +16917,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncAction_1 = __webpack_require__(688);
-var AsyncScheduler_1 = __webpack_require__(689);
+var AsyncAction_1 = __webpack_require__(689);
+var AsyncScheduler_1 = __webpack_require__(690);
 var VirtualTimeScheduler = (function (_super) {
     __extends(VirtualTimeScheduler, _super);
     function VirtualTimeScheduler(SchedulerAction, maxFrames) {
@@ -16821,29 +17011,29 @@ exports.VirtualAction = VirtualAction;
 //# sourceMappingURL=VirtualTimeScheduler.js.map
 
 /***/ },
-/* 795 */
+/* 797 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var AsapAction_1 = __webpack_require__(1193);
-var AsapScheduler_1 = __webpack_require__(1194);
+var AsapAction_1 = __webpack_require__(1206);
+var AsapScheduler_1 = __webpack_require__(1207);
 exports.asap = new AsapScheduler_1.AsapScheduler(AsapAction_1.AsapAction);
 //# sourceMappingURL=asap.js.map
 
 /***/ },
-/* 796 */
+/* 798 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var QueueAction_1 = __webpack_require__(1195);
-var QueueScheduler_1 = __webpack_require__(1196);
+var QueueAction_1 = __webpack_require__(1208);
+var QueueScheduler_1 = __webpack_require__(1209);
 exports.queue = new QueueScheduler_1.QueueScheduler(QueueAction_1.QueueAction);
 //# sourceMappingURL=queue.js.map
 
 /***/ },
-/* 797 */
+/* 799 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -16860,12 +17050,12 @@ exports.SubscriptionLog = SubscriptionLog;
 //# sourceMappingURL=SubscriptionLog.js.map
 
 /***/ },
-/* 798 */
+/* 800 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var SubscriptionLog_1 = __webpack_require__(797);
+var SubscriptionLog_1 = __webpack_require__(799);
 var SubscriptionLoggable = (function () {
     function SubscriptionLoggable() {
         this.subscriptions = [];
@@ -16885,7 +17075,7 @@ exports.SubscriptionLoggable = SubscriptionLoggable;
 //# sourceMappingURL=SubscriptionLoggable.js.map
 
 /***/ },
-/* 799 */
+/* 801 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -16904,7 +17094,7 @@ exports.applyMixins = applyMixins;
 //# sourceMappingURL=applyMixins.js.map
 
 /***/ },
-/* 800 */
+/* 802 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -16915,11 +17105,11 @@ exports.noop = noop;
 //# sourceMappingURL=noop.js.map
 
 /***/ },
-/* 801 */
+/* 803 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__popover__ = __webpack_require__(802);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__popover__ = __webpack_require__(804);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__popover__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__popover__["b"]; });
 
@@ -16928,7 +17118,7 @@ exports.noop = noop;
 
 
 /***/ },
-/* 802 */
+/* 804 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17061,12 +17251,12 @@ var MdlPopoverModule = (function () {
 
 
 /***/ },
-/* 803 */
+/* 805 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__option__ = __webpack_require__(723);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__select__ = __webpack_require__(804);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__option__ = __webpack_require__(724);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__select__ = __webpack_require__(806);
 /* unused harmony namespace reexport */
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__select__["a"]; });
 
@@ -17076,15 +17266,15 @@ var MdlPopoverModule = (function () {
 
 
 /***/ },
-/* 804 */
+/* 806 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(371);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__popover_index__ = __webpack_require__(801);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__option__ = __webpack_require__(723);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__popover_index__ = __webpack_require__(803);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__option__ = __webpack_require__(724);
 /* unused harmony export SearchableComponent */
 /* unused harmony export MdlSelectComponent */
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlSelectModule; });
@@ -17435,12 +17625,12 @@ var MdlSelectModule = (function () {
 
 
 /***/ },
-/* 805 */
+/* 807 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(369);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__attendance_component__ = __webpack_require__(724);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__attendance_component__ = __webpack_require__(725);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return routing; });
 
 
@@ -17459,16 +17649,16 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["b" /* RouterModule 
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/attendance.routing.js.map
 
 /***/ },
-/* 806 */
+/* 808 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angular2_mdl__ = __webpack_require__(693);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_children_manager_service__ = __webpack_require__(683);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_models_general_model__ = __webpack_require__(747);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_models_child_model__ = __webpack_require__(684);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_moment__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_children_manager_service__ = __webpack_require__(684);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_models_general_model__ = __webpack_require__(749);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_models_child_model__ = __webpack_require__(685);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_moment__ = __webpack_require__(668);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_moment__);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return PresenceBarComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -17534,8 +17724,8 @@ var PresenceBarComponent = (function () {
     PresenceBarComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-presence-bar',
-            template: __webpack_require__(900),
-            styles: [__webpack_require__(856)]
+            template: __webpack_require__(909),
+            styles: [__webpack_require__(862)]
         }), 
         __metadata('design:paramtypes', [(typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_angular2_mdl__["MdlSnackbarService"] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1_angular2_mdl__["MdlSnackbarService"]) === 'function' && _b) || Object, (typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__shared_children_manager_service__["a" /* ChildrenManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__shared_children_manager_service__["a" /* ChildrenManagerService */]) === 'function' && _c) || Object])
     ], PresenceBarComponent);
@@ -17545,12 +17735,12 @@ var PresenceBarComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/presence-bar.component.js.map
 
 /***/ },
-/* 807 */
+/* 809 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_moment__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_moment__ = __webpack_require__(668);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_moment__);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return TimepickerComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -17607,8 +17797,8 @@ var TimepickerComponent = (function () {
     TimepickerComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-timepicker',
-            template: __webpack_require__(901),
-            styles: [__webpack_require__(857)]
+            template: __webpack_require__(910),
+            styles: [__webpack_require__(863)]
         }), 
         __metadata('design:paramtypes', [])
     ], TimepickerComponent);
@@ -17618,12 +17808,12 @@ var TimepickerComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/timepicker.component.js.map
 
 /***/ },
-/* 808 */
+/* 810 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(369);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dashboard_info_component__ = __webpack_require__(725);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dashboard_info_component__ = __webpack_require__(726);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return routing; });
 
 
@@ -17637,12 +17827,12 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["b" /* RouterModule 
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/dashboard-info.routing.js.map
 
 /***/ },
-/* 809 */
+/* 811 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(369);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dashboard_component__ = __webpack_require__(726);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dashboard_component__ = __webpack_require__(727);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return dashboardRouting; });
 
 
@@ -17682,7 +17872,48 @@ var dashboardRouting = __WEBPACK_IMPORTED_MODULE_0__angular_router__["b" /* Rout
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/dashboard.routing.js.map
 
 /***/ },
-/* 810 */
+/* 812 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return AccordionPaymentsViewComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var AccordionPaymentsViewComponent = (function () {
+    function AccordionPaymentsViewComponent() {
+        this.showPopup = false;
+    }
+    AccordionPaymentsViewComponent.prototype.ngOnInit = function () {
+    };
+    AccordionPaymentsViewComponent.prototype.printMandate = function () {
+        this.showPopup = true;
+    };
+    AccordionPaymentsViewComponent.prototype.popupClosed = function () {
+        this.showPopup = false;
+    };
+    AccordionPaymentsViewComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-accordion-payments-view',
+            template: __webpack_require__(913),
+            styles: [__webpack_require__(866), __webpack_require__(696)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], AccordionPaymentsViewComponent);
+    return AccordionPaymentsViewComponent;
+}());
+//# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/accordion-payments-view.component.js.map
+
+/***/ },
+/* 813 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17714,8 +17945,8 @@ var ChooseOrgTypeComponent = (function () {
     ChooseOrgTypeComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-choose-org-type',
-            template: __webpack_require__(904),
-            styles: [__webpack_require__(860)]
+            template: __webpack_require__(914),
+            styles: [__webpack_require__(867)]
         }), 
         __metadata('design:paramtypes', [])
     ], ChooseOrgTypeComponent);
@@ -17724,15 +17955,105 @@ var ChooseOrgTypeComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/choose-org-type.component.js.map
 
 /***/ },
-/* 811 */
+/* 814 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__popup_animations__ = __webpack_require__(815);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return PopupPrintMandateComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var PopupPrintMandateComponent = (function () {
+    function PopupPrintMandateComponent() {
+        this.showPopup = false;
+        this.closePopup = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
+    }
+    PopupPrintMandateComponent.prototype.ngOnInit = function () {
+    };
+    PopupPrintMandateComponent.prototype.destroy = function () {
+        this.closePopup.emit('close');
+    };
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(), 
+        __metadata('design:type', Boolean)
+    ], PopupPrintMandateComponent.prototype, "showPopup", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Output"])(), 
+        __metadata('design:type', Object)
+    ], PopupPrintMandateComponent.prototype, "closePopup", void 0);
+    PopupPrintMandateComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-popup-print-mandate',
+            template: __webpack_require__(915),
+            styles: [__webpack_require__(868), __webpack_require__(696)],
+            animations: __WEBPACK_IMPORTED_MODULE_1__popup_animations__["a" /* popupAnimations */].slice()
+        }), 
+        __metadata('design:paramtypes', [])
+    ], PopupPrintMandateComponent);
+    return PopupPrintMandateComponent;
+}());
+//# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/popup-print-mandate.component.js.map
+
+/***/ },
+/* 815 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return popupAnimations; });
+
+var animationCurve = 'cubic-bezier(0.47,0,0.745,0.715)';
+var timingCurve = function (time) {
+    if (time === void 0) { time = .2; }
+    return time + 's ' + animationCurve;
+};
+var popupAnimations = [
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["trigger"])('modal', [
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["state"])('true', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ transform: 'none' })),
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["state"])('false', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ transform: 'translateY(-80vh)' })),
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])('0 => 1', [
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])(timingCurve(.3), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ transform: 'none', opacity: 1 }))
+        ]),
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])('1 => 0', [
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: 0.3 }),
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])(timingCurve(), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ transform: 'translateY(-80vh)', opacity: 0 }))
+        ])
+    ]),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["trigger"])('backdrop', [
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["state"])('true', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ visibility: 'visible' })),
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["state"])('false', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ visibility: 'hidden' })),
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])('0 => 1', [
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])(timingCurve(), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: 1 }))
+        ]),
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])('1 => 0', [
+            __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])(timingCurve(), __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: 0 }))
+        ])
+    ])
+];
+//# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/popup.animations.js.map
+
+/***/ },
+/* 816 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(369);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__easy_fees_component__ = __webpack_require__(730);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__easy_fees_intro_easy_fees_intro_component__ = __webpack_require__(727);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__easy_fees_setup_easy_fees_setup_component__ = __webpack_require__(729);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__easy_fees_component__ = __webpack_require__(732);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__easy_fees_intro_easy_fees_intro_component__ = __webpack_require__(729);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__easy_fees_dashboard_easy_fees_dashboard_component__ = __webpack_require__(728);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__easy_fees_setup_easy_fees_setup_component__ = __webpack_require__(731);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return routing; });
+
 
 
 
@@ -17744,7 +18065,8 @@ var easyFeesRoutes = [
         children: [
             { path: '', redirectTo: 'intro', terminal: true },
             { path: 'intro', component: __WEBPACK_IMPORTED_MODULE_2__easy_fees_intro_easy_fees_intro_component__["a" /* EasyFeesIntroComponent */] },
-            { path: 'setup', component: __WEBPACK_IMPORTED_MODULE_3__easy_fees_setup_easy_fees_setup_component__["a" /* EasyFeesSetupComponent */] }
+            { path: 'view', component: __WEBPACK_IMPORTED_MODULE_3__easy_fees_dashboard_easy_fees_dashboard_component__["a" /* EasyFeesDashboardComponent */] },
+            { path: 'setup', component: __WEBPACK_IMPORTED_MODULE_4__easy_fees_setup_easy_fees_setup_component__["a" /* EasyFeesSetupComponent */] }
         ]
     }
 ];
@@ -17752,12 +18074,12 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["b" /* RouterModule 
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/easy-fees.routing.js.map
 
 /***/ },
-/* 812 */
+/* 817 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(369);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__landing_page_component__ = __webpack_require__(731);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__landing_page_component__ = __webpack_require__(733);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return routing; });
 
 
@@ -17771,13 +18093,13 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["b" /* RouterModule 
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/landing-page.routing.js.map
 
 /***/ },
-/* 813 */
+/* 818 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(369);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_profile_manager_service__ = __webpack_require__(678);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_profile_manager_service__ = __webpack_require__(679);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return LoginCardComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -17815,7 +18137,7 @@ var LoginCardComponent = (function () {
     LoginCardComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-login-card',
-            template: __webpack_require__(909)
+            template: __webpack_require__(921)
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__shared_profile_manager_service__["a" /* ProfileManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__shared_profile_manager_service__["a" /* ProfileManagerService */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["d" /* Router */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_router__["d" /* Router */]) === 'function' && _b) || Object])
     ], LoginCardComponent);
@@ -17825,13 +18147,13 @@ var LoginCardComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/login-card.component.js.map
 
 /***/ },
-/* 814 */
+/* 819 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(369);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_http_client_service__ = __webpack_require__(668);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_http_client_service__ = __webpack_require__(669);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(371);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return RegisterCardComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -17893,8 +18215,8 @@ var RegisterCardComponent = (function () {
     RegisterCardComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-register-card',
-            template: __webpack_require__(910),
-            styles: [__webpack_require__(865)],
+            template: __webpack_require__(922),
+            styles: [__webpack_require__(873)],
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__shared_http_client_service__["a" /* HttpClientService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__shared_http_client_service__["a" /* HttpClientService */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["d" /* Router */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_router__["d" /* Router */]) === 'function' && _b) || Object, (typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__angular_forms__["h" /* FormBuilder */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_3__angular_forms__["h" /* FormBuilder */]) === 'function' && _c) || Object])
     ], RegisterCardComponent);
@@ -17904,14 +18226,14 @@ var RegisterCardComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/register-card.component.js.map
 
 /***/ },
-/* 815 */
+/* 820 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__occupancy_service__ = __webpack_require__(734);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__occupancy_modal_occupancy_modal_animations__ = __webpack_require__(690);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__occupancy_model__ = __webpack_require__(682);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__occupancy_service__ = __webpack_require__(736);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__occupancy_modal_occupancy_modal_animations__ = __webpack_require__(683);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__occupancy_model__ = __webpack_require__(678);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return AddStaffComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -18105,8 +18427,8 @@ var AddStaffComponent = (function () {
     AddStaffComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-add-staff',
-            template: __webpack_require__(911),
-            styles: [__webpack_require__(866), __webpack_require__(672)],
+            template: __webpack_require__(923),
+            styles: [__webpack_require__(874), __webpack_require__(672)],
             animations: __WEBPACK_IMPORTED_MODULE_2__occupancy_modal_occupancy_modal_animations__["a" /* occupancyModalAnimations */].slice()
         }), 
         __metadata('design:paramtypes', [(typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__occupancy_service__["a" /* OccupancyService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__occupancy_service__["a" /* OccupancyService */]) === 'function' && _b) || Object])
@@ -18117,13 +18439,13 @@ var AddStaffComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/add-staff.component.js.map
 
 /***/ },
-/* 816 */
+/* 821 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__occupancy_modal_occupancy_modal_animations__ = __webpack_require__(690);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__occupancy_model__ = __webpack_require__(682);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__occupancy_modal_occupancy_modal_animations__ = __webpack_require__(683);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__occupancy_model__ = __webpack_require__(678);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MoveClassComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -18187,8 +18509,8 @@ var MoveClassComponent = (function () {
     MoveClassComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-move-class',
-            template: __webpack_require__(912),
-            styles: [__webpack_require__(867), __webpack_require__(672)],
+            template: __webpack_require__(924),
+            styles: [__webpack_require__(875), __webpack_require__(672)],
             animations: __WEBPACK_IMPORTED_MODULE_1__occupancy_modal_occupancy_modal_animations__["a" /* occupancyModalAnimations */].slice()
         }), 
         __metadata('design:paramtypes', [])
@@ -18199,12 +18521,74 @@ var MoveClassComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/move-class.component.js.map
 
 /***/ },
-/* 817 */
+/* 822 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__occupancy_modal_animations__ = __webpack_require__(690);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__occupancy_modal_occupancy_modal_animations__ = __webpack_require__(683);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__occupancy_model__ = __webpack_require__(678);
+/* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return OccupancyChlidComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var OccupancyChlidComponent = (function () {
+    function OccupancyChlidComponent() {
+        this.closeModal = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
+        this.showChildModal = false;
+        this.title = "";
+        this.errorMessage = "";
+    }
+    OccupancyChlidComponent.prototype.ngOnInit = function () {
+    };
+    OccupancyChlidComponent.prototype.ngOnChanges = function () {
+        this.title = this.child.name;
+    };
+    OccupancyChlidComponent.prototype.destroy = function () {
+        this.closeModal.emit('close');
+    };
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Output"])(), 
+        __metadata('design:type', Object)
+    ], OccupancyChlidComponent.prototype, "closeModal", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(), 
+        __metadata('design:type', Boolean)
+    ], OccupancyChlidComponent.prototype, "showChildModal", void 0);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(), 
+        __metadata('design:type', (typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__occupancy_model__["c" /* Child */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__occupancy_model__["c" /* Child */]) === 'function' && _a) || Object)
+    ], OccupancyChlidComponent.prototype, "child", void 0);
+    OccupancyChlidComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-occupancy-chlid',
+            template: __webpack_require__(925),
+            styles: [__webpack_require__(876), __webpack_require__(672)],
+            animations: __WEBPACK_IMPORTED_MODULE_1__occupancy_modal_occupancy_modal_animations__["a" /* occupancyModalAnimations */].slice()
+        }), 
+        __metadata('design:paramtypes', [])
+    ], OccupancyChlidComponent);
+    return OccupancyChlidComponent;
+    var _a;
+}());
+//# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/occupancy-chlid.component.js.map
+
+/***/ },
+/* 823 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__occupancy_modal_animations__ = __webpack_require__(683);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return OccupancyModalComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -18246,8 +18630,8 @@ var OccupancyModalComponent = (function () {
     OccupancyModalComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-occupancy-modal',
-            template: __webpack_require__(913),
-            styles: [__webpack_require__(868)],
+            template: __webpack_require__(926),
+            styles: [__webpack_require__(877)],
             animations: __WEBPACK_IMPORTED_MODULE_1__occupancy_modal_animations__["a" /* occupancyModalAnimations */].slice()
         }), 
         __metadata('design:paramtypes', [])
@@ -18257,13 +18641,13 @@ var OccupancyModalComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/occupancy-modal.component.js.map
 
 /***/ },
-/* 818 */
+/* 824 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__occupancy_modal_occupancy_modal_animations__ = __webpack_require__(690);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__occupancy_model__ = __webpack_require__(682);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__occupancy_modal_occupancy_modal_animations__ = __webpack_require__(683);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__occupancy_model__ = __webpack_require__(678);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return RemoveWaitingChildComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -18350,8 +18734,8 @@ var RemoveWaitingChildComponent = (function () {
     RemoveWaitingChildComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-remove-waiting-child',
-            template: __webpack_require__(914),
-            styles: [__webpack_require__(869), __webpack_require__(672)],
+            template: __webpack_require__(927),
+            styles: [__webpack_require__(878), __webpack_require__(672)],
             animations: __WEBPACK_IMPORTED_MODULE_1__occupancy_modal_occupancy_modal_animations__["a" /* occupancyModalAnimations */].slice()
         }), 
         __metadata('design:paramtypes', [])
@@ -18362,12 +18746,12 @@ var RemoveWaitingChildComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/remove-waiting-child.component.js.map
 
 /***/ },
-/* 819 */
+/* 825 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__occupancy_model__ = __webpack_require__(682);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__occupancy_model__ = __webpack_require__(678);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return RoomInfoAccordianComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -18556,8 +18940,8 @@ var RoomInfoAccordianComponent = (function () {
     RoomInfoAccordianComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-room-info-accordian',
-            template: __webpack_require__(915),
-            styles: [__webpack_require__(870), __webpack_require__(672)]
+            template: __webpack_require__(928),
+            styles: [__webpack_require__(879), __webpack_require__(672)]
         }), 
         __metadata('design:paramtypes', [])
     ], RoomInfoAccordianComponent);
@@ -18567,7 +18951,7 @@ var RoomInfoAccordianComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/room-info-accordian.component.js.map
 
 /***/ },
-/* 820 */
+/* 826 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18734,8 +19118,8 @@ var ScrollNavbarComponent = (function () {
     ScrollNavbarComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-scroll-navbar',
-            template: __webpack_require__(916),
-            styles: [__webpack_require__(871)]
+            template: __webpack_require__(929),
+            styles: [__webpack_require__(880)]
         }), 
         __metadata('design:paramtypes', [])
     ], ScrollNavbarComponent);
@@ -18744,16 +19128,16 @@ var ScrollNavbarComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/scroll-navbar.component.js.map
 
 /***/ },
-/* 821 */
+/* 827 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(369);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__occupancy_component__ = __webpack_require__(733);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__plan_dashboard_plan_dashboard_component__ = __webpack_require__(735);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__plan_room_lists_plan_room_lists_component__ = __webpack_require__(736);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__plan_setup_plan_setup_component__ = __webpack_require__(737);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__occupancy_transitions_occupancy_transitions_component__ = __webpack_require__(732);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__occupancy_component__ = __webpack_require__(735);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__plan_dashboard_plan_dashboard_component__ = __webpack_require__(737);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__plan_room_lists_plan_room_lists_component__ = __webpack_require__(738);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__plan_setup_plan_setup_component__ = __webpack_require__(739);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__occupancy_transitions_occupancy_transitions_component__ = __webpack_require__(734);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return routing; });
 
 
@@ -18778,7 +19162,7 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["b" /* RouterModule 
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/occupancy.routing.js.map
 
 /***/ },
-/* 822 */
+/* 828 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18810,8 +19194,8 @@ var AttendanceStatusComponent = (function () {
     AttendanceStatusComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-attendance-status',
-            template: __webpack_require__(922),
-            styles: [__webpack_require__(876)]
+            template: __webpack_require__(935),
+            styles: [__webpack_require__(885)]
         }), 
         __metadata('design:paramtypes', [])
     ], AttendanceStatusComponent);
@@ -18820,12 +19204,12 @@ var AttendanceStatusComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/attendance-status.component.js.map
 
 /***/ },
-/* 823 */
+/* 829 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(369);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__reports_component__ = __webpack_require__(738);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__reports_component__ = __webpack_require__(740);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return routing; });
 
 
@@ -18844,7 +19228,7 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["b" /* RouterModule 
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/reports.routing.js.map
 
 /***/ },
-/* 824 */
+/* 830 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18882,15 +19266,15 @@ var addFamiliesModalAnimations = [
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/add-new-families.animations.js.map
 
 /***/ },
-/* 825 */
+/* 831 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__add_new_families_animations__ = __webpack_require__(824);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__family_manager_service__ = __webpack_require__(742);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__family_model__ = __webpack_require__(743);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_models_child_model__ = __webpack_require__(684);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__add_new_families_animations__ = __webpack_require__(830);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__family_manager_service__ = __webpack_require__(744);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__family_model__ = __webpack_require__(745);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_models_child_model__ = __webpack_require__(685);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return AddNewFamiliesComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -19030,8 +19414,8 @@ var AddNewFamiliesComponent = (function () {
     AddNewFamiliesComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-add-new-families',
-            template: __webpack_require__(927),
-            styles: [__webpack_require__(881)],
+            template: __webpack_require__(940),
+            styles: [__webpack_require__(890)],
             animations: __WEBPACK_IMPORTED_MODULE_1__add_new_families_animations__["a" /* addFamiliesModalAnimations */].slice()
         }), 
         __metadata('design:paramtypes', [(typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__family_manager_service__["a" /* FamilyManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__family_manager_service__["a" /* FamilyManagerService */]) === 'function' && _b) || Object])
@@ -19042,14 +19426,14 @@ var AddNewFamiliesComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/add-new-families.component.js.map
 
 /***/ },
-/* 826 */
+/* 832 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_children_manager_service__ = __webpack_require__(683);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_models_child_model__ = __webpack_require__(684);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_moment__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_children_manager_service__ = __webpack_require__(684);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_models_child_model__ = __webpack_require__(685);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_moment__ = __webpack_require__(668);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_moment__);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return AddChildComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -19175,8 +19559,8 @@ var AddChildComponent = (function () {
     AddChildComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-add-child',
-            template: __webpack_require__(930),
-            styles: [__webpack_require__(884)]
+            template: __webpack_require__(943),
+            styles: [__webpack_require__(893)]
         }), 
         __metadata('design:paramtypes', [(typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__shared_children_manager_service__["a" /* ChildrenManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__shared_children_manager_service__["a" /* ChildrenManagerService */]) === 'function' && _b) || Object])
     ], AddChildComponent);
@@ -19186,7 +19570,7 @@ var AddChildComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/add-child.component.js.map
 
 /***/ },
-/* 827 */
+/* 833 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19334,8 +19718,8 @@ var AddRoomComponent = (function () {
     AddRoomComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-add-room',
-            template: __webpack_require__(931),
-            styles: [__webpack_require__(885)]
+            template: __webpack_require__(944),
+            styles: [__webpack_require__(894)]
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__shared_rooms_manager_service__["a" /* RoomsManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__shared_rooms_manager_service__["a" /* RoomsManagerService */]) === 'function' && _a) || Object])
     ], AddRoomComponent);
@@ -19345,7 +19729,7 @@ var AddRoomComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/add-room.component.js.map
 
 /***/ },
-/* 828 */
+/* 834 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19388,8 +19772,8 @@ var EcceCapitationsComponent = (function () {
     EcceCapitationsComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-ecce-capitations',
-            template: __webpack_require__(932),
-            styles: [__webpack_require__(886)]
+            template: __webpack_require__(945),
+            styles: [__webpack_require__(895)]
         }), 
         __metadata('design:paramtypes', [])
     ], EcceCapitationsComponent);
@@ -19398,17 +19782,17 @@ var EcceCapitationsComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/ecce-capitations.component.js.map
 
 /***/ },
-/* 829 */
+/* 835 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(369);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__settings_component__ = __webpack_require__(746);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__centre_rooms_centre_rooms_component__ = __webpack_require__(744);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__centre_families_centre_families_component__ = __webpack_require__(741);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__centre_children_centre_children_component__ = __webpack_require__(739);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__centre_details_centre_details_component__ = __webpack_require__(740);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__centre_subventions_centre_subventions_component__ = __webpack_require__(745);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__settings_component__ = __webpack_require__(748);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__centre_rooms_centre_rooms_component__ = __webpack_require__(746);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__centre_families_centre_families_component__ = __webpack_require__(743);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__centre_children_centre_children_component__ = __webpack_require__(741);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__centre_details_centre_details_component__ = __webpack_require__(742);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__centre_subventions_centre_subventions_component__ = __webpack_require__(747);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return routing; });
 
 
@@ -19435,7 +19819,7 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["b" /* RouterModule 
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/settings.routing.js.map
 
 /***/ },
-/* 830 */
+/* 836 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19473,8 +19857,8 @@ var ConfirmDialogComponent = (function () {
     ConfirmDialogComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-confirm-dialog',
-            template: __webpack_require__(934),
-            styles: [__webpack_require__(887)]
+            template: __webpack_require__(947),
+            styles: [__webpack_require__(896)]
         }), 
         __metadata('design:paramtypes', [])
     ], ConfirmDialogComponent);
@@ -19483,23 +19867,23 @@ var ConfirmDialogComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/confirm-dialog.component.js.map
 
 /***/ },
-/* 831 */
+/* 837 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__confirm_dialog_component__ = __webpack_require__(830);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__confirm_dialog_component__ = __webpack_require__(836);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__confirm_dialog_component__["a"]; });
 
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/index.js.map
 
 /***/ },
-/* 832 */
+/* 838 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(371);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_moment__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_moment__ = __webpack_require__(668);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_moment__);
 /* unused harmony export CALENDAR_VALUE_ACCESSOR */
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return DatepickerComponent; });
@@ -19673,8 +20057,8 @@ var DatepickerComponent = (function () {
     DatepickerComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-datepicker[ngModel]',
-            template: __webpack_require__(935),
-            styles: [__webpack_require__(888)],
+            template: __webpack_require__(948),
+            styles: [__webpack_require__(897)],
             providers: [CALENDAR_VALUE_ACCESSOR]
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewContainerRef"] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewContainerRef"]) === 'function' && _a) || Object])
@@ -19685,12 +20069,12 @@ var DatepickerComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/datepicker.component.js.map
 
 /***/ },
-/* 833 */
+/* 839 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(844);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(850);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return FlexCardComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -19775,8 +20159,8 @@ var FlexCardComponent = (function () {
     FlexCardComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-flex-card',
-            template: __webpack_require__(936),
-            styles: [__webpack_require__(889)],
+            template: __webpack_require__(949),
+            styles: [__webpack_require__(898)],
             encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewEncapsulation"].None
         }), 
         __metadata('design:paramtypes', [])
@@ -19786,17 +20170,17 @@ var FlexCardComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/flex-card.component.js.map
 
 /***/ },
-/* 834 */
+/* 840 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__modal_component__ = __webpack_require__(836);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__modal_component__ = __webpack_require__(842);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__modal_component__["a"]; });
 
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/index.js.map
 
 /***/ },
-/* 835 */
+/* 841 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19834,12 +20218,12 @@ var modalAnimations = [
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/modal.animations.js.map
 
 /***/ },
-/* 836 */
+/* 842 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__modal_animations__ = __webpack_require__(835);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__modal_animations__ = __webpack_require__(841);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return ModalComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -19863,8 +20247,8 @@ var ModalComponent = (function () {
     ModalComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-modal',
-            template: __webpack_require__(937),
-            styles: [__webpack_require__(890)],
+            template: __webpack_require__(950),
+            styles: [__webpack_require__(899)],
             animations: __WEBPACK_IMPORTED_MODULE_1__modal_animations__["a" /* modalAnimations */].slice()
         }), 
         __metadata('design:paramtypes', [])
@@ -19874,17 +20258,17 @@ var ModalComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/modal.component.js.map
 
 /***/ },
-/* 837 */
+/* 843 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__navbar_small_component__ = __webpack_require__(838);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__navbar_small_component__ = __webpack_require__(844);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__navbar_small_component__["a"]; });
 
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/index.js.map
 
 /***/ },
-/* 838 */
+/* 844 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20056,8 +20440,8 @@ var NavbarSmallComponent = (function () {
     NavbarSmallComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-navbar-small',
-            template: __webpack_require__(938),
-            styles: [__webpack_require__(891)]
+            template: __webpack_require__(951),
+            styles: [__webpack_require__(900)]
         }), 
         __metadata('design:paramtypes', [])
     ], NavbarSmallComponent);
@@ -20066,17 +20450,17 @@ var NavbarSmallComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/navbar-small.component.js.map
 
 /***/ },
-/* 839 */
+/* 845 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__navbar_component__ = __webpack_require__(840);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__navbar_component__ = __webpack_require__(846);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__navbar_component__["a"]; });
 
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/index.js.map
 
 /***/ },
-/* 840 */
+/* 846 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20104,8 +20488,8 @@ var NavbarComponent = (function () {
     NavbarComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-navbar',
-            template: __webpack_require__(939),
-            styles: [__webpack_require__(892)],
+            template: __webpack_require__(952),
+            styles: [__webpack_require__(901)],
             host: {
                 '[class.has-navbar]': 'true'
             }
@@ -20117,17 +20501,17 @@ var NavbarComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/navbar.component.js.map
 
 /***/ },
-/* 841 */
+/* 847 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__searchbar_component__ = __webpack_require__(842);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__searchbar_component__ = __webpack_require__(848);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(exports, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__searchbar_component__["a"]; });
 
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/index.js.map
 
 /***/ },
-/* 842 */
+/* 848 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20205,8 +20589,8 @@ var SearchbarComponent = (function () {
     SearchbarComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-searchbar',
-            template: __webpack_require__(940),
-            styles: [__webpack_require__(893)],
+            template: __webpack_require__(953),
+            styles: [__webpack_require__(902)],
         }), 
         __metadata('design:paramtypes', [(typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["d" /* Router */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_router__["d" /* Router */]) === 'function' && _b) || Object, (typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Renderer"] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_0__angular_core__["Renderer"]) === 'function' && _c) || Object])
     ], SearchbarComponent);
@@ -20216,11 +20600,11 @@ var SearchbarComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/searchbar.component.js.map
 
 /***/ },
-/* 843 */
+/* 849 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__lite_app_api__ = __webpack_require__(669);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__lite_app_api__ = __webpack_require__(670);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return Profile; });
 
 /**
@@ -20255,7 +20639,7 @@ var Profile = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/profile.model.js.map
 
 /***/ },
-/* 844 */
+/* 850 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20280,7 +20664,7 @@ function sortBy(key, ref, reverse, transform) {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/utils.js.map
 
 /***/ },
-/* 845 */
+/* 851 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20344,8 +20728,8 @@ var ColoredButtonComponent = (function () {
     ColoredButtonComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-colored-button',
-            template: __webpack_require__(941),
-            styles: [__webpack_require__(894)]
+            template: __webpack_require__(954),
+            styles: [__webpack_require__(903)]
         }), 
         __metadata('design:paramtypes', [])
     ], ColoredButtonComponent);
@@ -20354,14 +20738,14 @@ var ColoredButtonComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/colored-button.component.js.map
 
 /***/ },
-/* 846 */
+/* 852 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__subventions_manager_service__ = __webpack_require__(701);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_reports_manager_service__ = __webpack_require__(700);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_moment__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__subventions_manager_service__ = __webpack_require__(702);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_reports_manager_service__ = __webpack_require__(701);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_moment__ = __webpack_require__(668);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_moment__);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return EcceModalComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -20541,8 +20925,8 @@ var EcceModalComponent = (function () {
     EcceModalComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-ecce-modal',
-            template: __webpack_require__(942),
-            styles: [__webpack_require__(895)]
+            template: __webpack_require__(955),
+            styles: [__webpack_require__(904)]
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__subventions_manager_service__["a" /* SubventionsManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__subventions_manager_service__["a" /* SubventionsManagerService */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__shared_reports_manager_service__["a" /* ReportsManagerService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__shared_reports_manager_service__["a" /* ReportsManagerService */]) === 'function' && _b) || Object])
     ], EcceModalComponent);
@@ -20552,7 +20936,7 @@ var EcceModalComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/ecce-modal.component.js.map
 
 /***/ },
-/* 847 */
+/* 853 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20639,8 +21023,8 @@ var ListButtonsComponent = (function () {
     ListButtonsComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-list-buttons',
-            template: __webpack_require__(943),
-            styles: [__webpack_require__(896)]
+            template: __webpack_require__(956),
+            styles: [__webpack_require__(905)]
         }), 
         __metadata('design:paramtypes', [])
     ], ListButtonsComponent);
@@ -20649,12 +21033,12 @@ var ListButtonsComponent = (function () {
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/list-buttons.component.js.map
 
 /***/ },
-/* 848 */
+/* 854 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(369);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__subventions_component__ = __webpack_require__(748);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__subventions_component__ = __webpack_require__(750);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return routing; });
 
 
@@ -20668,12 +21052,12 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["b" /* RouterModule 
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/subventions.routing.js.map
 
 /***/ },
-/* 849 */
+/* 855 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__(369);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__verify_component__ = __webpack_require__(749);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__verify_component__ = __webpack_require__(751);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return routing; });
 
 
@@ -20691,7 +21075,7 @@ var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["b" /* RouterModule 
 //# sourceMappingURL=/home/anatol/tasks/angular2-little-app/src/verify.routing.js.map
 
 /***/ },
-/* 850 */
+/* 856 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20715,7 +21099,7 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
 var core_1 = __webpack_require__(0);
-var base_cookie_options_1 = __webpack_require__(752);
+var base_cookie_options_1 = __webpack_require__(754);
 var CookieService = (function () {
     function CookieService(_defaultOptions) {
         this._defaultOptions = _defaultOptions;
@@ -20906,7 +21290,7 @@ exports.CookieService = CookieService;
 
 
 /***/ },
-/* 851 */
+/* 857 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21137,18 +21521,18 @@ MaterialRipple.prototype.init = function () {
 //# sourceMappingURL=ripple.vendor.js.map
 
 /***/ },
-/* 852 */
+/* 858 */
 /***/ function(module, exports) {
 
 //# sourceMappingURL=mdl-dialog-configuration.js.map
 
 /***/ },
-/* 853 */
+/* 859 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__button_mdl_button_component__ = __webpack_require__(679);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__button_mdl_button_component__ = __webpack_require__(680);
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return MdlToggleMenuDirective; });
 
 
@@ -21177,7 +21561,7 @@ var MdlToggleMenuDirective = (function () {
 //# sourceMappingURL=mdl-toggle-menu.directive.js.map
 
 /***/ },
-/* 854 */
+/* 860 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21238,553 +21622,595 @@ var MdlTooltipPositionService = (function () {
 //# sourceMappingURL=mdl-tooltip-position.service.js.map
 
 /***/ },
-/* 855 */
+/* 861 */
 /***/ function(module, exports) {
 
 module.exports = "/* Warning this component uses no ViewEncapsulation */\n.attendance .flex-card {\n  margin: 0;\n  margin-right: 20px; }\n  .attendance .flex-card .col:first-child {\n    -webkit-box-flex: 0;\n        -ms-flex: 0 0 5%;\n            flex: 0 0 5%; }\n    .attendance .flex-card .col:first-child img {\n      border-radius: 50%;\n      width: 3rem; }\n  .attendance .flex-card .col.presence-col {\n    text-align: center;\n    min-width: 30%; }\n  .attendance .flex-card .col.time-col span {\n    cursor: pointer; }\n\n.mdl-snackbar {\n  will-change: unset; }\n"
 
 /***/ },
-/* 856 */
+/* 862 */
 /***/ function(module, exports) {
 
 module.exports = ".presence-bar mdl-button {\n  color: rgba(0, 0, 0, 0.12);\n  padding: 0 20px !important;\n  min-width: 20px; }\n  .presence-bar mdl-button.active {\n    color: #fff; }\n  .presence-bar mdl-button.status-in {\n    background-color: #dffbdd; }\n    .presence-bar mdl-button.status-in.active {\n      background-color: #70cc69; }\n  .presence-bar mdl-button.status-out {\n    background-color: #f1efef; }\n    .presence-bar mdl-button.status-out.active {\n      background-color: #a0a0a0; }\n  .presence-bar mdl-button.status-absent {\n    background-color: #ffe3e3; }\n    .presence-bar mdl-button.status-absent.active {\n      background-color: #e49696; }\n"
 
 /***/ },
-/* 857 */
+/* 863 */
 /***/ function(module, exports) {
 
 module.exports = ".timepicker {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  white-space: nowrap;\n  background-color: #f7afc1;\n  color: #fff; }\n  .timepicker mdl-button {\n    color: #fff;\n    padding: 0;\n    margin: 0 !important;\n    min-width: 20px;\n    margin: 5px;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none; }\n  .timepicker span {\n    cursor: pointer; }\n"
 
 /***/ },
-/* 858 */
+/* 864 */
 /***/ function(module, exports) {
 
 module.exports = ".layout-content {\n  background-color: #ffffff;\n  padding: 0; }\n  .layout-content .header {\n    background-color: #f4f5f7; }\n    .layout-content .header img {\n      display: block;\n      width: 500px;\n      height: auto;\n      margin: auto; }\n    .layout-content .header .header-children {\n      width: 80%;\n      padding: 25px; }\n  .layout-content .main-content {\n    padding: 80px 15px;\n    max-width: 1044px;\n    margin-left: auto;\n    margin-right: auto; }\n    .layout-content .main-content p.title {\n      margin: 0 0 24px 12px; }\n    .layout-content .main-content .mdl-grid .mdl-card {\n      position: relative; }\n      .layout-content .main-content .mdl-grid .mdl-card .mdl-card__media {\n        background-color: transparent; }\n        .layout-content .main-content .mdl-grid .mdl-card .mdl-card__media img {\n          width: 100%; }\n      .layout-content .main-content .mdl-grid .mdl-card .mdl-card__supporting-text {\n        height: auto;\n        color: black;\n        padding-bottom: 56px; }\n      .layout-content .main-content .mdl-grid .mdl-card .mdl-card__actions {\n        position: absolute;\n        bottom: 0; }\n      .layout-content .main-content .mdl-grid .mdl-card .card-button {\n        border-top: none;\n        font-size: 16px;\n        text-decoration: none;\n        color: #8bc34a; }\n"
 
 /***/ },
-/* 859 */
+/* 865 */
 /***/ function(module, exports) {
 
 module.exports = ".dashboard .drawer {\n  border: none;\n  -webkit-box-pack: end;\n      -ms-flex-pack: end;\n          justify-content: flex-end; }\n  .dashboard .drawer .drawer-content {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -ms-flex-flow: column nowrap;\n        flex-flow: column nowrap;\n    height: 100%;\n    background-color: white; }\n    .dashboard .drawer .drawer-content .nav-container {\n      height: 100%;\n      overflow-y: auto; }\n    .dashboard .drawer .drawer-content .profile-info {\n      padding: 15px;\n      /*background: $background-gray;*/\n      color: #fff; }\n      .dashboard .drawer .drawer-content .profile-info p {\n        font-size: 1.4rem;\n        margin: 0; }\n      .dashboard .drawer .drawer-content .profile-info img {\n        max-width: 4rem;\n        border-radius: 50%;\n        margin: 15px 0; }\n    .dashboard .drawer .drawer-content .mdl-navigation__link {\n      font-weight: 600;\n      color: #747474; }\n      .dashboard .drawer .drawer-content .mdl-navigation__link mdl-icon {\n        margin-right: 10px; }\n    .dashboard .drawer .drawer-content .profile-settings {\n      -webkit-box-flex: 1;\n          -ms-flex: 1;\n              flex: 1; }\n      .dashboard .drawer .drawer-content .profile-settings .drawer-logo {\n        /*border-top: 1px solid $background-gray-dark;*/\n        height: 70px;\n        /*background-color: $background-gray;*/\n        background-image: url(\"/assets/img/logo-small.png\");\n        background-size: 65% 30%;\n        background-repeat: no-repeat;\n        background-position: 50% 50%; }\n\n.dashboard .main-content {\n  overflow: hidden; }\n"
 
 /***/ },
-/* 860 */
-/***/ function(module, exports) {
-
-module.exports = ".choose-org-type p {\n  color: #987b7b; }\n  .choose-org-type p.title {\n    font-size: 1.8rem;\n    font-weight: bold; }\n\n.choose-org-type .row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  border-bottom: 1px solid #939598;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  text-align: center;\n  color: #565656; }\n  .choose-org-type .row .col {\n    -webkit-box-flex: 1;\n        -ms-flex: 1;\n            flex: 1;\n    padding: 10px 0; }\n    .choose-org-type .row .col .point {\n      margin: auto;\n      width: 10px;\n      height: 10px;\n      border-radius: 50%;\n      background-color: #939598; }\n    .choose-org-type .row .col.type-col {\n      -webkit-box-flex: 0;\n          -ms-flex: 0 0 30%;\n              flex: 0 0 30%;\n      text-align: left;\n      padding-left: 5px; }\n  .choose-org-type .row:hover {\n    background-color: #dedede;\n    cursor: pointer; }\n  .choose-org-type .row.tooltips {\n    color: #3f42a5;\n    font-size: 13px;\n    line-height: 16px; }\n    .choose-org-type .row.tooltips:hover {\n      background-color: initial;\n      cursor: initial; }\n"
-
-/***/ },
-/* 861 */
-/***/ function(module, exports) {
-
-module.exports = ".easy-fees-intro {\n  margin: auto 30px; }\n  .easy-fees-intro .intro-header {\n    margin: 8px;\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: justify;\n        -ms-flex-pack: justify;\n            justify-content: space-between; }\n    .easy-fees-intro .intro-header .header-text {\n      color: #868686;\n      margin: 0;\n      margin-right: 50px;\n      font-weight: bolder; }\n    .easy-fees-intro .intro-header mdl-button {\n      background-color: #42bfb8;\n      color: #fff;\n      text-transform: capitalize; }\n  .easy-fees-intro .fee-policy {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    height: 120px;\n    background-color: #c2c1c1;\n    color: #fff;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    padding: 10px;\n    margin: 8px; }\n    .easy-fees-intro .fee-policy p {\n      margin: 0;\n      font-size: 1.6rem; }\n  .easy-fees-intro .info-cards {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -ms-flex-flow: wrap row;\n        flex-flow: wrap row; }\n    .easy-fees-intro .info-cards .info-card {\n      -webkit-box-flex: 0;\n          -ms-flex: 0 0 calc(25% - 16px);\n              flex: 0 0 calc(25% - 16px);\n      margin: 8px;\n      border-radius: 4px;\n      overflow: hidden;\n      background-color: #fff;\n      color: #757676;\n      position: relative; }\n      @media screen and (max-width: 850px) {\n        .easy-fees-intro .info-cards .info-card {\n          -webkit-box-flex: 0;\n              -ms-flex: 0 0 calc(50% - 16px);\n                  flex: 0 0 calc(50% - 16px); } }\n      .easy-fees-intro .info-cards .info-card .card-media {\n        text-align: center; }\n        .easy-fees-intro .info-cards .info-card .card-media img {\n          width: 101%; }\n      .easy-fees-intro .info-cards .info-card .card-body {\n        padding: 25px 15px;\n        margin-bottom: 30px; }\n        .easy-fees-intro .info-cards .info-card .card-body .card-title {\n          font-size: 1.6rem;\n          font-weight: bold; }\n        .easy-fees-intro .info-cards .info-card .card-body .card-subtitle {\n          font-size: 1.2rem; }\n        .easy-fees-intro .info-cards .info-card .card-body .card-text {\n          font-size: 1rem;\n          line-height: 1.2rem; }\n      .easy-fees-intro .info-cards .info-card .card-actions {\n        position: absolute;\n        right: 0;\n        left: 0;\n        bottom: 5px;\n        text-align: center; }\n        .easy-fees-intro .info-cards .info-card .card-actions mdl-button {\n          color: #8ec24a; }\n"
-
-/***/ },
-/* 862 */
-/***/ function(module, exports) {
-
-module.exports = ".easy-fees-setup {\n  margin: auto 30px; }\n  .easy-fees-setup .setup-header {\n    color: #868686; }\n    .easy-fees-setup .setup-header .header {\n      font-weight: bolder; }\n    .easy-fees-setup .setup-header mdl-button {\n      text-transform: capitalize;\n      color: #868686;\n      border: 1px solid #868686; }\n  .easy-fees-setup .setup-form {\n    margin-top: 20px; }\n    .easy-fees-setup .setup-form .progress-tracker {\n      display: -webkit-inline-box;\n      display: -ms-inline-flexbox;\n      display: inline-flex;\n      width: 100%;\n      margin-bottom: 20px; }\n      .easy-fees-setup .setup-form .progress-tracker .step-pill {\n        -webkit-box-flex: 1;\n            -ms-flex: 1;\n                flex: 1;\n        padding: 5px 10px;\n        cursor: pointer;\n        color: #868686;\n        -webkit-user-select: none;\n        -moz-user-select: none;\n        -ms-user-select: none;\n        user-select: none; }\n        .easy-fees-setup .setup-form .progress-tracker .step-pill.active-pill {\n          color: #565656;\n          border-bottom: 2px solid tomato; }\n    .easy-fees-setup .setup-form form .long-field mdl-textfield {\n      min-width: 60%; }\n    .easy-fees-setup .setup-form form .file-dropzone {\n      margin: 20px auto;\n      border: 2px dashed #dedede;\n      height: 80px;\n      width: 100%;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      position: relative; }\n      .easy-fees-setup .setup-form form .file-dropzone input {\n        position: absolute;\n        width: 100%;\n        height: 100%;\n        visibility: hidden; }\n      .easy-fees-setup .setup-form form .file-dropzone span {\n        margin-right: 10px; }\n      .easy-fees-setup .setup-form form .file-dropzone.files-over {\n        border-color: #3f51b5; }\n    .easy-fees-setup .setup-form form .attached-files mdl-chip {\n      margin: 5px; }\n    .easy-fees-setup .setup-form .next-button {\n      text-align: right; }\n"
-
-/***/ },
-/* 863 */
-/***/ function(module, exports) {
-
-module.exports = ""
-
-/***/ },
-/* 864 */
-/***/ function(module, exports) {
-
-module.exports = ".landing-page {\n  margin: 5px 30px; }\n  .landing-page .vista-logo img {\n    max-width: 15rem; }\n  .landing-page .stabilizer {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    margin-top: 20px; }\n    .landing-page .stabilizer .lite-preview {\n      -webkit-box-flex: 1;\n          -ms-flex: 1;\n              flex: 1;\n      padding: 15px; }\n      .landing-page .stabilizer .lite-preview p {\n        color: #fff;\n        font-size: 2rem;\n        line-height: 2.5rem;\n        font-weight: lighter; }\n      .landing-page .stabilizer .lite-preview img {\n        max-width: 100%;\n        height: auto; }\n    .landing-page .stabilizer .controls-wrapper {\n      -webkit-box-flex: 0;\n          -ms-flex: 0 0 40%;\n              flex: 0 0 40%; }\n      .landing-page .stabilizer .controls-wrapper .controls {\n        text-align: center;\n        color: #fff; }\n        .landing-page .stabilizer .controls-wrapper .controls p {\n          margin: 5px; }\n        .landing-page .stabilizer .controls-wrapper .controls mdl-button {\n          width: 250px;\n          border: 1px solid #3ab7a7;\n          color: #fff; }\n          .landing-page .stabilizer .controls-wrapper .controls mdl-button.clean {\n            border: none; }\n  @media screen and (max-width: 600px) {\n    .landing-page .stabilizer {\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: column;\n              flex-direction: column; }\n      .landing-page .stabilizer .controls-wrapper .controls mdl-button {\n        border: 1px solid #fff; } }\n"
-
-/***/ },
-/* 865 */
-/***/ function(module, exports) {
-
-module.exports = ".register-card .card-body {\n  padding: 0 30px 30px 30px; }\n  .register-card .card-body mdl-button {\n    background-color: #ee4068; }\n"
-
-/***/ },
 /* 866 */
 /***/ function(module, exports) {
 
-module.exports = "mdl-select, mdl-textfield {\n  max-width: 150px; }\n\n.backdrop {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  right: 0;\n  background-color: rgba(0, 0, 0, 0.3);\n  z-index: 99;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n  .backdrop .modal {\n    position: relative;\n    min-width: 30%;\n    max-width: 95%;\n    box-sizing: border-box;\n    border-radius: 5px;\n    background-color: white; }\n    .backdrop .modal .modal-header {\n      border-radius: 5px 5px 0 0;\n      background-color: #54c3be;\n      color: white;\n      height: 50px;\n      -webkit-box-pack: justify;\n          -ms-flex-pack: justify;\n              justify-content: space-between;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      font-size: 1.2em;\n      font-weight: bold; }\n      .backdrop .modal .modal-header .title {\n        text-indent: 15px; }\n      .backdrop .modal .modal-header .btn {\n        padding-right: 15px;\n        cursor: pointer; }\n    .backdrop .modal .modal-body .staff-container {\n      min-width: 960px; }\n      .backdrop .modal .modal-body .staff-container .add-staff {\n        color: #525252;\n        padding: 20px; }\n      .backdrop .modal .modal-body .staff-container .green-color {\n        color: #54c3be; }\n      .backdrop .modal .modal-body .staff-container .align-center {\n        -ms-flex-pack: distribute;\n            justify-content: space-around;\n        -webkit-box-align: center;\n            -ms-flex-align: center;\n                align-items: center; }\n      .backdrop .modal .modal-body .staff-container .btn-picker {\n        border-top: 1px solid #cecccc;\n        padding-top: 10px; }\n        .backdrop .modal .modal-body .staff-container .btn-picker .btn {\n          -webkit-box-pack: end;\n              -ms-flex-pack: end;\n                  justify-content: flex-end; }\n        .backdrop .modal .modal-body .staff-container .btn-picker .error {\n          -webkit-box-pack: center;\n              -ms-flex-pack: center;\n                  justify-content: center;\n          -webkit-box-align: center;\n              -ms-flex-align: center;\n                  align-items: center;\n          color: red; }\n        .backdrop .modal .modal-body .staff-container .btn-picker button {\n          font-size: 1.2em; }\n"
+module.exports = "mdl-textfield {\n  padding: 0px;\n  width: 100%; }\n\n.payment-view {\n  background-color: #faf9f8; }\n  .payment-view .accordion-header {\n    border-top: 1px solid #79a699;\n    height: 30px;\n    background-color: #94cbbb;\n    color: white;\n    font-size: 1.2em;\n    font-weight: bold;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center; }\n  .payment-view .accordion-body {\n    min-height: 50px; }\n    .payment-view .accordion-body .email-invoice {\n      width: 50%;\n      padding: 10px; }\n    .payment-view .accordion-body .pp-icons {\n      margin-left: 10px;\n      text-indent: 0px;\n      border-radius: 5px;\n      font-size: 0.8em;\n      text-align: center;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      color: white;\n      padding: 0px 12px;\n      height: 25px;\n      line-height: 25px;\n      white-space: nowrap;\n      display: inline-block; }\n      .payment-view .accordion-body .pp-icons.icon-active {\n        background-color: #76b75f; }\n      .payment-view .accordion-body .pp-icons.icon-pastdue {\n        background-color: #d2b13d;\n        font-weight: bold; }\n      .payment-view .accordion-body .pp-icons.icon-inarrears {\n        background-color: #ce813a; }\n      .payment-view .accordion-body .pp-icons.icon-projected {\n        background-color: #7775aa; }\n      .payment-view .accordion-body .pp-icons.icon-remove {\n        background-color: #e23a69; }\n      .payment-view .accordion-body .pp-icons.icon-late {\n        background: #ce823a;\n        background: -webkit-gradient(left top, right top, color-stop(0%, #ce823a), color-stop(51%, #ce823a), color-stop(51%, #d2b23d), color-stop(100%, #d2b23d));\n        background: -webkit-linear-gradient(left, #ce823a 0%, #ce823a 51%, #d2b23d 51%, #d2b23d 100%);\n        background: linear-gradient(to right, #ce823a 0%, #ce823a 51%, #d2b23d 51%, #d2b23d 100%);\n        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce823a', endColorstr='#d2b23d', GradientType=1 ); }\n      .payment-view .accordion-body .pp-icons.icon-unpaid {\n        border: 1px solid #76b75f;\n        font-weight: bold;\n        height: 23px;\n        color: #76b75f; }\n        .payment-view .accordion-body .pp-icons.icon-unpaid .iv {\n          border: 1px solid #76b75f;\n          border-radius: 50%;\n          width: 10px;\n          height: 10px;\n          line-height: 10px;\n          display: inline-block; }\n      .payment-view .accordion-body .pp-icons.icon-paid {\n        background-color: #76b75f;\n        font-weight: bold;\n        color: white; }\n        .payment-view .accordion-body .pp-icons.icon-paid .iv {\n          background-color: white;\n          border-radius: 50%;\n          color: #76b75f;\n          width: 10px;\n          height: 10px;\n          line-height: 10px;\n          display: inline-block; }\n    .payment-view .accordion-body .pp-icons:first-child {\n      margin: 0px; }\n    .payment-view .accordion-body .accordion-body-inner {\n      padding: 20px; }\n      .payment-view .accordion-body .accordion-body-inner .mandate {\n        width: 10px;\n        height: 10px;\n        border-radius: 50%; }\n      .payment-view .accordion-body .accordion-body-inner .not-sent {\n        border: 2px solid #76b75f; }\n      .payment-view .accordion-body .accordion-body-inner .pending {\n        background-color: #d2b13d;\n        border: 2px solid #d2b13d; }\n      .payment-view .accordion-body .accordion-body-inner .active {\n        background-color: #76b75f;\n        border: 2px solid #76b75f; }\n      .payment-view .accordion-body .accordion-body-inner .v-payments {\n        height: 300px;\n        -webkit-box-flex: 10;\n            -ms-flex: 10;\n                flex: 10; }\n        .payment-view .accordion-body .accordion-body-inner .v-payments .v-header {\n          height: 30px;\n          border-bottom: 1px solid #999;\n          font-weight: bold;\n          color: #444;\n          font-size: 1.1em;\n          -webkit-box-align: center;\n              -ms-flex-align: center;\n                  align-items: center; }\n          .payment-view .accordion-body .accordion-body-inner .v-payments .v-header .not-bold {\n            font-weight: normal;\n            font-size: 0.9em; }\n        .payment-view .accordion-body .accordion-body-inner .v-payments .v-body {\n          height: 220px;\n          overflow-y: auto;\n          padding: 10px 0px;\n          color: #8b8681; }\n          .payment-view .accordion-body .accordion-body-inner .v-payments .v-body .col {\n            height: 30px;\n            -webkit-box-align: center;\n                -ms-flex-align: center;\n                    align-items: center; }\n        .payment-view .accordion-body .accordion-body-inner .v-payments .v-footer {\n          height: 50px; }\n          .payment-view .accordion-body .accordion-body-inner .v-payments .v-footer .col {\n            padding: 5px 0px; }\n        .payment-view .accordion-body .accordion-body-inner .v-payments .width-8 {\n          width: 80%; }\n        .payment-view .accordion-body .accordion-body-inner .v-payments .width-1 {\n          width: 3%; }\n        .payment-view .accordion-body .accordion-body-inner .v-payments .width-2 {\n          width: 17%; }\n      .payment-view .accordion-body .accordion-body-inner .direct-debit {\n        -webkit-box-flex: 10;\n            -ms-flex: 10;\n                flex: 10; }\n      .payment-view .accordion-body .accordion-body-inner .total-area {\n        -webkit-box-flex: 10;\n            -ms-flex: 10;\n                flex: 10; }\n        .payment-view .accordion-body .accordion-body-inner .total-area .invoice-list {\n          padding-top: 20px; }\n          .payment-view .accordion-body .accordion-body-inner .total-area .invoice-list .row {\n            padding: 10px 0px;\n            -webkit-box-align: center;\n                -ms-flex-align: center;\n                    align-items: center; }\n"
 
 /***/ },
 /* 867 */
 /***/ function(module, exports) {
 
-module.exports = ".left {\n  width: 10%; }\n\nmdl-select {\n  max-width: 150px; }\n\n.text-indent {\n  text-indent: 20px; }\n\n.backdrop {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  right: 0;\n  background-color: rgba(0, 0, 0, 0.3);\n  z-index: 99;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n  .backdrop .modal {\n    position: relative;\n    min-width: 30%;\n    max-width: 95%;\n    box-sizing: border-box;\n    border-radius: 5px;\n    background-color: white; }\n    .backdrop .modal .modal-header {\n      border-radius: 5px 5px 0 0;\n      background-color: #54c3be;\n      color: white;\n      height: 50px;\n      -webkit-box-pack: justify;\n          -ms-flex-pack: justify;\n              justify-content: space-between;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      font-size: 1.2em;\n      font-weight: bold; }\n      .backdrop .modal .modal-header .title {\n        text-indent: 15px; }\n      .backdrop .modal .modal-header .btn {\n        padding-right: 15px;\n        cursor: pointer; }\n    .backdrop .modal .modal-body .move-container {\n      min-width: 960px;\n      padding: 20px; }\n      .backdrop .modal .modal-body .move-container .move-class {\n        color: #525252; }\n        .backdrop .modal .modal-body .move-container .move-class .green-color {\n          color: #54c3be; }\n        .backdrop .modal .modal-body .move-container .move-class .date-picker {\n          -ms-flex-pack: distribute;\n              justify-content: space-around; }\n        .backdrop .modal .modal-body .move-container .move-class .room-picker {\n          -ms-flex-pack: distribute;\n              justify-content: space-around; }\n          .backdrop .modal .modal-body .move-container .move-class .room-picker .left {\n            -webkit-box-pack: center;\n                -ms-flex-pack: center;\n                    justify-content: center;\n            -webkit-box-align: center;\n                -ms-flex-align: center;\n                    align-items: center;\n            display: -webkit-box;\n            display: -ms-flexbox;\n            display: flex; }\n        .backdrop .modal .modal-body .move-container .move-class .btn-picker {\n          -webkit-box-pack: end;\n              -ms-flex-pack: end;\n                  justify-content: flex-end; }\n          .backdrop .modal .modal-body .move-container .move-class .btn-picker button {\n            font-size: 1.2em; }\n"
+module.exports = ".choose-org-type p {\n  color: #987b7b; }\n  .choose-org-type p.title {\n    font-size: 1.8rem;\n    font-weight: bold; }\n\n.choose-org-type .row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  border-bottom: 1px solid #939598;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  text-align: center;\n  color: #565656; }\n  .choose-org-type .row .col {\n    -webkit-box-flex: 1;\n        -ms-flex: 1;\n            flex: 1;\n    padding: 10px 0; }\n    .choose-org-type .row .col .point {\n      margin: auto;\n      width: 10px;\n      height: 10px;\n      border-radius: 50%;\n      background-color: #939598; }\n    .choose-org-type .row .col.type-col {\n      -webkit-box-flex: 0;\n          -ms-flex: 0 0 30%;\n              flex: 0 0 30%;\n      text-align: left;\n      padding-left: 5px; }\n  .choose-org-type .row:hover {\n    background-color: #dedede;\n    cursor: pointer; }\n  .choose-org-type .row.tooltips {\n    color: #3f42a5;\n    font-size: 13px;\n    line-height: 16px; }\n    .choose-org-type .row.tooltips:hover {\n      background-color: initial;\n      cursor: initial; }\n"
 
 /***/ },
 /* 868 */
 /***/ function(module, exports) {
 
-module.exports = ".flex {\n  width: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex; }\n\n.column {\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column; }\n\n.bottom-border {\n  border-bottom: 2px #cdcecf solid; }\n\n.strong-text {\n  font-weight: bold; }\n\n.text-center {\n  text-align: center; }\n\n.text-right {\n  text-align: right; }\n\n.no-padding {\n  padding: 0px !important; }\n\n.padding-bottom30 {\n  padding-bottom: 30px; }\n\n.flex1 {\n  -webkit-box-flex: 1;\n      -ms-flex: 1;\n          flex: 1; }\n\n.flex2 {\n  -webkit-box-flex: 2;\n      -ms-flex: 2;\n          flex: 2; }\n\n.flex3 {\n  -webkit-box-flex: 3;\n      -ms-flex: 3;\n          flex: 3; }\n\n.flex4 {\n  -webkit-box-flex: 4;\n      -ms-flex: 4;\n          flex: 4; }\n\n.flex5 {\n  -webkit-box-flex: 5;\n      -ms-flex: 5;\n          flex: 5; }\n\n.backdrop {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  right: 0;\n  background-color: rgba(0, 0, 0, 0.3);\n  z-index: 99;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n  .backdrop .modal {\n    position: relative;\n    min-width: 30%;\n    max-width: 95%;\n    box-sizing: border-box;\n    border-radius: 5px;\n    background-color: white; }\n    .backdrop .modal .modal-header {\n      border-radius: 5px 5px 0 0;\n      background-color: #54c3be;\n      color: white;\n      height: 50px;\n      -webkit-box-pack: justify;\n          -ms-flex-pack: justify;\n              justify-content: space-between;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      font-size: 1.2em;\n      font-weight: bold; }\n      .backdrop .modal .modal-header .title {\n        text-indent: 15px; }\n      .backdrop .modal .modal-header .btn {\n        padding-right: 15px;\n        cursor: pointer; }\n"
+module.exports = ".backdrop {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  right: 0;\n  background-color: rgba(0, 0, 0, 0.3);\n  z-index: 99;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n  .backdrop .modal {\n    position: relative;\n    min-width: 30%;\n    max-width: 80%;\n    box-sizing: border-box;\n    border-radius: 5px;\n    background-color: white; }\n    .backdrop .modal .simple-popup {\n      max-width: 600px;\n      padding: 5px 15px;\n      color: #888; }\n      .backdrop .modal .simple-popup .popup-header {\n        height: 40px;\n        -webkit-box-pack: end;\n            -ms-flex-pack: end;\n                justify-content: flex-end;\n        -webkit-box-align: center;\n            -ms-flex-align: center;\n                align-items: center; }\n      .backdrop .modal .simple-popup .popup-content {\n        padding: 10px; }\n      .backdrop .modal .simple-popup .popup-footer {\n        -webkit-box-pack: end;\n            -ms-flex-pack: end;\n                justify-content: flex-end; }\n        .backdrop .modal .simple-popup .popup-footer mdl-button {\n          color: #76ba7e; }\n"
 
 /***/ },
 /* 869 */
 /***/ function(module, exports) {
 
-module.exports = "mdl-select, mdl-textfield {\n  max-width: 150px;\n  padding: 5px 0px !important; }\n\n.padding-top-bottom {\n  padding: 10px 0px !important; }\n\n.backdrop {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  right: 0;\n  background-color: rgba(0, 0, 0, 0.3);\n  z-index: 99;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n  .backdrop .modal {\n    position: relative;\n    min-width: 30%;\n    max-width: 95%;\n    box-sizing: border-box;\n    border-radius: 5px;\n    background-color: white; }\n    .backdrop .modal .modal-header {\n      border-radius: 5px 5px 0 0;\n      background-color: #54c3be;\n      color: white;\n      height: 50px;\n      -webkit-box-pack: justify;\n          -ms-flex-pack: justify;\n              justify-content: space-between;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      font-size: 1.2em;\n      font-weight: bold; }\n      .backdrop .modal .modal-header .title {\n        text-indent: 15px; }\n      .backdrop .modal .modal-header .btn {\n        padding-right: 15px;\n        cursor: pointer; }\n    .backdrop .modal .modal-body .remove-container {\n      min-width: 960px;\n      padding: 20px 30px; }\n      .backdrop .modal .modal-body .remove-container .remove-child {\n        color: #525252; }\n      .backdrop .modal .modal-body .remove-container .green-color {\n        color: #54c3be; }\n      .backdrop .modal .modal-body .remove-container .gray-color {\n        color: gray; }\n      .backdrop .modal .modal-body .remove-container .red-color {\n        color: red; }\n      .backdrop .modal .modal-body .remove-container button {\n        font-size: 1.2em; }\n"
+module.exports = ".easy-fees-dashboard .pane-info {\n  background-color: white;\n  border-radius: 5px;\n  min-height: 50px; }\n  .easy-fees-dashboard .pane-info .info {\n    height: 100px;\n    color: #8a817b; }\n    .easy-fees-dashboard .pane-info .info .title {\n      padding-top: 15px;\n      text-indent: 2px; }\n    .easy-fees-dashboard .pane-info .info mdl-icon {\n      font-size: 3.5em; }\n      .easy-fees-dashboard .pane-info .info mdl-icon.account {\n        color: #666; }\n      .easy-fees-dashboard .pane-info .info mdl-icon.confirm {\n        color: #76b75f; }\n      .easy-fees-dashboard .pane-info .info mdl-icon.pending {\n        color: #d6803a; }\n      .easy-fees-dashboard .pane-info .info mdl-icon.reject {\n        color: #dd5358; }\n    .easy-fees-dashboard .pane-info .info .count {\n      padding-left: 20px; }\n      .easy-fees-dashboard .pane-info .info .count .num {\n        font-size: 1.5em; }\n\n.easy-fees-dashboard .pane-list {\n  background-color: white;\n  border-radius: 5px;\n  min-height: 50px; }\n  .easy-fees-dashboard .pane-list .list-header {\n    position: relative;\n    height: 60px; }\n    .easy-fees-dashboard .pane-list .list-header .h-name {\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      font-size: 1.8em; }\n    .easy-fees-dashboard .pane-list .list-header .picker-row {\n      position: relative;\n      height: 50px;\n      border-top-right-radius: 5px;\n      border-top-left-radius: 5px; }\n      .easy-fees-dashboard .pane-list .list-header .picker-row mdl-icon {\n        cursor: pointer;\n        -webkit-user-select: none;\n        -moz-user-select: none;\n        -ms-user-select: none;\n        user-select: none; }\n      .easy-fees-dashboard .pane-list .list-header .picker-row .month-picker {\n        display: -webkit-inline-box;\n        display: -ms-inline-flexbox;\n        display: inline-flex;\n        -webkit-box-align: center;\n            -ms-flex-align: center;\n                align-items: center;\n        line-height: 50px;\n        font-size: 1.8rem; }\n        .easy-fees-dashboard .pane-list .list-header .picker-row .month-picker .title {\n          font-weight: 300; }\n    .easy-fees-dashboard .pane-list .list-header .sort-button {\n      -webkit-box-pack: end;\n          -ms-flex-pack: end;\n              justify-content: flex-end;\n      -webkit-box-align: end;\n          -ms-flex-align: end;\n              align-items: flex-end;\n      padding-right: 25px;\n      font-weight: bold;\n      cursor: pointer; }\n    .easy-fees-dashboard .pane-list .list-header .sort-popup {\n      position: absolute;\n      right: 25px;\n      top: 45px;\n      background-color: white;\n      width: 130px;\n      padding: 8px; }\n      .easy-fees-dashboard .pane-list .list-header .sort-popup li {\n        width: 100%;\n        height: 30px;\n        line-height: 30px;\n        text-align: right;\n        list-style: none;\n        color: #999;\n        cursor: pointer; }\n      .easy-fees-dashboard .pane-list .list-header .sort-popup li:hover {\n        color: #6b5c5c; }\n  .easy-fees-dashboard .pane-list .list-body {\n    min-height: 50px; }\n    .easy-fees-dashboard .pane-list .list-body .balance {\n      padding-right: 20px;\n      -webkit-box-pack: end;\n          -ms-flex-pack: end;\n              justify-content: flex-end; }\n    .easy-fees-dashboard .pane-list .list-body .header {\n      color: #c9c2bd;\n      border-bottom: 1px solid #80807f;\n      -webkit-box-align: end;\n          -ms-flex-align: end;\n              align-items: flex-end; }\n      .easy-fees-dashboard .pane-list .list-body .header .col {\n        text-indent: 20px; }\n    .easy-fees-dashboard .pane-list .list-body .row {\n      min-height: 50px;\n      -webkit-box-pack: start;\n          -ms-flex-pack: start;\n              justify-content: flex-start; }\n      .easy-fees-dashboard .pane-list .list-body .row .col {\n        text-indent: 20px;\n        -webkit-box-align: center;\n            -ms-flex-align: center;\n                align-items: center; }\n    .easy-fees-dashboard .pane-list .list-body .childron-list {\n      border-bottom: 1px solid #999;\n      cursor: pointer; }\n      .easy-fees-dashboard .pane-list .list-body .childron-list .mandate {\n        width: 10px;\n        height: 10px;\n        border-radius: 50%; }\n      .easy-fees-dashboard .pane-list .list-body .childron-list .not-sent {\n        border: 2px solid #76b75f; }\n      .easy-fees-dashboard .pane-list .list-body .childron-list .pending {\n        background-color: #d2b13d;\n        border: 2px solid #d2b13d; }\n      .easy-fees-dashboard .pane-list .list-body .childron-list .active {\n        background-color: #76b75f;\n        border: 2px solid #76b75f; }\n      .easy-fees-dashboard .pane-list .list-body .childron-list .pp-icons {\n        margin-left: 10px;\n        text-indent: 0px;\n        border-radius: 5px;\n        font-size: 0.8em;\n        text-align: center;\n        -webkit-box-align: center;\n            -ms-flex-align: center;\n                align-items: center;\n        color: white;\n        padding: 0px 12px;\n        height: 25px;\n        line-height: 25px;\n        -ms-flex-wrap: nowrap;\n            flex-wrap: nowrap; }\n        .easy-fees-dashboard .pane-list .list-body .childron-list .pp-icons.icon-active {\n          background-color: #76b75f;\n          margin: 0px; }\n        .easy-fees-dashboard .pane-list .list-body .childron-list .pp-icons.icon-pastdue {\n          background-color: #d2b13d;\n          font-weight: bold; }\n        .easy-fees-dashboard .pane-list .list-body .childron-list .pp-icons.icon-inarrears {\n          background-color: #ce813a; }\n        .easy-fees-dashboard .pane-list .list-body .childron-list .pp-icons.icon-projected {\n          background-color: #7775aa; }\n        .easy-fees-dashboard .pane-list .list-body .childron-list .pp-icons.icon-remove {\n          background-color: #e23a69; }\n        .easy-fees-dashboard .pane-list .list-body .childron-list .pp-icons.icon-late {\n          background: #ce823a;\n          background: -webkit-gradient(left top, right top, color-stop(0%, #ce823a), color-stop(51%, #ce823a), color-stop(51%, #d2b23d), color-stop(100%, #d2b23d));\n          background: -webkit-linear-gradient(left, #ce823a 0%, #ce823a 51%, #d2b23d 51%, #d2b23d 100%);\n          background: linear-gradient(to right, #ce823a 0%, #ce823a 51%, #d2b23d 51%, #d2b23d 100%);\n          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce823a', endColorstr='#d2b23d', GradientType=1 ); }\n        .easy-fees-dashboard .pane-list .list-body .childron-list .pp-icons.icon-unpaid {\n          border: 1px solid #76b75f;\n          font-weight: bold;\n          height: 23px;\n          color: #76b75f; }\n          .easy-fees-dashboard .pane-list .list-body .childron-list .pp-icons.icon-unpaid .iv {\n            border: 1px solid #76b75f;\n            border-radius: 50%;\n            width: 10px;\n            height: 10px;\n            line-height: 10px;\n            display: inline-block; }\n        .easy-fees-dashboard .pane-list .list-body .childron-list .pp-icons.icon-paid {\n          background-color: #76b75f;\n          font-weight: bold;\n          color: white; }\n          .easy-fees-dashboard .pane-list .list-body .childron-list .pp-icons.icon-paid .iv {\n            background-color: white;\n            border-radius: 50%;\n            color: #76b75f;\n            width: 10px;\n            height: 10px;\n            line-height: 10px;\n            display: inline-block; }\n        .easy-fees-dashboard .pane-list .list-body .childron-list .pp-icons.icon-money {\n          font-size: 1em;\n          color: #6b5c5c; }\n"
 
 /***/ },
 /* 870 */
 /***/ function(module, exports) {
 
-module.exports = ".room-accordain {\n  background-color: #f7f7f7;\n  width: 100%;\n  min-height: 100px;\n  /*//start accordian header*/\n  /*//end accordian header*/ }\n  .room-accordain .accordian-header {\n    background-color: #a8c6a3;\n    border-top: 2px solid #96b78f; }\n    .room-accordain .accordian-header .room-title {\n      color: white;\n      font-size: 1em;\n      font-weight: bold; }\n    .room-accordain .accordian-header .available-info {\n      background-color: #c0e5e4;\n      color: white;\n      height: 25px;\n      line-height: 25px; }\n    .room-accordain .accordian-header .week-picker button {\n      color: white !important;\n      font-size: 0.8em;\n      height: 32px !important; }\n    .room-accordain .accordian-header .week-picker .p-btn {\n      cursor: pointer; }\n      .room-accordain .accordian-header .week-picker .p-btn.active {\n        border-bottom: 2px white solid; }\n  .room-accordain .accordian-body {\n    border-bottom: 2px solid #ececec;\n    min-height: 100px;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    color: #525252; }\n    .room-accordain .accordian-body button {\n      background-color: #a8c6a3;\n      color: white;\n      font-size: 0.8em;\n      font-weight: normal;\n      height: 25px !important;\n      line-height: 25px !important; }\n    .room-accordain .accordian-body .room-info .room-info-inner {\n      min-height: 50px;\n      padding: 20px; }\n    .room-accordain .accordian-body .room-info .row {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      padding: 10px 0px; }\n      .room-accordain .accordian-body .room-info .row .icon {\n        font-size: 1em;\n        color: #6dc49c; }\n        .room-accordain .accordian-body .room-info .row .icon.stuff-no {\n          color: #afafaf !important; }\n    .room-accordain .accordian-body .child-list {\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap; }\n      .room-accordain .accordian-body .child-list .row {\n        width: 50%; }\n    .room-accordain .accordian-body .children-info-am .children-info-am-inner {\n      min-height: 50px;\n      padding: 20px 20px 20px 0px; }\n    .room-accordain .accordian-body .children-info-am .row {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      padding: 10px 0px; }\n    .room-accordain .accordian-body .children-info-pm .children-info-pm-inner {\n      min-height: 50px;\n      padding: 20px 20px 20px 0px; }\n    .room-accordain .accordian-body .children-info-pm .row {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      padding: 10px 0px; }\n"
+module.exports = ".easy-fees-intro {\n  margin: auto 30px; }\n  .easy-fees-intro .intro-header {\n    margin: 8px;\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: justify;\n        -ms-flex-pack: justify;\n            justify-content: space-between; }\n    .easy-fees-intro .intro-header .header-text {\n      color: #868686;\n      margin: 0;\n      margin-right: 50px;\n      font-weight: bolder; }\n    .easy-fees-intro .intro-header mdl-button {\n      background-color: #42bfb8;\n      color: #fff;\n      text-transform: capitalize; }\n  .easy-fees-intro .fee-policy {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    height: 120px;\n    background-color: #c2c1c1;\n    color: #fff;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    padding: 10px;\n    margin: 8px; }\n    .easy-fees-intro .fee-policy p {\n      margin: 0;\n      font-size: 1.6rem; }\n  .easy-fees-intro .info-cards {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -ms-flex-flow: wrap row;\n        flex-flow: wrap row; }\n    .easy-fees-intro .info-cards .info-card {\n      -webkit-box-flex: 0;\n          -ms-flex: 0 0 calc(25% - 16px);\n              flex: 0 0 calc(25% - 16px);\n      margin: 8px;\n      border-radius: 4px;\n      overflow: hidden;\n      background-color: #fff;\n      color: #757676;\n      position: relative; }\n      @media screen and (max-width: 850px) {\n        .easy-fees-intro .info-cards .info-card {\n          -webkit-box-flex: 0;\n              -ms-flex: 0 0 calc(50% - 16px);\n                  flex: 0 0 calc(50% - 16px); } }\n      .easy-fees-intro .info-cards .info-card .card-media {\n        text-align: center; }\n        .easy-fees-intro .info-cards .info-card .card-media img {\n          width: 101%; }\n      .easy-fees-intro .info-cards .info-card .card-body {\n        padding: 25px 15px;\n        margin-bottom: 30px; }\n        .easy-fees-intro .info-cards .info-card .card-body .card-title {\n          font-size: 1.6rem;\n          font-weight: bold; }\n        .easy-fees-intro .info-cards .info-card .card-body .card-subtitle {\n          font-size: 1.2rem; }\n        .easy-fees-intro .info-cards .info-card .card-body .card-text {\n          font-size: 1rem;\n          line-height: 1.2rem; }\n      .easy-fees-intro .info-cards .info-card .card-actions {\n        position: absolute;\n        right: 0;\n        left: 0;\n        bottom: 5px;\n        text-align: center; }\n        .easy-fees-intro .info-cards .info-card .card-actions mdl-button {\n          color: #8ec24a; }\n"
 
 /***/ },
 /* 871 */
 /***/ function(module, exports) {
 
-module.exports = ".scroll-holder {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  width: 100%;\n  position: relative;\n  overflow: hidden; }\n  .scroll-holder .navbar-scroll {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-transition: all .5s ease;\n    transition: all .5s ease; }\n    .scroll-holder .navbar-scroll .btn-tab button {\n      color: white;\n      font-size: 0.8em;\n      font-weight: bold; }\n    .scroll-holder .navbar-scroll .btn-tab.active {\n      border-bottom: 2px solid white; }\n  .scroll-holder .arrow {\n    position: absolute;\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    height: 100%;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    cursor: pointer;\n    min-width: 60px;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    top: 0;\n    opacity: 0;\n    visibility: hidden; }\n    .scroll-holder .arrow.show {\n      opacity: 1;\n      visibility: visible; }\n  .scroll-holder .arrow-back {\n    left: 0px;\n    z-index: 1;\n    background-image: -webkit-linear-gradient(left, #54c3be 50%, rgba(255, 255, 255, 0) 100%);\n    background-image: linear-gradient(to right, #54c3be 50%, rgba(255, 255, 255, 0) 100%);\n    border-radius: 5px 0 0 0; }\n  .scroll-holder .arrow-forward {\n    right: 0px;\n    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, #54c3be e 50%, #54c3be 100%);\n    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #54c3be e 50%, #54c3be 100%);\n    border-radius: 0 5px 0 0; }\n"
+module.exports = ".easy-fees-setup {\n  margin: auto 30px; }\n  .easy-fees-setup .setup-header {\n    color: #868686; }\n    .easy-fees-setup .setup-header .header {\n      font-weight: bolder; }\n    .easy-fees-setup .setup-header mdl-button {\n      text-transform: capitalize;\n      color: #868686;\n      border: 1px solid #868686; }\n  .easy-fees-setup .setup-form {\n    margin-top: 20px; }\n    .easy-fees-setup .setup-form .progress-tracker {\n      display: -webkit-inline-box;\n      display: -ms-inline-flexbox;\n      display: inline-flex;\n      width: 100%;\n      margin-bottom: 20px; }\n      .easy-fees-setup .setup-form .progress-tracker .step-pill {\n        -webkit-box-flex: 1;\n            -ms-flex: 1;\n                flex: 1;\n        padding: 5px 10px;\n        cursor: pointer;\n        color: #868686;\n        -webkit-user-select: none;\n        -moz-user-select: none;\n        -ms-user-select: none;\n        user-select: none; }\n        .easy-fees-setup .setup-form .progress-tracker .step-pill.active-pill {\n          color: #565656;\n          border-bottom: 2px solid tomato; }\n    .easy-fees-setup .setup-form form .long-field mdl-textfield {\n      min-width: 60%; }\n    .easy-fees-setup .setup-form form .file-dropzone {\n      margin: 20px auto;\n      border: 2px dashed #dedede;\n      height: 80px;\n      width: 100%;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      position: relative; }\n      .easy-fees-setup .setup-form form .file-dropzone input {\n        position: absolute;\n        width: 100%;\n        height: 100%;\n        visibility: hidden; }\n      .easy-fees-setup .setup-form form .file-dropzone span {\n        margin-right: 10px; }\n      .easy-fees-setup .setup-form form .file-dropzone.files-over {\n        border-color: #3f51b5; }\n    .easy-fees-setup .setup-form form .attached-files mdl-chip {\n      margin: 5px; }\n    .easy-fees-setup .setup-form form .echosign {\n      width: 100%;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex; }\n    .easy-fees-setup .setup-form .next-button {\n      text-align: right; }\n"
 
 /***/ },
 /* 872 */
 /***/ function(module, exports) {
 
-module.exports = ".transition-lists {\n  border-radius: 5px; }\n  .transition-lists .panel-header {\n    background-color: #54c3be;\n    border-radius: 5px 5px 0px 0px;\n    font-size: 1.1em;\n    font-weight: bold;\n    min-height: 40px;\n    line-height: 40px; }\n    .transition-lists .panel-header .btn-tab {\n      color: white;\n      font-weight: bold;\n      margin-left: 20px; }\n      .transition-lists .panel-header .btn-tab button {\n        color: white !important;\n        font-size: 0.8em; }\n      .transition-lists .panel-header .btn-tab.active {\n        border-bottom: 2px solid white; }\n  .transition-lists .panel-body {\n    border-radius: 0px 0px 5px 5px;\n    background-color: white;\n    min-height: 30px;\n    padding: 20px; }\n    .transition-lists .panel-body .panel-body-inner {\n      color: #525252; }\n      .transition-lists .panel-body .panel-body-inner .trans-title {\n        -webkit-box-align: end;\n            -ms-flex-align: end;\n                align-items: flex-end; }\n    .transition-lists .panel-body .header {\n      color: #999; }\n    .transition-lists .panel-body .filter {\n      -webkit-box-pack: end;\n          -ms-flex-pack: end;\n              justify-content: flex-end; }\n  .transition-lists .mdl-textfield {\n    padding: none !important; }\n  .transition-lists .icon {\n    font-size: 1em;\n    color: #6dc49c; }\n    .transition-lists .icon.stuff-no {\n      color: #afafaf !important; }\n"
+module.exports = ".landing-page {\n  margin: 5px 30px; }\n  .landing-page .vista-logo img {\n    max-width: 15rem; }\n  .landing-page .stabilizer {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    margin-top: 20px; }\n    .landing-page .stabilizer .lite-preview {\n      -webkit-box-flex: 1;\n          -ms-flex: 1;\n              flex: 1;\n      padding: 15px; }\n      .landing-page .stabilizer .lite-preview p {\n        color: #fff;\n        font-size: 2rem;\n        line-height: 2.5rem;\n        font-weight: lighter; }\n      .landing-page .stabilizer .lite-preview img {\n        max-width: 100%;\n        height: auto; }\n    .landing-page .stabilizer .controls-wrapper {\n      -webkit-box-flex: 0;\n          -ms-flex: 0 0 40%;\n              flex: 0 0 40%; }\n      .landing-page .stabilizer .controls-wrapper .controls {\n        text-align: center;\n        color: #fff; }\n        .landing-page .stabilizer .controls-wrapper .controls p {\n          margin: 5px; }\n        .landing-page .stabilizer .controls-wrapper .controls mdl-button {\n          width: 250px;\n          border: 1px solid #3ab7a7;\n          color: #fff; }\n          .landing-page .stabilizer .controls-wrapper .controls mdl-button.clean {\n            border: none; }\n  @media screen and (max-width: 600px) {\n    .landing-page .stabilizer {\n      -webkit-box-orient: vertical;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: column;\n              flex-direction: column; }\n      .landing-page .stabilizer .controls-wrapper .controls mdl-button {\n        border: 1px solid #fff; } }\n"
 
 /***/ },
 /* 873 */
 /***/ function(module, exports) {
 
-module.exports = ".left {\n  width: 15%; }\n\n.right {\n  width: 85% !important; }\n\n.plan-dashboard {\n  background-color: #fdfdfd;\n  border-radius: 5px;\n  /*  margin: 0 20px 10vh 0px;*/ }\n  .plan-dashboard .plan-dashboard-spacer {\n    width: 20%; }\n  .plan-dashboard .date-picker {\n    background-color: #54c3be;\n    border-radius: 5px 5px 0px 0px;\n    font-size: 1.1em;\n    font-weight: bold; }\n    .plan-dashboard .date-picker button {\n      color: white !important; }\n    .plan-dashboard .date-picker .side-btns {\n      -ms-flex-wrap: nowrap;\n          flex-wrap: nowrap;\n      line-height: 100%;\n      cursor: pointer; }\n    .plan-dashboard .date-picker .picker-btns {\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      color: white; }\n      .plan-dashboard .date-picker .picker-btns .p-btn {\n        padding: 0px 15px;\n        cursor: pointer; }\n        .plan-dashboard .date-picker .picker-btns .p-btn.active {\n          border-bottom: 2px white solid; }\n  .plan-dashboard .picked-data {\n    font-size: 1em; }\n    .plan-dashboard .picked-data .date-header {\n      background-color: #add8a9;\n      padding: 7px 0px;\n      color: white; }\n      .plan-dashboard .picked-data .date-header .row {\n        width: 100%;\n        -ms-flex-pack: distribute;\n            justify-content: space-around; }\n      .plan-dashboard .picked-data .date-header .col {\n        text-align: center;\n        font-size: 0.8em; }\n    .plan-dashboard .picked-data .list-content .ap-header .row {\n      border-bottom: none !important; }\n    .plan-dashboard .picked-data .list-content .ap-header .col {\n      font-size: 0.8em !important; }\n    .plan-dashboard .picked-data .list-content .contents {\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap; }\n      .plan-dashboard .picked-data .list-content .contents .info {\n        font-size: 0.8em;\n        text-align: left;\n        text-indent: 15px;\n        -webkit-box-align: end !important;\n            -ms-flex-align: end !important;\n                align-items: flex-end !important;\n        padding-top: 5px; }\n      .plan-dashboard .picked-data .list-content .contents .cation {\n        font-size: 0.8em;\n        text-align: left;\n        text-indent: 15px;\n        padding-bottom: 5px;\n        -webkit-box-align: start !important;\n            -ms-flex-align: start !important;\n                align-items: flex-start !important;\n        color: #999; }\n      .plan-dashboard .picked-data .list-content .contents .active {\n        background-color: #e0dfdf; }\n    .plan-dashboard .picked-data .list-content .row {\n      width: 100%;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: horizontal;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: row;\n              flex-direction: row;\n      -ms-flex-pack: distribute;\n          justify-content: space-around;\n      border-bottom: 1px #c9cacb solid;\n      border-left: 1px #c9cacb solid; }\n    .plan-dashboard .picked-data .list-content .col {\n      width: 100%;\n      font-size: 1.2em;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      cursor: pointer; }\n      .plan-dashboard .picked-data .list-content .col.color {\n        color: red; }\n"
+module.exports = ".register-card .card-body {\n  padding: 0 30px 30px 30px; }\n  .register-card .card-body mdl-button {\n    background-color: #ee4068; }\n"
 
 /***/ },
 /* 874 */
 /***/ function(module, exports) {
 
-module.exports = ".padding5 {\n  padding: 15px 0px !important; }\n\n.room-lists {\n  border-radius: 5px; }\n  .room-lists .panel-header {\n    background-color: #54c3be;\n    border-radius: 5px 5px 0px 0px;\n    font-size: 1.1em;\n    font-weight: bold;\n    min-height: 40px;\n    line-height: 40px; }\n    .room-lists .panel-header .btn-tab button {\n      color: white;\n      font-size: 0.8em;\n      font-weight: bold; }\n    .room-lists .panel-header .btn-tab.active {\n      border-bottom: 2px solid white; }\n  .room-lists .panel-body {\n    border-radius: 0px 0px 5px 5px;\n    background-color: white;\n    min-height: 30px;\n    padding: 20px; }\n    .room-lists .panel-body .panel-body-inner {\n      color: #525252; }\n      .room-lists .panel-body .panel-body-inner .trans-title {\n        -webkit-box-align: end;\n            -ms-flex-align: end;\n                align-items: flex-end; }\n    .room-lists .panel-body .header {\n      color: #999; }\n    .room-lists .panel-body .filter {\n      -webkit-box-pack: end;\n          -ms-flex-pack: end;\n              justify-content: flex-end; }\n  .room-lists .mdl-textfield {\n    padding: none !important; }\n  .room-lists .icon {\n    font-size: 1em;\n    color: #6dc49c; }\n    .room-lists .icon.stuff-no {\n      color: #afafaf !important; }\n  .room-lists .col {\n    cursor: pointer; }\n"
+module.exports = "mdl-select, mdl-textfield {\n  max-width: 150px; }\n\n.backdrop {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  right: 0;\n  background-color: rgba(0, 0, 0, 0.3);\n  z-index: 99;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n  .backdrop .modal {\n    position: relative;\n    min-width: 30%;\n    max-width: 95%;\n    box-sizing: border-box;\n    border-radius: 5px;\n    background-color: white; }\n    .backdrop .modal .modal-header {\n      border-radius: 5px 5px 0 0;\n      background-color: #54c3be;\n      color: white;\n      height: 50px;\n      -webkit-box-pack: justify;\n          -ms-flex-pack: justify;\n              justify-content: space-between;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      font-size: 1.2em;\n      font-weight: bold; }\n      .backdrop .modal .modal-header .title {\n        text-indent: 15px; }\n      .backdrop .modal .modal-header .btn {\n        padding-right: 15px;\n        cursor: pointer; }\n    .backdrop .modal .modal-body .staff-container {\n      min-width: 960px; }\n      .backdrop .modal .modal-body .staff-container .add-staff {\n        color: #525252;\n        padding: 20px; }\n      .backdrop .modal .modal-body .staff-container .green-color {\n        color: #54c3be; }\n      .backdrop .modal .modal-body .staff-container .align-center {\n        -ms-flex-pack: distribute;\n            justify-content: space-around;\n        -webkit-box-align: center;\n            -ms-flex-align: center;\n                align-items: center; }\n      .backdrop .modal .modal-body .staff-container .btn-picker {\n        border-top: 1px solid #cecccc;\n        padding-top: 10px; }\n        .backdrop .modal .modal-body .staff-container .btn-picker .btn {\n          -webkit-box-pack: end;\n              -ms-flex-pack: end;\n                  justify-content: flex-end; }\n        .backdrop .modal .modal-body .staff-container .btn-picker .error {\n          -webkit-box-pack: center;\n              -ms-flex-pack: center;\n                  justify-content: center;\n          -webkit-box-align: center;\n              -ms-flex-align: center;\n                  align-items: center;\n          color: red; }\n        .backdrop .modal .modal-body .staff-container .btn-picker button {\n          font-size: 1.2em; }\n"
 
 /***/ },
 /* 875 */
 /***/ function(module, exports) {
 
-module.exports = "mdl-select, mdl-textfield {\n  max-width: 150px; }\n  mdl-select .mdl-textfield, mdl-textfield .mdl-textfield {\n    padding: 0px !important; }\n\n.plan-setup {\n  border-radius: 5px; }\n  .plan-setup .panel-header {\n    background-color: #54c3be;\n    border-radius: 5px 5px 0px 0px;\n    font-size: 1.1em;\n    font-weight: bold;\n    min-height: 40px;\n    line-height: 40px;\n    color: white;\n    overflow: hidden; }\n  .plan-setup .panel-body {\n    border-radius: 0px 0px 5px 5px;\n    background-color: white;\n    min-height: 30px;\n    padding: 20px; }\n    .plan-setup .panel-body .panel-body-inner {\n      color: #525252; }\n      .plan-setup .panel-body .panel-body-inner .trans-title {\n        -webkit-box-align: end;\n            -ms-flex-align: end;\n                align-items: flex-end; }\n    .plan-setup .panel-body .header {\n      color: #999; }\n  .plan-setup .add-staff {\n    position: fixed;\n    bottom: 1em;\n    right: 1em; }\n  .plan-setup .icon {\n    font-size: 1em;\n    color: #6dc49c; }\n    .plan-setup .icon.stuff-no {\n      color: #afafaf !important; }\n  .plan-setup .col {\n    cursor: pointer; }\n"
+module.exports = ".left {\n  width: 10%; }\n\nmdl-select {\n  max-width: 150px; }\n\n.text-indent {\n  text-indent: 20px; }\n\n.backdrop {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  right: 0;\n  background-color: rgba(0, 0, 0, 0.3);\n  z-index: 99;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n  .backdrop .modal {\n    position: relative;\n    min-width: 30%;\n    max-width: 95%;\n    box-sizing: border-box;\n    border-radius: 5px;\n    background-color: white; }\n    .backdrop .modal .modal-header {\n      border-radius: 5px 5px 0 0;\n      background-color: #54c3be;\n      color: white;\n      height: 50px;\n      -webkit-box-pack: justify;\n          -ms-flex-pack: justify;\n              justify-content: space-between;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      font-size: 1.2em;\n      font-weight: bold; }\n      .backdrop .modal .modal-header .title {\n        text-indent: 15px; }\n      .backdrop .modal .modal-header .btn {\n        padding-right: 15px;\n        cursor: pointer; }\n    .backdrop .modal .modal-body .move-container {\n      min-width: 960px;\n      padding: 20px; }\n      .backdrop .modal .modal-body .move-container .move-class {\n        color: #525252; }\n        .backdrop .modal .modal-body .move-container .move-class .green-color {\n          color: #54c3be; }\n        .backdrop .modal .modal-body .move-container .move-class .date-picker {\n          -ms-flex-pack: distribute;\n              justify-content: space-around; }\n        .backdrop .modal .modal-body .move-container .move-class .room-picker {\n          -ms-flex-pack: distribute;\n              justify-content: space-around; }\n          .backdrop .modal .modal-body .move-container .move-class .room-picker .left {\n            -webkit-box-pack: center;\n                -ms-flex-pack: center;\n                    justify-content: center;\n            -webkit-box-align: center;\n                -ms-flex-align: center;\n                    align-items: center;\n            display: -webkit-box;\n            display: -ms-flexbox;\n            display: flex; }\n        .backdrop .modal .modal-body .move-container .move-class .btn-picker {\n          -webkit-box-pack: end;\n              -ms-flex-pack: end;\n                  justify-content: flex-end; }\n          .backdrop .modal .modal-body .move-container .move-class .btn-picker button {\n            font-size: 1.2em; }\n"
 
 /***/ },
 /* 876 */
 /***/ function(module, exports) {
 
-module.exports = ".attendance-status span {\n  color: #878787;\n  float: left; }\n\n.attendance-status p {\n  text-align: right;\n  margin: 0;\n  font-weight: 500; }\n\n.attendance-status.inactive {\n  background-color: rgba(0, 0, 0, 0.3);\n  background-color: darkgrey; }\n"
+module.exports = ".backdrop {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  right: 0;\n  background-color: rgba(0, 0, 0, 0.3);\n  z-index: 99;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n  .backdrop .modal {\n    position: relative;\n    min-width: 30%;\n    max-width: 95%;\n    box-sizing: border-box;\n    border-radius: 5px;\n    background-color: white; }\n    .backdrop .modal .modal-header {\n      border-radius: 5px 5px 0 0;\n      background-color: #54c3be;\n      color: white;\n      height: 50px;\n      -webkit-box-pack: justify;\n          -ms-flex-pack: justify;\n              justify-content: space-between;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      font-size: 1.2em;\n      font-weight: bold; }\n      .backdrop .modal .modal-header .title {\n        text-indent: 15px; }\n      .backdrop .modal .modal-header .btn {\n        padding-right: 15px;\n        cursor: pointer; }\n    .backdrop .modal .modal-body .occupancy-container {\n      min-width: 960px;\n      padding: 20px; }\n      .backdrop .modal .modal-body .occupancy-container .green-color {\n        color: #54c3be; }\n      .backdrop .modal .modal-body .occupancy-container .gray-color {\n        color: gray; }\n      .backdrop .modal .modal-body .occupancy-container .red-color {\n        color: red; }\n      .backdrop .modal .modal-body .occupancy-container button {\n        font-size: 1.2em; }\n"
 
 /***/ },
 /* 877 */
 /***/ function(module, exports) {
 
-module.exports = ".reports-draft {\n  background-color: #fdfdfd;\n  border-radius: 5px;\n  margin-right: 20px; }\n  .reports-draft .picker-row {\n    position: relative;\n    background-color: #b9c5d8;\n    color: #fff;\n    height: 50px;\n    border-top-right-radius: 5px;\n    border-top-left-radius: 5px; }\n    .reports-draft .picker-row mdl-icon {\n      cursor: pointer;\n      -webkit-user-select: none;\n      -moz-user-select: none;\n      -ms-user-select: none;\n      user-select: none; }\n    .reports-draft .picker-row .month-picker {\n      display: -webkit-inline-box;\n      display: -ms-inline-flexbox;\n      display: inline-flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      line-height: 50px;\n      font-size: 1.8rem; }\n      .reports-draft .picker-row .month-picker .title {\n        font-weight: 300; }\n    .reports-draft .picker-row .week-picker {\n      display: -webkit-inline-box;\n      display: -ms-inline-flexbox;\n      display: inline-flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      margin-left: 20px; }\n      .reports-draft .picker-row .week-picker .title {\n        margin: 0 10px;\n        font-size: 1.4rem; }\n    .reports-draft .picker-row i {\n      position: absolute;\n      right: 0;\n      margin: 5px 10px;\n      font-size: 2.8em;\n      cursor: pointer; }\n  .reports-draft .row {\n    border-bottom: 1px solid #d7d7d7;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    width: 100%;\n    text-align: left;\n    font-weight: 500;\n    color: #000;\n    -webkit-transition: background-color 0.28s cubic-bezier(0.4, 0, 0.2, 1);\n    transition: background-color 0.28s cubic-bezier(0.4, 0, 0.2, 1); }\n    .reports-draft .row:hover {\n      background-color: #eeeeee; }\n    .reports-draft .row.tooltips {\n      color: #878787; }\n      .reports-draft .row.tooltips p {\n        margin: 0;\n        font-weight: 500; }\n      .reports-draft .row.tooltips span {\n        color: rgba(0, 0, 0, 0.3); }\n      .reports-draft .row.tooltips:hover {\n        background-color: #fdfdfd; }\n    .reports-draft .row .col {\n      -webkit-box-flex: 1;\n          -ms-flex: 1;\n              flex: 1;\n      padding: 15px; }\n      .reports-draft .row .col.child-name {\n        color: #656565; }\n      .reports-draft .row .col.child-status {\n        -webkit-box-flex: 0;\n            -ms-flex: 0 0 5%;\n                flex: 0 0 5%;\n        color: #878787; }\n      .reports-draft .row .col.inactive {\n        background-color: #eeeeee; }\n"
+module.exports = ".flex {\n  width: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex; }\n\n.column {\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column; }\n\n.bottom-border {\n  border-bottom: 2px #cdcecf solid; }\n\n.strong-text {\n  font-weight: bold; }\n\n.text-center {\n  text-align: center; }\n\n.text-right {\n  text-align: right; }\n\n.no-padding {\n  padding: 0px !important; }\n\n.padding-bottom30 {\n  padding-bottom: 30px; }\n\n.flex1 {\n  -webkit-box-flex: 1;\n      -ms-flex: 1;\n          flex: 1; }\n\n.flex2 {\n  -webkit-box-flex: 2;\n      -ms-flex: 2;\n          flex: 2; }\n\n.flex3 {\n  -webkit-box-flex: 3;\n      -ms-flex: 3;\n          flex: 3; }\n\n.flex4 {\n  -webkit-box-flex: 4;\n      -ms-flex: 4;\n          flex: 4; }\n\n.flex5 {\n  -webkit-box-flex: 5;\n      -ms-flex: 5;\n          flex: 5; }\n\n.backdrop {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  right: 0;\n  background-color: rgba(0, 0, 0, 0.3);\n  z-index: 99;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n  .backdrop .modal {\n    position: relative;\n    min-width: 30%;\n    max-width: 95%;\n    box-sizing: border-box;\n    border-radius: 5px;\n    background-color: white; }\n    .backdrop .modal .modal-header {\n      border-radius: 5px 5px 0 0;\n      background-color: #54c3be;\n      color: white;\n      height: 50px;\n      -webkit-box-pack: justify;\n          -ms-flex-pack: justify;\n              justify-content: space-between;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      font-size: 1.2em;\n      font-weight: bold; }\n      .backdrop .modal .modal-header .title {\n        text-indent: 15px; }\n      .backdrop .modal .modal-header .btn {\n        padding-right: 15px;\n        cursor: pointer; }\n"
 
 /***/ },
 /* 878 */
 /***/ function(module, exports) {
 
-module.exports = "/* Warning this component uses no ViewEncapsulation */\n.centre-children .flex-card {\n  margin: 0;\n  margin-right: 20px; }\n  .centre-children .flex-card .col.avatar-col {\n    -webkit-box-flex: 0;\n        -ms-flex: 0 0 5%;\n            flex: 0 0 5%; }\n    .centre-children .flex-card .col.avatar-col img {\n      border-radius: 50%;\n      width: 4rem; }\n\n.centre-children .add-children {\n  position: fixed;\n  right: 20px;\n  bottom: 5vh; }\n"
+module.exports = "mdl-select, mdl-textfield {\n  max-width: 150px;\n  padding: 5px 0px !important; }\n\n.padding-top-bottom {\n  padding: 10px 0px !important; }\n\n.backdrop {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  right: 0;\n  background-color: rgba(0, 0, 0, 0.3);\n  z-index: 99;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n  .backdrop .modal {\n    position: relative;\n    min-width: 30%;\n    max-width: 95%;\n    box-sizing: border-box;\n    border-radius: 5px;\n    background-color: white; }\n    .backdrop .modal .modal-header {\n      border-radius: 5px 5px 0 0;\n      background-color: #54c3be;\n      color: white;\n      height: 50px;\n      -webkit-box-pack: justify;\n          -ms-flex-pack: justify;\n              justify-content: space-between;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      font-size: 1.2em;\n      font-weight: bold; }\n      .backdrop .modal .modal-header .title {\n        text-indent: 15px; }\n      .backdrop .modal .modal-header .btn {\n        padding-right: 15px;\n        cursor: pointer; }\n    .backdrop .modal .modal-body .remove-container {\n      min-width: 960px;\n      padding: 20px 30px; }\n      .backdrop .modal .modal-body .remove-container .remove-child {\n        color: #525252; }\n      .backdrop .modal .modal-body .remove-container .green-color {\n        color: #54c3be; }\n      .backdrop .modal .modal-body .remove-container .gray-color {\n        color: gray; }\n      .backdrop .modal .modal-body .remove-container .red-color {\n        color: red; }\n      .backdrop .modal .modal-body .remove-container button {\n        font-size: 1.2em; }\n"
 
 /***/ },
 /* 879 */
 /***/ function(module, exports) {
 
-module.exports = ".centre-details {\n  background: #fdfdfd;\n  border-radius: 5px;\n  margin-right: 20px; }\n  .centre-details .title {\n    padding: 50px 20px 15px 30px;\n    border-bottom: 1px solid #d7d7d7;\n    color: #6d6d6d;\n    font-size: 1.4rem; }\n  .centre-details .settings {\n    text-align: center; }\n    .centre-details .settings .col {\n      display: inline-block;\n      max-width: 45%;\n      margin: 15px; }\n      .centre-details .settings .col mdl-textfield {\n        width: 100%; }\n  .centre-details .edit-picture {\n    padding: 30px; }\n    .centre-details .edit-picture img {\n      border-radius: 50%;\n      width: 4rem;\n      height: auto;\n      margin-right: 15px; }\n  .centre-details .save-button {\n    padding: 30px;\n    text-align: right; }\n  .centre-details .edit-picture mdl-button, .centre-details .save-button mdl-button {\n    background-color: #96e1de;\n    color: #5b5b5b; }\n  .centre-details .edit-picture mdl-spinner, .centre-details .save-button mdl-spinner {\n    vertical-align: middle; }\n"
+module.exports = ".room-accordain {\n  background-color: #f7f7f7;\n  width: 100%;\n  min-height: 100px;\n  /*//start accordian header*/\n  /*//end accordian header*/ }\n  .room-accordain .accordian-header {\n    background-color: #a8c6a3;\n    border-top: 2px solid #96b78f; }\n    .room-accordain .accordian-header .room-title {\n      color: white;\n      font-size: 1em;\n      font-weight: bold;\n      height: 30px; }\n    .room-accordain .accordian-header .available-info {\n      background-color: #c0e5e4;\n      color: white;\n      height: 25px;\n      line-height: 25px; }\n    .room-accordain .accordian-header .week-picker button {\n      color: white !important;\n      font-size: 0.8em;\n      height: 32px !important; }\n    .room-accordain .accordian-header .week-picker .p-btn {\n      cursor: pointer; }\n      .room-accordain .accordian-header .week-picker .p-btn.active {\n        border-bottom: 2px white solid; }\n  .room-accordain .accordian-body {\n    border-bottom: 2px solid #ececec;\n    min-height: 100px;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    color: #525252; }\n    .room-accordain .accordian-body button {\n      background-color: #a8c6a3;\n      color: white;\n      font-size: 0.8em;\n      font-weight: normal;\n      height: 25px !important;\n      line-height: 25px !important; }\n    .room-accordain .accordian-body .row {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      padding: 10px 0px; }\n      .room-accordain .accordian-body .row .icon {\n        font-size: 1em;\n        color: #6dc49c; }\n        .room-accordain .accordian-body .row .icon.stuff-no {\n          color: #afafaf !important; }\n    .room-accordain .accordian-body .room-info .room-info-inner {\n      min-height: 50px;\n      padding: 20px; }\n    .room-accordain .accordian-body .child-info .child-info-inner {\n      min-height: 50px;\n      padding: 20px; }\n    .room-accordain .accordian-body .children-info-am .children-info-am-inner {\n      min-height: 50px;\n      padding: 20px 20px 20px 0px; }\n    .room-accordain .accordian-body .children-info-am .row {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      padding: 10px 0px; }\n    .room-accordain .accordian-body .child-list {\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap; }\n      .room-accordain .accordian-body .child-list .row {\n        width: 50%; }\n    .room-accordain .accordian-body .children-info-pm .children-info-pm-inner {\n      min-height: 50px;\n      padding: 20px 20px 20px 0px; }\n    .room-accordain .accordian-body .children-info-pm .row {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      padding: 10px 0px; }\n"
 
 /***/ },
 /* 880 */
 /***/ function(module, exports) {
 
-module.exports = "/* Warning: this component uses no ViewEncapsulation */\n.centre-families .flex-card {\n  margin: 0;\n  margin-right: 20px; }\n  .centre-families .flex-card .row {\n    text-align: center; }\n    .centre-families .flex-card .row .name-col {\n      text-align: left;\n      -webkit-box-flex: 2;\n          -ms-flex: 2;\n              flex: 2; }\n    .centre-families .flex-card .row .image-col {\n      -webkit-box-flex: 1;\n          -ms-flex: 1;\n              flex: 1; }\n      .centre-families .flex-card .row .image-col img {\n        width: 50px;\n        height: 50px;\n        border-radius: 50%;\n        text-align: left;\n        -webkit-box-pack: start;\n            -ms-flex-pack: start;\n                justify-content: flex-start; }\n    .centre-families .flex-card .row .empty-col {\n      -webkit-box-flex: 1;\n          -ms-flex: 1;\n              flex: 1; }\n\n.centre-families .refresh-families {\n  position: absolute;\n  right: 20px;\n  top: 50px; }\n\n.centre-families .add-families {\n  position: fixed;\n  right: 20px;\n  bottom: 5vh; }\n"
+module.exports = ".scroll-holder {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  width: 100%;\n  position: relative;\n  overflow: hidden; }\n  .scroll-holder .navbar-scroll {\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-transition: all .5s ease;\n    transition: all .5s ease; }\n    .scroll-holder .navbar-scroll .btn-tab button {\n      color: white;\n      font-size: 0.8em;\n      font-weight: bold; }\n    .scroll-holder .navbar-scroll .btn-tab.active {\n      border-bottom: 2px solid white; }\n  .scroll-holder .arrow {\n    position: absolute;\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    height: 100%;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    cursor: pointer;\n    min-width: 60px;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    top: 0;\n    opacity: 0;\n    visibility: hidden; }\n    .scroll-holder .arrow.show {\n      opacity: 1;\n      visibility: visible; }\n  .scroll-holder .arrow-back {\n    left: 0px;\n    z-index: 1;\n    background-image: -webkit-linear-gradient(left, #54c3be 50%, rgba(255, 255, 255, 0) 100%);\n    background-image: linear-gradient(to right, #54c3be 50%, rgba(255, 255, 255, 0) 100%);\n    border-radius: 5px 0 0 0; }\n  .scroll-holder .arrow-forward {\n    right: 0px;\n    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, #54c3be e 50%, #54c3be 100%);\n    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #54c3be e 50%, #54c3be 100%);\n    border-radius: 0 5px 0 0; }\n"
 
 /***/ },
 /* 881 */
 /***/ function(module, exports) {
 
-module.exports = ".flex {\n  width: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex; }\n\n.column {\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column; }\n\n.padding-bottom30 {\n  padding-bottom: 30px; }\n\n.backdrop {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  right: 0;\n  background-color: rgba(0, 0, 0, 0.3);\n  z-index: 99;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n  .backdrop .modal {\n    position: relative;\n    min-width: 80%;\n    max-width: 95%;\n    box-sizing: border-box;\n    border-radius: 7px;\n    background-color: white; }\n    .backdrop .modal .add-families-header {\n      border-radius: 5px 5px 0 0;\n      background-color: #54c3be;\n      color: white;\n      height: 50px;\n      font-size: 1.3em;\n      font-weight: bold;\n      cursor: pointer; }\n      .backdrop .modal .add-families-header .tab {\n        -webkit-box-flex: 1;\n            -ms-flex: 1;\n                flex: 1;\n        -webkit-box-pack: center;\n            -ms-flex-pack: center;\n                justify-content: center;\n        -webkit-box-align: center;\n            -ms-flex-align: center;\n                align-items: center; }\n        .backdrop .modal .add-families-header .tab.active {\n          border-bottom: 2px solid white; }\n      .backdrop .modal .add-families-header .close {\n        position: absolute;\n        right: 12px;\n        top: 12px; }\n        .backdrop .modal .add-families-header .close .close-button {\n          font-size: 1.3em;\n          -webkit-box-pack: center;\n              -ms-flex-pack: center;\n                  justify-content: center;\n          -webkit-box-align: center;\n              -ms-flex-align: center;\n                  align-items: center;\n          font-weight: bold; }\n    .backdrop .modal .add-families-body {\n      min-height: 50px; }\n      .backdrop .modal .add-families-body .add-families-inner {\n        padding: 15px 0px; }\n        .backdrop .modal .add-families-body .add-families-inner .border-bottom {\n          border-bottom: 1px solid #eae1e1; }\n        .backdrop .modal .add-families-body .add-families-inner .row-header {\n          padding-top: 30px;\n          color: #999; }\n        .backdrop .modal .add-families-body .add-families-inner .row {\n          -ms-flex-pack: distribute;\n              justify-content: space-around;\n          -webkit-box-align: center;\n              -ms-flex-align: center;\n                  align-items: center; }\n          .backdrop .modal .add-families-body .add-families-inner .row .col {\n            -webkit-box-pack: start;\n                -ms-flex-pack: start;\n                    justify-content: flex-start;\n            -webkit-box-align: center;\n                -ms-flex-align: center;\n                    align-items: center;\n            padding-left: 20px; }\n            .backdrop .modal .add-families-body .add-families-inner .row .col mdl-select, .backdrop .modal .add-families-body .add-families-inner .row .col mdl-textfield {\n              width: 170px !important; }\n        .backdrop .modal .add-families-body .add-families-inner .row:last-child {\n          border-bottom: none !important; }\n        .backdrop .modal .add-families-body .add-families-inner .flexible-container {\n          max-height: 250px;\n          overflow-y: auto;\n          display: inline-block; }\n          .backdrop .modal .add-families-body .add-families-inner .flexible-container app-datepicker {\n            position: absolute; }\n        .backdrop .modal .add-families-body .add-families-inner .add-button {\n          padding: 10px 0px;\n          cursor: pointer; }\n          .backdrop .modal .add-families-body .add-families-inner .add-button .col {\n            color: #999; }\n        .backdrop .modal .add-families-body .add-families-inner .sibling {\n          padding-top: 30px; }\n          .backdrop .modal .add-families-body .add-families-inner .sibling .header {\n            -webkit-box-pack: start;\n                -ms-flex-pack: start;\n                    justify-content: flex-start; }\n            .backdrop .modal .add-families-body .add-families-inner .sibling .header .col {\n              font-weight: bold;\n              font-size: 1.2em;\n              padding-left: 20px;\n              color: #797676; }\n          .backdrop .modal .add-families-body .add-families-inner .sibling .selector {\n            -webkit-box-flex: 1;\n                -ms-flex: 1;\n                    flex: 1;\n            padding-left: 20px; }\n          .backdrop .modal .add-families-body .add-families-inner .sibling .link-button {\n            -webkit-box-flex: 3;\n                -ms-flex: 3;\n                    flex: 3;\n            -webkit-box-align: center;\n                -ms-flex-align: center;\n                    align-items: center; }\n            .backdrop .modal .add-families-body .add-families-inner .sibling .link-button mdl-button {\n              background-color: #6ac289;\n              color: white;\n              font-size: 0.8em;\n              font-weight: bold;\n              height: 25px !important;\n              line-height: 25px !important; }\n        .backdrop .modal .add-families-body .add-families-inner .error-msg {\n          -webkit-box-flex: 4;\n              -ms-flex: 4;\n                  flex: 4;\n          color: red;\n          -webkit-box-pack: center !important;\n              -ms-flex-pack: center !important;\n                  justify-content: center !important;\n          -webkit-box-align: center;\n              -ms-flex-align: center;\n                  align-items: center; }\n        .backdrop .modal .add-families-body .add-families-inner .save-btn {\n          -webkit-box-pack: end !important;\n              -ms-flex-pack: end !important;\n                  justify-content: flex-end !important;\n          padding-right: 2vh;\n          -webkit-box-flex: 1;\n              -ms-flex: 1;\n                  flex: 1; }\n          .backdrop .modal .add-families-body .add-families-inner .save-btn button {\n            background-color: none;\n            color: #6ac289;\n            font-size: 1.2em;\n            font-weight: bold; }\n"
+module.exports = ".transition-lists {\n  border-radius: 5px; }\n  .transition-lists .panel-header {\n    background-color: #54c3be;\n    border-radius: 5px 5px 0px 0px;\n    font-size: 1.1em;\n    font-weight: bold;\n    min-height: 40px;\n    line-height: 40px; }\n    .transition-lists .panel-header .btn-tab {\n      color: white;\n      font-weight: bold;\n      margin-left: 20px; }\n      .transition-lists .panel-header .btn-tab button {\n        color: white !important;\n        font-size: 0.8em; }\n      .transition-lists .panel-header .btn-tab.active {\n        border-bottom: 2px solid white; }\n  .transition-lists .panel-body {\n    border-radius: 0px 0px 5px 5px;\n    background-color: white;\n    min-height: 30px;\n    padding: 20px; }\n    .transition-lists .panel-body .panel-body-inner {\n      color: #525252; }\n      .transition-lists .panel-body .panel-body-inner .trans-title {\n        -webkit-box-align: end;\n            -ms-flex-align: end;\n                align-items: flex-end; }\n    .transition-lists .panel-body .header {\n      color: #999; }\n    .transition-lists .panel-body .filter {\n      -webkit-box-pack: end;\n          -ms-flex-pack: end;\n              justify-content: flex-end; }\n  .transition-lists .mdl-textfield {\n    padding: none !important; }\n  .transition-lists .icon {\n    font-size: 1em;\n    color: #6dc49c; }\n    .transition-lists .icon.stuff-no {\n      color: #afafaf !important; }\n"
 
 /***/ },
 /* 882 */
 /***/ function(module, exports) {
 
-module.exports = "/* Warning: this component uses no ViewEncapsulation */\n.centre-rooms .flex-card {\n  margin: 0;\n  margin-right: 20px; }\n  .centre-rooms .flex-card .row {\n    text-align: center; }\n    .centre-rooms .flex-card .row .name-col {\n      text-align: left; }\n\n.centre-rooms .add-rooms {\n  position: fixed;\n  right: 20px;\n  bottom: 5vh; }\n"
+module.exports = ".left {\n  width: 15%; }\n\n.right {\n  width: 85% !important; }\n\n.plan-dashboard {\n  background-color: #fdfdfd;\n  border-radius: 5px;\n  /*  margin: 0 20px 10vh 0px;*/ }\n  .plan-dashboard .plan-dashboard-spacer {\n    width: 20%; }\n  .plan-dashboard .date-picker {\n    background-color: #54c3be;\n    border-radius: 5px 5px 0px 0px;\n    font-size: 1.1em;\n    font-weight: bold; }\n    .plan-dashboard .date-picker button {\n      color: white !important; }\n    .plan-dashboard .date-picker .side-btns {\n      -ms-flex-wrap: nowrap;\n          flex-wrap: nowrap;\n      line-height: 100%;\n      cursor: pointer; }\n    .plan-dashboard .date-picker .picker-btns {\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      color: white; }\n      .plan-dashboard .date-picker .picker-btns .p-btn {\n        padding: 0px 15px;\n        cursor: pointer; }\n        .plan-dashboard .date-picker .picker-btns .p-btn.active {\n          border-bottom: 2px white solid; }\n  .plan-dashboard .picked-data {\n    font-size: 1em; }\n    .plan-dashboard .picked-data .date-header {\n      background-color: #add8a9;\n      padding: 7px 0px;\n      color: white; }\n      .plan-dashboard .picked-data .date-header .row {\n        width: 100%;\n        -ms-flex-pack: distribute;\n            justify-content: space-around; }\n      .plan-dashboard .picked-data .date-header .col {\n        text-align: center;\n        font-size: 0.8em; }\n    .plan-dashboard .picked-data .list-content .ap-header .row {\n      border-bottom: none !important; }\n    .plan-dashboard .picked-data .list-content .ap-header .col {\n      font-size: 0.8em !important; }\n    .plan-dashboard .picked-data .list-content .contents {\n      -ms-flex-wrap: wrap;\n          flex-wrap: wrap; }\n      .plan-dashboard .picked-data .list-content .contents .info {\n        font-size: 0.8em;\n        text-align: left;\n        text-indent: 15px;\n        -webkit-box-align: end !important;\n            -ms-flex-align: end !important;\n                align-items: flex-end !important;\n        padding-top: 5px; }\n      .plan-dashboard .picked-data .list-content .contents .cation {\n        font-size: 0.8em;\n        text-align: left;\n        text-indent: 15px;\n        padding-bottom: 5px;\n        -webkit-box-align: start !important;\n            -ms-flex-align: start !important;\n                align-items: flex-start !important;\n        color: #999; }\n      .plan-dashboard .picked-data .list-content .contents .active {\n        background-color: #e0dfdf; }\n    .plan-dashboard .picked-data .list-content .row {\n      width: 100%;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: horizontal;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: row;\n              flex-direction: row;\n      -ms-flex-pack: distribute;\n          justify-content: space-around;\n      border-bottom: 1px #c9cacb solid;\n      border-left: 1px #c9cacb solid; }\n    .plan-dashboard .picked-data .list-content .col {\n      width: 100%;\n      font-size: 1.2em;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      cursor: pointer; }\n      .plan-dashboard .picked-data .list-content .col.color {\n        color: red; }\n"
 
 /***/ },
 /* 883 */
 /***/ function(module, exports) {
 
-module.exports = ".centre-subventions {\n  background: #fdfdfd;\n  border-radius: 5px;\n  margin-right: 20px; }\n  .centre-subventions .title {\n    padding: 50px 20px 15px 30px;\n    border-bottom: 1px solid #d7d7d7;\n    color: #6d6d6d;\n    font-size: 1.4rem; }\n  .centre-subventions .ecce {\n    text-align: center; }\n    .centre-subventions .ecce .mask {\n      position: absolute;\n      width: 100%;\n      height: 100%;\n      z-index: 100; }\n    .centre-subventions .ecce .col {\n      display: inline-block;\n      width: 45%;\n      max-width: 45%;\n      margin: 15px; }\n      .centre-subventions .ecce .col .parameter {\n        position: relative;\n        width: 100%;\n        min-height: 20px;\n        border-bottom: 1px dashed;\n        padding-bottom: 10px; }\n        .centre-subventions .ecce .col .parameter .name {\n          float: left; }\n        .centre-subventions .ecce .col .parameter app-ecce-capitations {\n          float: right; }\n        .centre-subventions .ecce .col .parameter mdl-switch {\n          float: right;\n          width: 0; }\n      .centre-subventions .ecce .col .details p {\n        text-align: left;\n        font-size: smaller;\n        line-height: 1.2em;\n        margin-top: 5px; }\n  .centre-subventions .save-button {\n    padding: 30px;\n    text-align: right; }\n    .centre-subventions .save-button mdl-button {\n      background-color: #96e1de; }\n      .centre-subventions .save-button mdl-button.cancel {\n        background-color: #f3c2cd;\n        margin-right: 20px; }\n"
+module.exports = ".padding5 {\n  padding: 15px 0px !important; }\n\n.room-lists {\n  border-radius: 5px; }\n  .room-lists .panel-header {\n    background-color: #54c3be;\n    border-radius: 5px 5px 0px 0px;\n    font-size: 1.1em;\n    font-weight: bold;\n    min-height: 40px;\n    line-height: 40px; }\n    .room-lists .panel-header .btn-tab button {\n      color: white;\n      font-size: 0.8em;\n      font-weight: bold; }\n    .room-lists .panel-header .btn-tab.active {\n      border-bottom: 2px solid white; }\n  .room-lists .panel-body {\n    border-radius: 0px 0px 5px 5px;\n    background-color: white;\n    min-height: 30px;\n    padding: 20px; }\n    .room-lists .panel-body .panel-body-inner {\n      color: #525252; }\n      .room-lists .panel-body .panel-body-inner .trans-title {\n        -webkit-box-align: end;\n            -ms-flex-align: end;\n                align-items: flex-end; }\n    .room-lists .panel-body .header {\n      color: #999; }\n    .room-lists .panel-body .filter {\n      -webkit-box-pack: end;\n          -ms-flex-pack: end;\n              justify-content: flex-end; }\n    .room-lists .panel-body .footer {\n      padding: 10px 0px;\n      font-weight: bold;\n      font-size: 1.3em; }\n  .room-lists .mdl-textfield {\n    padding: none !important; }\n  .room-lists .icon {\n    font-size: 1em;\n    color: #6dc49c; }\n    .room-lists .icon.stuff-no {\n      color: #afafaf !important; }\n  .room-lists .col {\n    cursor: pointer; }\n  .room-lists .picker-row {\n    position: relative;\n    height: 50px;\n    border-top-right-radius: 5px;\n    border-top-left-radius: 5px; }\n    .room-lists .picker-row mdl-icon {\n      cursor: pointer;\n      -webkit-user-select: none;\n      -moz-user-select: none;\n      -ms-user-select: none;\n      user-select: none; }\n    .room-lists .picker-row .month-picker {\n      display: -webkit-inline-box;\n      display: -ms-inline-flexbox;\n      display: inline-flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      line-height: 50px;\n      font-size: 1.8rem; }\n      .room-lists .picker-row .month-picker .title {\n        font-weight: 300; }\n    .room-lists .picker-row .week-picker {\n      display: -webkit-inline-box;\n      display: -ms-inline-flexbox;\n      display: inline-flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      margin-left: 20px; }\n      .room-lists .picker-row .week-picker .title {\n        margin: 0 10px;\n        font-size: 1.4rem; }\n"
 
 /***/ },
 /* 884 */
 /***/ function(module, exports) {
 
-module.exports = ".simple-modal mdl-textfield {\n  width: 350px; }\n\n.simple-modal .error-message {\n  margin: 5px 0;\n  min-height: 24px; }\n\n.simple-modal .save-button mdl-button {\n  background-color: #96e1de;\n  color: #5b5b5b; }\n"
+module.exports = "mdl-select, mdl-textfield {\n  max-width: 150px; }\n  mdl-select .mdl-textfield, mdl-textfield .mdl-textfield {\n    padding: 0px !important; }\n\n.plan-setup {\n  border-radius: 5px; }\n  .plan-setup .panel-header {\n    background-color: #54c3be;\n    border-radius: 5px 5px 0px 0px;\n    font-size: 1.1em;\n    font-weight: bold;\n    min-height: 40px;\n    line-height: 40px;\n    color: white;\n    overflow: hidden; }\n  .plan-setup .panel-body {\n    border-radius: 0px 0px 5px 5px;\n    background-color: white;\n    min-height: 30px;\n    padding: 20px; }\n    .plan-setup .panel-body .panel-body-inner {\n      color: #525252; }\n      .plan-setup .panel-body .panel-body-inner .trans-title {\n        -webkit-box-align: end;\n            -ms-flex-align: end;\n                align-items: flex-end; }\n    .plan-setup .panel-body .header {\n      color: #999; }\n  .plan-setup .add-staff {\n    position: fixed;\n    bottom: 1em;\n    right: 1em; }\n  .plan-setup .icon {\n    font-size: 1em;\n    color: #6dc49c; }\n    .plan-setup .icon.stuff-no {\n      color: #afafaf !important; }\n  .plan-setup .col {\n    cursor: pointer; }\n"
 
 /***/ },
 /* 885 */
 /***/ function(module, exports) {
 
-module.exports = ".simple-modal .select-row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  width: 350px; }\n  .simple-modal .select-row mdl-select {\n    margin-right: 10px;\n    max-width: 49%; }\n\n.simple-modal .room-name {\n  width: 350px; }\n\n.simple-modal .capacity, .simple-modal .ecce-capitations, .simple-modal .room-name {\n  -webkit-box-flex: 1;\n      -ms-flex: 1;\n          flex: 1; }\n\n.simple-modal .ecce-capitations {\n  margin-left: 10px; }\n  .simple-modal .ecce-capitations label {\n    display: block;\n    color: #3f51b5;\n    font-size: 12px;\n    margin-top: 4px; }\n\n.simple-modal .error-message {\n  margin: 5px 0;\n  min-height: 24px; }\n\n.simple-modal .save-button {\n  text-align: right; }\n"
+module.exports = ".attendance-status span {\n  color: #878787;\n  float: left; }\n\n.attendance-status p {\n  text-align: right;\n  margin: 0;\n  font-weight: 500; }\n\n.attendance-status.inactive {\n  background-color: rgba(0, 0, 0, 0.3);\n  background-color: darkgrey; }\n"
 
 /***/ },
 /* 886 */
 /***/ function(module, exports) {
 
-module.exports = "div.capitations {\n  display: inline-block; }\n  div.capitations span {\n    float: left;\n    margin: 3px 10px;\n    font-weight: bold;\n    color: lightgray;\n    cursor: pointer; }\n    div.capitations span:first-child {\n      margin-left: 0; }\n    div.capitations span.on {\n      color: red; }\n    div.capitations span.off {\n      color: green; }\n    div.capitations span.mixed {\n      color: darkorange; }\n"
+module.exports = ".reports-draft {\n  background-color: #fdfdfd;\n  border-radius: 5px;\n  margin-right: 20px; }\n  .reports-draft .picker-row {\n    position: relative;\n    background-color: #b9c5d8;\n    color: #fff;\n    height: 50px;\n    border-top-right-radius: 5px;\n    border-top-left-radius: 5px; }\n    .reports-draft .picker-row mdl-icon {\n      cursor: pointer;\n      -webkit-user-select: none;\n      -moz-user-select: none;\n      -ms-user-select: none;\n      user-select: none; }\n    .reports-draft .picker-row .month-picker {\n      display: -webkit-inline-box;\n      display: -ms-inline-flexbox;\n      display: inline-flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      line-height: 50px;\n      font-size: 1.8rem; }\n      .reports-draft .picker-row .month-picker .title {\n        font-weight: 300; }\n    .reports-draft .picker-row .week-picker {\n      display: -webkit-inline-box;\n      display: -ms-inline-flexbox;\n      display: inline-flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      margin-left: 20px; }\n      .reports-draft .picker-row .week-picker .title {\n        margin: 0 10px;\n        font-size: 1.4rem; }\n    .reports-draft .picker-row i {\n      position: absolute;\n      right: 0;\n      margin: 5px 10px;\n      font-size: 2.8em;\n      cursor: pointer; }\n  .reports-draft .row {\n    border-bottom: 1px solid #d7d7d7;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    width: 100%;\n    text-align: left;\n    font-weight: 500;\n    color: #000;\n    -webkit-transition: background-color 0.28s cubic-bezier(0.4, 0, 0.2, 1);\n    transition: background-color 0.28s cubic-bezier(0.4, 0, 0.2, 1); }\n    .reports-draft .row:hover {\n      background-color: #eeeeee; }\n    .reports-draft .row.tooltips {\n      color: #878787; }\n      .reports-draft .row.tooltips p {\n        margin: 0;\n        font-weight: 500; }\n      .reports-draft .row.tooltips span {\n        color: rgba(0, 0, 0, 0.3); }\n      .reports-draft .row.tooltips:hover {\n        background-color: #fdfdfd; }\n    .reports-draft .row .col {\n      -webkit-box-flex: 1;\n          -ms-flex: 1;\n              flex: 1;\n      padding: 15px; }\n      .reports-draft .row .col.child-name {\n        color: #656565; }\n      .reports-draft .row .col.child-status {\n        -webkit-box-flex: 0;\n            -ms-flex: 0 0 5%;\n                flex: 0 0 5%;\n        color: #878787; }\n      .reports-draft .row .col.inactive {\n        background-color: #eeeeee; }\n"
 
 /***/ },
 /* 887 */
 /***/ function(module, exports) {
 
-module.exports = ".simple-modal {\n  box-sizing: content-box; }\n  .simple-modal .dialog-content {\n    min-width: 400px; }\n    .simple-modal .dialog-content .modal-controls {\n      text-align: right; }\n      .simple-modal .dialog-content .modal-controls mdl-spinner {\n        vertical-align: middle; }\n"
+module.exports = "/* Warning this component uses no ViewEncapsulation */\n.centre-children .flex-card {\n  margin: 0;\n  margin-right: 20px; }\n  .centre-children .flex-card .col.avatar-col {\n    -webkit-box-flex: 0;\n        -ms-flex: 0 0 5%;\n            flex: 0 0 5%; }\n    .centre-children .flex-card .col.avatar-col img {\n      border-radius: 50%;\n      width: 4rem; }\n\n.centre-children .add-children {\n  position: fixed;\n  right: 20px;\n  bottom: 5vh; }\n"
 
 /***/ },
 /* 888 */
 /***/ function(module, exports) {
 
-module.exports = ".datepicker-wrapper {\n  position: relative;\n  max-width: 100%; }\n\n.ng-datepicker-input {\n  position: relative;\n  width: 100%;\n  cursor: pointer; }\n\n.ng-datepicker {\n  position: absolute;\n  z-index: 99;\n  width: 250px;\n  background: #fff;\n  font-size: 12px;\n  color: #565a5c;\n  display: inline-block;\n  border: 1px solid #c4c4c4;\n  border-radius: 2px;\n  margin: 0;\n  padding: 0;\n  top: 48px;\n  right: 0; }\n\n.ng-datepicker > .controls {\n  width: 250px;\n  display: inline-block;\n  padding: 5px 0 0 0; }\n\n.ng-datepicker > .controls mdl-icon {\n  font-size: 25px;\n  cursor: pointer; }\n\n.ng-datepicker > .controls > .left {\n  width: 40px;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  float: left; }\n\n.ng-datepicker > .controls > .left > mdl-icon.prev-year-btn {\n  opacity: 0.4; }\n\n.ng-datepicker > .controls > .right {\n  width: 40px;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center; }\n\n.ng-datepicker > .controls > .right > mdl-icon.next-year-btn {\n  opacity: 0.4; }\n\n.ng-datepicker > .controls > span.date {\n  width: 160px;\n  text-align: center;\n  font-size: 14px;\n  color: #565a5c;\n  font-weight: bold;\n  float: left;\n  padding: 3px 0 0 0; }\n\n.ng-datepicker > .day-names {\n  width: 250px;\n  border-bottom: 1px solid #c4c4c4;\n  display: inline-block; }\n\n.ng-datepicker > .day-names > span {\n  width: 34.5px;\n  text-align: center;\n  color: #82888a;\n  float: left;\n  display: block; }\n\n.ng-datepicker > .calendar {\n  width: 250px;\n  display: inline-block;\n  margin: -5px 0 -6px -1px;\n  padding: 0; }\n\n.ng-datepicker > .calendar > span.day {\n  width: 34.5px;\n  height: 35px;\n  border-left: 1px solid #c4c4c4;\n  border-bottom: 1px solid #c4c4c4;\n  float: left;\n  display: block;\n  color: #565a5c;\n  text-align: center;\n  font-weight: bold;\n  line-height: 35px;\n  margin: 0;\n  padding: 0;\n  font-size: 14px;\n  cursor: pointer; }\n\n.ng-datepicker > .calendar > span.day:last-child {\n  border-right: 1px solid #c4c4c4; }\n\n.ng-datepicker > .calendar > span.day:nth-child(7n) {\n  border-right: none; }\n\n.ng-datepicker > .calendar > span.day.disabled {\n  border-left: 1px solid transparent;\n  cursor: default;\n  pointer-events: none; }\n\n.ng-datepicker > .calendar > span.day:hover {\n  background: rgba(0, 0, 0, 0.4);\n  color: #fff; }\n\n.ng-datepicker > .calendar > span.day.selected {\n  background: rgba(0, 0, 0, 0.8);\n  cursor: default;\n  pointer-events: none;\n  color: #fff; }\n\n.ng-datepicker.static {\n  position: relative;\n  width: 100%;\n  box-sizing: border-box; }\n\n.ng-datepicker.static > .controls {\n  width: 100%;\n  text-align: center;\n  background-color: #eee;\n  padding: 5px 0; }\n\n.ng-datepicker.static > .controls > .left > mdl-icon.prev-month-btn {\n  margin-top: -6px; }\n\n.ng-datepicker.static > .controls > span.date {\n  width: auto;\n  float: none;\n  display: inline-block;\n  padding-top: 4px; }\n\n.ng-datepicker.static > .day-names {\n  width: 100%;\n  background-color: #f9f9f9; }\n\n.ng-datepicker.static > .day-names > span {\n  width: calc(100%/7); }\n\n.ng-datepicker.static > .calendar {\n  width: 100%; }\n\n.ng-datepicker.static > .calendar > span.day {\n  width: calc(100%/7 - 1px);\n  height: 50px;\n  line-height: 50px; }\n"
+module.exports = ".centre-details {\n  background: #fdfdfd;\n  border-radius: 5px;\n  margin-right: 20px; }\n  .centre-details .title {\n    padding: 50px 20px 15px 30px;\n    border-bottom: 1px solid #d7d7d7;\n    color: #6d6d6d;\n    font-size: 1.4rem; }\n  .centre-details .settings {\n    text-align: center; }\n    .centre-details .settings .col {\n      display: inline-block;\n      max-width: 45%;\n      margin: 15px; }\n      .centre-details .settings .col mdl-textfield {\n        width: 100%; }\n  .centre-details .edit-picture {\n    padding: 30px; }\n    .centre-details .edit-picture img {\n      border-radius: 50%;\n      width: 4rem;\n      height: auto;\n      margin-right: 15px; }\n  .centre-details .save-button {\n    padding: 30px;\n    text-align: right; }\n  .centre-details .edit-picture mdl-button, .centre-details .save-button mdl-button {\n    background-color: #96e1de;\n    color: #5b5b5b; }\n  .centre-details .edit-picture mdl-spinner, .centre-details .save-button mdl-spinner {\n    vertical-align: middle; }\n"
 
 /***/ },
 /* 889 */
 /***/ function(module, exports) {
 
-module.exports = ".flex-card {\n  background-color: #fdfdfd;\n  border-radius: 5px;\n  margin: 10px 30px 0 10px; }\n  .flex-card .row {\n    border-bottom: 1px solid #d7d7d7;\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 100%;\n    text-align: left;\n    color: #181818;\n    -webkit-transition: backgrounc-color 0.28s cubic-bezier(0.4, 0, 0.2, 1);\n    transition: backgrounc-color 0.28s cubic-bezier(0.4, 0, 0.2, 1);\n    cursor: pointer; }\n    .flex-card .row:hover {\n      background-color: #eeeeee; }\n    .flex-card .row .col {\n      -webkit-box-flex: 1;\n          -ms-flex: 1;\n              flex: 1;\n      padding: 15px; }\n    .flex-card .row.tooltips {\n      color: #8d8d8d;\n      text-transform: capitalize; }\n      .flex-card .row.tooltips .col {\n        -webkit-user-select: none;\n        -moz-user-select: none;\n        -ms-user-select: none;\n        user-select: none; }\n      .flex-card .row.tooltips:hover {\n        background-color: #fdfdfd; }\n    .flex-card .row .arrow-down, .flex-card .row .arrow-up {\n      color: #212121; }\n    .flex-card .row .arrow-down::before, .flex-card .row .arrow-up::before {\n      vertical-align: bottom;\n      font-family: 'Material Icons';\n      font-weight: normal;\n      font-style: normal;\n      font-size: 1.4rem;\n      line-height: 1;\n      letter-spacing: normal;\n      text-transform: none;\n      display: inline-block;\n      white-space: nowrap;\n      word-wrap: normal;\n      direction: ltr;\n      -webkit-font-feature-settings: 'liga';\n      -webkit-font-smoothing: antialiased; }\n    .flex-card .row .arrow-down::before {\n      content: 'arrow_downward'; }\n    .flex-card .row .arrow-up::before {\n      content: 'arrow_upward'; }\n  .flex-card mdl-progress {\n    width: 100%; }\n  .flex-card .mdl-button.mdl-button--fab {\n    position: absolute;\n    margin-right: 20px;\n    right: 0;\n    bottom: 5vh; }\n"
+module.exports = "/* Warning: this component uses no ViewEncapsulation */\n.centre-families .flex-card {\n  margin: 0;\n  margin-right: 20px; }\n  .centre-families .flex-card .row {\n    text-align: center; }\n    .centre-families .flex-card .row .name-col {\n      text-align: left;\n      -webkit-box-flex: 2;\n          -ms-flex: 2;\n              flex: 2; }\n    .centre-families .flex-card .row .image-col {\n      -webkit-box-flex: 1;\n          -ms-flex: 1;\n              flex: 1; }\n      .centre-families .flex-card .row .image-col img {\n        width: 50px;\n        height: 50px;\n        border-radius: 50%;\n        text-align: left;\n        -webkit-box-pack: start;\n            -ms-flex-pack: start;\n                justify-content: flex-start; }\n    .centre-families .flex-card .row .empty-col {\n      -webkit-box-flex: 1;\n          -ms-flex: 1;\n              flex: 1; }\n\n.centre-families .refresh-families {\n  position: absolute;\n  right: 20px;\n  top: 50px; }\n\n.centre-families .add-families {\n  position: fixed;\n  right: 20px;\n  bottom: 5vh; }\n"
 
 /***/ },
 /* 890 */
 /***/ function(module, exports) {
 
-module.exports = ".backdrop {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  right: 0;\n  background-color: rgba(0, 0, 0, 0.3);\n  z-index: 99;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n  .backdrop .modal {\n    box-sizing: border-box;\n    width: 100%; }\n"
+module.exports = ".flex {\n  width: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex; }\n\n.column {\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column; }\n\n.padding-bottom30 {\n  padding-bottom: 30px; }\n\n.backdrop {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  right: 0;\n  background-color: rgba(0, 0, 0, 0.3);\n  z-index: 99;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n  .backdrop .modal {\n    position: relative;\n    min-width: 80%;\n    max-width: 95%;\n    box-sizing: border-box;\n    border-radius: 7px;\n    background-color: white; }\n    .backdrop .modal .add-families-header {\n      border-radius: 5px 5px 0 0;\n      background-color: #54c3be;\n      color: white;\n      height: 50px;\n      font-size: 1.3em;\n      font-weight: bold;\n      cursor: pointer; }\n      .backdrop .modal .add-families-header .tab {\n        -webkit-box-flex: 1;\n            -ms-flex: 1;\n                flex: 1;\n        -webkit-box-pack: center;\n            -ms-flex-pack: center;\n                justify-content: center;\n        -webkit-box-align: center;\n            -ms-flex-align: center;\n                align-items: center; }\n        .backdrop .modal .add-families-header .tab.active {\n          border-bottom: 2px solid white; }\n      .backdrop .modal .add-families-header .close {\n        position: absolute;\n        right: 12px;\n        top: 12px; }\n        .backdrop .modal .add-families-header .close .close-button {\n          font-size: 1.3em;\n          -webkit-box-pack: center;\n              -ms-flex-pack: center;\n                  justify-content: center;\n          -webkit-box-align: center;\n              -ms-flex-align: center;\n                  align-items: center;\n          font-weight: bold; }\n    .backdrop .modal .add-families-body {\n      min-height: 50px; }\n      .backdrop .modal .add-families-body .add-families-inner {\n        padding: 15px 0px; }\n        .backdrop .modal .add-families-body .add-families-inner .border-bottom {\n          border-bottom: 1px solid #eae1e1; }\n        .backdrop .modal .add-families-body .add-families-inner .row-header {\n          padding-top: 30px;\n          color: #999; }\n        .backdrop .modal .add-families-body .add-families-inner .row {\n          -ms-flex-pack: distribute;\n              justify-content: space-around;\n          -webkit-box-align: center;\n              -ms-flex-align: center;\n                  align-items: center; }\n          .backdrop .modal .add-families-body .add-families-inner .row .col {\n            -webkit-box-pack: start;\n                -ms-flex-pack: start;\n                    justify-content: flex-start;\n            -webkit-box-align: center;\n                -ms-flex-align: center;\n                    align-items: center;\n            padding-left: 20px; }\n            .backdrop .modal .add-families-body .add-families-inner .row .col mdl-select, .backdrop .modal .add-families-body .add-families-inner .row .col mdl-textfield {\n              width: 170px !important; }\n        .backdrop .modal .add-families-body .add-families-inner .row:last-child {\n          border-bottom: none !important; }\n        .backdrop .modal .add-families-body .add-families-inner .flexible-container {\n          max-height: 250px;\n          overflow-y: auto;\n          display: inline-block; }\n          .backdrop .modal .add-families-body .add-families-inner .flexible-container app-datepicker {\n            position: absolute; }\n        .backdrop .modal .add-families-body .add-families-inner .add-button {\n          padding: 10px 0px;\n          cursor: pointer; }\n          .backdrop .modal .add-families-body .add-families-inner .add-button .col {\n            color: #999; }\n        .backdrop .modal .add-families-body .add-families-inner .sibling {\n          padding-top: 30px; }\n          .backdrop .modal .add-families-body .add-families-inner .sibling .header {\n            -webkit-box-pack: start;\n                -ms-flex-pack: start;\n                    justify-content: flex-start; }\n            .backdrop .modal .add-families-body .add-families-inner .sibling .header .col {\n              font-weight: bold;\n              font-size: 1.2em;\n              padding-left: 20px;\n              color: #797676; }\n          .backdrop .modal .add-families-body .add-families-inner .sibling .selector {\n            -webkit-box-flex: 1;\n                -ms-flex: 1;\n                    flex: 1;\n            padding-left: 20px; }\n          .backdrop .modal .add-families-body .add-families-inner .sibling .link-button {\n            -webkit-box-flex: 3;\n                -ms-flex: 3;\n                    flex: 3;\n            -webkit-box-align: center;\n                -ms-flex-align: center;\n                    align-items: center; }\n            .backdrop .modal .add-families-body .add-families-inner .sibling .link-button mdl-button {\n              background-color: #6ac289;\n              color: white;\n              font-size: 0.8em;\n              font-weight: bold;\n              height: 25px !important;\n              line-height: 25px !important; }\n        .backdrop .modal .add-families-body .add-families-inner .error-msg {\n          -webkit-box-flex: 4;\n              -ms-flex: 4;\n                  flex: 4;\n          color: red;\n          -webkit-box-pack: center !important;\n              -ms-flex-pack: center !important;\n                  justify-content: center !important;\n          -webkit-box-align: center;\n              -ms-flex-align: center;\n                  align-items: center; }\n        .backdrop .modal .add-families-body .add-families-inner .save-btn {\n          -webkit-box-pack: end !important;\n              -ms-flex-pack: end !important;\n                  justify-content: flex-end !important;\n          padding-right: 2vh;\n          -webkit-box-flex: 1;\n              -ms-flex: 1;\n                  flex: 1; }\n          .backdrop .modal .add-families-body .add-families-inner .save-btn button {\n            background-color: none;\n            color: #6ac289;\n            font-size: 1.2em;\n            font-weight: bold; }\n"
 
 /***/ },
 /* 891 */
 /***/ function(module, exports) {
 
-module.exports = ".navbar {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  background-color: white;\n  height: 70px;\n  box-shadow: 0 0 5px #afafaf;\n  position: relative; }\n  .navbar .navbar-title {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-flex: 4;\n        -ms-flex: 4;\n            flex: 4;\n    /*padding-left: 7vw;*/ }\n    .navbar .navbar-title .menu {\n      width: 80px; }\n    .navbar .navbar-title .logo {\n      color: #a187af;\n      font-weight: 800;\n      font-size: 2em; }\n    .navbar .navbar-title .sub-title {\n      color: #a187af;\n      font-size: 1.5em;\n      padding-left: 1vw; }\n  .navbar .navbar-holder {\n    -webkit-box-flex: 6;\n        -ms-flex: 6;\n            flex: 6;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: end;\n        -ms-flex-pack: end;\n            justify-content: flex-end;\n    width: 100%;\n    overflow: hidden;\n    position: relative; }\n    .navbar .navbar-holder .navbar-scroll {\n      display: -webkit-inline-box;\n      display: -ms-inline-flexbox;\n      display: inline-flex;\n      -webkit-transition: all .5s ease;\n      transition: all .5s ease; }\n      .navbar .navbar-holder .navbar-scroll .navbar-item {\n        display: -webkit-inline-box;\n        display: -ms-inline-flexbox;\n        display: inline-flex;\n        -webkit-box-align: center;\n            -ms-flex-align: center;\n                align-items: center;\n        color: #4a4a4a;\n        cursor: pointer;\n        font-weight: 500;\n        text-decoration: none;\n        white-space: nowrap; }\n        .navbar .navbar-holder .navbar-scroll .navbar-item p {\n          margin: 0;\n          padding: 0.6vh 1.5vw; }\n        .navbar .navbar-holder .navbar-scroll .navbar-item.active-route p {\n          border: 2px solid #a187af;\n          border-radius: 5px; }\n    .navbar .navbar-holder .arrow {\n      position: absolute;\n      display: -webkit-inline-box;\n      display: -ms-inline-flexbox;\n      display: inline-flex;\n      height: 100%;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      cursor: pointer;\n      min-width: 60px;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      top: 0;\n      opacity: 0;\n      visibility: hidden; }\n      .navbar .navbar-holder .arrow.show {\n        opacity: 1;\n        visibility: visible; }\n    .navbar .navbar-holder .arrow-back {\n      left: 0px;\n      z-index: 1;\n      background-image: -webkit-linear-gradient(left, white 65%, rgba(255, 255, 255, 0) 100%);\n      background-image: linear-gradient(to right, white 65%, rgba(255, 255, 255, 0) 100%); }\n    .navbar .navbar-holder .arrow-forward {\n      right: 0px;\n      background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 35%, white 100%);\n      background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, white 35%, white 100%); }\n\n@media screen and (max-width: 1200px) {\n  .logo {\n    font-size: 1.5em !important; }\n  .sub-title {\n    font-size: 1.3em !important; } }\n"
+module.exports = "/* Warning: this component uses no ViewEncapsulation */\n.centre-rooms .flex-card {\n  margin: 0;\n  margin-right: 20px; }\n  .centre-rooms .flex-card .row {\n    text-align: center; }\n    .centre-rooms .flex-card .row .name-col {\n      text-align: left; }\n\n.centre-rooms .add-rooms {\n  position: fixed;\n  right: 20px;\n  bottom: 5vh; }\n"
 
 /***/ },
 /* 892 */
 /***/ function(module, exports) {
 
-module.exports = ".navbar {\n  height: 20px;\n  background-color: #b9c5d8;\n  color: #fff;\n  padding: 13px 0px 15px 4rem;\n  font-size: 1.8rem;\n  line-height: 1.8rem; }\n\n@media screen and (min-width: 1024px) {\n  .navbar {\n    padding-left: 10px; } }\n"
+module.exports = ".centre-subventions {\n  background: #fdfdfd;\n  border-radius: 5px;\n  margin-right: 20px; }\n  .centre-subventions .title {\n    padding: 50px 20px 15px 30px;\n    border-bottom: 1px solid #d7d7d7;\n    color: #6d6d6d;\n    font-size: 1.4rem; }\n  .centre-subventions .ecce {\n    text-align: center; }\n    .centre-subventions .ecce .mask {\n      position: absolute;\n      width: 100%;\n      height: 100%;\n      z-index: 100; }\n    .centre-subventions .ecce .col {\n      display: inline-block;\n      width: 45%;\n      max-width: 45%;\n      margin: 15px; }\n      .centre-subventions .ecce .col .parameter {\n        position: relative;\n        width: 100%;\n        min-height: 20px;\n        border-bottom: 1px dashed;\n        padding-bottom: 10px; }\n        .centre-subventions .ecce .col .parameter .name {\n          float: left; }\n        .centre-subventions .ecce .col .parameter app-ecce-capitations {\n          float: right; }\n        .centre-subventions .ecce .col .parameter mdl-switch {\n          float: right;\n          width: 0; }\n      .centre-subventions .ecce .col .details p {\n        text-align: left;\n        font-size: smaller;\n        line-height: 1.2em;\n        margin-top: 5px; }\n  .centre-subventions .save-button {\n    padding: 30px;\n    text-align: right; }\n    .centre-subventions .save-button mdl-button {\n      background-color: #96e1de; }\n      .centre-subventions .save-button mdl-button.cancel {\n        background-color: #f3c2cd;\n        margin-right: 20px; }\n"
 
 /***/ },
 /* 893 */
 /***/ function(module, exports) {
 
-module.exports = ".searchbar {\n  position: relative;\n  width: 100%;\n  text-align: right;\n  padding: 15px 30px;\n  box-sizing: border-box; }\n  .searchbar mdl-icon {\n    position: absolute;\n    right: 30px;\n    top: 35px;\n    -webkit-transition: all .5s ease;\n    transition: all .5s ease;\n    cursor: pointer;\n    -webkit-user-select: none;\n    max-width: 24px;\n    will-change: right; }\n  .searchbar .search-button {\n    z-index: 1; }\n  .searchbar .clear-button, .searchbar mdl-textfield {\n    opacity: 0;\n    visibility: hidden;\n    will-change: opacity;\n    -webkit-transition: all 2s ease;\n    transition: all 2s ease;\n    width: 230px; }\n  .searchbar.active mdl-icon.search-button {\n    right: 260px; }\n  .searchbar.active .clear-button, .searchbar.active mdl-textfield {\n    opacity: 1;\n    visibility: visible; }\n"
+module.exports = ".simple-modal mdl-textfield {\n  width: 350px; }\n\n.simple-modal .error-message {\n  margin: 5px 0;\n  min-height: 24px; }\n\n.simple-modal .save-button mdl-button {\n  background-color: #96e1de;\n  color: #5b5b5b; }\n"
 
 /***/ },
 /* 894 */
 /***/ function(module, exports) {
 
-module.exports = ".colored-button {\n  display: inline-block;\n  text-align: center;\n  text-transform: uppercase;\n  padding: 5px 8px;\n  border-radius: 5px;\n  margin: 5px;\n  color: #fff;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n  overflow: hidden; }\n  .colored-button.ecce {\n    background-color: #8ec278;\n    padding: 5px 20px; }\n  .colored-button.not-ecce {\n    background-color: #e3bd54; }\n  .colored-button.active {\n    background-color: #7395c9; }\n    .colored-button.active.light-green {\n      background-color: #6bc8b7; }\n  .colored-button.inactive {\n    background-color: #b9b9b9; }\n"
+module.exports = ".simple-modal .select-row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  width: 350px; }\n  .simple-modal .select-row mdl-select {\n    margin-right: 10px;\n    max-width: 49%; }\n\n.simple-modal .room-name {\n  width: 350px; }\n\n.simple-modal .capacity, .simple-modal .ecce-capitations, .simple-modal .room-name {\n  -webkit-box-flex: 1;\n      -ms-flex: 1;\n          flex: 1; }\n\n.simple-modal .ecce-capitations {\n  margin-left: 10px; }\n  .simple-modal .ecce-capitations label {\n    display: block;\n    color: #3f51b5;\n    font-size: 12px;\n    margin-top: 4px; }\n\n.simple-modal .error-message {\n  margin: 5px 0;\n  min-height: 24px; }\n\n.simple-modal .save-button {\n  text-align: right; }\n"
 
 /***/ },
 /* 895 */
 /***/ function(module, exports) {
 
-module.exports = ".ecce-modal {\n  width: 80%;\n  margin: auto;\n  max-width: 1000px;\n  box-sizing: border-box;\n  border-radius: 5px;\n  background-color: white; }\n  .ecce-modal mdl-icon.close-button {\n    max-width: 24px;\n    cursor: pointer;\n    position: absolute;\n    top: 15px;\n    right: 15px; }\n  .ecce-modal .modal-header {\n    position: relative;\n    background-color: #4dbe9c;\n    color: #fff;\n    border-radius: 4px 4px 0 0; }\n    .ecce-modal .modal-header .child-details {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      padding: 0 15px;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center; }\n      .ecce-modal .modal-header .child-details .ecce-status {\n        -webkit-box-flex: 0;\n            -ms-flex: 0 0 20%;\n                flex: 0 0 20%;\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-align: center;\n            -ms-flex-align: center;\n                align-items: center;\n        padding: 0 30px; }\n        .ecce-modal .modal-header .child-details .ecce-status app-colored-button {\n          cursor: pointer; }\n      .ecce-modal .modal-header .child-details .name {\n        margin: 0;\n        font-size: 1.8rem;\n        line-height: 2rem; }\n    .ecce-modal .modal-header .close-button {\n      position: absolute;\n      right: 5px;\n      top: 5px; }\n    .ecce-modal .modal-header .control-pills {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex; }\n      .ecce-modal .modal-header .control-pills button {\n        -webkit-box-flex: 1;\n            -ms-flex: 1;\n                flex: 1;\n        color: #fff; }\n        .ecce-modal .modal-header .control-pills button.active-pill {\n          border-bottom: 2px solid #ec058e; }\n  .ecce-modal .modal-body {\n    padding: 20px;\n    color: #6d6d6d;\n    min-height: 300px; }\n    .ecce-modal .modal-body .error-message {\n      color: #d50000;\n      font-weight: 500; }\n    .ecce-modal .modal-body > div .header, .ecce-modal .modal-body > div .total-value {\n      font-weight: bolder; }\n    .ecce-modal .modal-body > div.ecce .total-value {\n      font-size: 2rem; }\n    .ecce-modal .modal-body > div.ecce .row {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex; }\n      .ecce-modal .modal-body > div.ecce .row .col:first-child {\n        -webkit-box-flex: 0;\n            -ms-flex: 0 0 80%;\n                flex: 0 0 80%; }\n    .ecce-modal .modal-body > div.ecce .payment-model {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      width: 50%; }\n      .ecce-modal .modal-body > div.ecce .payment-model mdl-switch {\n        -webkit-box-flex: 1;\n            -ms-flex: 1;\n                flex: 1;\n        margin-left: 20px; }\n    .ecce-modal .modal-body > div.ecce .button-bar {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      -webkit-box-pack: start;\n          -ms-flex-pack: start;\n              justify-content: flex-start; }\n      .ecce-modal .modal-body > div.ecce .button-bar label {\n        width: 145px;\n        margin-right: 5px; }\n    .ecce-modal .modal-body > div.costs {\n      color: #000; }\n      .ecce-modal .modal-body > div.costs p {\n        color: #6d6d6d; }\n        .ecce-modal .modal-body > div.costs p.fee {\n          font-weight: 600;\n          font-size: 2rem; }\n      .ecce-modal .modal-body > div.costs .row {\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-align: start;\n            -ms-flex-align: start;\n                align-items: flex-start;\n        -webkit-box-pack: start;\n            -ms-flex-pack: start;\n                justify-content: flex-start; }\n        .ecce-modal .modal-body > div.costs .row.extras p {\n          margin: 0;\n          white-space: nowrap;\n          overflow: hidden;\n          text-overflow: ellipsis; }\n        .ecce-modal .modal-body > div.costs .row.extras span.extras-value {\n          font-size: 16px;\n          line-height: 2rem; }\n        .ecce-modal .modal-body > div.costs .row.totals {\n          margin-top: 60px; }\n        .ecce-modal .modal-body > div.costs .row .col {\n          margin-right: 20px;\n          -webkit-box-flex: 1;\n              -ms-flex: 1;\n                  flex: 1; }\n          .ecce-modal .modal-body > div.costs .row .col.col-40 {\n            -webkit-box-flex: 0;\n                -ms-flex: 0 0 40%;\n                    flex: 0 0 40%; }\n          .ecce-modal .modal-body > div.costs .row .col.col-90 {\n            -webkit-box-flex: 90%;\n                -ms-flex: 90%;\n                    flex: 90%; }\n          .ecce-modal .modal-body > div.costs .row .col.col-10 {\n            -webkit-box-flex: 0;\n                -ms-flex: 0 0 10%;\n                    flex: 0 0 10%; }\n          .ecce-modal .modal-body > div.costs .row .col mdl-textfield {\n            padding: 0 0 20px 0;\n            width: auto; }\n  .ecce-modal .control-bar {\n    padding: 5px;\n    border-top: 1px solid #dedede;\n    overflow: hidden; }\n    .ecce-modal .control-bar .button-right {\n      float: right;\n      display: -webkit-inline-box;\n      display: -ms-inline-flexbox;\n      display: inline-flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center; }\n"
+module.exports = "div.capitations {\n  display: inline-block; }\n  div.capitations span {\n    float: left;\n    margin: 3px 10px;\n    font-weight: bold;\n    color: lightgray;\n    cursor: pointer; }\n    div.capitations span:first-child {\n      margin-left: 0; }\n    div.capitations span.on {\n      color: red; }\n    div.capitations span.off {\n      color: green; }\n    div.capitations span.mixed {\n      color: darkorange; }\n"
 
 /***/ },
 /* 896 */
 /***/ function(module, exports) {
 
-module.exports = ".list-buttons.interactive app-colored-button {\n  cursor: pointer; }\n"
+module.exports = ".simple-modal {\n  box-sizing: content-box; }\n  .simple-modal .dialog-content {\n    min-width: 400px; }\n    .simple-modal .dialog-content .modal-controls {\n      text-align: right; }\n      .simple-modal .dialog-content .modal-controls mdl-spinner {\n        vertical-align: middle; }\n"
 
 /***/ },
 /* 897 */
 /***/ function(module, exports) {
 
-module.exports = "/* Warning this component uses no view encapsulation */\n.ecce-subventions .flex-card .col.attendance {\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 50%;\n          flex: 1 1 50%;\n  text-align: left; }\n\n.ecce-subventions .flex-card .col.status {\n  -webkit-box-flex: 0;\n      -ms-flex: 0 0 10%;\n          flex: 0 0 10%; }\n\n.ecce-subventions .flex-card .col.start-date {\n  -webkit-box-flex: 0;\n      -ms-flex: 0 0 10%;\n          flex: 0 0 10%; }\n\n.ecce-subventions .flex-card .col.child-name {\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 15%;\n          flex: 1 1 15%;\n  text-align: left; }\n"
+module.exports = ".datepicker-wrapper {\n  position: relative;\n  max-width: 100%; }\n\n.ng-datepicker-input {\n  position: relative;\n  width: 100%;\n  cursor: pointer; }\n\n.ng-datepicker {\n  position: absolute;\n  z-index: 99;\n  width: 250px;\n  background: #fff;\n  font-size: 12px;\n  color: #565a5c;\n  display: inline-block;\n  border: 1px solid #c4c4c4;\n  border-radius: 2px;\n  margin: 0;\n  padding: 0;\n  top: 48px;\n  right: 0; }\n\n.ng-datepicker > .controls {\n  width: 250px;\n  display: inline-block;\n  padding: 5px 0 0 0; }\n\n.ng-datepicker > .controls mdl-icon {\n  font-size: 25px;\n  cursor: pointer; }\n\n.ng-datepicker > .controls > .left {\n  width: 40px;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  float: left; }\n\n.ng-datepicker > .controls > .left > mdl-icon.prev-year-btn {\n  opacity: 0.4; }\n\n.ng-datepicker > .controls > .right {\n  width: 40px;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center; }\n\n.ng-datepicker > .controls > .right > mdl-icon.next-year-btn {\n  opacity: 0.4; }\n\n.ng-datepicker > .controls > span.date {\n  width: 160px;\n  text-align: center;\n  font-size: 14px;\n  color: #565a5c;\n  font-weight: bold;\n  float: left;\n  padding: 3px 0 0 0; }\n\n.ng-datepicker > .day-names {\n  width: 250px;\n  border-bottom: 1px solid #c4c4c4;\n  display: inline-block; }\n\n.ng-datepicker > .day-names > span {\n  width: 34.5px;\n  text-align: center;\n  color: #82888a;\n  float: left;\n  display: block; }\n\n.ng-datepicker > .calendar {\n  width: 250px;\n  display: inline-block;\n  margin: -5px 0 -6px -1px;\n  padding: 0; }\n\n.ng-datepicker > .calendar > span.day {\n  width: 34.5px;\n  height: 35px;\n  border-left: 1px solid #c4c4c4;\n  border-bottom: 1px solid #c4c4c4;\n  float: left;\n  display: block;\n  color: #565a5c;\n  text-align: center;\n  font-weight: bold;\n  line-height: 35px;\n  margin: 0;\n  padding: 0;\n  font-size: 14px;\n  cursor: pointer; }\n\n.ng-datepicker > .calendar > span.day:last-child {\n  border-right: 1px solid #c4c4c4; }\n\n.ng-datepicker > .calendar > span.day:nth-child(7n) {\n  border-right: none; }\n\n.ng-datepicker > .calendar > span.day.disabled {\n  border-left: 1px solid transparent;\n  cursor: default;\n  pointer-events: none; }\n\n.ng-datepicker > .calendar > span.day:hover {\n  background: rgba(0, 0, 0, 0.4);\n  color: #fff; }\n\n.ng-datepicker > .calendar > span.day.selected {\n  background: rgba(0, 0, 0, 0.8);\n  cursor: default;\n  pointer-events: none;\n  color: #fff; }\n\n.ng-datepicker.static {\n  position: relative;\n  width: 100%;\n  box-sizing: border-box; }\n\n.ng-datepicker.static > .controls {\n  width: 100%;\n  text-align: center;\n  background-color: #eee;\n  padding: 5px 0; }\n\n.ng-datepicker.static > .controls > .left > mdl-icon.prev-month-btn {\n  margin-top: -6px; }\n\n.ng-datepicker.static > .controls > span.date {\n  width: auto;\n  float: none;\n  display: inline-block;\n  padding-top: 4px; }\n\n.ng-datepicker.static > .day-names {\n  width: 100%;\n  background-color: #f9f9f9; }\n\n.ng-datepicker.static > .day-names > span {\n  width: calc(100%/7); }\n\n.ng-datepicker.static > .calendar {\n  width: 100%; }\n\n.ng-datepicker.static > .calendar > span.day {\n  width: calc(100%/7 - 1px);\n  height: 50px;\n  line-height: 50px; }\n"
 
 /***/ },
 /* 898 */
 /***/ function(module, exports) {
 
-module.exports = ".verify {\n  margin: 5px 30px;\n  float: left; }\n  .verify mdl-progress {\n    position: fixed;\n    top: 0;\n    right: 0;\n    left: 0;\n    width: 100%; }\n  .verify .vista-logo img {\n    max-width: 15rem; }\n  .verify .stabilizer {\n    position: fixed;\n    top: 40vh;\n    right: 0;\n    left: 0; }\n    .verify .stabilizer p {\n      width: 100vw;\n      font-size: 2.5rem;\n      line-height: 3rem;\n      color: #fff;\n      text-align: center; }\n"
+module.exports = ".flex-card {\n  background-color: #fdfdfd;\n  border-radius: 5px;\n  margin: 10px 30px 0 10px; }\n  .flex-card .row {\n    border-bottom: 1px solid #d7d7d7;\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    width: 100%;\n    text-align: left;\n    color: #181818;\n    -webkit-transition: backgrounc-color 0.28s cubic-bezier(0.4, 0, 0.2, 1);\n    transition: backgrounc-color 0.28s cubic-bezier(0.4, 0, 0.2, 1);\n    cursor: pointer; }\n    .flex-card .row:hover {\n      background-color: #eeeeee; }\n    .flex-card .row .col {\n      -webkit-box-flex: 1;\n          -ms-flex: 1;\n              flex: 1;\n      padding: 15px; }\n    .flex-card .row.tooltips {\n      color: #8d8d8d;\n      text-transform: capitalize; }\n      .flex-card .row.tooltips .col {\n        -webkit-user-select: none;\n        -moz-user-select: none;\n        -ms-user-select: none;\n        user-select: none; }\n      .flex-card .row.tooltips:hover {\n        background-color: #fdfdfd; }\n    .flex-card .row .arrow-down, .flex-card .row .arrow-up {\n      color: #212121; }\n    .flex-card .row .arrow-down::before, .flex-card .row .arrow-up::before {\n      vertical-align: bottom;\n      font-family: 'Material Icons';\n      font-weight: normal;\n      font-style: normal;\n      font-size: 1.4rem;\n      line-height: 1;\n      letter-spacing: normal;\n      text-transform: none;\n      display: inline-block;\n      white-space: nowrap;\n      word-wrap: normal;\n      direction: ltr;\n      -webkit-font-feature-settings: 'liga';\n      -webkit-font-smoothing: antialiased; }\n    .flex-card .row .arrow-down::before {\n      content: 'arrow_downward'; }\n    .flex-card .row .arrow-up::before {\n      content: 'arrow_upward'; }\n  .flex-card mdl-progress {\n    width: 100%; }\n  .flex-card .mdl-button.mdl-button--fab {\n    position: absolute;\n    margin-right: 20px;\n    right: 0;\n    bottom: 5vh; }\n"
 
 /***/ },
 /* 899 */
 /***/ function(module, exports) {
 
-module.exports = "<app-navbar title=\"Attendance\"></app-navbar>\r\n<app-navbar-small [routes]=\"routes\"></app-navbar-small>\r\n<div class=\"layout-content\">\r\n  <app-flex-card\r\n    [collection]=\"children\"\r\n    [loading]=\"loading\"\r\n    [options]=\"tableOptions\"\r\n    class=\"attendance\">\r\n    <app-searchbar (searchFilter)=\"handleFilter($event)\"></app-searchbar>\r\n    <div class=\"row\" *ngFor=\"let child of children\">\r\n      <div class=\"col\">\r\n        <img src={{child.picture}} alt=\"Child's Avatar\">\r\n      </div>\r\n      <div class=\"col\">\r\n        {{child.name}}\r\n      </div>\r\n      <div class=\"col presence-col\">\r\n        <app-presence-bar [child]=\"child\"></app-presence-bar>\r\n      </div>\r\n      <div class=\"col time-col\" *ngIf=\"!child.editState || child.editState == 'OUT'\">\r\n        <span (click)=\"editTime(child, 'IN')\">\r\n          {{getAttendanceStatusTime(child, 'IN')}}\r\n        </span>\r\n      </div>\r\n      <div class=\"col time-col\" *ngIf=\"child.editState\">\r\n        <app-timepicker [currentTime]=\"currentTime\" (timeChanged)=\"handleTimechange($event, child)\"></app-timepicker>\r\n      </div>\r\n      <div class=\"col time-col\" *ngIf=\"!child.editState || child.editState == 'IN'\">\r\n        <span (click)=\"editTime(child, 'OUT')\">\r\n          {{getAttendanceStatusTime(child, 'OUT')}}\r\n        </span>\r\n      </div>\r\n    </div>\r\n  </app-flex-card>\r\n</div>\r\n"
+module.exports = ".backdrop {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  right: 0;\n  background-color: rgba(0, 0, 0, 0.3);\n  z-index: 99;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n  .backdrop .modal {\n    box-sizing: border-box;\n    width: 100%; }\n"
 
 /***/ },
 /* 900 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"presence-bar\">\r\n  <mdl-button\r\n    mdl-ripple mdl-colored=\"accent\"\r\n    (click)=\"updateAttendance(attendanceStates.IN)\"\r\n    class=\"status-in\" [class.active]=\"child.attendanceState == 'IN'\">\r\n      IN\r\n  </mdl-button>\r\n  <mdl-button\r\n    mdl-ripple mdl-colored=\"accent\"\r\n    (click)=\"updateAttendance(attendanceStates.OUT)\"\r\n    class=\"status-out\" [class.active]=\"child.attendanceState == 'OUT'\">\r\n      OUT\r\n  </mdl-button>\r\n  <mdl-button\r\n    mdl-ripple mdl-colored=\"accent\"\r\n    (click)=\"updateAttendance(attendanceStates.ABSENT)\"\r\n    class=\"status-absent\"\r\n    [class.active]=\"child.attendanceState == 'ABSENT'\">\r\n      ABSENT\r\n  </mdl-button>\r\n</div>\r\n"
+module.exports = ".navbar {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  background-color: white;\n  height: 70px;\n  box-shadow: 0 0 5px #afafaf;\n  position: relative; }\n  .navbar .navbar-title {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-flex: 4;\n        -ms-flex: 4;\n            flex: 4;\n    /*padding-left: 7vw;*/ }\n    .navbar .navbar-title .menu {\n      width: 80px; }\n    .navbar .navbar-title .logo {\n      color: #a187af;\n      font-weight: 800;\n      font-size: 2em; }\n    .navbar .navbar-title .sub-title {\n      color: #a187af;\n      font-size: 1.5em;\n      padding-left: 1vw; }\n  .navbar .navbar-holder {\n    -webkit-box-flex: 6;\n        -ms-flex: 6;\n            flex: 6;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: end;\n        -ms-flex-pack: end;\n            justify-content: flex-end;\n    width: 100%;\n    overflow: hidden;\n    position: relative; }\n    .navbar .navbar-holder .navbar-scroll {\n      display: -webkit-inline-box;\n      display: -ms-inline-flexbox;\n      display: inline-flex;\n      -webkit-transition: all .5s ease;\n      transition: all .5s ease; }\n      .navbar .navbar-holder .navbar-scroll .navbar-item {\n        display: -webkit-inline-box;\n        display: -ms-inline-flexbox;\n        display: inline-flex;\n        -webkit-box-align: center;\n            -ms-flex-align: center;\n                align-items: center;\n        color: #4a4a4a;\n        cursor: pointer;\n        font-weight: 500;\n        text-decoration: none;\n        white-space: nowrap; }\n        .navbar .navbar-holder .navbar-scroll .navbar-item p {\n          margin: 0;\n          padding: 0.6vh 1.5vw; }\n        .navbar .navbar-holder .navbar-scroll .navbar-item.active-route p {\n          border: 2px solid #a187af;\n          border-radius: 5px; }\n    .navbar .navbar-holder .arrow {\n      position: absolute;\n      display: -webkit-inline-box;\n      display: -ms-inline-flexbox;\n      display: inline-flex;\n      height: 100%;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      cursor: pointer;\n      min-width: 60px;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      top: 0;\n      opacity: 0;\n      visibility: hidden; }\n      .navbar .navbar-holder .arrow.show {\n        opacity: 1;\n        visibility: visible; }\n    .navbar .navbar-holder .arrow-back {\n      left: 0px;\n      z-index: 1;\n      background-image: -webkit-linear-gradient(left, white 65%, rgba(255, 255, 255, 0) 100%);\n      background-image: linear-gradient(to right, white 65%, rgba(255, 255, 255, 0) 100%); }\n    .navbar .navbar-holder .arrow-forward {\n      right: 0px;\n      background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 35%, white 100%);\n      background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, white 35%, white 100%); }\n\n@media screen and (max-width: 1200px) {\n  .logo {\n    font-size: 1.5em !important; }\n  .sub-title {\n    font-size: 1.3em !important; } }\n"
 
 /***/ },
 /* 901 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"timepicker\">\r\n  <mdl-button (click)=\"subtractMinutes()\">\r\n    <mdl-icon>keyboard_arrow_left</mdl-icon>\r\n  </mdl-button>\r\n  <span (click)=\"setTime()\">\r\n    {{parseDate()}}\r\n  </span>\r\n  <mdl-button (click)=\"addMinutes()\">\r\n    <mdl-icon>keyboard_arrow_right</mdl-icon>\r\n  </mdl-button>\r\n</div>\r\n"
+module.exports = ".navbar {\n  height: 20px;\n  background-color: #b9c5d8;\n  color: #fff;\n  padding: 13px 0px 15px 4rem;\n  font-size: 1.8rem;\n  line-height: 1.8rem; }\n\n@media screen and (min-width: 1024px) {\n  .navbar {\n    padding-left: 10px; } }\n"
 
 /***/ },
 /* 902 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"dashboard-info layout-content\">\r\n\r\n  <div class=\"header\">\r\n    <img src=\"/assets/img/cd-logo.svg\" atl=\"LittleVista LITE\" />\r\n    <img src=\"/assets/img/slide01.png\" class=\"header-children\" />\r\n  </div>\r\n\r\n  <div class=\"main-content\">\r\n    <p class=\"title mdl-typography--display-1-color-contrast\">\r\n      Getting Started with Little Vista LITE\r\n    </p>\r\n\r\n    <div class=\"mdl-grid\">\r\n      <div class=\"mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp\">\r\n        <div class=\"mdl-card__media\">\r\n          <img src=\"/assets/img/absent.png\">\r\n        </div>\r\n        <div class=\"mdl-card__title\">\r\n          <h4 class=\"mdl-card__title-text\">Setting up your centre</h4>\r\n        </div>\r\n        <div class=\"mdl-card__supporting-text\">\r\n          <span class=\"mdl-typography--font-light mdl-typography--subhead\">\r\n            Update your address, phone number and other contact details.\r\n          </span>\r\n        </div>\r\n        <div class=\"mdl-card__actions\">\r\n          <a target=\"_blank\" class=\"card-button mdl-button mdl-js-button mdl-typography--text-uppercase\" href=\"https://littlevista.wistia.com/medias/m6n21c53eu\">\r\n            <i class=\"material-icons\">play_circle_outline</i> Play Video\r\n          </a>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp\">\r\n        <div class=\"mdl-card__media\">\r\n          <img src=\"/assets/img/attendance.png\">\r\n        </div>\r\n        <div class=\"mdl-card__title\">\r\n          <h4 class=\"mdl-card__title-text\">Attendance &amp; Reports</h4>\r\n        </div>\r\n        <div class=\"mdl-card__supporting-text\">\r\n          <span class=\"mdl-typography--font-light mdl-typography--subhead\">\r\n            Manage your daily attendance and realtime reports\r\n          </span>\r\n        </div>\r\n        <div class=\"mdl-card__actions\">\r\n          <a target=\"_blank\" class=\"card-button mdl-button mdl-js-button mdl-typography--text-uppercase\" href=\"https://littlevista.wistia.com/medias/p0pcc2aox4\">\r\n            <i class=\"material-icons\">play_circle_outline</i> Play Video\r\n          </a>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp\">\r\n        <div class=\"mdl-card__media\">\r\n          <img src=\"/assets/img/absent.png\">\r\n        </div>\r\n        <div class=\"mdl-card__title\">\r\n          <h4 class=\"mdl-card__title-text\">How to use Subventions &amp; ECCE</h4>\r\n        </div>\r\n        <div class=\"mdl-card__supporting-text\">\r\n          <span class=\"mdl-typography--font-light mdl-typography--subhead\">\r\n            Click on the Subventions link to manage ECCE children and prepare an ECCE report.\r\n          </span>\r\n        </div>\r\n        <div class=\"mdl-card__actions\">\r\n          <a target=\"_blank\" class=\"card-button mdl-button mdl-js-button mdl-typography--text-uppercase\" href=\"https://littlevista.wistia.com/medias/rccl2e069r\">\r\n            <i class=\"material-icons\">play_circle_outline</i> Play Video\r\n          </a>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp\">\r\n        <div class=\"mdl-card__media\">\r\n          <img src=\"/assets/img/activities.png\">\r\n        </div>\r\n        <div class=\"mdl-card__title\">\r\n          <h4 class=\"mdl-card__title-text\">Need more help?</h4>\r\n        </div>\r\n        <div class=\"mdl-card__supporting-text\">\r\n          <span class=\"mdl-typography--font-light mdl-typography--subhead\">\r\n            Contact our support team about premium training and our tablet-based room activity recorder.\r\n          </span>\r\n        </div>\r\n        <div class=\"mdl-card__actions\">\r\n          <a class=\"card-button mdl-button mdl-js-button mdl-typography--text-uppercase\" href=\"\">\r\n            <i class=\"material-icons\">contact_phone</i> Contact Support\r\n          </a>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n"
+module.exports = ".searchbar {\n  position: relative;\n  width: 100%;\n  text-align: right;\n  padding: 15px 30px;\n  box-sizing: border-box; }\n  .searchbar mdl-icon {\n    position: absolute;\n    right: 30px;\n    top: 35px;\n    -webkit-transition: all .5s ease;\n    transition: all .5s ease;\n    cursor: pointer;\n    -webkit-user-select: none;\n    max-width: 24px;\n    will-change: right; }\n  .searchbar .search-button {\n    z-index: 1; }\n  .searchbar .clear-button, .searchbar mdl-textfield {\n    opacity: 0;\n    visibility: hidden;\n    will-change: opacity;\n    -webkit-transition: all 2s ease;\n    transition: all 2s ease;\n    width: 230px; }\n  .searchbar.active mdl-icon.search-button {\n    right: 260px; }\n  .searchbar.active .clear-button, .searchbar.active mdl-textfield {\n    opacity: 1;\n    visibility: visible; }\n"
 
 /***/ },
 /* 903 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"dashboard\" mdl-shadow=\"2\">\r\n  <mdl-layout mdl-layout-drawer mdl-layout-header #mdlLayout=\"mdlLayout\">\r\n    <mdl-layout-drawer class=\"drawer\" mdl-shadow=\"8\">\r\n      <div class=\"drawer-content\">\r\n        <div class=\"profile-settings\">\r\n          <div class=\"drawer-logo\"></div>\r\n        </div>\r\n        <div class=\"profile-info\" *ngIf=\"profile\">\r\n          <p>\r\n            {{profile.additional.name}}\r\n          </p>\r\n          <img src={{profile.picture}} alt=\"Avatar\" />\r\n          <p>\r\n            {{profile.name}}\r\n          </p>\r\n        </div>\r\n        <div class=\"nav-container\">\r\n          <nav class=\"mdl-navigation\">\r\n            <a class=\"mdl-navigation__link\" routerLink=\"/dashboard\" (click)=\"mdlLayout.closeDrawer()\">\r\n              <mdl-icon>dashboard</mdl-icon>\r\n              Dashboard\r\n            </a>\r\n            <a class=\"mdl-navigation__link\" routerLink=\"/dashboard/subventions\" (click)=\"mdlLayout.closeDrawer()\">\r\n              <mdl-icon>content_paste</mdl-icon>\r\n              Subventions\r\n            </a>\r\n            <a class=\"mdl-navigation__link\" routerLink=\"/dashboard/attendance\" (click)=\"mdlLayout.closeDrawer()\">\r\n              <mdl-icon>assignment_turned_in</mdl-icon>\r\n              Attendance\r\n            </a>\r\n            <a class=\"mdl-navigation__link\" routerLink=\"/dashboard/reports\" (click)=\"mdlLayout.closeDrawer()\">\r\n              <mdl-icon>event_note</mdl-icon>\r\n              Reports\r\n            </a>\r\n            <a class=\"mdl-navigation__link\" routerLink=\"/dashboard/easy-fees\" (click)=\"mdlLayout.closeDrawer()\">\r\n              <mdl-icon>credit_card</mdl-icon>\r\n              Easy Fees\r\n            </a>\r\n            <a class=\"mdl-navigation__link\" routerLink=\"/dashboard/occupancy\" (click)=\"mdlLayout.closeDrawer()\">\r\n              <mdl-icon>event_note</mdl-icon>\r\n              Occupancy Plan\r\n            </a>\r\n            <a class=\"mdl-navigation__link\" routerLink=\"/dashboard/settings\" (click)=\"mdlLayout.closeDrawer()\">\r\n              <mdl-icon>settings</mdl-icon>\r\n              Centre Setup\r\n            </a>\r\n            <a class=\"mdl-navigation__link\" routerLink=\"/\" (click)=\"logout()\">\r\n              <mdl-icon>exit_to_app</mdl-icon>\r\n              Logout\r\n            </a>\r\n          </nav>\r\n        </div>\r\n      </div>\r\n    </mdl-layout-drawer>\r\n    <mdl-layout-content class=\"main-content\">\r\n      <router-outlet></router-outlet>\r\n    </mdl-layout-content>\r\n  </mdl-layout>\r\n</div>\r\n"
+module.exports = ".colored-button {\n  display: inline-block;\n  text-align: center;\n  text-transform: uppercase;\n  padding: 5px 8px;\n  border-radius: 5px;\n  margin: 5px;\n  color: #fff;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n  overflow: hidden; }\n  .colored-button.ecce {\n    background-color: #8ec278;\n    padding: 5px 20px; }\n  .colored-button.not-ecce {\n    background-color: #e3bd54; }\n  .colored-button.active {\n    background-color: #7395c9; }\n    .colored-button.active.light-green {\n      background-color: #6bc8b7; }\n  .colored-button.inactive {\n    background-color: #b9b9b9; }\n"
 
 /***/ },
 /* 904 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"choose-org-type\">\r\n  <p class=\"title\">\r\n    Easy Fee’s Required Documentation.\r\n  </p>\r\n  <p>\r\n    This documentation is required for Anti-Money Laundering purposes.\r\n    Please find the organisation relevant to your own.\r\n  </p>\r\n\r\n\r\n  <div class=\"row tooltips\">\r\n    <div class=\"col type-col\"></div>\r\n    <div class=\"col\">\r\n      Bank Statement\r\n    </div>\r\n    <div class=\"col\">\r\n      Passport\r\n    </div>\r\n    <div class=\"col\">\r\n      Scanned copy of constitution documents\r\n    </div>\r\n    <div class=\"col\">\r\n      Copy of the latest annual return\r\n    </div>\r\n    <div class=\"col\">\r\n      Passport for all individuals in control of the body\r\n    </div>\r\n    <div class=\"col\">\r\n      Utility Bill\r\n    </div>\r\n  </div>\r\n  <div class=\"row\" (click)=\"setOrgType('LIMITED_COMPANY')\">\r\n    <div class=\"col type-col\">\r\n      Private/Limited Liability Company\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\"></div>\r\n  </div>\r\n  <div class=\"row\" (click)=\"setOrgType('SOLETRADER')\">\r\n    <div class=\"col type-col\">\r\n      Sole Trader\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\"></div>\r\n  </div>\r\n  <div class=\"row\" (click)=\"setOrgType('CLUB_OR_SOC')\">\r\n    <div class=\"col type-col\">\r\n      Clubs &amp; Societies\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\" (click)=\"setOrgType('CHARITY_RELIGIOUS')\">\r\n    <div class=\"col type-col\">\r\n      Community Centres / Charities\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\" (click)=\"setOrgType('PARTNER_OR_ASSOC')\">\r\n    <div class=\"col type-col\">\r\n      Partnerships &amp; Associations\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = ".ecce-modal {\n  width: 80%;\n  margin: auto;\n  max-width: 1000px;\n  box-sizing: border-box;\n  border-radius: 5px;\n  background-color: white; }\n  .ecce-modal mdl-icon.close-button {\n    max-width: 24px;\n    cursor: pointer;\n    position: absolute;\n    top: 15px;\n    right: 15px; }\n  .ecce-modal .modal-header {\n    position: relative;\n    background-color: #4dbe9c;\n    color: #fff;\n    border-radius: 4px 4px 0 0; }\n    .ecce-modal .modal-header .child-details {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      padding: 0 15px;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center; }\n      .ecce-modal .modal-header .child-details .ecce-status {\n        -webkit-box-flex: 0;\n            -ms-flex: 0 0 20%;\n                flex: 0 0 20%;\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-align: center;\n            -ms-flex-align: center;\n                align-items: center;\n        padding: 0 30px; }\n        .ecce-modal .modal-header .child-details .ecce-status app-colored-button {\n          cursor: pointer; }\n      .ecce-modal .modal-header .child-details .name {\n        margin: 0;\n        font-size: 1.8rem;\n        line-height: 2rem; }\n    .ecce-modal .modal-header .close-button {\n      position: absolute;\n      right: 5px;\n      top: 5px; }\n    .ecce-modal .modal-header .control-pills {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex; }\n      .ecce-modal .modal-header .control-pills button {\n        -webkit-box-flex: 1;\n            -ms-flex: 1;\n                flex: 1;\n        color: #fff; }\n        .ecce-modal .modal-header .control-pills button.active-pill {\n          border-bottom: 2px solid #ec058e; }\n  .ecce-modal .modal-body {\n    padding: 20px;\n    color: #6d6d6d;\n    min-height: 300px; }\n    .ecce-modal .modal-body .error-message {\n      color: #d50000;\n      font-weight: 500; }\n    .ecce-modal .modal-body > div .header, .ecce-modal .modal-body > div .total-value {\n      font-weight: bolder; }\n    .ecce-modal .modal-body > div.ecce .total-value {\n      font-size: 2rem; }\n    .ecce-modal .modal-body > div.ecce .row {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex; }\n      .ecce-modal .modal-body > div.ecce .row .col:first-child {\n        -webkit-box-flex: 0;\n            -ms-flex: 0 0 80%;\n                flex: 0 0 80%; }\n    .ecce-modal .modal-body > div.ecce .payment-model {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      width: 50%; }\n      .ecce-modal .modal-body > div.ecce .payment-model mdl-switch {\n        -webkit-box-flex: 1;\n            -ms-flex: 1;\n                flex: 1;\n        margin-left: 20px; }\n    .ecce-modal .modal-body > div.ecce .button-bar {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center;\n      -webkit-box-pack: start;\n          -ms-flex-pack: start;\n              justify-content: flex-start; }\n      .ecce-modal .modal-body > div.ecce .button-bar label {\n        width: 145px;\n        margin-right: 5px; }\n    .ecce-modal .modal-body > div.costs {\n      color: #000; }\n      .ecce-modal .modal-body > div.costs p {\n        color: #6d6d6d; }\n        .ecce-modal .modal-body > div.costs p.fee {\n          font-weight: 600;\n          font-size: 2rem; }\n      .ecce-modal .modal-body > div.costs .row {\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-align: start;\n            -ms-flex-align: start;\n                align-items: flex-start;\n        -webkit-box-pack: start;\n            -ms-flex-pack: start;\n                justify-content: flex-start; }\n        .ecce-modal .modal-body > div.costs .row.extras p {\n          margin: 0;\n          white-space: nowrap;\n          overflow: hidden;\n          text-overflow: ellipsis; }\n        .ecce-modal .modal-body > div.costs .row.extras span.extras-value {\n          font-size: 16px;\n          line-height: 2rem; }\n        .ecce-modal .modal-body > div.costs .row.totals {\n          margin-top: 60px; }\n        .ecce-modal .modal-body > div.costs .row .col {\n          margin-right: 20px;\n          -webkit-box-flex: 1;\n              -ms-flex: 1;\n                  flex: 1; }\n          .ecce-modal .modal-body > div.costs .row .col.col-40 {\n            -webkit-box-flex: 0;\n                -ms-flex: 0 0 40%;\n                    flex: 0 0 40%; }\n          .ecce-modal .modal-body > div.costs .row .col.col-90 {\n            -webkit-box-flex: 90%;\n                -ms-flex: 90%;\n                    flex: 90%; }\n          .ecce-modal .modal-body > div.costs .row .col.col-10 {\n            -webkit-box-flex: 0;\n                -ms-flex: 0 0 10%;\n                    flex: 0 0 10%; }\n          .ecce-modal .modal-body > div.costs .row .col mdl-textfield {\n            padding: 0 0 20px 0;\n            width: auto; }\n  .ecce-modal .control-bar {\n    padding: 5px;\n    border-top: 1px solid #dedede;\n    overflow: hidden; }\n    .ecce-modal .control-bar .button-right {\n      float: right;\n      display: -webkit-inline-box;\n      display: -ms-inline-flexbox;\n      display: inline-flex;\n      -webkit-box-align: center;\n          -ms-flex-align: center;\n              align-items: center; }\n"
 
 /***/ },
 /* 905 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"easy-fees-intro\">\r\n  <div class=\"intro-header\">\r\n    <h2 class=\"header-text\">Easy Fees</h2>\r\n    <mdl-button mdl-shadow=\"6\" mdl-ripple routerLink=\"../setup\">\r\n      Get Started\r\n    </mdl-button>\r\n  </div>\r\n  <div class=\"fee-policy\">\r\n    <p>Intro text including feedback from ECI regarding Fee Policy</p>\r\n  </div>\r\n  <div class=\"info-cards\">\r\n    <div class=\"info-card\" mdl-shadow=\"6\">\r\n      <div class=\"card-media\">\r\n        <img src=\"/assets/img/easy-fees/intro.svg\" alt=\"\">\r\n      </div>\r\n      <div class=\"card-body\">\r\n        <p class=\"card-title\">\r\n          Introduction\r\n        </p>\r\n        <p class=\"card-text\">\r\n          Collect and manage payments using Easy Fees. Automatically debit\r\n          customer accounts or track cash payments.\r\n        </p>\r\n      </div>\r\n      <div class=\"card-actions\">\r\n        <mdl-button mdl-ripple>\r\n          <mdl-icon>play_circle_outline</mdl-icon>\r\n          Play Video\r\n        </mdl-button>\r\n      </div>\r\n    </div>\r\n    <div class=\"info-card\" mdl-shadow=\"6\">\r\n      <div class=\"card-media\">\r\n        <img src=\"/assets/img/easy-fees/step-1.svg\" alt=\"\">\r\n      </div>\r\n      <div class=\"card-body\">\r\n        <p class=\"card-title\">\r\n          Step 1\r\n        </p>\r\n        <p class=\"card-subtitle\">\r\n          Upload documentation\r\n        </p>\r\n        <p class=\"card-text\">\r\n          To set you up as a merchant we will need some documentation for AML\r\n          purposes.\r\n        </p>\r\n      </div>\r\n      <div class=\"card-actions\">\r\n        <mdl-button mdl-ripple>\r\n          <mdl-icon>play_circle_outline</mdl-icon>\r\n          Play Video\r\n        </mdl-button>\r\n      </div>\r\n    </div>\r\n    <div class=\"info-card\" mdl-shadow=\"6\">\r\n      <div class=\"card-media\">\r\n        <img src=\"/assets/img/easy-fees/step-2.svg\" alt=\"\">\r\n      </div>\r\n      <div class=\"card-body\">\r\n        <p class=\"card-title\">\r\n          Step 2\r\n        </p>\r\n        <p class=\"card-subtitle\">\r\n          Collect E-Mandates\r\n        </p>\r\n        <p class=\"card-text\">\r\n          In order to collect fee’s from parents by direct debit each\r\n          parent will need to return an electronic mandate.\r\n        </p>\r\n      </div>\r\n      <div class=\"card-actions\">\r\n        <mdl-button mdl-ripple>\r\n          <mdl-icon>play_circle_outline</mdl-icon>\r\n          Play Video\r\n        </mdl-button>\r\n      </div>\r\n    </div>\r\n    <div class=\"info-card\" mdl-shadow=\"6\">\r\n      <div class=\"card-media\">\r\n        <img src=\"/assets/img/easy-fees/step-3.svg\" alt=\"\">\r\n      </div>\r\n      <div class=\"card-body\">\r\n        <p class=\"card-title\">\r\n          Step 3\r\n        </p>\r\n        <p class=\"card-subtitle\">\r\n          Collect Payments!\r\n        </p>\r\n        <p class=\"card-text\">\r\n          Once the e-mandates have been returned you can start to collect\r\n          payments by direct debit.\r\n        </p>\r\n      </div>\r\n      <div class=\"card-actions\">\r\n        <mdl-button mdl-ripple>\r\n          <mdl-icon>play_circle_outline</mdl-icon>\r\n          Play Video\r\n        </mdl-button>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = ".list-buttons.interactive app-colored-button {\n  cursor: pointer; }\n"
 
 /***/ },
 /* 906 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"easy-fees-setup\">\r\n  <app-modal [showModal]=\"showModal\" (closeModal)=\"modalClosed()\">\r\n    <app-choose-org-type (closeModal)=\"modalClosed($event)\"></app-choose-org-type>\r\n  </app-modal>\r\n  <div class=\"setup-header\">\r\n    <h2 class=\"header\">\r\n      Easy Fees\r\n    </h2>\r\n    <p class=\"info\">\r\n      In order to set up your business to take direct debits payments you\r\n      will need to scan &amp; upload the documentation relevant to your\r\n      organisation. <br /> Click here for information about what\r\n      documentation is required:\r\n      <mdl-button mdl-ripple (click)=\"chooseOrgType()\">\r\n        Select Your Organisation Type\r\n      </mdl-button>\r\n    </p>\r\n  </div>\r\n  <div class=\"setup-form\">\r\n    <div class=\"progress-tracker\">\r\n      <div\r\n        class=\"step-pill\"\r\n        [class.active-pill]=\"setupStep === 1\"\r\n        (click)=\"setupStep = 1\">\r\n          1. Business Name\r\n      </div>\r\n      <div\r\n        class=\"step-pill\"\r\n        [class.active-pill]=\"setupStep === 2\"\r\n        (click)=\"setupStep = 2\">\r\n          2. Contact Details\r\n      </div>\r\n      <div\r\n        class=\"step-pill\"\r\n        [class.active-pill]=\"setupStep === 3\"\r\n        (click)=\"setupStep = 3\">\r\n          3. Direct Debit Profile\r\n      </div>\r\n      <div\r\n        class=\"step-pill\"\r\n        [class.active-pill]=\"setupStep === 4\"\r\n        (click)=\"setupStep = 4\">\r\n          4. Documentation\r\n      </div>\r\n    </div>\r\n    <form [formGroup]=\"merchantSignupForm\">\r\n      <div class=\"step\" [hidden]=\"setupStep !== 1\" formGroupName=\"step1\">\r\n        <div>\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            formControlName=\"merchantName\"\r\n            [class.is-invalid]=\"merchantName.invalid && merchantName.touched\"\r\n            error-msg=\"Merchant Name is required\"\r\n            disableNativeValidityChecking\r\n            label=\"Merchant Name\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div>\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            formControlName=\"companyNumber\"\r\n            [class.is-invalid]=\"companyNumber.invalid && companyNumber.touched\"\r\n            error-msg=\"Company Registered Number is required\"\r\n            disableNativeValidityChecking\r\n            label=\"Company Registered No\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div *ngIf=\"CURRENCIES.length\">\r\n          <mdl-select\r\n            formControlName=\"currency\"\r\n            placeholder=\"Currency\">\r\n              <mdl-option\r\n                *ngFor=\"let value of CURRENCIES\"\r\n                [value]=\"value\">\r\n                  {{value}}\r\n              </mdl-option>\r\n          </mdl-select>\r\n        </div>\r\n        <div>\r\n          <mdl-checkbox mdl-ripple=\"true\" formControlName=\"differentName\">\r\n            Company Registered Full Business Name different to your Business Name\r\n          </mdl-checkbox>\r\n        </div>\r\n        <mdl-textfield\r\n          type=\"text\"\r\n          floating-label\r\n          formControlName=\"companyName\"\r\n          [class.is-invalid]=\"companyName.invalid && companyName.touched\"\r\n          [required]=\"differentName.value\"\r\n          disableNativeValidityChecking\r\n          error-msg=\"Registered Business Name is required if different\"\r\n          label=\"Company Registered Business Name\">\r\n        </mdl-textfield>\r\n        <div>\r\n          <mdl-checkbox mdl-ripple=\"true\" formControlName=\"alreadyCollecting\">\r\n            Are You Already Collecting Direct Debits?\r\n          </mdl-checkbox>\r\n        </div>\r\n        <mdl-textfield\r\n          type=\"text\"\r\n          floating-label\r\n          [class.is-invalid]=\"creditorSchemeId.invalid && creditorSchemeId.touched\"\r\n          [required]=\"alreadyCollecting.value\"\r\n          formControlName=\"creditorSchemeId\"\r\n          disableNativeValidityChecking\r\n          error-msg=\"Creditor Scheme Id is required if collecting\"\r\n          label=\"Creditor Scheme Id\">\r\n        </mdl-textfield>\r\n      </div>\r\n      <div class=\"step\" [hidden]=\"setupStep !== 2\" formGroupName=\"step2\">\r\n        <div>\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            formControlName=\"website\"\r\n            label=\"Website\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div>\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            [class.is-invalid]=\"address.invalid && address.touched\"\r\n            formControlName=\"address\"\r\n            disableNativeValidityChecking\r\n            error-msg=\"Address is required\"\r\n            label=\"Address\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div>\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            [class.is-invalid]=\"city.invalid && city.touched\"\r\n            formControlName=\"city\"\r\n            disableNativeValidityChecking\r\n            error-msg=\"City is required\"\r\n            label=\"City\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div>\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            formControlName=\"state\"\r\n            label=\"State / Province / Region\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div>\r\n          <mdl-select\r\n            formControlName=\"countryCode\"\r\n            placeholder=\"Country\">\r\n              <mdl-option value=\"IR\">Republic Of Ireland</mdl-option>\r\n          </mdl-select>\r\n        </div>\r\n        <div>\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            [class.is-invalid]=\"contactName.invalid && contactName.touched\"\r\n            formControlName=\"contactName\"\r\n            disableNativeValidityChecking\r\n            error-msg=\"Business Contact Name is required\"\r\n            label=\"Business Contact Name\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div>\r\n          <mdl-textfield\r\n            type=\"email\"\r\n            floating-label\r\n            [class.is-invalid]=\"contactEmail.invalid && contactEmail.touched\"\r\n            formControlName=\"contactEmail\"\r\n            disableNativeValidityChecking\r\n            error-msg=\"Please enter a valid e-mail\"\r\n            label=\"Business E-Mail\">\r\n          </mdl-textfield>\r\n        </div>\r\n      </div>\r\n      <div class=\"step\" [hidden]=\"setupStep !== 3\" formGroupName=\"step3\">\r\n        <div class=\"long-field\">\r\n          <mdl-textfield\r\n            type=\"number\"\r\n            floating-label\r\n            [class.is-invalid]=\"estimatedCustomers.invalid && estimatedCustomers.touched\"\r\n            formControlName=\"estimatedCustomers\"\r\n            disableNativeValidityChecking\r\n            error-msg=\"Please enter a valid number\"\r\n            label=\"Estimated number of your customers who will pay by direct debit\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div class=\"long-field\">\r\n          <mdl-textfield\r\n            type=\"number\"\r\n            floating-label\r\n            [class.is-invalid]=\"estimatedAvgValue.invalid && estimatedAvgValue.touched\"\r\n            formControlName=\"estimatedAvgValue\"\r\n            disableNativeValidityChecking\r\n            error-msg=\"Please enter a valid number\"\r\n            label=\"Estimated average value of each direct debit\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div class=\"long-field\">\r\n          <mdl-textfield\r\n            type=\"number\"\r\n            floating-label\r\n            [class.is-invalid]=\"estimatedMaxValue.invalid && estimatedMaxValue.touched\"\r\n            formControlName=\"estimatedMaxValue\"\r\n            disableNativeValidityChecking\r\n            error-msg=\"Please enter a valid number\"\r\n            label=\"Estimated maximum value of each direct debit\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div>\r\n          <p>Direct Debit Frequency</p>\r\n          <mdl-select\r\n            formControlName=\"frequency\"\r\n            placeholder=\"Direct Debit Frequency\">\r\n              <mdl-option\r\n                *ngFor=\"let value of FREQUENCIES\"\r\n                [value]=\"value\">\r\n                  {{value}}\r\n              </mdl-option>\r\n          </mdl-select>\r\n        </div>\r\n        <div class=\"long-field\">\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            [class.is-invalid]=\"iban.invalid && iban.touched\"\r\n            formControlName=\"iban\"\r\n            disableNativeValidityChecking\r\n            error-msg=\"IBAN is required\"\r\n            label=\"Nominated Bank A/C number(IBAN)\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div class=\"long-field\">\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            formControlName=\"reportPhone\"\r\n            label=\"Contact phone number\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div class=\"long-field\">\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            formControlName=\"reportContact\"\r\n            label=\"Company contact for payment reports reciept\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div class=\"long-field\">\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            formControlName=\"reportEmail\"\r\n            [class.is-invalid]=\"reportEmail.invalid && reportEmail.touched\"\r\n            disableNativeValidityChecking\r\n            error-msg=\"Please enter a valid email\"\r\n            label=\"Company email for payment reports reciept\">\r\n          </mdl-textfield>\r\n        </div>\r\n      </div>\r\n      <div class=\"step\" [hidden]=\"setupStep !== 4\" formGroupName=\"step4\">\r\n        <div>\r\n          <mdl-select\r\n            formControlName=\"businessType\"\r\n            placeholder=\"Select Your Organisation Type\">\r\n            <mdl-option *ngFor=\"let type of COMPANY_TYPES\" [value]=\"type.value\">\r\n              {{type.name}}\r\n            </mdl-option>\r\n          </mdl-select>\r\n        </div>\r\n        <div>\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            label=\"VAT Number\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div class=\"file-dropzone\"\r\n          [class.files-over]=\"highlightDropZone\"\r\n          [attr.mdl-shadow]=\"highlightDropZone ? 2 : null\"\r\n          (dragover)=\"onDragOver($event)\"\r\n          (dragleave)=\"onDragLeave($event)\"\r\n          (drop)=\"onDragDrop($event)\">\r\n            <input type=\"file\" multiple #fileInput (change)=\"onInputChange($event)\">\r\n            <span>\r\n              Drop files here or\r\n            </span>\r\n            <button mdl-button mdl-button-type=\"raised\" (click)=\"selectFiles()\">\r\n              Select Files\r\n            </button>\r\n        </div>\r\n        <div class=\"attached-files\">\r\n          <mdl-chip\r\n            mdl-action-icon=\"cancel\"\r\n            *ngFor=\"let file of uploadFiles; let i = index\"\r\n            (action-click)=\"removeFile(i)\"\r\n            [mdl-label]=\"file.name\">\r\n          </mdl-chip>\r\n        </div>\r\n        <div *ngIf=\"businessType.valid\">\r\n          <p>Required Documents: </p>\r\n          <ul>\r\n            <li *ngFor=\"let document of getDocuments()\">\r\n                {{ document }}\r\n            </li>\r\n          </ul>\r\n        </div>\r\n      </div>\r\n    </form>\r\n    <div class=\"next-button\" [hidden]=\"setupStep === 4\">\r\n      <mdl-button mdl-button-type=\"raised\" [disabled]=\"!canSkip()\" (click)=\"setupStep = setupStep + 1\">\r\n        Next\r\n      </mdl-button>\r\n    </div>\r\n    <div class=\"next-button\" [hidden]=\"setupStep !== 4\">\r\n      <mdl-button mdl-button-type=\"raised\" [disabled]=\"!canSubmit()\" (click)=\"composeForm()\">\r\n        Submit\r\n      </mdl-button>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = "/* Warning this component uses no view encapsulation */\n.ecce-subventions .flex-card .col.attendance {\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 50%;\n          flex: 1 1 50%;\n  text-align: left; }\n\n.ecce-subventions .flex-card .col.status {\n  -webkit-box-flex: 0;\n      -ms-flex: 0 0 10%;\n          flex: 0 0 10%; }\n\n.ecce-subventions .flex-card .col.start-date {\n  -webkit-box-flex: 0;\n      -ms-flex: 0 0 10%;\n          flex: 0 0 10%; }\n\n.ecce-subventions .flex-card .col.child-name {\n  -webkit-box-flex: 1;\n      -ms-flex: 1 1 15%;\n          flex: 1 1 15%;\n  text-align: left; }\n"
 
 /***/ },
 /* 907 */
 /***/ function(module, exports) {
 
-module.exports = "<app-navbar title=\"Easy Fee's\"></app-navbar>\r\n<app-navbar-small [routes]=\"routes\"></app-navbar-small>\r\n<div class=\"layout-content\">\r\n  <router-outlet></router-outlet>\r\n</div>\r\n"
+module.exports = ".verify {\n  margin: 5px 30px;\n  float: left; }\n  .verify mdl-progress {\n    position: fixed;\n    top: 0;\n    right: 0;\n    left: 0;\n    width: 100%; }\n  .verify .vista-logo img {\n    max-width: 15rem; }\n  .verify .stabilizer {\n    position: fixed;\n    top: 40vh;\n    right: 0;\n    left: 0; }\n    .verify .stabilizer p {\n      width: 100vw;\n      font-size: 2.5rem;\n      line-height: 3rem;\n      color: #fff;\n      text-align: center; }\n"
 
 /***/ },
 /* 908 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"landing-page\">\r\n  <div class=\"vista-logo\">\r\n    <img src=\"/assets/img/logo-large.png\" alt=\"Little Vista logo\" />\r\n  </div>\r\n  <div class=\"stabilizer\">\r\n    <div class=\"lite-preview\">\r\n      <p>The <b>easy</b> way to manage <br /> your <b>creche.</b></p>\r\n      <img src=\"/assets/img/preview.png\" alt=\"LITE application preview\">\r\n    </div>\r\n    <div class=\"controls-wrapper\">\r\n      <app-login-card *ngIf=\"showLogin\"></app-login-card>\r\n      <app-register-card  *ngIf=\"!showLogin\"></app-register-card>\r\n      <div class=\"controls\" *ngIf=\"showLogin\">\r\n        <p>\r\n          Don't have account yet?\r\n        </p>\r\n        <mdl-button mdl-ripple (click)=\"toggleView()\">\r\n          Sign up for free\r\n        </mdl-button>\r\n      </div>\r\n      <div class=\"controls\">\r\n        <div class=\"controls\" *ngIf=\"!showLogin\">\r\n          <p>\r\n            Already have an account?\r\n          </p>\r\n          <mdl-button class=\"clean\" mdl-ripple  (click)=\"toggleView()\">\r\n            Login\r\n          </mdl-button>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<app-navbar title=\"Attendance\"></app-navbar>\r\n<app-navbar-small [routes]=\"routes\"></app-navbar-small>\r\n<div class=\"layout-content\">\r\n  <app-flex-card\r\n    [collection]=\"children\"\r\n    [loading]=\"loading\"\r\n    [options]=\"tableOptions\"\r\n    class=\"attendance\">\r\n    <app-searchbar (searchFilter)=\"handleFilter($event)\"></app-searchbar>\r\n    <div class=\"row\" *ngFor=\"let child of children\">\r\n      <div class=\"col\">\r\n        <img src={{child.picture}} alt=\"Child's Avatar\">\r\n      </div>\r\n      <div class=\"col\">\r\n        {{child.name}}\r\n      </div>\r\n      <div class=\"col presence-col\">\r\n        <app-presence-bar [child]=\"child\"></app-presence-bar>\r\n      </div>\r\n      <div class=\"col time-col\" *ngIf=\"!child.editState || child.editState == 'OUT'\">\r\n        <span (click)=\"editTime(child, 'IN')\">\r\n          {{getAttendanceStatusTime(child, 'IN')}}\r\n        </span>\r\n      </div>\r\n      <div class=\"col time-col\" *ngIf=\"child.editState\">\r\n        <app-timepicker [currentTime]=\"currentTime\" (timeChanged)=\"handleTimechange($event, child)\"></app-timepicker>\r\n      </div>\r\n      <div class=\"col time-col\" *ngIf=\"!child.editState || child.editState == 'IN'\">\r\n        <span (click)=\"editTime(child, 'OUT')\">\r\n          {{getAttendanceStatusTime(child, 'OUT')}}\r\n        </span>\r\n      </div>\r\n    </div>\r\n  </app-flex-card>\r\n</div>\r\n"
 
 /***/ },
 /* 909 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"login-card\">\r\n  <div class=\"card-title\">\r\n    <mdl-progress [indeterminate]=\"true\" *ngIf=\"loading\"></mdl-progress>\r\n    <img class=\"vista-logo\" src=\"/assets/img/logo-small.png\" alt=\"Little Vista logo\" />\r\n    <span>LITE</span>\r\n  </div>\r\n  <div class=\"card-body\" (keydown.enter)=\"login()\">\r\n    <mdl-textfield type=\"text\" label=\"Email or CentreID\" floating-label [(ngModel)]=\"username\"></mdl-textfield>\r\n    <mdl-textfield type=\"password\" label=\"Password\" floating-label [(ngModel)]=\"password\"></mdl-textfield>\r\n    <p class=\"error-message\">\r\n      {{errorMessage}}\r\n    </p>\r\n    <mdl-button mdl-button-type=\"raised\" mdl-ripple (click)=\"login()\">\r\n      Login\r\n    </mdl-button>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"presence-bar\">\r\n  <mdl-button\r\n    mdl-ripple mdl-colored=\"accent\"\r\n    (click)=\"updateAttendance(attendanceStates.IN)\"\r\n    class=\"status-in\" [class.active]=\"child.attendanceState == 'IN'\">\r\n      IN\r\n  </mdl-button>\r\n  <mdl-button\r\n    mdl-ripple mdl-colored=\"accent\"\r\n    (click)=\"updateAttendance(attendanceStates.OUT)\"\r\n    class=\"status-out\" [class.active]=\"child.attendanceState == 'OUT'\">\r\n      OUT\r\n  </mdl-button>\r\n  <mdl-button\r\n    mdl-ripple mdl-colored=\"accent\"\r\n    (click)=\"updateAttendance(attendanceStates.ABSENT)\"\r\n    class=\"status-absent\"\r\n    [class.active]=\"child.attendanceState == 'ABSENT'\">\r\n      ABSENT\r\n  </mdl-button>\r\n</div>\r\n"
 
 /***/ },
 /* 910 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"register-card\">\r\n  <div class=\"card-title\">\r\n    <mdl-progress [indeterminate]=\"true\" *ngIf=\"loading\"></mdl-progress>\r\n    <img class=\"vista-logo\" src=\"/assets/img/logo-small.png\" alt=\"Little Vista logo\" />\r\n    <span>LITE</span>\r\n  </div>\r\n  <div class=\"card-body\" (keydown.enter)=\"register()\">\r\n    <form [formGroup]=\"registerForm\">\r\n      <mdl-textfield\r\n          type=\"email\"\r\n          label=\"Email\"\r\n          floating-label\r\n          [class.is-invalid]=\"email.touched && email.invalid\"\r\n          error-msg=\"Please enter a valid email\"\r\n          disableNativeValidityChecking\r\n          formControlName=\"email\">\r\n      </mdl-textfield>\r\n      <mdl-textfield\r\n          type=\"password\"\r\n          label=\"Password\"\r\n          floating-label\r\n          [class.is-invalid]=\"password.touched && password.invalid\"\r\n          disableNativeValidityChecking\r\n          error-msg=\"Password needs to be at least 6 characters\"\r\n          formControlName=\"password\">\r\n      </mdl-textfield>\r\n      <mdl-textfield\r\n          type=\"text\"\r\n          label=\"Name\"\r\n          floating-label\r\n          [class.is-invalid]=\"name.touched && name.invalid\"\r\n          disableNativeValidityChecking\r\n          error-msg=\"Name is required\"\r\n          formControlName=\"name\">\r\n      </mdl-textfield>\r\n      <mdl-textfield\r\n          type=\"text\"\r\n          label=\"Business Name\"\r\n          floating-label\r\n          [class.is-invalid]=\"businessName.touched && businessName.invalid\"\r\n          disableNativeValidityChecking\r\n          error-msg=\"Business Name is required\"\r\n          formControlName=\"businessName\">\r\n      </mdl-textfield>\r\n    </form>\r\n    <p class=\"error-message\">\r\n      {{errorMessage}}\r\n    </p>\r\n    <mdl-button mdl-button-type=\"raised\" mdl-ripple (click)=\"register()\">\r\n      Create an account\r\n    </mdl-button>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"timepicker\">\r\n  <mdl-button (click)=\"subtractMinutes()\">\r\n    <mdl-icon>keyboard_arrow_left</mdl-icon>\r\n  </mdl-button>\r\n  <span (click)=\"setTime()\">\r\n    {{parseDate()}}\r\n  </span>\r\n  <mdl-button (click)=\"addMinutes()\">\r\n    <mdl-icon>keyboard_arrow_right</mdl-icon>\r\n  </mdl-button>\r\n</div>\r\n"
 
 /***/ },
 /* 911 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"backdrop\" [@backdrop]=\"showOccupancyModal\">\n  <div class=\"modal\" [@modal]=\"showOccupancyModal\">\n    <div class=\"modal-header flex\">\n      <span class=\"title flex\">{{title}}</span>\n      <span class=\"btn\"><mdl-icon (click)=\"destroy()\" class=\"close-button\">close</mdl-icon></span>\n    </div>\n    <div class=\"modal-body flex\" mdl-shadow=\"3\">\n \n      <div class=\"staff-container flex\">\n        <div class=\"add-staff flex column\">\n          <div class=\"row flex\">\n              <span class=\"col flex strong-text\">Name</span>\n              <span class=\"col flex strong-text\">Qualification</span>\n              <span class=\"col flex strong-text\">Start Date</span>\n              <span class=\"col flex strong-text\">End Date</span>\n          </div>\n          <div class=\"row flex\">\n              <span class=\"col flex\">\n                <mdl-textfield [(ngModel)]=\"staff.name\"></mdl-textfield>\n              </span>\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"staff.qualification\" placeholder=\"Select Qualification\">\n                  <mdl-option [value]=\"0\">Select Qualification</mdl-option>\n                  <mdl-option *ngFor=\"let qualifi of qualification\" [value]=\"qualifi.id\">\n                    {{qualifi.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\">\n                <app-datepicker [(ngModel)]=\"staff.startdate\"></app-datepicker>\n              </span>\n              <span class=\"col flex\">\n                <app-datepicker [(ngModel)]=\"staff.enddate\"></app-datepicker>\n              </span>\n          </div>\n          <div class=\"row flex\">\n              <span class=\"col flex strong-text\">Assign to Rooms</span>\n          </div>\n          <div class=\"row flex green-color\">\n              <span class=\"col flex flex1 strong-text\"></span>\n              <span class=\"col flex flex2 strong-text text-indent\">Mon</span>\n              <span class=\"col flex flex2 strong-text text-indent\">Tue</span>\n              <span class=\"col flex flex2 strong-text text-indent\" >Weds</span>\n              <span class=\"col flex flex2 strong-text text-indent\">Thurs</span>\n              <span class=\"col flex flex2 strong-text text-indent\">Fri</span>\n          </div>\n          <div class=\"row flex\">\n              <span class=\"col flex flex1 strong-text align-center\">AM</span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.mon.am\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.tue.am\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.wed.am\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.thu.am\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.fri.am\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n          </div>\n          <div class=\"row flex\">\n              <span class=\"col flex flex1 strong-text align-center\">PM</span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.mon.pm\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.tue.pm\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.wed.pm\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.thu.pm\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.fri.pm\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n          </div>\n          <br><br>\n          <div class=\"btn-picker flex flex2\">\n            <span class=\"col flex flex5 error\">{{errorMessage}}</span>\n            <span class=\"col flex flex1 btn\">\n              <button mdl-button mdl-ripple class=\"green-color\" (click)=\"saveStaff()\">SAVE</button>\n            </span>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"dashboard-info layout-content\">\r\n\r\n  <div class=\"header\">\r\n    <img src=\"/assets/img/cd-logo.svg\" atl=\"LittleVista LITE\" />\r\n    <img src=\"/assets/img/slide01.png\" class=\"header-children\" />\r\n  </div>\r\n\r\n  <div class=\"main-content\">\r\n    <p class=\"title mdl-typography--display-1-color-contrast\">\r\n      Getting Started with Little Vista LITE\r\n    </p>\r\n\r\n    <div class=\"mdl-grid\">\r\n      <div class=\"mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp\">\r\n        <div class=\"mdl-card__media\">\r\n          <img src=\"/assets/img/absent.png\">\r\n        </div>\r\n        <div class=\"mdl-card__title\">\r\n          <h4 class=\"mdl-card__title-text\">Setting up your centre</h4>\r\n        </div>\r\n        <div class=\"mdl-card__supporting-text\">\r\n          <span class=\"mdl-typography--font-light mdl-typography--subhead\">\r\n            Update your address, phone number and other contact details.\r\n          </span>\r\n        </div>\r\n        <div class=\"mdl-card__actions\">\r\n          <a target=\"_blank\" class=\"card-button mdl-button mdl-js-button mdl-typography--text-uppercase\" href=\"https://littlevista.wistia.com/medias/m6n21c53eu\">\r\n            <i class=\"material-icons\">play_circle_outline</i> Play Video\r\n          </a>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp\">\r\n        <div class=\"mdl-card__media\">\r\n          <img src=\"/assets/img/attendance.png\">\r\n        </div>\r\n        <div class=\"mdl-card__title\">\r\n          <h4 class=\"mdl-card__title-text\">Attendance &amp; Reports</h4>\r\n        </div>\r\n        <div class=\"mdl-card__supporting-text\">\r\n          <span class=\"mdl-typography--font-light mdl-typography--subhead\">\r\n            Manage your daily attendance and realtime reports\r\n          </span>\r\n        </div>\r\n        <div class=\"mdl-card__actions\">\r\n          <a target=\"_blank\" class=\"card-button mdl-button mdl-js-button mdl-typography--text-uppercase\" href=\"https://littlevista.wistia.com/medias/p0pcc2aox4\">\r\n            <i class=\"material-icons\">play_circle_outline</i> Play Video\r\n          </a>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp\">\r\n        <div class=\"mdl-card__media\">\r\n          <img src=\"/assets/img/absent.png\">\r\n        </div>\r\n        <div class=\"mdl-card__title\">\r\n          <h4 class=\"mdl-card__title-text\">How to use Subventions &amp; ECCE</h4>\r\n        </div>\r\n        <div class=\"mdl-card__supporting-text\">\r\n          <span class=\"mdl-typography--font-light mdl-typography--subhead\">\r\n            Click on the Subventions link to manage ECCE children and prepare an ECCE report.\r\n          </span>\r\n        </div>\r\n        <div class=\"mdl-card__actions\">\r\n          <a target=\"_blank\" class=\"card-button mdl-button mdl-js-button mdl-typography--text-uppercase\" href=\"https://littlevista.wistia.com/medias/rccl2e069r\">\r\n            <i class=\"material-icons\">play_circle_outline</i> Play Video\r\n          </a>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp\">\r\n        <div class=\"mdl-card__media\">\r\n          <img src=\"/assets/img/activities.png\">\r\n        </div>\r\n        <div class=\"mdl-card__title\">\r\n          <h4 class=\"mdl-card__title-text\">Need more help?</h4>\r\n        </div>\r\n        <div class=\"mdl-card__supporting-text\">\r\n          <span class=\"mdl-typography--font-light mdl-typography--subhead\">\r\n            Contact our support team about premium training and our tablet-based room activity recorder.\r\n          </span>\r\n        </div>\r\n        <div class=\"mdl-card__actions\">\r\n          <a class=\"card-button mdl-button mdl-js-button mdl-typography--text-uppercase\" href=\"\">\r\n            <i class=\"material-icons\">contact_phone</i> Contact Support\r\n          </a>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n"
 
 /***/ },
 /* 912 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"backdrop\" [@backdrop]=\"showOccupancyModal\">\n  <div class=\"modal\" [@modal]=\"showOccupancyModal\">\n    <div class=\"modal-header flex\">\n      <span class=\"title flex\">{{name}}</span>\n      <span class=\"title flex\">{{title}}</span>\n      <span class=\"btn\"><mdl-icon (click)=\"destroy()\" class=\"close-button\">close</mdl-icon></span>\n    </div>\n    <div class=\"modal-body flex\">\n\n      <div class=\"move-container flex\">\n      <div class=\"move-class flex column\">\n        <div class=\"date-picker flex column\">\n          <div class=\"row flex\">\n            <div class=\"left\"></div>\n            <div class=\"right flex\">\n              <span class=\"col flex strong-text\">Move to class:</span>\n              <span class=\"col flex\"></span>\n              <span class=\"col flex strong-text\">Proposed move date:</span>\n              <span class=\"col flex\"></span>\n              <span class=\"col flex\"></span>\n            </div>\n          </div>\n          <div class=\"row flex\">\n            <div class=\"left\"></div>\n            <div class=\"right flex\">\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"moveRoomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\"></span>\n              <span class=\"col flex\">\n                <app-datepicker [(ngModel)]=\"movedate\"></app-datepicker>\n              </span>\n              <span class=\"col flex\"></span>\n              <span class=\"col flex\"></span>\n            </div>\n          </div>\n        </div>\n        <div class=\"room-picker flex column\">\n          <div class=\"row flex\">\n            <div class=\"left\">&nbsp;</div>\n            <div class=\"right flex green-color\">\n              <span class=\"col flex strong-text text-indent\">Mon</span>\n              <span class=\"col flex strong-text text-indent\">Tue</span>\n              <span class=\"col flex strong-text text-indent\" >Weds</span>\n              <span class=\"col flex strong-text text-indent\">Thurs</span>\n              <span class=\"col flex strong-text text-indent\">Fri</span>\n            </div>\n          </div>\n          <div class=\"row flex\">\n            <div class=\"left strong-text\">AM</div>\n            <div class=\"right flex\">\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n            </div>\n          </div>\n          <div class=\"row flex\">\n            <div class=\"left strong-text\">PM</div>\n            <div class=\"right flex\">\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n            </div>\n          </div>\n        </div>\n        <div class=\"btn-picker flex\">\n          <button mdl-button mdl-ripple class=\"green-color\">SAVE</button>\n        </div>\n      </div>\n      </div>\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"dashboard\" mdl-shadow=\"2\">\r\n  <mdl-layout mdl-layout-drawer mdl-layout-header #mdlLayout=\"mdlLayout\">\r\n    <mdl-layout-drawer class=\"drawer\" mdl-shadow=\"8\">\r\n      <div class=\"drawer-content\">\r\n        <div class=\"profile-settings\">\r\n          <div class=\"drawer-logo\"></div>\r\n        </div>\r\n        <div class=\"profile-info\" *ngIf=\"profile\">\r\n          <p>\r\n            {{profile.additional.name}}\r\n          </p>\r\n          <img src={{profile.picture}} alt=\"Avatar\" />\r\n          <p>\r\n            {{profile.name}}\r\n          </p>\r\n        </div>\r\n        <div class=\"nav-container\">\r\n          <nav class=\"mdl-navigation\">\r\n            <a class=\"mdl-navigation__link\" routerLink=\"/dashboard\" (click)=\"mdlLayout.closeDrawer()\">\r\n              <mdl-icon>dashboard</mdl-icon>\r\n              Dashboard\r\n            </a>\r\n            <a class=\"mdl-navigation__link\" routerLink=\"/dashboard/subventions\" (click)=\"mdlLayout.closeDrawer()\">\r\n              <mdl-icon>content_paste</mdl-icon>\r\n              Subventions\r\n            </a>\r\n            <a class=\"mdl-navigation__link\" routerLink=\"/dashboard/attendance\" (click)=\"mdlLayout.closeDrawer()\">\r\n              <mdl-icon>assignment_turned_in</mdl-icon>\r\n              Attendance\r\n            </a>\r\n            <a class=\"mdl-navigation__link\" routerLink=\"/dashboard/reports\" (click)=\"mdlLayout.closeDrawer()\">\r\n              <mdl-icon>event_note</mdl-icon>\r\n              Reports\r\n            </a>\r\n            <a class=\"mdl-navigation__link\" routerLink=\"/dashboard/easy-fees\" (click)=\"mdlLayout.closeDrawer()\">\r\n              <mdl-icon>credit_card</mdl-icon>\r\n              Easy Fees\r\n            </a>\r\n            <a class=\"mdl-navigation__link\" routerLink=\"/dashboard/occupancy\" (click)=\"mdlLayout.closeDrawer()\">\r\n              <mdl-icon>event_note</mdl-icon>\r\n              Occupancy Plan\r\n            </a>\r\n            <a class=\"mdl-navigation__link\" routerLink=\"/dashboard/settings\" (click)=\"mdlLayout.closeDrawer()\">\r\n              <mdl-icon>settings</mdl-icon>\r\n              Centre Setup\r\n            </a>\r\n            <a class=\"mdl-navigation__link\" routerLink=\"/\" (click)=\"logout()\">\r\n              <mdl-icon>exit_to_app</mdl-icon>\r\n              Logout\r\n            </a>\r\n          </nav>\r\n        </div>\r\n      </div>\r\n    </mdl-layout-drawer>\r\n    <mdl-layout-content class=\"main-content\">\r\n      <router-outlet></router-outlet>\r\n    </mdl-layout-content>\r\n  </mdl-layout>\r\n</div>\r\n"
 
 /***/ },
 /* 913 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"backdrop\" [@backdrop]=\"showOccupancyModal\">\r\n  <div class=\"modal\" [@modal]=\"showOccupancyModal\">\r\n    <div class=\"modal-header flex\">\r\n      <span class=\"title flex\">{{name}}</span>\r\n      <span class=\"info flex\">{{title}}</span>\r\n      <span class=\"btn\"><mdl-icon (click)=\"destroy()\" class=\"close-button\">close</mdl-icon></span>\r\n    </div>\r\n    <div class=\"modal-body flex\">\r\n      <ng-content></ng-content>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"payment-view flex column\">\n  <app-popup-print-mandate \n      [showPopup]=\"showPopup\"\n      (closePopup)=\"popupClosed()\">\n  </app-popup-print-mandate>\n\n  <!--//start accordion header-->\n  <div class=\"accordion-header row flex\">\n    <span class=\"col flex flex2 text-indent20\">CURRENT CYCLE</span>\n    <span class=\"col flex flex3\">03/01/2017</span>\n  </div>\n  <!--//end accordion header-->\n  <!--//start accordion body-->\n  <div class=\"accordion-body flex\">\n\n    <div class=\"accordion-body-inner flex column\">\n      <!--//if existing email invoice-->\n      <div class=\"email-invoice row flex\">\n        <div class=\"pp-icons icon-inarrears\">EMAIL INVOICE</div>\n      </div>\n      <!--//end email invoice-->\n      <div class=\"row flex\">\n        <!--//start direct-debit element-->\n        <div class=\"v-payments direct-debit flex column\">\n          <div class=\"v-header row flex\">\n            <span class=\"col flex\">DIRECT DEBIT</span>\n            <span class=\"col flex justify-content-end not-bold\"><b class=\"mandate not-sent\">&nbsp;</b>&nbsp; Not Sent</span>\n          </div>\n          <div class=\"v-body row flex column\">\n            <div class=\"row flex\">\n              <div class=\"col\">EMAIL an E-MANDATE to the Guardian</div>\n            </div>\n            <div class=\"row flex padding-bottom20\">\n              <div class=\"col\">\n                <div class=\"pp-icons icon-active\">SEND E-MANDATE</div>\n              </div>\n            </div>\n            <div class=\"row flex\">\n              <div class=\"col\">PRINT and file an E-MANDATE to the Guardian</div>\n            </div>\n            <div class=\"row flex\">\n              <div class=\"col\">\n                <div class=\"pp-icons icon-projected\" (click)=\"printMandate()\">PRINT E-MANDATE</div>\n              </div>\n            </div>\n          </div>\n        </div>\n        <!--//end direct-debit-->\n        <div class=\"flex flex1\"></div>\n        <!--//start total-cash-invoice-->\n        <div class=\"v-payments total-cash-invoice flex column\">\n          <div class=\"v-header row flex\">\n            <div class=\"col flex width-8\">TOTAL Cash Invoice</div>\n            <div class=\"col flex width-1\"></div>\n            <div class=\"col flex width-2\">€875</div>\n          </div>\n          <div class=\"v-body row flex column\">\n            <!--//start payment list-->\n            <div class=\"row flex\">\n              <div class=\"col flex width-8 bottom-border\">\n                <div class=\"col flex justify-content-start\">Monthly Fees</div>\n                <div class=\"col flex justify-content-end\">\n                  <div class=\"pp-icons icon-pastdue\">PAST DUE</div>\n                  <div class=\"pp-icons icon-remove\">REMOVE</div>\n                  <div class=\"pp-icons icon-unpaid\">UN PAID &nbsp;<span class=\"iv\">-</span></div>\n                </div>\n              </div>\n              <div class=\"col flex width-1\"></div>\n              <div class=\"col flex width-2 bottom-border\">€850</div>\n            </div>\n            <div class=\"row flex\">\n              <div class=\"col flex width-8 bottom-border\">\n                <div class=\"col flex justify-content-start\">Trip to the Zoo</div>\n                <div class=\"col flex justify-content-end\">\n                  <div class=\"pp-icons icon-inarrears\">IN ARREARS</div>\n                  <div class=\"pp-icons icon-late\">LATE</div>\n                  <div class=\"pp-icons icon-paid\">PAID &nbsp;<span class=\"iv\">x</span></div>\n                </div>\n              </div>\n              <div class=\"col flex width-1\"></div>\n              <div class=\"col flex width-2 bottom-border\">€25</div>\n            </div>\n            <!--//end payment list-->\n          </div>\n          <div class=\"v-footer row flex column\">\n            <div class=\"row flex align-items-center\">\n              <div class=\"col flex width-8\"><mdl-textfield placeholder=\"Type here to add to the current invoice\"></mdl-textfield></div>\n              <div class=\"col flex width-1\"></div>\n              <div class=\"col flex width-2\"><mdl-textfield placeholder=\"€0\"></mdl-textfield></div>\n            </div>\n            <div class=\"row flex\">\n              <div class=\"col flex\">\n                <div class=\"pp-icons icon-active\">Add to next CASH invoice</div>\n              </div>\n            </div>\n          </div>\n        </div>\n        <!--//end total-cash-invoice-->\n      </div>\n    </div>\n  </div>\n  <!--//end accordion body-->\n</div>"
 
 /***/ },
 /* 914 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"backdrop\" [@backdrop]=\"showOccupancyModal\">\n  <div class=\"modal\" [@modal]=\"showOccupancyModal\">\n    <div class=\"modal-header flex\">\n      <span class=\"title flex\">{{title}}</span>\n      <span class=\"btn\"><mdl-icon (click)=\"destroy()\" class=\"close-button\">close</mdl-icon></span>\n    </div>\n    <div class=\"modal-body flex\">\n\n      <div class=\"remove-container flex\">\n        \n        <div class=\"remove-child flex\">\n          <!--//start first panel-->\n          <div class=\"col flex flex1 column\">\n            <div class=\"row flex\">Name</div>\n            <div class=\"row flex padding-bottom20\"><mdl-textfield [(ngModel)]=\"child.name\" readonly></mdl-textfield></div>\n            <div class=\"row flex\">&nbsp;</div>\n            <div class=\"row flex strong-text\">Step.1</div>\n            <div class=\"row flex gray-color\">Add an induction date when you are ready to add this child</div>\n            <div class=\"row flex padding-bottom20\">&nbsp;</div>\n            <div class=\"row flex strong-text\">Step.2</div>\n            <div class=\"row flex gray-color\">Add an induction date when you are ready to add this child</div>\n            <div class=\"row flex\">&nbsp;</div>\n          </div>\n          <div class=\"col flex flex3 column\">\n            <div class=\"row flex\">\n              <span class=\"col flex\">Parent Email</span>\n              <span class=\"col flex\">Deposit</span>\n              <span class=\"col flex\">Paperwork Returned</span>\n            </div>\n            <div class=\"row flex padding-bottom20\">\n              <span class=\"col flex\"><mdl-textfield [(ngModel)]=\"child.parentEmail\" ></mdl-textfield></span>\n              <span class=\"col flex\"><mdl-textfield [value]=\"getDepositNameById(child.deposit)\" readonly></mdl-textfield></span>\n              <span class=\"col flex align-items-center\">\n                <mdl-checkbox  [mdl-ripple]=\"true\" [(ngModel)]=\"child.paperwork\" >\n                YES\n                </mdl-checkbox>\n                <!--<mdl-radio name=\"group1\" value=\"1\" [(ngModel)]=\"radioOption\">YES</mdl-radio>-->\n              </span>\n            </div>\n            <div class=\"row flex gray-color\">\n              <span class=\"col flex\">Mon</span>\n              <span class=\"col flex\">Tue</span>\n              <span class=\"col flex\">Wed</span>\n              <span class=\"col flex\">Thur</span>\n              <span class=\"col flex\">Fri</span>\n            </div>\n            <div class=\"row flex bottom-border\">\n              <div class=\"row flex\" *ngFor=\"let num of [1,2,3,4,5]\">\n                <span class=\"col flex strong-text\">AM</span>\n                <span class=\"col flex strong-text\">PM</span>\n                <span class=\"col flex\"></span>\n              </div>\n            </div>\n            <div class=\"row flex bottom-border align-items-center padding-top-bottom\">\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.mon.am\"></mdl-checkbox></span>\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.mon.pm\"></mdl-checkbox></span>\n                <span class=\"col flex\"></span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.tue.am\"></mdl-checkbox></span>\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.tue.pm\"></mdl-checkbox></span>\n                <span class=\"col flex\"></span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.wed.am\"></mdl-checkbox></span>\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.wed.pm\"></mdl-checkbox></span>\n                <span class=\"col flex\"></span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.thu.am\"></mdl-checkbox></span>\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.thu.pm\"></mdl-checkbox></span>\n                <span class=\"col flex\"></span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.fri.am\"></mdl-checkbox></span>\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.fri.pm\"></mdl-checkbox></span>\n                <span class=\"col flex\"></span>\n              </div>\n            </div>\n            <div class=\"row flex padding-bottom20\">&nbsp;</div>\n            <div class=\"row flex\">\n              <span class=\"col flex strong-text\">Select a Room</span>\n              <span class=\"col flex strong-text\">Start Date</span>\n              <span class=\"col flex strong-text\">End Date</span>\n            </div>\n            <div class=\"row flex\">\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"child.assignedRoom\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\"><app-datepicker [(ngModel)]=\"child.roomStartdate\"></app-datepicker></span>\n              <span class=\"col flex\"><app-datepicker [(ngModel)]=\"child.roomEnddate\"></app-datepicker></span>\n            </div>\n            <div class=\"row flex\">\n              <span class=\"col flex align-items-center justify-content-center red-color\">{{errorMessage}}</span>\n              <span class=\"col flex align-items-end justify-content-end\">\n                <button mdl-button mdl-ripple class=\"green-color\" (click)=\"moveToRoom()\">SAVE</button>\n              </span>\n            </div>\n          </div>\n          <!--//end first panel-->\n        </div>\n      </div>\n\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"choose-org-type\">\r\n  <p class=\"title\">\r\n    Easy Fee’s Required Documentation.\r\n  </p>\r\n  <p>\r\n    This documentation is required for Anti-Money Laundering purposes.\r\n    Please find the organisation relevant to your own.\r\n  </p>\r\n\r\n\r\n  <div class=\"row tooltips\">\r\n    <div class=\"col type-col\"></div>\r\n    <div class=\"col\">\r\n      Bank Statement\r\n    </div>\r\n    <div class=\"col\">\r\n      Passport\r\n    </div>\r\n    <div class=\"col\">\r\n      Scanned copy of constitution documents\r\n    </div>\r\n    <div class=\"col\">\r\n      Copy of the latest annual return\r\n    </div>\r\n    <div class=\"col\">\r\n      Passport for all individuals in control of the body\r\n    </div>\r\n    <div class=\"col\">\r\n      Utility Bill\r\n    </div>\r\n  </div>\r\n  <div class=\"row\" (click)=\"setOrgType('LIMITED_COMPANY')\">\r\n    <div class=\"col type-col\">\r\n      Private/Limited Liability Company\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\"></div>\r\n  </div>\r\n  <div class=\"row\" (click)=\"setOrgType('SOLETRADER')\">\r\n    <div class=\"col type-col\">\r\n      Sole Trader\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\"></div>\r\n  </div>\r\n  <div class=\"row\" (click)=\"setOrgType('CLUB_OR_SOC')\">\r\n    <div class=\"col type-col\">\r\n      Clubs &amp; Societies\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\" (click)=\"setOrgType('CHARITY_RELIGIOUS')\">\r\n    <div class=\"col type-col\">\r\n      Community Centres / Charities\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n  </div>\r\n  <div class=\"row\" (click)=\"setOrgType('PARTNER_OR_ASSOC')\">\r\n    <div class=\"col type-col\">\r\n      Partnerships &amp; Associations\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\"></div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n    <div class=\"col\">\r\n      <div class=\"point\"></div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ },
 /* 915 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"room-accordain\">\n  <app-move-class class=\"flex\" \n    [showOccupancyModal]=\"showOccupancyModal\"\n    [child]=\"selectedChild\"\n    (closeModal)=\"modalClosed()\">\n  </app-move-class>\n\n  <!--//start accordian header-->\n  <div class=\"accordian-header flex column\">\n    <div class=\"row flex\">\n      <div class=\"room-title flex flex1\">\n        <span class=\"col flex align-items-center text-indent20\">{{roomInfo.mdate}}</span>\n        <span class=\"col flex align-items-center\">{{getRoomNameById(roomID)}}</span>\n      </div>\n      <div class=\"week-picker flex flex2\">\n        <span class=\"col flex p-btn align-items-center justify-content-center\" *ngFor=\"let wtab of weekTabs; let idx = index;\" (click)=\"selectWeekPicker(idx)\" [class.active]=\"wtab.active\">\n          <button mdl-button mdl-ripple>{{wtab.name}}</button>\n        </span>\n        <span class=\"col flex\" *ngFor=\"let num of [1,2,3,4,5];\">&nbsp;</span>\n      </div>\n    </div>\n    <div class=\"available-info flex\">\n      <div class=\"row flex flex1\">\n        <span class=\"col flex\">&nbsp;</span>\n        <span class=\"col flex align-items-center\">Spaces Available</span>\n      </div>\n      <div class=\"flex flex2\">\n        <div class=\"row flex\" *ngFor=\"let wtab of weekTabs; let idx = index;\">\n          <span class=\"col flex align-items-center justify-content-center\">0</span>\n          <span class=\"col flex align-items-center justify-content-center\">-</span>\n        </div>\n        <div class=\"row flex\" *ngFor=\"let num of [1,2,3,4,5];\">&nbsp;</div>\n      </div>\n    </div>\n  </div>\n  <!--//end accordian header-->\n  <!--//start accordian body-->\n  <div class=\"accordian-body flex\">\n    <!--//start room info-->\n    <div class=\"room-info flex\">\n      <div class=\"room-info-inner flex column\">\n        <div class=\"row flex bottom-border strong-text no-padding\">\n          <span class=\"col flex5\">Staff</span>\n          <span class=\"col flex1 text-center\">AM</span>\n          <span class=\"col flex1 text-center\">PM</span>\n        </div>\n        <div class=\"row flex\" *ngIf=\"staff.length<=0\">No assigned Staffs</div>\n        <div class=\"row flex\" *ngFor=\"let _staff of staff;\">\n          <span class=\"col flex5\">{{_staff.name}}</span>\n          <span class=\"col flex1 text-center\"><mdl-icon class=\"icon\" *ngIf=\"_staff.am\">lens</mdl-icon></span>\n          <span class=\"col flex1 text-center\"><mdl-icon class=\"icon\" *ngIf=\"_staff.pm\">lens</mdl-icon></span>\n        </div>\n        <div class=\"row flex strong-text top-border\">\n          <span class=\"col flex5\">TOTAL Capacity <br><small>(Age group: 12 - 24 months)</small></span>\n          <span class=\"col flex1 text-center\">10</span>\n          <span class=\"col flex1 text-center\">10</span>\n        </div>\n        <div class=\"row flex\">\n          <span class=\"col\"><a href=\"dashboard/occupancy/setup\"><button mdl-button mdl-button-type=\"raised\" mdl-ripple>Add Stuff to Room</button></a></span>\n        </div>\n        <div class=\"row flex strong-text\">\n          <span class=\"col flex5\">Available Spaces</span>\n          <span class=\"col flex1 text-center\">1</span>\n          <span class=\"col flex1 text-center\">2</span>\n        </div>\n      </div>\n    </div>\n    <!--//end room info-->\n    <!--//start child info am-->\n    <div class=\"children-info-am flex\">\n      <div class=\"children-info-am-inner flex column\">\n        <div class=\"row flex strong-text bottom-border no-padding\">\n          <span class=\"col flex5\">{{selectedWeeKFullName}} AM</span>\n          <span class=\"col flex1 text-right\">9 of 10</span>\n        </div>\n        <div class=\"panels padding-bottom30 flex\">\n          <div class=\"panel flex child-list\">\n            <div class=\"row flex\" (click)=\"selectChild(child)\" *ngFor=\"let child of childStoreAM;\">{{child.name}}</div>\n            <div class=\"row flex\"><button mdl-button mdl-button-type=\"raised\" mdl-ripple>SPACE AVAILABLE</button></div>\n          </div>\n        </div>\n        <div class=\"row flex strong-text bottom-border no-padding\">\n          <span class=\"col flex5\">Starting next month AM</span>\n          <span class=\"col flex1 text-right\">1</span>\n        </div>\n        <div class=\"row flex\">\n          <span class=\"col\">Marius Stanely</span>\n        </div>\n      </div>\n    </div>\n    <!--//end child info ap-->\n    <div class=\"children-info-pm flex\">\n      <div class=\"children-info-pm-inner flex column\">\n        <div class=\"row flex strong-text bottom-border no-padding\">\n          <span class=\"col flex5\">{{selectedWeeKFullName}} AM</span>\n          <span class=\"col flex1 text-right\">8 of 10</span>\n        </div>\n        <div class=\"panels padding-bottom30 flex\">\n          <div class=\"panel flex child-list\">\n            <div class=\"row flex\" (click)=\"selectChild(child)\" *ngFor=\"let child of childStorePM;\">{{child.name}}</div>\n            <div class=\"row flex\"><button mdl-button mdl-button-type=\"raised\" mdl-ripple>SPACE AVAILABLE</button></div>\n          </div>\n        </div>\n        <div class=\"row flex strong-text bottom-border no-padding\">\n          <span class=\"col flex5\">Starting next month PM</span>\n          <span class=\"col flex1 text-right\">1</span>\n        </div>\n        <div class=\"row flex\">\n          <span class=\"col\">Marius Stanely</span>\n        </div>\n      </div>\n    </div>\n  </div>\n  <!--//end accordian body-->\n</div>"
+module.exports = "<div class=\"backdrop\" [@backdrop]=\"showPopup\">\n  <div class=\"modal\" [@modal]=\"showPopup\">\n    <div class=\"simple-popup\">\n      <div class=\"popup-header flex\">\n        <span class=\"btn\"><mdl-icon (click)=\"destroy()\" class=\"close-button\">close</mdl-icon></span>\n      </div>\n      <div class=\"popup-content flex column\">\n        <div class=\"row flex\">\n          <div class=\"col\">A mandate will be printed for \"guardian_name\". You will need to keep this ﬁle on record.<br>Please enter the guardian’s IBAN</div>\n        </div>\n        <div class=\"row flex\">\n          <div class=\"col\">\n            <mdl-textfield></mdl-textfield>\n          </div>\n        </div>\n      </div>\n      <div class=\"popup-footer flex\">\n        <mdl-button mdl-ripple (click)=\"destroy()\">Print Mandate</mdl-button>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ },
 /* 916 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"scroll-holder\" (window:resize)=\"onResize($event)\">\n  <div [class.show]=\"showLeftArrow\" class=\"arrow arrow-back\" (click)=\"scroll()\" mdl-ripple>\n    <mdl-icon>arrow_back</mdl-icon>\n  </div>\n  <div class=\"navbar-scroll\" #nav>\n    <span class=\"btn-tab\" *ngFor=\"let data of datas; let idx=index;\" (click)=\"selectData(data.id)\" [class.active]=\"data.selected\">\n      <button mdl-button mdl-ripple>{{data.name}}</button>\n    </span>\n  </div>\n  <div [class.show]=\"showRightArrow\" class=\"arrow arrow-forward\" #arrow (click)=\"scroll('right')\" mdl-ripple>\n    <mdl-icon>arrow_forward</mdl-icon>\n  </div>\n</div>"
+module.exports = "<div class=\"easy-fees-dashboard flex column\">\n  <!--//start header panel-->\n  <div class=\"pane-info flex justify-content-start\" mdl-shadow=\"2\">\n    <div class=\"row flex flex1\"></div>\n    <div class=\"info row flex flex3 column\">\n      <div class=\"title row flex\">TOTAL</div>\n      <div class=\"row flex\">\n        <span class=\"col\">\n          <mdl-icon class=\"account\">supervisor_account</mdl-icon>\n        </span>\n        <span class=\"col count\">\n          <b class=\"num\">97</b>\n          <br>\n          (€19,847)\n        </span>\n      </div>\n    </div>\n    <div class=\"row flex flex1\"></div>\n    <div class=\"info row flex flex3 column\">\n      <div class=\"title row flex\">Confirmed</div>\n      <div class=\"row flex\">\n        <span class=\"col\">\n          <mdl-icon class=\"confirm\">credit_card</mdl-icon>\n        </span>\n        <span class=\"col count\">\n          <b class=\"num\">8</b>\n          <br>\n          (€19,847)\n        </span>\n      </div>\n    </div>\n    <div class=\"row flex flex1\"></div>\n    <div class=\"info row flex flex3 column\">\n      <div class=\"title row flex\">Pending</div>\n      <div class=\"row flex\">\n        <span class=\"col\">\n          <mdl-icon class=\"pending\">credit_card</mdl-icon>\n        </span>\n        <span class=\"col count\">\n          <b class=\"num\">7</b>\n          <br>\n          (€19,847)\n        </span>\n      </div>\n    </div>\n    <div class=\"row flex flex1\"></div>\n    <div class=\"info row flex flex3 column\">\n      <div class=\"title row flex\">Rejected</div>\n      <div class=\"row flex\">\n        <span class=\"col\">\n          <mdl-icon class=\"reject\">credit_card</mdl-icon>\n        </span>\n        <span class=\"col count\">\n          <b class=\"num\">5</b>\n          <br>\n          (€19,847)\n        </span>\n      </div>\n    </div>\n  </div>\n  <!--//end header panel-->\n  <br>\n  <!--//start list panel-->\n  <div class=\"pane-list flex column\" mdl-shadow=\"2\">\n    <div class=\"list-header row flex\">\n        <div class=\"col flex flex2 h-name\">CURRENT</div>\n        <div class=\"col flex flex3 picker-row\">\n          <div class=\"month-picker\">\n            <mdl-icon (click)=\"prevMonth()\">keyboard_arrow_left</mdl-icon>\n            <span class=\"title\">\n              <b>{{currentDate.toDate() | date:'MMMM'}}</b> {{currentDate.toDate() | date:'yyyy'}}\n            </span>\n            <mdl-icon (click)=\"nextMonth()\">keyboard_arrow_right</mdl-icon>\n          </div>\n        </div>\n        <div class=\"col flex flex2 h-name\">Pending</div>\n        <div class=\"col flex flex3 sort-button\" (mouseenter)=\"sortFlag=true\" (mouseleave)=\"sortFlag=false\">Sort By</div>\n        <ul class=\"sort-popup\" mdl-shadow=\"2\" [hidden]=\"!sortFlag\" (mouseenter)=\"sortFlag=true\" (mouseleave)=\"sortFlag=false\">\n          <li (click)=\"sortOrder('1')\">CASH</li>\n          <li (click)=\"sortOrder('2')\">Direct Debit</li>\n          <li (click)=\"sortOrder('3')\">E-mandate Pending</li>\n        </ul>\n    </div>\n\n    <div class=\"list-body row flex column\">\n      <div class=\"row flex header\">\n        <span class=\"col flex flex2\">Children</span>\n        <span class=\"col flex flex3\">Guardians(Debtors)</span>\n        <span class=\"col flex flex5 balance\">Balance</span>\n      </div>\n      <!--//children or familes list-->\n      <div class=\"childron-list row flex\">\n        <span class=\"col flex flex2\">Tommy, Anna</span>\n        <span class=\"col flex flex3\">\n          <b class=\"mandate not-sent\">&nbsp;</b>&nbsp; Lorraine Murphy\n        </span>\n        <span class=\"col flex flex5 balance\">Guardians(Debtors)</span>\n      </div>\n      \n      <div class=\"childron-list row flex column\">\n        <div class=\"row flex\">\n          <span class=\"col flex flex2\">Tommy</span>\n          <span class=\"col flex flex3\">\n            <b class=\"mandate active\">&nbsp;</b>&nbsp; Lorraine Murphy\n          </span>\n          <span class=\"col flex flex5 balance\">Guardians(Debtors)</span>\n        </div>\n      </div>\n\n      <div class=\"childron-list row flex column\">\n        <div class=\"row flex\" (click)=\"selectRow()\">\n          <span class=\"col flex flex2\">Tommy, Anna</span>\n          <span class=\"col flex flex3\">\n            <b class=\"mandate pending\">&nbsp;</b>&nbsp; Lorraine Murphy\n          </span>\n          <span class=\"col flex flex5 balance\">\n              <div class=\"pp-icons icon-pastdue\">PAST DUE</div>\n              <div class=\"pp-icons icon-projected\">PROJECTED</div>\n              <div class=\"pp-icons icon-unpaid\">UN PAID &nbsp;<span class=\"iv\">-</span></div>\n              <div class=\"pp-icons icon-money\">€675.00</div>\n          </span>\n        </div>\n        <div class=\"row flex\" [hidden]=\"!accordionState\">\n          <app-accordion-payments-view  class=\"flex\"></app-accordion-payments-view>\n        </div>\n      </div>\n      <!--//end children or families list-->\n\n    </div>\n  </div>\n  <!--//end list panel-->\n</div>"
 
 /***/ },
 /* 917 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"transition-lists\" mdl-shadow=\"2\">\n    <div class=\"panel-header flex justify-content-end\">\n      <app-scroll-navbar [datas]=\"datelist\" [hidden]=\"!datelist\" (sendData)=\"selectDateTab($event)\" class=\"flex\"></app-scroll-navbar>\n      <!--<span class=\"btn-tab\" *ngFor=\"let list of datelist; let idx=index;\" (click)=\"selectDateTab(idx)\" [class.active]=\"list.active\">\n        <button mdl-button mdl-ripple>{{list.name}}</button>\n      </span>-->\n    </div>\n    <!--//start transition-lists-->\n    <div class=\"panel-body\">\n      <div class=\"panel-body-inner flex column\">\n          <div class=\"row flex \">\n            <div class=\"col flex strong-text\">{{selectedDate}}</div>\n            <div class=\"col flex filter\">Filter By</div>\n          </div>\n          <div class=\"row flex header bottom-border padding-top-bottom-10\">\n            <div class=\"col flex\">Child Name</div>\n            <div class=\"col flex\">Current Room</div>\n            <div class=\"col flex\">Moving To...</div>\n            <div class=\"col flex\">Transition Date</div>\n            <div class=\"col flex\">Induction Complete</div>\n            <div class=\"col flex\">Child DOB</div>\n          </div>\n          <div class=\"row flex bottom-border padding-top-bottom-10\" *ngFor=\"let list of [1,2,3,4,5,6,7,8]\" (click)=\"showOccupancyModal = true\">\n            <div class=\"col flex\">Maria Demery</div>\n            <div class=\"col flex\">Baby Room 1</div>\n            <div class=\"col flex\">Baby Room 1</div>\n            <div class=\"col flex\">01/10/2016</div>\n            <div class=\"col flex\">-</div>\n            <div class=\"col flex\"></div>\n          </div>\n      </div>\n    </div>\n    <!--//end transition-lists-->\n</div>"
+module.exports = "<div class=\"easy-fees-intro\">\r\n  <div class=\"intro-header\">\r\n    <h2 class=\"header-text\">Easy Fees</h2>\r\n    <mdl-button mdl-shadow=\"6\" mdl-ripple routerLink=\"../setup\">\r\n      Get Started\r\n    </mdl-button>\r\n  </div>\r\n  <div class=\"fee-policy\">\r\n    <p>Intro text including feedback from ECI regarding Fee Policy</p>\r\n  </div>\r\n  <div class=\"info-cards\">\r\n    <div class=\"info-card\" mdl-shadow=\"6\">\r\n      <div class=\"card-media\">\r\n        <img src=\"/assets/img/easy-fees/intro.svg\" alt=\"\">\r\n      </div>\r\n      <div class=\"card-body\">\r\n        <p class=\"card-title\">\r\n          Introduction\r\n        </p>\r\n        <p class=\"card-text\">\r\n          Collect and manage payments using Easy Fees. Automatically debit\r\n          customer accounts or track cash payments.\r\n        </p>\r\n      </div>\r\n      <div class=\"card-actions\">\r\n        <mdl-button mdl-ripple>\r\n          <mdl-icon>play_circle_outline</mdl-icon>\r\n          Play Video\r\n        </mdl-button>\r\n      </div>\r\n    </div>\r\n    <div class=\"info-card\" mdl-shadow=\"6\">\r\n      <div class=\"card-media\">\r\n        <img src=\"/assets/img/easy-fees/step-1.svg\" alt=\"\">\r\n      </div>\r\n      <div class=\"card-body\">\r\n        <p class=\"card-title\">\r\n          Step 1\r\n        </p>\r\n        <p class=\"card-subtitle\">\r\n          Upload documentation\r\n        </p>\r\n        <p class=\"card-text\">\r\n          To set you up as a merchant we will need some documentation for AML\r\n          purposes.\r\n        </p>\r\n      </div>\r\n      <div class=\"card-actions\">\r\n        <mdl-button mdl-ripple>\r\n          <mdl-icon>play_circle_outline</mdl-icon>\r\n          Play Video\r\n        </mdl-button>\r\n      </div>\r\n    </div>\r\n    <div class=\"info-card\" mdl-shadow=\"6\">\r\n      <div class=\"card-media\">\r\n        <img src=\"/assets/img/easy-fees/step-2.svg\" alt=\"\">\r\n      </div>\r\n      <div class=\"card-body\">\r\n        <p class=\"card-title\">\r\n          Step 2\r\n        </p>\r\n        <p class=\"card-subtitle\">\r\n          Collect E-Mandates\r\n        </p>\r\n        <p class=\"card-text\">\r\n          In order to collect fee’s from parents by direct debit each\r\n          parent will need to return an electronic mandate.\r\n        </p>\r\n      </div>\r\n      <div class=\"card-actions\">\r\n        <mdl-button mdl-ripple>\r\n          <mdl-icon>play_circle_outline</mdl-icon>\r\n          Play Video\r\n        </mdl-button>\r\n      </div>\r\n    </div>\r\n    <div class=\"info-card\" mdl-shadow=\"6\">\r\n      <div class=\"card-media\">\r\n        <img src=\"/assets/img/easy-fees/step-3.svg\" alt=\"\">\r\n      </div>\r\n      <div class=\"card-body\">\r\n        <p class=\"card-title\">\r\n          Step 3\r\n        </p>\r\n        <p class=\"card-subtitle\">\r\n          Collect Payments!\r\n        </p>\r\n        <p class=\"card-text\">\r\n          Once the e-mandates have been returned you can start to collect\r\n          payments by direct debit.\r\n        </p>\r\n      </div>\r\n      <div class=\"card-actions\">\r\n        <mdl-button mdl-ripple>\r\n          <mdl-icon>play_circle_outline</mdl-icon>\r\n          Play Video\r\n        </mdl-button>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ },
 /* 918 */
 /***/ function(module, exports) {
 
-module.exports = "<!--<app-navbar title=\"Occupancy Planning\"></app-navbar>-->\n<app-navbar-small [routes]=\"routes\" title=\"Occupancy Planning\"></app-navbar-small>\n<div class=\"layout-content\">\n  <router-outlet></router-outlet>\n</div>"
+module.exports = "<div class=\"easy-fees-setup\">\r\n  <app-modal [showModal]=\"showModal\" (closeModal)=\"modalClosed()\">\r\n    <app-choose-org-type (closeModal)=\"modalClosed($event)\"></app-choose-org-type>\r\n  </app-modal>\r\n  <div class=\"setup-header\">\r\n    <h2 class=\"header\">\r\n      Easy Fees\r\n    </h2>\r\n    <p class=\"info\">\r\n      In order to set up your business to take direct debits payments you\r\n      will need to scan &amp; upload the documentation relevant to your\r\n      organisation. <br /> Click here for information about what\r\n      documentation is required:\r\n      <mdl-button mdl-ripple (click)=\"chooseOrgType()\">\r\n        Select Your Organisation Type\r\n      </mdl-button>\r\n    </p>\r\n  </div>\r\n  <div class=\"setup-form\">\r\n    <div class=\"progress-tracker\">\r\n      <div\r\n        class=\"step-pill\"\r\n        [class.active-pill]=\"setupStep === 1\"\r\n        (click)=\"setupStep = 1\">\r\n          1. Business Name\r\n      </div>\r\n      <div\r\n        class=\"step-pill\"\r\n        [class.active-pill]=\"setupStep === 2\"\r\n        (click)=\"setupStep = 2\">\r\n          2. Contact Details\r\n      </div>\r\n      <div\r\n        class=\"step-pill\"\r\n        [class.active-pill]=\"setupStep === 3\"\r\n        (click)=\"setupStep = 3\">\r\n          3. Direct Debit Profile\r\n      </div>\r\n      <div\r\n        class=\"step-pill\"\r\n        [class.active-pill]=\"setupStep === 4\"\r\n        (click)=\"setupStep = 4\">\r\n          4. Documentation\r\n      </div>\r\n    </div>\r\n    <form [formGroup]=\"merchantSignupForm\">\r\n      <div class=\"step\" [hidden]=\"setupStep !== 1\" formGroupName=\"step1\">\r\n        <div>\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            formControlName=\"merchantName\"\r\n            [class.is-invalid]=\"merchantName.invalid && merchantName.touched\"\r\n            error-msg=\"Merchant Name is required\"\r\n            disableNativeValidityChecking\r\n            label=\"Merchant Name\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div>\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            formControlName=\"companyNumber\"\r\n            [class.is-invalid]=\"companyNumber.invalid && companyNumber.touched\"\r\n            error-msg=\"Company Registered Number is required\"\r\n            disableNativeValidityChecking\r\n            label=\"Company Registered No\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div *ngIf=\"CURRENCIES.length\">\r\n          <mdl-select\r\n            formControlName=\"currency\"\r\n            placeholder=\"Currency\">\r\n              <mdl-option\r\n                *ngFor=\"let value of CURRENCIES\"\r\n                [value]=\"value\">\r\n                  {{value}}\r\n              </mdl-option>\r\n          </mdl-select>\r\n        </div>\r\n        <div>\r\n          <mdl-checkbox mdl-ripple=\"true\" formControlName=\"differentName\">\r\n            Company Registered Full Business Name different to your Business Name\r\n          </mdl-checkbox>\r\n        </div>\r\n        <mdl-textfield\r\n          type=\"text\"\r\n          floating-label\r\n          formControlName=\"companyName\"\r\n          [class.is-invalid]=\"companyName.invalid && companyName.touched\"\r\n          [required]=\"differentName.value\"\r\n          disableNativeValidityChecking\r\n          error-msg=\"Registered Business Name is required if different\"\r\n          label=\"Company Registered Business Name\">\r\n        </mdl-textfield>\r\n        <div>\r\n          <mdl-checkbox mdl-ripple=\"true\" formControlName=\"alreadyCollecting\">\r\n            Are You Already Collecting Direct Debits?\r\n          </mdl-checkbox>\r\n        </div>\r\n        <mdl-textfield\r\n          type=\"text\"\r\n          floating-label\r\n          [class.is-invalid]=\"creditorSchemeId.invalid && creditorSchemeId.touched\"\r\n          [required]=\"alreadyCollecting.value\"\r\n          formControlName=\"creditorSchemeId\"\r\n          disableNativeValidityChecking\r\n          error-msg=\"Creditor Scheme Id is required if collecting\"\r\n          label=\"Creditor Scheme Id\">\r\n        </mdl-textfield>\r\n      </div>\r\n      <div class=\"step\" [hidden]=\"setupStep !== 2\" formGroupName=\"step2\">\r\n        <div>\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            formControlName=\"website\"\r\n            label=\"Website\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div>\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            [class.is-invalid]=\"address.invalid && address.touched\"\r\n            formControlName=\"address\"\r\n            disableNativeValidityChecking\r\n            error-msg=\"Address is required\"\r\n            label=\"Address\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div>\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            [class.is-invalid]=\"city.invalid && city.touched\"\r\n            formControlName=\"city\"\r\n            disableNativeValidityChecking\r\n            error-msg=\"City is required\"\r\n            label=\"City\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div>\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            formControlName=\"state\"\r\n            label=\"State / Province / Region\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div>\r\n          <mdl-select\r\n            formControlName=\"countryCode\"\r\n            placeholder=\"Country\">\r\n              <mdl-option value=\"IR\">Republic Of Ireland</mdl-option>\r\n          </mdl-select>\r\n        </div>\r\n        <div>\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            [class.is-invalid]=\"contactName.invalid && contactName.touched\"\r\n            formControlName=\"contactName\"\r\n            disableNativeValidityChecking\r\n            error-msg=\"Business Contact Name is required\"\r\n            label=\"Business Contact Name\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div>\r\n          <mdl-textfield\r\n            type=\"email\"\r\n            floating-label\r\n            [class.is-invalid]=\"contactEmail.invalid && contactEmail.touched\"\r\n            formControlName=\"contactEmail\"\r\n            disableNativeValidityChecking\r\n            error-msg=\"Please enter a valid e-mail\"\r\n            label=\"Business E-Mail\">\r\n          </mdl-textfield>\r\n        </div>\r\n      </div>\r\n      <div class=\"step\" [hidden]=\"setupStep !== 3\" formGroupName=\"step3\">\r\n        <div class=\"long-field\">\r\n          <mdl-textfield\r\n            type=\"number\"\r\n            floating-label\r\n            [class.is-invalid]=\"estimatedCustomers.invalid && estimatedCustomers.touched\"\r\n            formControlName=\"estimatedCustomers\"\r\n            disableNativeValidityChecking\r\n            error-msg=\"Please enter a valid number\"\r\n            label=\"Estimated number of your customers who will pay by direct debit\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div class=\"long-field\">\r\n          <mdl-textfield\r\n            type=\"number\"\r\n            floating-label\r\n            [class.is-invalid]=\"estimatedAvgValue.invalid && estimatedAvgValue.touched\"\r\n            formControlName=\"estimatedAvgValue\"\r\n            disableNativeValidityChecking\r\n            error-msg=\"Please enter a valid number\"\r\n            label=\"Estimated average value of each direct debit\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div class=\"long-field\">\r\n          <mdl-textfield\r\n            type=\"number\"\r\n            floating-label\r\n            [class.is-invalid]=\"estimatedMaxValue.invalid && estimatedMaxValue.touched\"\r\n            formControlName=\"estimatedMaxValue\"\r\n            disableNativeValidityChecking\r\n            error-msg=\"Please enter a valid number\"\r\n            label=\"Estimated maximum value of each direct debit\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div>\r\n          <p>Direct Debit Frequency</p>\r\n          <mdl-select\r\n            formControlName=\"frequency\"\r\n            placeholder=\"Direct Debit Frequency\">\r\n              <mdl-option\r\n                *ngFor=\"let value of FREQUENCIES\"\r\n                [value]=\"value\">\r\n                  {{value}}\r\n              </mdl-option>\r\n          </mdl-select>\r\n        </div>\r\n        <div class=\"long-field\">\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            [class.is-invalid]=\"iban.invalid && iban.touched\"\r\n            formControlName=\"iban\"\r\n            disableNativeValidityChecking\r\n            error-msg=\"IBAN is required\"\r\n            label=\"Nominated Bank A/C number(IBAN)\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div class=\"long-field\">\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            formControlName=\"reportPhone\"\r\n            label=\"Contact phone number\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div class=\"long-field\">\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            formControlName=\"reportContact\"\r\n            label=\"Company contact for payment reports reciept\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div class=\"long-field\">\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            formControlName=\"reportEmail\"\r\n            [class.is-invalid]=\"reportEmail.invalid && reportEmail.touched\"\r\n            disableNativeValidityChecking\r\n            error-msg=\"Please enter a valid email\"\r\n            label=\"Company email for payment reports reciept\">\r\n          </mdl-textfield>\r\n        </div>\r\n      </div>\r\n      <div class=\"step\" [hidden]=\"setupStep !== 4\" formGroupName=\"step4\">\r\n        <div>\r\n          <mdl-select\r\n            formControlName=\"businessType\"\r\n            placeholder=\"Select Your Organisation Type\">\r\n            <mdl-option *ngFor=\"let type of COMPANY_TYPES\" [value]=\"type.value\">\r\n              {{type.name}}\r\n            </mdl-option>\r\n          </mdl-select>\r\n        </div>\r\n        <div>\r\n          <mdl-textfield\r\n            type=\"text\"\r\n            floating-label\r\n            label=\"VAT Number\">\r\n          </mdl-textfield>\r\n        </div>\r\n        <div class=\"echosign\">\r\n          <iframe src=\"https://secure.eu1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhCx80vOuPsLWeleU7_BwjtXUeETWf_miqn0zFjlQZ-WB7U9Wscmmicf6Bsc1WwMCvI*&hosted=false\" width=\"100%\" height=\"100%\" frameborder=\"0\" style=\"border: 0; overflow: hidden; min-height: 500px; min-width: 600px;\"></iframe>\r\n        </div>\r\n        <div class=\"file-dropzone\"\r\n          [class.files-over]=\"highlightDropZone\"\r\n          [attr.mdl-shadow]=\"highlightDropZone ? 2 : null\"\r\n          (dragover)=\"onDragOver($event)\"\r\n          (dragleave)=\"onDragLeave($event)\"\r\n          (drop)=\"onDragDrop($event)\">\r\n            <input type=\"file\" multiple #fileInput (change)=\"onInputChange($event)\">\r\n            <span>\r\n              Drop files here or\r\n            </span>\r\n            <button mdl-button mdl-button-type=\"raised\" (click)=\"selectFiles()\">\r\n              Select Files\r\n            </button>\r\n        </div>\r\n        <div class=\"attached-files\">\r\n          <mdl-chip\r\n            mdl-action-icon=\"cancel\"\r\n            *ngFor=\"let file of uploadFiles; let i = index\"\r\n            (action-click)=\"removeFile(i)\"\r\n            [mdl-label]=\"file.name\">\r\n          </mdl-chip>\r\n        </div>\r\n        <div *ngIf=\"businessType.valid\">\r\n          <p>Required Documents: </p>\r\n          <ul>\r\n            <li *ngFor=\"let document of getDocuments()\">\r\n                {{ document }}\r\n            </li>\r\n          </ul>\r\n        </div>\r\n      </div>\r\n    </form>\r\n\r\n    <div class=\"next-button\" [hidden]=\"setupStep === 4\">\r\n      <mdl-button mdl-button-type=\"raised\" [disabled]=\"!canSkip()\" (click)=\"setupStep = setupStep + 1\">\r\n        Next\r\n      </mdl-button>\r\n    </div>\r\n    <div class=\"next-button\" [hidden]=\"setupStep !== 4\">\r\n      <mdl-button mdl-button-type=\"raised\" [disabled]=\"!canSubmit()\" (click)=\"composeForm()\">\r\n        Submit\r\n      </mdl-button>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ },
 /* 919 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"plan-dashboard\" mdl-shadow=\"3\">\n  <!--//start date-picker-->\n  <div class=\"date-picker flex\">\n    <div class=\"left\">\n    </div>\n    <div class=\"right flex\">\n      <div class=\"side-btns flex flex1 justify-content-start\">\n        <button mdl-button mdl-ripple>\n          <mdl-icon>keyboard_arrow_left</mdl-icon>back\n        </button>\n      </div>\n      <div class=\"picker-btns flex flex3 align-items-center\" >\n        <!--<span class=\"p-btn\" *ngFor=\"let tab of dateTabs; let idx = index;\" (click)=\"selDatePicker(idx)\" [class.active]==\"tab.active\">\n          <button mdl-button mdl-ripple>{{tab.name}}</button>\n        </span>-->\n        Spaces Available\n      </div>\n      <div class=\"side-btns flex flex1 justify-content-end\">\n        <button mdl-button mdl-ripple>\n          next<mdl-icon>keyboard_arrow_right</mdl-icon>\n        </button>\n      </div>\n    </div>\n  </div>\n  <!--//end date-picker-->\n  <!--//start picked-data-->\n  <div class=\"picked-data flex column\">\n    <div class=\"date-header flex\">\n      <div class=\"left\"></div>\n      <div class=\"right flex\">\n        <div class=\"row\" *ngFor=\"let date of dates\">\n          <div class=\"col\">\n            {{date}}\n          </div>\n        </div>\n      </div>\n    </div>\n    <!--//start list contents-->\n    <div class=\"list-content flex column\">\n      <div class=\"ap-header flex\">\n        <div class=\"left\"></div>\n        <div class=\"right flex\">\n          <div class=\"row\" *ngFor=\"let ap of items\">\n            <div class=\"col\">AM</div>\n            <div class=\"col\">PM</div>\n          </div>\n        </div>\n      </div>\n      <!--//start contents-->\n      <div class=\"contents flex\" *ngFor=\"let roomList of dashboardData; let idx = index;\">\n        <div class=\"left\">\n          <div class=\"row flex\">\n            <div class=\"flex column\">\n              <div class=\"info\">{{getRoomNameById(roomList.roomId)}}</div>\n              <div class=\"cation\">Capacity: {{roomList.capacity}}</div>\n            </div>\n          </div>\n        </div>\n        <div class=\"right flex\">\n          <div class=\"row\" *ngFor=\"let data of roomList.roomInfo; let jdx = index;\" (click)=\"selectCell(idx, jdx)\" [class.active]=\"data.active\">\n            <div class=\"col\" [class.color]=\"data.available.am<0\">\n              {{data.available.am}}\n            </div>\n            <div class=\"col\" [class.color]=\"data.available.pm<0\">\n              {{data.available.pm}}\n            </div>\n          </div>\n         </div>\n         <div class=\"accordian flex\">\n           <app-room-info-accordian [hidden]=\"!roomList.accordionState\" [roomID]=\"selectedRoomID\" [roomInfo]=\"selectedRoomInfo\" class=\"flex\"></app-room-info-accordian>\n         </div>\n      </div>\n      <!--//end contents-->\n    </div>\n    <!--//end list contents-->\n  </div>\n  <!--//end picked data   -->\n</div>"
+module.exports = "<app-navbar title=\"Easy Fee's\"></app-navbar>\r\n<app-navbar-small [routes]=\"routes\"></app-navbar-small>\r\n<div class=\"layout-content\">\r\n  <router-outlet></router-outlet>\r\n</div>\r\n"
 
 /***/ },
 /* 920 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"room-lists\" mdl-shadow=\"2\">\n    <!--//remove child in waiting room and assign to any room.-->\n    <app-remove-waiting-child class=\"flex\" \n      [showOccupancyModal]=\"showOccupancyModal\"\n      [child]=\"selectedChild\"\n      [rooms]=\"rooms\"\n      (moveFromWaitRoomToRoom)=\"moveFromWaitRoomToRoom($event)\"\n      (closeModal)=\"modalClosed()\">\n    </app-remove-waiting-child>\n    \n    <div class=\"panel-header flex\">\n      <span class=\"btn-tab\" (click)=\"selectRoom('0')\" [class.active]=\"selectedRoomID==='0'\">\n        <button mdl-button mdl-ripple>Waiting List</button>\n      </span>\n      <app-scroll-navbar [datas]=\"rooms\" [hidden]=\"!rooms\" (sendData)=\"selectRoom($event)\" class=\"flex\"></app-scroll-navbar>\n    </div>\n    <!--//start waiting room-->\n    <div class=\"panel-body\" *ngIf=\"selectedRoomID==='0'\">\n      <div class=\"panel-body-inner flex column\">\n          <div class=\"row flex filter\">Filter By</div>\n          <div class=\"row flex header bottom-border padding-top-bottom-10\">\n            <div class=\"col flex\">Parent Name</div>\n            <div class=\"col flex\">Parent Email</div>\n            <div class=\"col flex\">Deposit</div>\n            <div class=\"col flex\">Child Name</div>\n            <div class=\"col flex\">Assign to Room</div>\n            <div class=\"col flex\">Start Date</div>\n            <div class=\"col flex\">Child DOB</div>\n          </div>\n          <div class=\"row flex padding-top-bottom-10\" *ngIf=\"waitingChild.length<=0\">No Waiting list.</div>\n          <div class=\"row flex bottom-border padding-top-bottom-10\" *ngFor=\"let child of waitingChild\" (click)=\"selectWaitChild(child)\">\n            <div class=\"col flex\">{{child.parentName}}</div>\n            <div class=\"col flex\">{{child.parentEmail}}</div>\n            <div class=\"col flex\">{{getDepositNameById(child.deposit)}}</div>\n            <div class=\"col flex\">{{child.name}}</div>\n            <div class=\"col flex\">{{getRoomNameById(child.movetoRoom)}}</div>\n            <div class=\"col flex\">{{child.officialStartdate}}</div>\n            <div class=\"col flex\">{{child.birthdate}}</div>\n          </div>\n      </div>\n    </div>\n    <!--//end waiting room-->\n    <!--//start rooms list-->\n    <div class=\"panel-body\" *ngIf=\"selectedRoomID>0\">\n      <div class=\"panel-body-inner flex column\">\n        <div class=\"row flex filter\">Filter By</div>\n        <div class=\"row flex bottom-border padding-top-bottom-10\">\n          <div class=\"row flex flex3 column\">\n            <div class=\"row flex\">&nbsp;</div>\n            <div class=\"row flex header\">\n              <span class=\"col flex\">Child Name</span>\n              <span class=\"col flex\">Child Age</span>\n              <span class=\"col flex\">Official Start Date</span>\n              <span class=\"col flex\">Room Start Date</span>\n            </div>\n          </div>\n          <div class=\"row flex flex2 column\">\n            <div class=\"row flex header\">\n              <span class=\"col flex\">Mon</span>\n              <span class=\"col flex\">Tue</span>\n              <span class=\"col flex\">Wed</span>\n              <span class=\"col flex\">Thur</span>\n              <span class=\"col flex\">Fri</span>\n            </div>\n            <div class=\"row flex\">\n              <div class=\"row flex\" *ngFor=\"let num of [1,2,3,4,5]\">\n                <span class=\"col flex strong-text\">AM</span>\n                <span class=\"col flex strong-text\">PM</span>\n                <span class=\"col flex strong-text\">&nbsp;</span>\n              </div>\n            </div>\n          </div>\n          <div class=\"row flex flex1 column\">\n            <div class=\"row flex\">&nbsp;</div>\n            <div class=\"row flex header\">\n              <span class=\"col flex\">Moving to Room</span>\n              <span class=\"col flex\">Move Date</span>\n            </div>\n          </div>\n        </div>\n        <div class=\"row flex padding-top-bottom-10\" *ngIf=\"childs.length<=0\">No Children list.</div>\n        <div class=\"row flex bottom-border padding-top-bottom-10\" *ngFor=\"let child of childs;\">\n          <div class=\"row flex flex3\">\n              <span class=\"col flex\">{{child.name}}</span>\n              <span class=\"col flex\">{{child.age}}</span>\n              <span class=\"col flex\">{{child.officialStartdate}}</span>\n              <span class=\"col flex\">{{child.roomStartdate}}</span>\n          </div>\n          <div class=\"row flex flex2\">\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.mon.am!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.mon.pm!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text\">&nbsp;</span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.tue.am!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.tue.pm!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text\">&nbsp;</span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.wed.am!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.wed.pm!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text\">&nbsp;</span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.thu.am!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.thu.pm!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text\">&nbsp;</span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.fri.am!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.fri.pm!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text\">&nbsp;</span>\n              </div>\n          </div>\n          <div class=\"row flex flex1\">\n              <span class=\"col flex\">{{getRoomNameById(child.movetoRoom)}}</span>\n              <span class=\"col flex\">{{child.movetoDate}}</span>\n          </div>\n        </div>\n\n      </div>\n    </div>\n    <!--//end rooms list-->\n</div>"
+module.exports = "<div class=\"landing-page\">\r\n  <div class=\"vista-logo\">\r\n    <img src=\"/assets/img/logo-large.png\" alt=\"Little Vista logo\" />\r\n  </div>\r\n  <div class=\"stabilizer\">\r\n    <div class=\"lite-preview\">\r\n      <p>The <b>easy</b> way to manage <br /> your <b>creche.</b></p>\r\n      <img src=\"/assets/img/preview.png\" alt=\"LITE application preview\">\r\n    </div>\r\n    <div class=\"controls-wrapper\">\r\n      <app-login-card *ngIf=\"showLogin\"></app-login-card>\r\n      <app-register-card  *ngIf=\"!showLogin\"></app-register-card>\r\n      <div class=\"controls\" *ngIf=\"showLogin\">\r\n        <p>\r\n          Don't have account yet?\r\n        </p>\r\n        <mdl-button mdl-ripple (click)=\"toggleView()\">\r\n          Sign up for free\r\n        </mdl-button>\r\n      </div>\r\n      <div class=\"controls\">\r\n        <div class=\"controls\" *ngIf=\"!showLogin\">\r\n          <p>\r\n            Already have an account?\r\n          </p>\r\n          <mdl-button class=\"clean\" mdl-ripple  (click)=\"toggleView()\">\r\n            Login\r\n          </mdl-button>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ },
 /* 921 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"plan-setup\">\n  <!--//Popup for add staff or edit staff-->\n  <app-add-staff \n      [showOccupancyModal]=\"showOccupancyModal\"\n      [title]=\"title\"\n      [rooms]=\"rooms\"\n      [staff]=\"selectedStaff\"\n      [qualification]=\"qualification\"\n      [isEdit]=\"isEdit\"\n      (closeModal)=\"modalClosed()\">\n  </app-add-staff>\n\n  <!--//start room panel-->\n  <div class=\"panel flex column\" mdl-shadow=\"2\">\n    <div class=\"panel-header flex\" [hidden]=\"!rooms\">\n      <app-scroll-navbar [datas]=\"rooms\" (sendData)=\"selectRoom($event)\" class=\"flex\"></app-scroll-navbar>\n    </div>\n    <div class=\"panel-body\">\n      <div class=\"panel-body-inner flex\">\n        <div *ngIf=\"selectedRoom.assignedStaff.length<=0\">Please add staff to this room by assigning a staff memeber in the table below.</div>\n        <div class=\"list flex column\" *ngIf=\"selectedRoom.assignedStaff.length>0\">\n            <div class=\"row flex bottom-border\">\n              <div class=\"row flex flex3\">\n                <div class=\"col flex flex1\"></div>\n                <div class=\"col flex flex3 column\">\n                  <div class=\"row flex\">\n                    <span class=\"col flex\">Mon</span>\n                    <span class=\"col flex\">Tue</span>\n                    <span class=\"col flex\">Wed</span>\n                    <span class=\"col flex\">Thu</span>\n                    <span class=\"col flex\">Fri</span>\n                  </div>\n                  <div class=\"row flex\">\n                    <div class=\"row flex\" *ngFor=\"let num of [1,2,3,4,5]\">\n                      <span class=\"col flex strong-text align-items\">AM</span>\n                      <span class=\"col flex strong-text align-items\">PM</span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                  </div>\n                </div>\n                <div class=\"col flex flex1\"></div>\n              </div>\n              <div class=\"row flex flex2\">\n                <div class=\"trans-title col flex flex3 strong-text\">Transition Setup</div>\n              </div>\n            </div>\n            <div class=\"row flex\">\n              <div class=\"row flex flex3 column\" >\n                <div class=\"row flex padding-top-bottom-20\" *ngFor=\"let staff of selectedRoom.assignedStaff;\">\n                  <div class=\"col flex flex1 align-items text-indent10\">{{staff.name}}</div>\n                  <div class=\"col flex flex3\">\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.mon.am===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.mon.pm===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.tue.am===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.tue.pm===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.wed.am===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.wed.pm===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.thu.am===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.thu.pm===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.fri.am===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.fri.pm===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                  </div>\n                  <div class=\"col flex flex1\"></div>\n                </div>\n                <div class=\"row flex padding-top-bottom-20\">\n                  <div class=\"col flex flex1 align-items text-indent10\">Capacity</div>\n                  <div class=\"col flex flex3\">\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.mon.am}}</span>\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.mon.pm}}</span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.tue.am}}</span>\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.tue.pm}}</span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.wed.am}}</span>\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.wed.pm}}</span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.thu.am}}</span>\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.thu.pm}}</span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.fri.am}}</span>\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.fri.pm}}</span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                  </div>\n                  <div class=\"col flex flex1\"></div>\n                </div>\n              </div>\n              <div class=\"row flex flex2 column\">\n                <div class=\"row flex header\">This is a class setting. Transition Rooms & Ages can also be set for individual children in the Class Room List.</div>\n                <div class=\"row flex\">\n                  <div class=\"col flex flex1 align-items-center\">Transition Room</div>\n                  <div class=\"col flex flex2\">\n                    <mdl-select [(ngModel)]=\"selectedRoom.transitionRoom\" placeholder=\"Select Room\">\n                      <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                        {{room.name}}\n                      </mdl-option>\n                    </mdl-select>\n                  </div>\n                </div>\n                <div class=\"row flex\">\n                  <div class=\"col flex flex1 align-items-center\">Transition Age</div>\n                  <div class=\"col flex flex2\">\n                    <mdl-select [(ngModel)]=\"selectedRoom.transitionAge\" placeholder=\"Select Age\">\n                      <mdl-option *ngFor=\"let group of ageGroup\" [value]=\"group.id\">\n                        {{group.name}}\n                      </mdl-option>\n                    </mdl-select>\n                  </div>\n                </div>\n              </div>\n            </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <!--//end room panel-->\n  <br><br>\n  <!--//start staff panel-->\n  <div class=\"panel flex column\" mdl-shadow=\"2\">\n    <div class=\"panel-header flex\">\n      <span class=\"text-indent10\">Manage Staff & Room Capacity</span>\n    </div>\n    <div class=\"panel-body\">\n      <div class=\"panel-body-inner flex\">\n        <div *ngIf=\"staffs.length===0\">No staff added yet. Please click on the + icon to begin adding staff.</div>\n        <div class=\"list flex column\" *ngIf=\"staffs.length>0\">\n          <div class=\"row flex header bottom-border padding-top-bottom-10\">\n            <div class=\"col flex\">Name</div>\n            <div class=\"col flex\">Room Assigned to AM</div>\n            <div class=\"col flex\">Room Assigned to PM</div>\n            <div class=\"col flex\">Start Date</div>\n            <div class=\"col flex\">Finish Date</div>\n            <div class=\"col flex\">Qualification</div>\n          </div>\n          <div class=\"row flex bottom-border padding-top-bottom-10\" *ngFor=\"let staff of staffs\" (click)=\"controlStaffs(true, staff)\">\n            <div class=\"col flex\">{{staff.name}}</div>\n            <div class=\"col flex\">{{getRoomNameById(staff.assignedRoom.mon.am)}}</div>\n            <div class=\"col flex\">{{getRoomNameById(staff.assignedRoom.mon.pm)}}</div>\n            <div class=\"col flex\">{{staff.startdate}}</div>\n            <div class=\"col flex\">{{staff.enddate}}</div>\n            <div class=\"col flex\">{{getQualificationNameById(staff.qualification)}}</div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <!--//end staff panel-->\n  <mdl-button mdl-button-type=\"fab\" class=\"add-staff\" mdl-colored=\"accent\" mdl-ripple mdl-shadow=\"8\" (click)=\"controlStaffs(false)\">\n    <mdl-icon>add</mdl-icon>\n  </mdl-button>\n</div>"
+module.exports = "<div class=\"login-card\">\r\n  <div class=\"card-title\">\r\n    <mdl-progress [indeterminate]=\"true\" *ngIf=\"loading\"></mdl-progress>\r\n    <img class=\"vista-logo\" src=\"/assets/img/logo-small.png\" alt=\"Little Vista logo\" />\r\n    <span>LITE</span>\r\n  </div>\r\n  <div class=\"card-body\" (keydown.enter)=\"login()\">\r\n    <mdl-textfield type=\"text\" label=\"Email or CentreID\" floating-label [(ngModel)]=\"username\"></mdl-textfield>\r\n    <mdl-textfield type=\"password\" label=\"Password\" floating-label [(ngModel)]=\"password\"></mdl-textfield>\r\n    <p class=\"error-message\">\r\n      {{errorMessage}}\r\n    </p>\r\n    <mdl-button mdl-button-type=\"raised\" mdl-ripple (click)=\"login()\">\r\n      Login\r\n    </mdl-button>\r\n  </div>\r\n</div>\r\n"
 
 /***/ },
 /* 922 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"attendance-status\" [hidden]=\"record.ABSENT\">\r\n  <p>\r\n    <span>IN:</span>\r\n    {{record.IN || '-'}}\r\n  </p>\r\n  <p>\r\n    <span>OUT:</span>\r\n    {{record.OUT || '-'}}\r\n  </p>\r\n</div>\r\n<div class=\"attendance-status\" [hidden]=\"!record.ABSENT\">\r\n  <p>\r\n    <span>ABSENT:</span>\r\n    {{record.ABSENT || '-'}}\r\n  </p>\r\n</div>\r\n"
+module.exports = "<div class=\"register-card\">\r\n  <div class=\"card-title\">\r\n    <mdl-progress [indeterminate]=\"true\" *ngIf=\"loading\"></mdl-progress>\r\n    <img class=\"vista-logo\" src=\"/assets/img/logo-small.png\" alt=\"Little Vista logo\" />\r\n    <span>LITE</span>\r\n  </div>\r\n  <div class=\"card-body\" (keydown.enter)=\"register()\">\r\n    <form [formGroup]=\"registerForm\">\r\n      <mdl-textfield\r\n          type=\"email\"\r\n          label=\"Email\"\r\n          floating-label\r\n          [class.is-invalid]=\"email.touched && email.invalid\"\r\n          error-msg=\"Please enter a valid email\"\r\n          disableNativeValidityChecking\r\n          formControlName=\"email\">\r\n      </mdl-textfield>\r\n      <mdl-textfield\r\n          type=\"password\"\r\n          label=\"Password\"\r\n          floating-label\r\n          [class.is-invalid]=\"password.touched && password.invalid\"\r\n          disableNativeValidityChecking\r\n          error-msg=\"Password needs to be at least 6 characters\"\r\n          formControlName=\"password\">\r\n      </mdl-textfield>\r\n      <mdl-textfield\r\n          type=\"text\"\r\n          label=\"Name\"\r\n          floating-label\r\n          [class.is-invalid]=\"name.touched && name.invalid\"\r\n          disableNativeValidityChecking\r\n          error-msg=\"Name is required\"\r\n          formControlName=\"name\">\r\n      </mdl-textfield>\r\n      <mdl-textfield\r\n          type=\"text\"\r\n          label=\"Business Name\"\r\n          floating-label\r\n          [class.is-invalid]=\"businessName.touched && businessName.invalid\"\r\n          disableNativeValidityChecking\r\n          error-msg=\"Business Name is required\"\r\n          formControlName=\"businessName\">\r\n      </mdl-textfield>\r\n    </form>\r\n    <p class=\"error-message\">\r\n      {{errorMessage}}\r\n    </p>\r\n    <mdl-button mdl-button-type=\"raised\" mdl-ripple (click)=\"register()\">\r\n      Create an account\r\n    </mdl-button>\r\n  </div>\r\n</div>\r\n"
 
 /***/ },
 /* 923 */
 /***/ function(module, exports) {
 
-module.exports = "<app-navbar title=\"Reports\"></app-navbar>\r\n<app-navbar-small [routes]=\"routes\"></app-navbar-small>\r\n<div class=\"layout-content\">\r\n  <div class=\"reports-draft\">\r\n    <div class=\"picker-row\">\r\n      <div class=\"month-picker\">\r\n        <mdl-icon (click)=\"prevMonth()\">keyboard_arrow_left</mdl-icon>\r\n        <mdl-icon (click)=\"nextMonth()\">keyboard_arrow_right</mdl-icon>\r\n        <span class=\"title\">\r\n          <b>{{currentDate.toDate() | date:'MMMM'}}</b> {{currentDate.toDate() | date:'yyyy'}}\r\n        </span>\r\n      </div>\r\n      <div class=\"week-picker\">\r\n        <mdl-icon (click)=\"prevWeek()\">keyboard_arrow_left</mdl-icon>\r\n        <span class=\"title\"> Week {{ currentDate.week() }} </span>\r\n        <mdl-icon (click)=\"nextWeek()\">keyboard_arrow_right</mdl-icon>\r\n      </div>\r\n      <i class=\"material-icons\" (click)=\"printReport()\">print</i>\r\n    </div>\r\n    <div id=\"reportDiv\">\r\n      <div class=\"row tooltips\">\r\n        <div class=\"col\">Child Name</div>\r\n        <div class=\"col child-status\">ECCE</div>\r\n        <div class=\"col\" *ngFor=\"let entry of week\" [class.inactive]=\"entry.inactive\">\r\n            <p>{{ entry.day | uppercase }}</p>\r\n            <span>{{ entry.date }}</span>\r\n        </div>\r\n      </div>\r\n      <div class=\"row\" *ngFor=\"let report of reports\">\r\n        <div class=\"col child-name\">{{report.name}}</div>\r\n        <div class=\"col child-status\">\r\n          <span>{{report.status ? 'YES' : 'NO'}}</span>\r\n        </div>\r\n        <div class=\"col\">\r\n          <app-attendance-status [record]=\"report.records.Monday\"></app-attendance-status>\r\n        </div>\r\n        <div class=\"col\">\r\n          <app-attendance-status [record]=\"report.records.Tuesday\"></app-attendance-status>\r\n        </div>\r\n        <div class=\"col\">\r\n          <app-attendance-status [record]=\"report.records.Wednesday\"></app-attendance-status>\r\n        </div>\r\n        <div class=\"col\">\r\n          <app-attendance-status [record]=\"report.records.Thursday\"></app-attendance-status>\r\n        </div>\r\n        <div class=\"col\">\r\n          <app-attendance-status [record]=\"report.records.Friday\"></app-attendance-status>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"backdrop\" [@backdrop]=\"showOccupancyModal\">\n  <div class=\"modal\" [@modal]=\"showOccupancyModal\">\n    <div class=\"modal-header flex\">\n      <span class=\"title flex\">{{title}}</span>\n      <span class=\"btn\"><mdl-icon (click)=\"destroy()\" class=\"close-button\">close</mdl-icon></span>\n    </div>\n    <div class=\"modal-body flex\" mdl-shadow=\"3\">\n \n      <div class=\"staff-container flex\">\n        <div class=\"add-staff flex column\">\n          <div class=\"row flex\">\n              <span class=\"col flex strong-text\">Name</span>\n              <span class=\"col flex strong-text\">Qualification</span>\n              <span class=\"col flex strong-text\">Start Date</span>\n              <span class=\"col flex strong-text\">End Date</span>\n          </div>\n          <div class=\"row flex\">\n              <span class=\"col flex\">\n                <mdl-textfield [(ngModel)]=\"staff.name\"></mdl-textfield>\n              </span>\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"staff.qualification\" placeholder=\"Select Qualification\">\n                  <mdl-option [value]=\"0\">Select Qualification</mdl-option>\n                  <mdl-option *ngFor=\"let qualifi of qualification\" [value]=\"qualifi.id\">\n                    {{qualifi.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\">\n                <app-datepicker [(ngModel)]=\"staff.startdate\"></app-datepicker>\n              </span>\n              <span class=\"col flex\">\n                <app-datepicker [(ngModel)]=\"staff.enddate\"></app-datepicker>\n              </span>\n          </div>\n          <div class=\"row flex\">\n              <span class=\"col flex strong-text\">Assign to Rooms</span>\n          </div>\n          <div class=\"row flex green-color\">\n              <span class=\"col flex flex1 strong-text\"></span>\n              <span class=\"col flex flex2 strong-text text-indent\">Mon</span>\n              <span class=\"col flex flex2 strong-text text-indent\">Tue</span>\n              <span class=\"col flex flex2 strong-text text-indent\" >Weds</span>\n              <span class=\"col flex flex2 strong-text text-indent\">Thurs</span>\n              <span class=\"col flex flex2 strong-text text-indent\">Fri</span>\n          </div>\n          <div class=\"row flex\">\n              <span class=\"col flex flex1 strong-text align-center\">AM</span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.mon.am\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.tue.am\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.wed.am\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.thu.am\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.fri.am\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n          </div>\n          <div class=\"row flex\">\n              <span class=\"col flex flex1 strong-text align-center\">PM</span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.mon.pm\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.tue.pm\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.wed.pm\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.thu.pm\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex flex2\">\n                <mdl-select [(ngModel)]=\"staff.assignedRoom.fri.pm\" placeholder=\"Select Room\">\n                  <mdl-option [value]=\"0\">NOT IN</mdl-option>\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n          </div>\n          <br><br>\n          <div class=\"btn-picker flex flex2\">\n            <span class=\"col flex flex5 error\">{{errorMessage}}</span>\n            <span class=\"col flex flex1 btn\">\n              <button mdl-button mdl-ripple class=\"green-color\" (click)=\"saveStaff()\">SAVE</button>\n            </span>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ },
 /* 924 */
 /***/ function(module, exports) {
 
-module.exports = "<app-modal [showModal]=\"showModal\">\r\n  <app-add-child (closeModal)=\"modalClosed($event)\" [rooms]=\"rooms\" [child]=\"selectedChild\"></app-add-child>\r\n</app-modal>\r\n<app-confirm-dialog [showDialog]=\"confirmDelete\" (closeDialog)=\"confirmDeleteChild($event)\" [message]=\"deleteMessage\"></app-confirm-dialog>\r\n<app-flex-card\r\n  [loading]=\"loading\"\r\n  [options]=\"tableOptions\"\r\n  [collection]=\"children\"\r\n  class=\"centre-children\">\r\n  <app-searchbar (searchFilter)=\"handleFilter($event)\"></app-searchbar>\r\n  <div class=\"row\" *ngFor=\"let child of children\" (click)=\"editChild(child)\">\r\n    <div class=\"col avatar-col\">\r\n      <img src={{child.picture}} alt=\"Child Avatar\" />\r\n    </div>\r\n    <div class=\"col name-col\">\r\n      {{child.name}}\r\n    </div>\r\n    <div class=\"col\">\r\n      {{child.room || '-'}}\r\n    </div>\r\n    <div class=\"col\">\r\n      <mdl-button class=\"remove-child\" mdl-button-type=\"icon\" mdl-colored=\"accent\" (click)=\"deleteChild($event, child)\">\r\n        <mdl-icon>delete</mdl-icon>\r\n      </mdl-button>\r\n    </div>\r\n  </div>\r\n  <mdl-button mdl-button-type=\"fab\" class=\"add-children\" mdl-colored=\"accent\" mdl-ripple mdl-shadow=\"8\" (click)=\"addChild()\">\r\n    <mdl-icon>add</mdl-icon>\r\n  </mdl-button>\r\n</app-flex-card>\r\n"
+module.exports = "<div class=\"backdrop\" [@backdrop]=\"showOccupancyModal\">\n  <div class=\"modal\" [@modal]=\"showOccupancyModal\">\n    <div class=\"modal-header flex\">\n      <span class=\"title flex\">{{name}}</span>\n      <span class=\"title flex\">{{title}}</span>\n      <span class=\"btn\"><mdl-icon (click)=\"destroy()\" class=\"close-button\">close</mdl-icon></span>\n    </div>\n    <div class=\"modal-body flex\">\n\n      <div class=\"move-container flex\">\n      <div class=\"move-class flex column\">\n        <div class=\"date-picker flex column\">\n          <div class=\"row flex\">\n            <div class=\"left\"></div>\n            <div class=\"right flex\">\n              <span class=\"col flex strong-text\">Move to class:</span>\n              <span class=\"col flex\"></span>\n              <span class=\"col flex strong-text\">Proposed move date:</span>\n              <span class=\"col flex\"></span>\n              <span class=\"col flex\"></span>\n            </div>\n          </div>\n          <div class=\"row flex\">\n            <div class=\"left\"></div>\n            <div class=\"right flex\">\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"moveRoomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\"></span>\n              <span class=\"col flex\">\n                <app-datepicker [(ngModel)]=\"movedate\"></app-datepicker>\n              </span>\n              <span class=\"col flex\"></span>\n              <span class=\"col flex\"></span>\n            </div>\n          </div>\n        </div>\n        <div class=\"room-picker flex column\">\n          <div class=\"row flex\">\n            <div class=\"left\">&nbsp;</div>\n            <div class=\"right flex green-color\">\n              <span class=\"col flex strong-text text-indent\">Mon</span>\n              <span class=\"col flex strong-text text-indent\">Tue</span>\n              <span class=\"col flex strong-text text-indent\" >Weds</span>\n              <span class=\"col flex strong-text text-indent\">Thurs</span>\n              <span class=\"col flex strong-text text-indent\">Fri</span>\n            </div>\n          </div>\n          <div class=\"row flex\">\n            <div class=\"left strong-text\">AM</div>\n            <div class=\"right flex\">\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n            </div>\n          </div>\n          <div class=\"row flex\">\n            <div class=\"left strong-text\">PM</div>\n            <div class=\"right flex\">\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n            </div>\n          </div>\n        </div>\n        <div class=\"btn-picker flex\">\n          <button mdl-button mdl-ripple class=\"green-color\">SAVE</button>\n        </div>\n      </div>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ },
 /* 925 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"centre-details\" [mdl-shadow]=\"3\" *ngIf=\"profile\">\r\n  <div class=\"title\">\r\n    Centre Details\r\n  </div>\r\n  <div class=\"settings\">\r\n    <div class=\"col\">\r\n      <mdl-textfield type=\"text\" label=\"Centre Name\" [(ngModel)]=\"profile.additional.name\"></mdl-textfield>\r\n      <mdl-textfield type=\"text\" label=\"Address 1\" [(ngModel)]=\"profile.additional.address1\"></mdl-textfield>\r\n      <mdl-textfield type=\"text\" label=\"Address 2\" [(ngModel)]=\"profile.additional.address2\"></mdl-textfield>\r\n      <mdl-textfield type=\"text\" label=\"Address 3\" [(ngModel)]=\"profile.additional.address3\"></mdl-textfield>\r\n    </div>\r\n    <div class=\"col\">\r\n      <mdl-textfield type=\"text\" label=\"Main Contract\" [(ngModel)]=\"profile.additional.mainContact\"></mdl-textfield>\r\n      <mdl-textfield type=\"text\" label=\"Email Address\" [(ngModel)]=\"profile.additional.email\"></mdl-textfield>\r\n      <mdl-textfield type=\"text\" label=\"Work Phone\" [(ngModel)]=\"profile.additional.workPhone\"></mdl-textfield>\r\n      <mdl-textfield type=\"text\" label=\"Mobile\" [(ngModel)]=\"profile.additional.mobilePhone\"></mdl-textfield>\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"edit-picture\">\r\n    <img src={{profile.picture}} alt=\"Profile Picture\" />\r\n    <mdl-button mdl-button-type=\"raised\" mdl-ripple>\r\n      EDIT PROFILE IMAGE\r\n    </mdl-button>\r\n  </div>\r\n\r\n  <div class=\"save-button\">\r\n    <mdl-spinner [active]=\"saving\"></mdl-spinner>\r\n    <mdl-button mdl-button-type=\"raised\" mdl-ripple (click)=\"saveDetails()\">\r\n      SAVE\r\n    </mdl-button>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"backdrop\" [@backdrop]=\"showChildModal\">\n  <div class=\"modal\" [@modal]=\"showChildModal\">\n    <div class=\"modal-header flex\">\n      <span class=\"title flex\">{{title}}</span>\n      <span class=\"btn\"><mdl-icon (click)=\"destroy()\" class=\"close-button\">close</mdl-icon></span>\n    </div>\n    <div class=\"modal-body flex\" mdl-shadow=\"3\">\n      <div class=\"occupancy-container column flex\">\n        <div class=\"occupancy-child flex column\">\n          <div class=\"row flex padding-bottom20\">\n            <span class=\"col flex\">Commencing from:</span>\n            <span class=\"col flex\"></span>\n            <span class=\"col flex\">Age at this date:</span>\n            <span class=\"col flex\"></span>\n          </div>\n          <div class=\"row flex column padding-bottom20\">\n            <div class=\"row flex gray-color\">\n              <span class=\"col flex\">Mon</span>\n              <span class=\"col flex\">Tue</span>\n              <span class=\"col flex\">Wed</span>\n              <span class=\"col flex\">Thur</span>\n              <span class=\"col flex\">Fri</span>\n            </div>\n            <div class=\"row flex\">\n              <div class=\"row flex\" *ngFor=\"let num of [1,2,3,4,5]\">\n                <span class=\"col flex strong-text\">AM</span>\n                <span class=\"col flex strong-text\">PM</span>\n                <span class=\"col flex\"></span>\n              </div>\n            </div>\n            <div class=\"row flex align-items-center padding-top-bottom\">\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.mon.am\"></mdl-checkbox></span>\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.mon.pm\"></mdl-checkbox></span>\n                <span class=\"col flex\"></span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.tue.am\"></mdl-checkbox></span>\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.tue.pm\"></mdl-checkbox></span>\n                <span class=\"col flex\"></span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.wed.am\"></mdl-checkbox></span>\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.wed.pm\"></mdl-checkbox></span>\n                <span class=\"col flex\"></span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.thu.am\"></mdl-checkbox></span>\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.thu.pm\"></mdl-checkbox></span>\n                <span class=\"col flex\"></span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.fri.am\"></mdl-checkbox></span>\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.fri.pm\"></mdl-checkbox></span>\n                <span class=\"col flex\"></span>\n              </div>\n          </div>\n        </div>\n        <div class=\"row flex top-border\">\n          <span class=\"col flex align-items-center justify-content-center red-color\">{{errorMessage}}</span>\n          <span class=\"col flex align-items-end justify-content-end\">\n            <button mdl-button mdl-ripple class=\"green-color\">SAVE</button>\n          </span>\n      </div>  \n      </div>\n    </div>\n  </div>\n<div>"
 
 /***/ },
 /* 926 */
 /***/ function(module, exports) {
 
-module.exports = "<app-add-new-families \r\n  [showModal]=\"showModal\"\r\n  [isEdit]=\"isEdit\"\r\n  [maxID]=\"maxID\"\r\n  [rooms]=\"rooms\"\r\n  [family]=\"selectedFamily\"\r\n  [selectedTabIndex]=\"selectedTabIndex\"\r\n  (closeModal)=\"modalClosed()\">\r\n</app-add-new-families>\r\n\r\n<app-flex-card\r\n  [loading]=\"loading\"\r\n  [options]=\"tableOptions\"\r\n  [collection]=\"families\"\r\n  class=\"centre-families\">\r\n  <app-searchbar (searchFilter)=\"handleFilter($event)\"></app-searchbar>\r\n  <div class=\"row\" *ngFor=\"let family of families;\">\r\n    <div class=\"col image-col\">\r\n      <img src=\"/assets/img/default_avatar.png\" atl=\"LittleVista LITE\" />\r\n    </div>\r\n    <div class=\"col name-col\" (click)=\"controlFamilies(true, family, 0)\">\r\n      <span>{{getChildrenNames(family.childrens)}}</span>\r\n    </div>\r\n    <div class=\"col name-col\" (click)=\"controlFamilies(true, family, 1)\">\r\n      <span>{{getGuardianNames(family.guardians)}}</span>\r\n    </div>\r\n    <div class=\"col empty-col\"></div>\r\n  </div>\r\n  <mdl-button mdl-button-type=\"fab\" class=\"add-families\" mdl-colored=\"accent\" mdl-ripple mdl-shadow=\"8\" (click)=\"controlFamilies(false)\">\r\n    <mdl-icon>add</mdl-icon>\r\n  </mdl-button>\r\n</app-flex-card>\r\n"
+module.exports = "<div class=\"backdrop\" [@backdrop]=\"showOccupancyModal\">\r\n  <div class=\"modal\" [@modal]=\"showOccupancyModal\">\r\n    <div class=\"modal-header flex\">\r\n      <span class=\"title flex\">{{name}}</span>\r\n      <span class=\"info flex\">{{title}}</span>\r\n      <span class=\"btn\"><mdl-icon (click)=\"destroy()\" class=\"close-button\">close</mdl-icon></span>\r\n    </div>\r\n    <div class=\"modal-body flex\">\r\n      <ng-content></ng-content>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ },
 /* 927 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"backdrop\" [@backdrop]=\"showModal\">\r\n  <div class=\"modal\" [@modal]=\"showModal\" [mdl-shadow]=\"6\">\r\n    <div class=\"add-families-header flex\">\r\n      <span class=\"tab flex\" (click)=\"selectFamiliesType(0)\" [class.active]=\"selectedTabIndex === 0\">1.Add Children</span>\r\n      <span class=\"tab flex\" (click)=\"selectFamiliesType(1)\" [class.active]=\"selectedTabIndex !== 0\">2.Add Guardian</span>\r\n      <span class=\"close\"><mdl-icon (click)=\"destroy()\" class=\"close-button\">close</mdl-icon></span>\r\n    </div>\r\n    <div class=\"add-families-body flex\">\r\n      <div class=\"add-families-inner flex column\">\r\n        <!--//start add child-->\r\n        <div class=\"row flex column\" *ngIf=\"selectedTabIndex === 0\">\r\n          \r\n          <div class=\"row flex row-header border-bottom\">\r\n            <div class=\"col flex\">Name</div>\r\n            <div class=\"col flex\">Date of Birth</div>\r\n            <div class=\"col flex\">Select a Room</div>\r\n            <div class=\"col flex\">Start Date</div>\r\n          </div>\r\n\r\n          <div class=\"row flex column flexible-container border-bottom\">\r\n            <div class=\"row flex border-bottom\" *ngFor=\"let children of family.childrens; let idx = index;\">\r\n              <div class=\"col flex\">\r\n                <mdl-textfield floating-label [(ngModel)]=\"children.name\" ></mdl-textfield>\r\n              </div>\r\n              <div class=\"col flex\">\r\n                <app-datepicker [(ngModel)]=\"children.birthdate\" ></app-datepicker>\r\n              </div>\r\n              <div class=\"col flex\">\r\n                <mdl-select [(ngModel)]=\"children.roomId\" placeholder=\"Select a Room\">\r\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\r\n                    {{room.name}}\r\n                  </mdl-option>\r\n                </mdl-select>\r\n              </div>\r\n              <div class=\"col flex\">\r\n                <app-datepicker [(ngModel)]=\"children.startdate\" view-format=\"Do MMM YYYY\"></app-datepicker>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"row flex add-button border-bottom\">\r\n            <div class=\"col flex\" (click)=\"addAnotherChild()\">Add another child</div>\r\n          </div>\r\n\r\n          <div class=\"row flex column sibling\" *ngIf=\"isTablet\">\r\n            <div class=\"row flex header\">\r\n              <div class=\"col\">Link a sibling</div>\r\n            </div>\r\n            <div class=\"row flex\">\r\n              <div class=\"col flex selector\">\r\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\r\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\r\n                    {{room.name}}\r\n                  </mdl-option>\r\n                </mdl-select>\r\n              </div>\r\n              <div class=\"col flex link-button\">\r\n                <mdl-button mdl-button-type=\"raised\" mdl-ripple>Link another sibling</mdl-button>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <!--//end add child-->\r\n        <!--//start add guardian-->\r\n        <div class=\"row flex column container\" *ngIf=\"selectedTabIndex !== 0\">\r\n\r\n          <div class=\"row flex row-header border-bottom\">\r\n            <div class=\"col flex\">Name</div>\r\n            <div class=\"col flex\">Email</div>\r\n            <div class=\"col flex\">Phone</div>\r\n            <div class=\"col flex\">Address</div>\r\n          </div>\r\n\r\n          <div class=\"row flex column flexible-container border-bottom\">\r\n            <div class=\"row flex border-bottom\" *ngFor=\"let guardian of family.guardians; let idx = index;\">\r\n              <div class=\"col flex\">\r\n                <mdl-textfield floating-label [(ngModel)]=\"guardian.name\"></mdl-textfield>\r\n              </div>\r\n              <div class=\"col flex\">\r\n                <mdl-textfield floating-label [(ngModel)]=\"guardian.email\"></mdl-textfield>\r\n              </div>\r\n              <div class=\"col flex\">\r\n                <mdl-textfield floating-label [(ngModel)]=\"guardian.phone\"></mdl-textfield>\r\n              </div>\r\n              <div class=\"col flex\">\r\n              <mdl-textfield floating-label [(ngModel)]=\"guardian.address\"></mdl-textfield>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"row flex add-button border-bottom\">\r\n            <div class=\"col flex\" (click)=\"addAnotherGuard()\">Add another guardian</div>\r\n          </div>\r\n          <div class=\"row flex padding-bottom30\"></div>\r\n        </div>\r\n        <!--//end add guardian-->\r\n        <div class=\"row flex\">\r\n          <div class=\"col flex error-msg\" [hidden]=\"!errorMessage\">{{errorMessage}}</div>\r\n          <div class=\"col flex save-btn\">\r\n            <button mdl-button mdl-ripple (click)=\"saveFamilies()\">SAVE</button>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"backdrop\" [@backdrop]=\"showOccupancyModal\">\n  <div class=\"modal\" [@modal]=\"showOccupancyModal\">\n    <div class=\"modal-header flex\">\n      <span class=\"title flex\">{{title}}</span>\n      <span class=\"btn\"><mdl-icon (click)=\"destroy()\" class=\"close-button\">close</mdl-icon></span>\n    </div>\n    <div class=\"modal-body flex\">\n\n      <div class=\"remove-container flex\">\n        \n        <div class=\"remove-child flex\">\n          <!--//start first panel-->\n          <div class=\"col flex flex1 column\">\n            <div class=\"row flex\">Name</div>\n            <div class=\"row flex padding-bottom20\"><mdl-textfield [(ngModel)]=\"child.name\" readonly></mdl-textfield></div>\n            <div class=\"row flex\">&nbsp;</div>\n            <div class=\"row flex strong-text\">Step.1</div>\n            <div class=\"row flex gray-color\">Add an induction date when you are ready to add this child</div>\n            <div class=\"row flex padding-bottom20\">&nbsp;</div>\n            <div class=\"row flex strong-text\">Step.2</div>\n            <div class=\"row flex gray-color\">Add an induction date when you are ready to add this child</div>\n            <div class=\"row flex\">&nbsp;</div>\n          </div>\n          <div class=\"col flex flex3 column\">\n            <div class=\"row flex\">\n              <span class=\"col flex\">Parent Email</span>\n              <span class=\"col flex\">Deposit</span>\n              <span class=\"col flex\">Paperwork Returned</span>\n            </div>\n            <div class=\"row flex padding-bottom20\">\n              <span class=\"col flex\"><mdl-textfield [(ngModel)]=\"child.parentEmail\" ></mdl-textfield></span>\n              <span class=\"col flex\"><mdl-textfield [value]=\"getDepositNameById(child.deposit)\" readonly></mdl-textfield></span>\n              <span class=\"col flex align-items-center\">\n                <mdl-checkbox  [mdl-ripple]=\"true\" [(ngModel)]=\"child.paperwork\" >\n                YES\n                </mdl-checkbox>\n                <!--<mdl-radio name=\"group1\" value=\"1\" [(ngModel)]=\"radioOption\">YES</mdl-radio>-->\n              </span>\n            </div>\n            <div class=\"row flex gray-color\">\n              <span class=\"col flex\">Mon</span>\n              <span class=\"col flex\">Tue</span>\n              <span class=\"col flex\">Wed</span>\n              <span class=\"col flex\">Thur</span>\n              <span class=\"col flex\">Fri</span>\n            </div>\n            <div class=\"row flex bottom-border\">\n              <div class=\"row flex\" *ngFor=\"let num of [1,2,3,4,5]\">\n                <span class=\"col flex strong-text\">AM</span>\n                <span class=\"col flex strong-text\">PM</span>\n                <span class=\"col flex\"></span>\n              </div>\n            </div>\n            <div class=\"row flex bottom-border align-items-center padding-top-bottom\">\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.mon.am\"></mdl-checkbox></span>\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.mon.pm\"></mdl-checkbox></span>\n                <span class=\"col flex\"></span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.tue.am\"></mdl-checkbox></span>\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.tue.pm\"></mdl-checkbox></span>\n                <span class=\"col flex\"></span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.wed.am\"></mdl-checkbox></span>\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.wed.pm\"></mdl-checkbox></span>\n                <span class=\"col flex\"></span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.thu.am\"></mdl-checkbox></span>\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.thu.pm\"></mdl-checkbox></span>\n                <span class=\"col flex\"></span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.fri.am\"></mdl-checkbox></span>\n                <span class=\"col flex strong-text\"><mdl-checkbox [mdl-ripple]=\"true\" [(ngModel)]=\"child.assignedState.fri.pm\"></mdl-checkbox></span>\n                <span class=\"col flex\"></span>\n              </div>\n            </div>\n            <div class=\"row flex padding-bottom20\">&nbsp;</div>\n            <div class=\"row flex\">\n              <span class=\"col flex strong-text\">Select a Room</span>\n              <span class=\"col flex strong-text\">Start Date</span>\n              <span class=\"col flex strong-text\">End Date</span>\n            </div>\n            <div class=\"row flex\">\n              <span class=\"col flex\">\n                <mdl-select [(ngModel)]=\"child.assignedRoom\" placeholder=\"Select Room\">\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                    {{room.name}}\n                  </mdl-option>\n                </mdl-select>\n              </span>\n              <span class=\"col flex\"><app-datepicker [(ngModel)]=\"child.roomStartdate\"></app-datepicker></span>\n              <span class=\"col flex\"><app-datepicker [(ngModel)]=\"child.roomEnddate\"></app-datepicker></span>\n            </div>\n            <div class=\"row flex\">\n              <span class=\"col flex align-items-center justify-content-center red-color\">{{errorMessage}}</span>\n              <span class=\"col flex align-items-end justify-content-end\">\n                <button mdl-button mdl-ripple class=\"green-color\" (click)=\"moveToRoom()\">SAVE</button>\n              </span>\n            </div>\n          </div>\n          <!--//end first panel-->\n        </div>\n      </div>\n\n    </div>\n  </div>\n</div>"
 
 /***/ },
 /* 928 */
 /***/ function(module, exports) {
 
-module.exports = "<app-modal [showModal]=\"showModal\">\r\n  <app-add-room (closeModal)=\"modalClosed()\" [room]=\"selectedRoom\"></app-add-room>\r\n</app-modal>\r\n<app-confirm-dialog [showDialog]=\"confirmDelete\" (closeDialog)=\"confirmDeleteRoom($event)\" [message]=\"deleteMessage\"></app-confirm-dialog>\r\n<app-flex-card\r\n  [loading]=\"loading\"\r\n  [options]=\"tableOptions\"\r\n  [collection]=\"rooms\"\r\n  class=\"centre-rooms\">\r\n  <app-searchbar (searchFilter)=\"handleFilter($event)\"></app-searchbar>\r\n  <div class=\"row\" *ngFor=\"let room of rooms\" (click)=\"editRoom(room)\">\r\n    <div class=\"col name-col\">\r\n      {{room.name}}\r\n    </div>\r\n    <div class=\"col\">\r\n      {{room.ageGroup || '-'}}\r\n    </div>\r\n    <div class=\"col\">\r\n      {{room.capacity || '-'}}\r\n    </div>\r\n    <div class=\"col\">\r\n      <mdl-button class=\"remove-rooms\" mdl-button-type=\"icon\" mdl-colored=\"accent\" (click)=\"deleteRoom($event, room)\">\r\n        <mdl-icon>delete</mdl-icon>\r\n      </mdl-button>\r\n    </div>\r\n  </div>\r\n  <mdl-button mdl-button-type=\"fab\" class=\"add-rooms\" mdl-colored=\"accent\" mdl-ripple mdl-shadow=\"8\" (click)=\"showModal = true\">\r\n    <mdl-icon>add</mdl-icon>\r\n  </mdl-button>\r\n</app-flex-card>\r\n"
+module.exports = "<div class=\"room-accordain\">\n  <app-move-class class=\"flex\" \n    [showOccupancyModal]=\"showOccupancyModal\"\n    [child]=\"selectedChild\"\n    (closeModal)=\"modalClosed()\">\n  </app-move-class>\n\n  <!--//start accordian header-->\n  <div class=\"accordian-header flex column\">\n    <div class=\"row flex\">\n      <div class=\"room-title flex flex1\">\n        <span class=\"col flex align-items-center text-indent20\">{{roomInfo.mdate}}</span>\n        <span class=\"col flex align-items-center\">{{getRoomNameById(roomID)}}</span>\n      </div>\n      <div class=\"flex flex2\"></div>\n      <!--<div class=\"week-picker flex flex2\">\n        <span class=\"col flex p-btn align-items-center justify-content-center\" *ngFor=\"let wtab of weekTabs; let idx = index;\" (click)=\"selectWeekPicker(idx)\" [class.active]=\"wtab.active\">\n          <button mdl-button mdl-ripple>{{wtab.name}}</button>\n        </span>\n        <span class=\"col flex\" *ngFor=\"let num of [1,2,3,4,5];\">&nbsp;</span>\n      </div>-->\n    </div>\n    <!--<div class=\"available-info flex\">\n      <div class=\"row flex flex1\">\n        <span class=\"col flex\">&nbsp;</span>\n        <span class=\"col flex align-items-center\">Spaces Available</span>\n      </div>\n      <div class=\"flex flex2\">\n        <div class=\"row flex\" *ngFor=\"let wtab of weekTabs; let idx = index;\">\n          <span class=\"col flex align-items-center justify-content-center\">0</span>\n          <span class=\"col flex align-items-center justify-content-center\">-</span>\n        </div>\n        <div class=\"row flex\" *ngFor=\"let num of [1,2,3,4,5];\">&nbsp;</div>\n      </div>\n    </div>-->\n  </div>\n  <!--//end accordian header-->\n  <!--//start accordian body-->\n  <div class=\"accordian-body flex\">\n    <!--//start room info-->\n    <div class=\"room-info flex flex1\">\n      <div class=\"room-info-inner flex column\">\n        <div class=\"row flex bottom-border\">\n          <span class=\"col flex5 strong-text\">Maximum Room Capacity</span>\n          <span class=\"col flex1 text-right\">20</span>\n        </div>\n        <div class=\"row flex strong-text\">\n          <span class=\"col flex5\">Staff</span>\n          <span class=\"col flex1 text-center\">AM</span>\n          <span class=\"col flex1 text-center\">PM</span>\n        </div>\n        <div class=\"row flex\" *ngIf=\"staff.length<=0\">No assigned Staffs</div>\n        <div class=\"row flex\" *ngFor=\"let _staff of staff;\">\n          <span class=\"col flex5\">{{_staff.name}}</span>\n          <span class=\"col flex1 text-center\"><mdl-icon class=\"icon\" *ngIf=\"_staff.am\">lens</mdl-icon></span>\n          <span class=\"col flex1 text-center\"><mdl-icon class=\"icon\" *ngIf=\"_staff.pm\">lens</mdl-icon></span>\n        </div>\n        <!--<div class=\"row flex strong-text top-border\">\n          <span class=\"col flex5\">TOTAL Capacity <br><small>(Age group: 12 - 24 months)</small></span>\n          <span class=\"col flex1 text-center\">10</span>\n          <span class=\"col flex1 text-center\">10</span>\n        </div>\n        <div class=\"row flex\">\n          <span class=\"col\"><a href=\"dashboard/occupancy/setup\"><button mdl-button mdl-button-type=\"raised\" mdl-ripple>Add Stuff to Room</button></a></span>\n        </div>\n        <div class=\"row flex strong-text\">\n          <span class=\"col flex5\">Available Spaces</span>\n          <span class=\"col flex1 text-center\">1</span>\n          <span class=\"col flex1 text-center\">2</span>\n        </div>-->\n      </div>\n    </div>\n    <!--//end room info-->\n    <!--//start child info am-->\n    <!--<div class=\"children-info-am flex\">\n      <div class=\"children-info-am-inner flex column\">\n        <div class=\"row flex strong-text bottom-border no-padding\">\n          <span class=\"col flex5\">{{selectedWeeKFullName}} AM</span>\n          <span class=\"col flex1 text-right\">9 of 10</span>\n        </div>\n        <div class=\"panels padding-bottom30 flex\">\n          <div class=\"panel flex child-list\">\n            <div class=\"row flex\" (click)=\"selectChild(child)\" *ngFor=\"let child of childStoreAM;\">{{child.name}}</div>\n            <div class=\"row flex\"><button mdl-button mdl-button-type=\"raised\" mdl-ripple>SPACE AVAILABLE</button></div>\n          </div>\n        </div>\n        <div class=\"row flex strong-text bottom-border no-padding\">\n          <span class=\"col flex5\">Starting next month AM</span>\n          <span class=\"col flex1 text-right\">1</span>\n        </div>\n        <div class=\"row flex\">\n          <span class=\"col\">Marius Stanely</span>\n        </div>\n      </div>\n    </div>-->\n    <!--//end child info ap-->\n    <!--<div class=\"children-info-pm flex\">\n      <div class=\"children-info-pm-inner flex column\">\n        <div class=\"row flex strong-text bottom-border no-padding\">\n          <span class=\"col flex5\">{{selectedWeeKFullName}} AM</span>\n          <span class=\"col flex1 text-right\">8 of 10</span>\n        </div>\n        <div class=\"panels padding-bottom30 flex\">\n          <div class=\"panel flex child-list\">\n            <div class=\"row flex\" (click)=\"selectChild(child)\" *ngFor=\"let child of childStorePM;\">{{child.name}}</div>\n            <div class=\"row flex\"><button mdl-button mdl-button-type=\"raised\" mdl-ripple>SPACE AVAILABLE</button></div>\n          </div>\n        </div>\n        <div class=\"row flex strong-text bottom-border no-padding\">\n          <span class=\"col flex5\">Starting next month PM</span>\n          <span class=\"col flex1 text-right\">1</span>\n        </div>\n        <div class=\"row flex\">\n          <span class=\"col\">Marius Stanely</span>\n        </div>\n      </div>\n    </div>\n  </div>-->\n  <!--//end accordian body-->\n  <div class=\"child-info flex flex2\">\n    <div class=\"child-info-inner flex column\">\n      <div class=\"row flex bottom-border strong-text\">occupied Spaces</div>\n      <div class=\"row flex no-padding\">\n        <span class=\"col flex2\">Monday</span>\n        <span class=\"col flex1\"></span>\n        <span class=\"col flex2\">Tuesday</span>\n        <span class=\"col flex1\"></span>\n        <span class=\"col flex2\">Wednesday</span>\n        <span class=\"col flex1\"></span>\n        <span class=\"col flex2\">Thursday</span>\n        <span class=\"col flex1\"></span>\n        <span class=\"col flex2\">Friday</span>\n        <span class=\"col flex1\"></span>\n      </div>\n      <div class=\"row flex no-padding bottom-border\">\n        <div class=\"flex\" *ngFor=\"let num of [1,2,3,4,5];\">\n          <span class=\"col flex2\">AM</span>\n          <span class=\"col flex2\">PM</span>\n          <span class=\"col flex1\"></span>\n        </div>\n      </div>\n      <div class=\"row flex padding-bottom30\">\n        <div class=\"flex\" *ngFor=\"let num of [1,2,3,4,5];\">\n          <span class=\"col flex2\">6</span>\n          <span class=\"col flex2\">6</span>\n          <span class=\"col flex1\"></span>\n        </div>\n      </div>\n\n      <div class=\"row flex bottom-border strong-text\">Available Spaces</div>\n      <div class=\"row flex no-padding\">\n        <span class=\"col flex2\">Monday</span>\n        <span class=\"col flex1\"></span>\n        <span class=\"col flex2\">Tuesday</span>\n        <span class=\"col flex1\"></span>\n        <span class=\"col flex2\">Wednesday</span>\n        <span class=\"col flex1\"></span>\n        <span class=\"col flex2\">Thursday</span>\n        <span class=\"col flex1\"></span>\n        <span class=\"col flex2\">Friday</span>\n        <span class=\"col flex1\"></span>\n      </div>\n      <div class=\"row flex no-padding bottom-border\">\n        <div class=\"flex\" *ngFor=\"let num of [1,2,3,4,5];\">\n          <span class=\"col flex2\">AM</span>\n          <span class=\"col flex2\">PM</span>\n          <span class=\"col flex1\"></span>\n        </div>\n      </div>\n      <div class=\"row flex padding-bottom30\">\n        <div class=\"flex\" *ngFor=\"let num of [1,2,3,4,5];\">\n          <span class=\"col flex2\">14</span>\n          <span class=\"col flex2\">14</span>\n          <span class=\"col flex1\"></span>\n        </div>\n      </div>\n\n      <div class=\"row flex\">\n        <div class=\"row flex flex4 column\">\n          <div class=\"row flex strong-text bottom-border no-padding\">\n            <span class=\"col flex5\">Starting next month AM</span>\n            <span class=\"col flex1 text-right\">1</span>\n          </div>\n          <div class=\"row flex\">\n            <span class=\"col\">Marius Stanely</span>\n          </div>\n        </div>\n        <div class=\"row flex flex1\"></div>\n        <div class=\"row flex flex4 column\">\n          <div class=\"row flex strong-text bottom-border no-padding\">\n            <span class=\"col flex5\">Starting next month PM</span>\n            <span class=\"col flex1 text-right\">1</span>\n          </div>\n          <div class=\"row flex\">\n            <span class=\"col\">Marius Stanely</span>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ },
 /* 929 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"centre-subventions\" [mdl-shadow]=\"3\" *ngIf=\"centre\">\r\n  <div class=\"title\">\r\n    ECCE\r\n  </div>\r\n  <div class=\"ecce\">\r\n    <div class=\"col\">\r\n      <div class=\"parameter\">\r\n        <div class=\"mask\" *ngIf=\"!editing\"></div>\r\n        <span class=\"name\">ECCE Capitations</span>\r\n        <app-ecce-capitations [model]=\"centre.ecceSettings.capitations\" (valueSet)=\"centre.ecceSettings.capitations = $event\"></app-ecce-capitations>\r\n      </div>\r\n      <div class=\"details\">\r\n        <p>Selecting the LOW capitation rate will configure your setting with a weekly ECCE rate of €64.50. This is the standard weekly rate.</p>\r\n        <p>Selecting the HIGH capitation rate will configure your setting with a weekly ECCE rate of €75. Please only select this rate if you are in receipt of the higher capitation.</p>\r\n        <p>To confirm your eligibility please consult the DCYA website or consult this <a href=\"http://www.dcya.gov.ie/documents/ecce-scheme/20160728ECCEHigherCapitationFAQsJuly2016.pdf\" target=\"_blank\">link</a></p>\r\n      </div>\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"save-button\">\r\n    <mdl-spinner [active]=\"saving\"></mdl-spinner>\r\n    <mdl-button mdl-button-type=\"raised\" class=\"edit\" mdl-ripple (click)=\"editing = true\" *ngIf=\"!editing\">\r\n      EDIT\r\n    </mdl-button>\r\n    <mdl-button mdl-button-type=\"raised\" class=\"cancel\" mdl-ripple (click)=\"cancel()\" *ngIf=\"editing\">\r\n      CANCEL\r\n    </mdl-button>\r\n    <mdl-button mdl-button-type=\"raised\" mdl-ripple (click)=\"saveDetails()\" *ngIf=\"editing\">\r\n      SAVE\r\n    </mdl-button>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"scroll-holder\" (window:resize)=\"onResize($event)\">\n  <div [class.show]=\"showLeftArrow\" class=\"arrow arrow-back\" (click)=\"scroll()\" mdl-ripple>\n    <mdl-icon>arrow_back</mdl-icon>\n  </div>\n  <div class=\"navbar-scroll\" #nav>\n    <span class=\"btn-tab\" *ngFor=\"let data of datas; let idx=index;\" (click)=\"selectData(data.id)\" [class.active]=\"data.selected\">\n      <button mdl-button mdl-ripple>{{data.name}}</button>\n    </span>\n  </div>\n  <div [class.show]=\"showRightArrow\" class=\"arrow arrow-forward\" #arrow (click)=\"scroll('right')\" mdl-ripple>\n    <mdl-icon>arrow_forward</mdl-icon>\n  </div>\n</div>"
 
 /***/ },
 /* 930 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"simple-modal\">\r\n  <mdl-icon (click)=\"dismiss()\" class=\"close-button\">close</mdl-icon>\r\n  <p class=\"title\">{{isEdit ? 'Edit' : 'Add'}} Child</p>\r\n  <mdl-textfield\r\n    label=\"Child Name\" floating-label\r\n    [(ngModel)]=\"name\"></mdl-textfield>\r\n  <app-datepicker [(ngModel)]=\"date\" [label]=\"'Date of Birth'\"></app-datepicker>\r\n  <div class=\"select-row\">\r\n    <mdl-select\r\n      [(ngModel)]=\"roomId\"\r\n      placeholder=\"Select Room\">\r\n      <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\r\n        {{room.name}}\r\n      </mdl-option>\r\n    </mdl-select>\r\n  </div>\r\n  <p class=\"error-message\">{{errorMessage}}</p>\r\n  <div class=\"save-button\">\r\n    <mdl-button mdl-ripple (click)=\"saveChild()\">Save</mdl-button>\r\n    <mdl-spinner [active]=\"saving\"></mdl-spinner>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"transition-lists\" mdl-shadow=\"2\">\n    <div class=\"panel-header flex justify-content-end\">\n      <app-scroll-navbar [datas]=\"datelist\" [hidden]=\"!datelist\" (sendData)=\"selectDateTab($event)\" class=\"flex\"></app-scroll-navbar>\n      <!--<span class=\"btn-tab\" *ngFor=\"let list of datelist; let idx=index;\" (click)=\"selectDateTab(idx)\" [class.active]=\"list.active\">\n        <button mdl-button mdl-ripple>{{list.name}}</button>\n      </span>-->\n    </div>\n    <!--//start transition-lists-->\n    <div class=\"panel-body\">\n      <div class=\"panel-body-inner flex column\">\n          <div class=\"row flex \">\n            <div class=\"col flex strong-text\">{{selectedDate}}</div>\n            <div class=\"col flex filter\">Filter By</div>\n          </div>\n          <div class=\"row flex header bottom-border padding-top-bottom-10\">\n            <div class=\"col flex\">Child Name</div>\n            <div class=\"col flex\">Current Room</div>\n            <div class=\"col flex\">Moving To...</div>\n            <div class=\"col flex\">Transition Date</div>\n            <div class=\"col flex\">Induction Complete</div>\n            <div class=\"col flex\">Child DOB</div>\n          </div>\n          <div class=\"row flex bottom-border padding-top-bottom-10\" *ngFor=\"let list of [1,2,3,4,5,6,7,8]\" (click)=\"showOccupancyModal = true\">\n            <div class=\"col flex\">Maria Demery</div>\n            <div class=\"col flex\">Baby Room 1</div>\n            <div class=\"col flex\">Baby Room 1</div>\n            <div class=\"col flex\">01/10/2016</div>\n            <div class=\"col flex\">-</div>\n            <div class=\"col flex\"></div>\n          </div>\n      </div>\n    </div>\n    <!--//end transition-lists-->\n</div>"
 
 /***/ },
 /* 931 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"simple-modal\">\r\n  <mdl-icon (click)=\"dismiss()\" class=\"close-button\">close</mdl-icon>\r\n  <p class=\"title\">{{room ? 'Edit' : 'Add'}} Room</p>\r\n  <mdl-textfield\r\n    label=\"Room Name\" floating-label\r\n    class=\"room-name\"\r\n    [(ngModel)]=\"name\">\r\n  </mdl-textfield>\r\n  <div class=\"select-row\">\r\n    <mdl-select\r\n      [(ngModel)]=\"ageFrom\"\r\n      (change)=\"handleSelect($event, 'from')\"\r\n      placeholder=\"Age Group (from)\">\r\n      <mdl-option *ngFor=\"let option of ageFromAvailable\" [value]=\"option\">\r\n        {{option}}\r\n      </mdl-option>\r\n    </mdl-select>\r\n    <mdl-select\r\n      #ageToSelect\r\n      [(ngModel)]=\"ageTo\"\r\n      (change)=\"handleSelect($event, 'to')\"\r\n      placeholder=\"Age Group (to)\">\r\n      <mdl-option *ngFor=\"let option of ageToAvailable\" [value]=\"option\">\r\n        {{option}}\r\n      </mdl-option>\r\n    </mdl-select>\r\n  </div>\r\n  <div class=\"select-row\">\r\n    <mdl-textfield\r\n      label=\"Capacity\" floating-label\r\n      class=\"capacity\"\r\n      pattern=\"-?[0-9]*(\\.[0-9]+)?\"\r\n      error-msg=\"Capacity needs to be a number\"\r\n      [(ngModel)]=\"capacity\">\r\n    </mdl-textfield>\r\n    <div class=\"ecce-capitations\">\r\n      <label>ECCE Capitations</label>\r\n      <app-ecce-capitations [model]=\"ecceCapitations\" (valueSet)=\"ecceCapitations = $event\"></app-ecce-capitations>\r\n    </div>\r\n  </div>\r\n  <p class=\"error-message\">{{errorMessage}}</p>\r\n  <div class=\"save-button\">\r\n    <mdl-spinner [active]=\"saving\"></mdl-spinner>\r\n    <button mdl-button mdl-ripple (click)=\"saveRoom()\">Save</button>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<!--<app-navbar title=\"Occupancy Planning\"></app-navbar>-->\n<app-navbar-small [routes]=\"routes\" title=\"Occupancy Planning\"></app-navbar-small>\n<div class=\"layout-content\">\n  <router-outlet></router-outlet>\n</div>"
 
 /***/ },
 /* 932 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"capitations\">\r\n  <span\r\n    [mdl-tooltip]=\"offTooltip\"\r\n    [class.off]=\"value == 'low'\"\r\n    (click)=\"setValue('low')\">\r\n      LOW\r\n  </span>\r\n  <span\r\n    [mdl-tooltip]=\"mixedTooltip\"\r\n    [class.mixed]=\"value == 'mixed'\"\r\n    (click)=\"setValue('mixed')\">\r\n      MIXED\r\n  </span>\r\n  <span\r\n    [mdl-tooltip]=\"onTooltip\"\r\n    [class.on]=\"value == 'high'\"\r\n    (click)=\"setValue('high')\">\r\n      HIGH\r\n  </span>\r\n\r\n  <mdl-tooltip #onTooltip=\"mdlTooltip\">\r\n    Set High weekly rate - €75. Please check eligibility\r\n  </mdl-tooltip>\r\n  <mdl-tooltip #mixedTooltip=\"mdlTooltip\">\r\n    For centres in receipt of the high capitation but using the low to calculate fees\r\n  </mdl-tooltip>\r\n  <mdl-tooltip #offTooltip=\"mdlTooltip\">\r\n    Set LOW weekly rate - €64.50\r\n  </mdl-tooltip>\r\n</div>\r\n"
+module.exports = "<div class=\"plan-dashboard\" mdl-shadow=\"3\">\n  <!--//start date-picker-->\n  <div class=\"date-picker flex\">\n    <div class=\"left\">\n    </div>\n    <div class=\"right flex\">\n      <div class=\"side-btns flex flex1 justify-content-start\">\n        <button mdl-button mdl-ripple>\n          <mdl-icon>keyboard_arrow_left</mdl-icon>back\n        </button>\n      </div>\n      <div class=\"picker-btns flex flex3 align-items-center\" >\n        <!--<span class=\"p-btn\" *ngFor=\"let tab of dateTabs; let idx = index;\" (click)=\"selDatePicker(idx)\" [class.active]==\"tab.active\">\n          <button mdl-button mdl-ripple>{{tab.name}}</button>\n        </span>-->\n        Spaces Available\n      </div>\n      <div class=\"side-btns flex flex1 justify-content-end\">\n        <button mdl-button mdl-ripple>\n          next<mdl-icon>keyboard_arrow_right</mdl-icon>\n        </button>\n      </div>\n    </div>\n  </div>\n  <!--//end date-picker-->\n  <!--//start picked-data-->\n  <div class=\"picked-data flex column\">\n    <div class=\"date-header flex\">\n      <div class=\"left\"></div>\n      <div class=\"right flex\">\n        <div class=\"row\" *ngFor=\"let date of dates\">\n          <div class=\"col\">\n            {{date}}\n          </div>\n        </div>\n      </div>\n    </div>\n    <!--//start list contents-->\n    <div class=\"list-content flex column\">\n      <div class=\"ap-header flex\">\n        <div class=\"left\"></div>\n        <div class=\"right flex\">\n          <div class=\"row\" *ngFor=\"let ap of items\">\n            <div class=\"col\">AM</div>\n            <div class=\"col\">PM</div>\n          </div>\n        </div>\n      </div>\n      <!--//start contents-->\n      <div class=\"contents flex\" *ngFor=\"let roomList of dashboardData; let idx = index;\">\n        <div class=\"left\">\n          <div class=\"row flex\">\n            <div class=\"flex column\">\n              <div class=\"info\">{{getRoomNameById(roomList.roomId)}}</div>\n              <div class=\"cation\">Capacity: {{roomList.capacity}}</div>\n            </div>\n          </div>\n        </div>\n        <div class=\"right flex\">\n          <div class=\"row\" *ngFor=\"let data of roomList.roomInfo; let jdx = index;\" (click)=\"selectCell(idx, jdx)\" [class.active]=\"data.active\">\n            <div class=\"col\" [class.color]=\"data.available.am<0\">\n              {{data.available.am}}\n            </div>\n            <div class=\"col\" [class.color]=\"data.available.pm<0\">\n              {{data.available.pm}}\n            </div>\n          </div>\n         </div>\n         <div class=\"accordian flex\">\n           <app-room-info-accordian [hidden]=\"!roomList.accordionState\" [roomID]=\"selectedRoomID\" [roomInfo]=\"selectedRoomInfo\" class=\"flex\"></app-room-info-accordian>\n         </div>\n      </div>\n      <!--//end contents-->\n    </div>\n    <!--//end list contents-->\n  </div>\n  <!--//end picked data   -->\n</div>"
 
 /***/ },
 /* 933 */
 /***/ function(module, exports) {
 
-module.exports = "<!--<app-navbar ></app-navbar>-->\r\n<app-navbar-small [routes]=\"routes\" title=\"Centre Setup\"></app-navbar-small>\r\n<div class=\"layout-content\">\r\n  <router-outlet></router-outlet>\r\n</div>\r\n"
+module.exports = "<div class=\"room-lists\" mdl-shadow=\"2\">\n    <!--//remove child in waiting room and assign to any room.-->\n    <app-remove-waiting-child class=\"flex\" \n      [showOccupancyModal]=\"showOccupancyModal\"\n      [child]=\"selectedChild\"\n      [rooms]=\"rooms\"\n      (moveFromWaitRoomToRoom)=\"moveFromWaitRoomToRoom($event)\"\n      (closeModal)=\"modalClosed()\">\n    </app-remove-waiting-child>\n\n    <!--//Occupancy Child.-->\n    <app-occupancy-chlid class=\"flex\" \n      [showChildModal]=\"showChildModal\"\n      [child]=\"selectedChild\"\n      (closeModal)=\"modalClosed()\">\n    </app-occupancy-chlid>\n    \n    <div class=\"panel-header flex\">\n      <span class=\"btn-tab\" (click)=\"selectRoom('0')\" [class.active]=\"selectedRoomID==='0'\">\n        <button mdl-button mdl-ripple>Waiting List</button>\n      </span>\n      <app-scroll-navbar [datas]=\"rooms\" [hidden]=\"!rooms\" (sendData)=\"selectRoom($event)\" class=\"flex\"></app-scroll-navbar>\n    </div>\n    <!--//start waiting room-->\n    <div class=\"panel-body\" *ngIf=\"selectedRoomID==='0'\">\n      <div class=\"panel-body-inner flex column\">\n          <div class=\"row flex filter\">Filter By</div>\n          <div class=\"row flex header bottom-border padding-top-bottom-10\">\n            <div class=\"col flex\">Parent Name</div>\n            <div class=\"col flex\">Parent Email</div>\n            <div class=\"col flex\">Deposit</div>\n            <div class=\"col flex\">Child Name</div>\n            <div class=\"col flex\">Assign to Room</div>\n            <div class=\"col flex\">Start Date</div>\n            <div class=\"col flex\">Child DOB</div>\n          </div>\n          <div class=\"row flex padding-top-bottom-10\" *ngIf=\"waitingChild.length<=0\">No Waiting list.</div>\n          <div class=\"row flex bottom-border padding-top-bottom-10\" *ngFor=\"let child of waitingChild\" (click)=\"selectWaitChild(child)\">\n            <div class=\"col flex\">{{child.parentName}}</div>\n            <div class=\"col flex\">{{child.parentEmail}}</div>\n            <div class=\"col flex\">{{getDepositNameById(child.deposit)}}</div>\n            <div class=\"col flex\">{{child.name}}</div>\n            <div class=\"col flex\">{{getRoomNameById(child.movetoRoom)}}</div>\n            <div class=\"col flex\">{{child.officialStartdate}}</div>\n            <div class=\"col flex\">{{child.birthdate}}</div>\n          </div>\n      </div>\n    </div>\n    <!--//end waiting room-->\n    <!--//start rooms list-->\n    <div class=\"panel-body\" *ngIf=\"selectedRoomID>0\">\n      <div class=\"panel-body-inner flex column\">\n        <div class=\"row flex picker-row\">\n            <div class=\"month-picker\">\n              <mdl-icon (click)=\"prevMonth()\">keyboard_arrow_left</mdl-icon>\n              <span class=\"title\">\n                <b>{{currentDate.toDate() | date:'MMMM'}}</b> {{currentDate.toDate() | date:'yyyy'}}\n              </span>\n              <mdl-icon (click)=\"nextMonth()\">keyboard_arrow_right</mdl-icon>\n            </div>\n            <div class=\"week-picker\">\n              <mdl-icon (click)=\"prevWeek()\">keyboard_arrow_left</mdl-icon>\n              <span class=\"title\"> WEEK {{ currentDate.week() }} </span>\n              <mdl-icon (click)=\"nextWeek()\">keyboard_arrow_right</mdl-icon>\n            </div>\n        </div>\n        <div class=\"row flex bottom-border padding-top-bottom-10\">\n          <div class=\"row flex flex3 column\">\n            <div class=\"row flex\">&nbsp;</div>\n            <div class=\"row flex header\">\n              <span class=\"col flex\">Child Name</span>\n              <span class=\"col flex\">Child Age</span>\n              <span class=\"col flex\">Official Start Date</span>\n              <span class=\"col flex\">Room Start Date</span>\n            </div>\n          </div>\n          <div class=\"row flex flex2 column\">\n            <div class=\"row flex header\">\n              <span class=\"col flex\">Mon/ {{week[0].date}}</span>\n              <span class=\"col flex\">Tue/ {{week[1].date}}</span>\n              <span class=\"col flex\">Wed/ {{week[2].date}}</span>\n              <span class=\"col flex\">Thur/ {{week[3].date}}</span>\n              <span class=\"col flex\">Fri/ {{week[4].date}}</span>\n            </div>\n            <div class=\"row flex\">\n              <div class=\"row flex\" *ngFor=\"let num of [1,2,3,4,5]\">\n                <span class=\"col flex strong-text\">AM</span>\n                <span class=\"col flex strong-text\">PM</span>\n                <span class=\"col flex strong-text\">&nbsp;</span>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"row flex padding-top-bottom-10\" *ngIf=\"childs.length<=0\">No Children list.</div>\n        <div class=\"row flex bottom-border padding-top-bottom-10\" *ngFor=\"let child of childs;\" (click)=\"selectRoomChild(child)\">\n          <div class=\"row flex flex3\">\n              <span class=\"col flex\">{{child.name}}</span>\n              <span class=\"col flex\">{{child.age}}</span>\n              <span class=\"col flex\">{{child.officialStartdate}}</span>\n              <span class=\"col flex\">{{child.roomStartdate}}</span>\n          </div>\n          <div class=\"row flex flex2\">\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.mon.am!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.mon.pm!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text\">&nbsp;</span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.tue.am!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.tue.pm!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text\">&nbsp;</span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.wed.am!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.wed.pm!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text\">&nbsp;</span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.thu.am!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.thu.pm!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text\">&nbsp;</span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.fri.am!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text align-items-center\"><mdl-icon class=\"icon\" *ngIf=\"child.assignedState.fri.pm!=0\">lens</mdl-icon></span>\n                <span class=\"col flex strong-text\">&nbsp;</span>\n              </div>\n          </div>\n        </div>\n        <div class=\"row flex footer\" *ngIf=\"childs.length>0\">\n          <div class=\"row flex flex3\">\n            <span class=\"col flex\">TOTAL</span>\n          </div>\n          <div class=\"row flex flex2\">\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text align-items-center\">{{getRoomCapacityByRoomId(\"mon\",\"am\")}}</span>\n                <span class=\"col flex strong-text align-items-center\">{{getRoomCapacityByRoomId(\"mon\",\"pm\")}}</span>\n                <span class=\"col flex strong-text\">&nbsp;</span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text align-items-center\">{{getRoomCapacityByRoomId(\"tue\",\"am\")}}</span>\n                <span class=\"col flex strong-text align-items-center\">{{getRoomCapacityByRoomId(\"tue\",\"pm\")}}</span>\n                <span class=\"col flex strong-text\">&nbsp;</span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text align-items-center\">{{getRoomCapacityByRoomId(\"wed\",\"am\")}}</span>\n                <span class=\"col flex strong-text align-items-center\">{{getRoomCapacityByRoomId(\"wed\",\"pm\")}}</span>\n                <span class=\"col flex strong-text\">&nbsp;</span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text align-items-center\">{{getRoomCapacityByRoomId(\"thu\",\"am\")}}</span>\n                <span class=\"col flex strong-text align-items-center\">{{getRoomCapacityByRoomId(\"thu\",\"pm\")}}</span>\n                <span class=\"col flex strong-text\">&nbsp;</span>\n              </div>\n              <div class=\"row flex\">\n                <span class=\"col flex strong-text align-items-center\">{{getRoomCapacityByRoomId(\"fri\",\"am\")}}</span>\n                <span class=\"col flex strong-text align-items-center\">{{getRoomCapacityByRoomId(\"fri\",\"pm\")}}</span>\n                <span class=\"col flex strong-text\">&nbsp;</span>\n              </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <!--//end rooms list-->\n</div>"
 
 /***/ },
 /* 934 */
 /***/ function(module, exports) {
 
-module.exports = "<app-modal [showModal]=\"!!showDialog\">\r\n  <div class=\"simple-modal\">\r\n    <div class=\"dialog-content\">\r\n      <p>{{ message }}</p>\r\n      <div class=\"modal-controls\">\r\n        <mdl-button mdl-ripple mdl-colored=\"accent\" (click)=\"close(false)\">\r\n          Cancel\r\n        </mdl-button>\r\n        <mdl-button mdl-ripple (click)=\"close(true)\">Ok</mdl-button>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</app-modal>\r\n"
+module.exports = "<div class=\"plan-setup\">\n  <!--//Popup for add staff or edit staff-->\n  <app-add-staff \n      [showOccupancyModal]=\"showOccupancyModal\"\n      [title]=\"title\"\n      [rooms]=\"rooms\"\n      [staff]=\"selectedStaff\"\n      [qualification]=\"qualification\"\n      [isEdit]=\"isEdit\"\n      (closeModal)=\"modalClosed()\">\n  </app-add-staff>\n\n  <!--//start room panel-->\n  <div class=\"panel flex column\" mdl-shadow=\"2\">\n    <div class=\"panel-header flex\" [hidden]=\"!rooms\">\n      <app-scroll-navbar [datas]=\"rooms\" (sendData)=\"selectRoom($event)\" class=\"flex\"></app-scroll-navbar>\n    </div>\n    <div class=\"panel-body\">\n      <div class=\"panel-body-inner flex\">\n        <div *ngIf=\"selectedRoom.assignedStaff.length<=0\">Please add staff to this room by assigning a staff memeber in the table below.</div>\n        <div class=\"list flex column\" *ngIf=\"selectedRoom.assignedStaff.length>0\">\n            <div class=\"row flex bottom-border\">\n              <div class=\"row flex flex3\">\n                <div class=\"col flex flex1\"></div>\n                <div class=\"col flex flex3 column\">\n                  <div class=\"row flex\">\n                    <span class=\"col flex\">Mon</span>\n                    <span class=\"col flex\">Tue</span>\n                    <span class=\"col flex\">Wed</span>\n                    <span class=\"col flex\">Thu</span>\n                    <span class=\"col flex\">Fri</span>\n                  </div>\n                  <div class=\"row flex\">\n                    <div class=\"row flex\" *ngFor=\"let num of [1,2,3,4,5]\">\n                      <span class=\"col flex strong-text align-items\">AM</span>\n                      <span class=\"col flex strong-text align-items\">PM</span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                  </div>\n                </div>\n                <div class=\"col flex flex1\"></div>\n              </div>\n              <div class=\"row flex flex2\">\n                <div class=\"trans-title col flex flex3 strong-text\">Transition Setup</div>\n              </div>\n            </div>\n            <div class=\"row flex\">\n              <div class=\"row flex flex3 column\" >\n                <div class=\"row flex padding-top-bottom-20\" *ngFor=\"let staff of selectedRoom.assignedStaff;\">\n                  <div class=\"col flex flex1 align-items text-indent10\">{{staff.name}}</div>\n                  <div class=\"col flex flex3\">\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.mon.am===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.mon.pm===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.tue.am===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.tue.pm===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.wed.am===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.wed.pm===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.thu.am===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.thu.pm===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.fri.am===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex align-items\"><mdl-icon class=\"icon\" *ngIf=\"staff.assignedRoom.fri.pm===selectedRoomID\">lens</mdl-icon></span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                  </div>\n                  <div class=\"col flex flex1\"></div>\n                </div>\n                <div class=\"row flex padding-top-bottom-20\">\n                  <div class=\"col flex flex1 align-items text-indent10\">Capacity</div>\n                  <div class=\"col flex flex3\">\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.mon.am}}</span>\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.mon.pm}}</span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.tue.am}}</span>\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.tue.pm}}</span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.wed.am}}</span>\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.wed.pm}}</span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.thu.am}}</span>\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.thu.pm}}</span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                    <div class=\"row flex\">\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.fri.am}}</span>\n                      <span class=\"col flex align-items\">{{selectedRoom.capacity.fri.pm}}</span>\n                      <span class=\"col flex\"></span>\n                    </div>\n                  </div>\n                  <div class=\"col flex flex1\"></div>\n                </div>\n              </div>\n              <div class=\"row flex flex2 column\">\n                <div class=\"row flex header\">This is a class setting. Transition Rooms & Ages can also be set for individual children in the Class Room List.</div>\n                <div class=\"row flex\">\n                  <div class=\"col flex flex1 align-items-center\">Transition Room</div>\n                  <div class=\"col flex flex2\">\n                    <mdl-select [(ngModel)]=\"selectedRoom.transitionRoom\" placeholder=\"Select Room\">\n                      <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\n                        {{room.name}}\n                      </mdl-option>\n                    </mdl-select>\n                  </div>\n                </div>\n                <div class=\"row flex\">\n                  <div class=\"col flex flex1 align-items-center\">Transition Age</div>\n                  <div class=\"col flex flex2\">\n                    <mdl-select [(ngModel)]=\"selectedRoom.transitionAge\" placeholder=\"Select Age\">\n                      <mdl-option *ngFor=\"let group of ageGroup\" [value]=\"group.id\">\n                        {{group.name}}\n                      </mdl-option>\n                    </mdl-select>\n                  </div>\n                </div>\n              </div>\n            </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <!--//end room panel-->\n  <br><br>\n  <!--//start staff panel-->\n  <div class=\"panel flex column\" mdl-shadow=\"2\">\n    <div class=\"panel-header flex\">\n      <span class=\"text-indent10\">Manage Staff & Room Capacity</span>\n    </div>\n    <div class=\"panel-body\">\n      <div class=\"panel-body-inner flex\">\n        <div *ngIf=\"staffs.length===0\">No staff added yet. Please click on the + icon to begin adding staff.</div>\n        <div class=\"list flex column\" *ngIf=\"staffs.length>0\">\n          <div class=\"row flex header bottom-border padding-top-bottom-10\">\n            <div class=\"col flex\">Name</div>\n            <div class=\"col flex\">Room Assigned to AM</div>\n            <div class=\"col flex\">Room Assigned to PM</div>\n            <div class=\"col flex\">Start Date</div>\n            <div class=\"col flex\">Finish Date</div>\n            <div class=\"col flex\">Qualification</div>\n          </div>\n          <div class=\"row flex bottom-border padding-top-bottom-10\" *ngFor=\"let staff of staffs\" (click)=\"controlStaffs(true, staff)\">\n            <div class=\"col flex\">{{staff.name}}</div>\n            <div class=\"col flex\">{{getRoomNameById(staff.assignedRoom.mon.am)}}</div>\n            <div class=\"col flex\">{{getRoomNameById(staff.assignedRoom.mon.pm)}}</div>\n            <div class=\"col flex\">{{staff.startdate}}</div>\n            <div class=\"col flex\">{{staff.enddate}}</div>\n            <div class=\"col flex\">{{getQualificationNameById(staff.qualification)}}</div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <!--//end staff panel-->\n  <mdl-button mdl-button-type=\"fab\" class=\"add-staff\" mdl-colored=\"accent\" mdl-ripple mdl-shadow=\"8\" (click)=\"controlStaffs(false)\">\n    <mdl-icon>add</mdl-icon>\n  </mdl-button>\n</div>"
 
 /***/ },
 /* 935 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"datepicker-wrapper\">\r\n  <mdl-textfield\r\n    type=\"text\"\r\n    class=\"ng-datepicker-input\"\r\n    [label]=\"label\"\r\n    floating-label\r\n    (click)=\"toggle()\"\r\n    [ngModel]=\"viewDate\"\r\n    readonly>\r\n  </mdl-textfield>\r\n  <div class=\"ng-datepicker\" *ngIf=\"opened\">\r\n    <div class=\"controls\">\r\n      <div class=\"left\">\r\n        <mdl-icon class=\"prev-year-btn\" (click)=\"prevYear()\">keyboard_arrow_left</mdl-icon>\r\n        <mdl-icon class=\"prev-month-btn\" (click)=\"prevMonth()\">arrow_back</mdl-icon>\r\n      </div>\r\n      <span class=\"date\">\r\n        {{ date.format('MMMM YYYY') }}\r\n      </span>\r\n      <div class=\"right\">\r\n        <mdl-icon class=\"next-month-btn\" (click)=\"nextMonth()\">arrow_forward</mdl-icon>\r\n        <mdl-icon class=\"next-year-btn\" (click)=\"nextYear()\">keyboard_arrow_right</mdl-icon>\r\n      </div>\r\n    </div>\r\n    <div class=\"day-names\">\r\n      <span>Mon</span>\r\n      <span>Tue</span>\r\n      <span>Wed</span>\r\n      <span>Thu</span>\r\n      <span>Fri</span>\r\n      <span>Sat</span>\r\n      <span>Sun</span>\r\n    </div>\r\n    <div class=\"calendar\">\r\n      <span\r\n        *ngFor=\"let d of days; let i = index;\"\r\n        (click)=\"selectDate($event, i)\"\r\n        class=\"day\" [ngClass]=\"{'disabled': !d.enabled, 'selected': d.selected, 'today': d.today}\">\r\n          {{ d.day }}\r\n        </span>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"attendance-status\" [hidden]=\"record.ABSENT\">\r\n  <p>\r\n    <span>IN:</span>\r\n    {{record.IN || '-'}}\r\n  </p>\r\n  <p>\r\n    <span>OUT:</span>\r\n    {{record.OUT || '-'}}\r\n  </p>\r\n</div>\r\n<div class=\"attendance-status\" [hidden]=\"!record.ABSENT\">\r\n  <p>\r\n    <span>ABSENT:</span>\r\n    {{record.ABSENT || '-'}}\r\n  </p>\r\n</div>\r\n"
 
 /***/ },
 /* 936 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"flex-card\" [mdl-shadow]=\"tableShadow\">\r\n  <ng-content select=\"app-searchbar\"></ng-content>\r\n  <div class=\"row tooltips\">\r\n    <template ngFor let-tooltip [ngForOf]=\"options.tooltips\">\r\n      <div\r\n        *ngIf=\"!tooltip.inactive\"\r\n        [ngClass]=\"['col', tooltip.className || '', resolveClass(tooltip.value)]\"\r\n        (click)=\"changeSort(tooltip.value)\">\r\n        {{tooltip.caption || tooltip.value}}\r\n      </div>\r\n      <div\r\n        *ngIf=\"tooltip.inactive\"\r\n        [ngClass]=\"['col', tooltip.className || '']\">\r\n        {{tooltip.caption || tooltip.value}}\r\n      </div>\r\n    </template>\r\n  </div>\r\n  <mdl-progress indeterminate=\"true\" *ngIf=\"loading\"></mdl-progress>\r\n  <ng-content></ng-content>\r\n</div>\r\n"
+module.exports = "<app-navbar title=\"Reports\"></app-navbar>\r\n<app-navbar-small [routes]=\"routes\"></app-navbar-small>\r\n<div class=\"layout-content\">\r\n  <div class=\"reports-draft\">\r\n    <div class=\"picker-row\">\r\n      <div class=\"month-picker\">\r\n        <mdl-icon (click)=\"prevMonth()\">keyboard_arrow_left</mdl-icon>\r\n        <mdl-icon (click)=\"nextMonth()\">keyboard_arrow_right</mdl-icon>\r\n        <span class=\"title\">\r\n          <b>{{currentDate.toDate() | date:'MMMM'}}</b> {{currentDate.toDate() | date:'yyyy'}}\r\n        </span>\r\n      </div>\r\n      <div class=\"week-picker\">\r\n        <mdl-icon (click)=\"prevWeek()\">keyboard_arrow_left</mdl-icon>\r\n        <span class=\"title\"> Week {{ currentDate.week() }} </span>\r\n        <mdl-icon (click)=\"nextWeek()\">keyboard_arrow_right</mdl-icon>\r\n      </div>\r\n      <i class=\"material-icons\" (click)=\"printReport()\">print</i>\r\n    </div>\r\n    <div id=\"reportDiv\">\r\n      <div class=\"row tooltips\">\r\n        <div class=\"col\">Child Name</div>\r\n        <div class=\"col child-status\">ECCE</div>\r\n        <div class=\"col\" *ngFor=\"let entry of week\" [class.inactive]=\"entry.inactive\">\r\n            <p>{{ entry.day | uppercase }}</p>\r\n            <span>{{ entry.date }}</span>\r\n        </div>\r\n      </div>\r\n      <div class=\"row\" *ngFor=\"let report of reports\">\r\n        <div class=\"col child-name\">{{report.name}}</div>\r\n        <div class=\"col child-status\">\r\n          <span>{{report.status ? 'YES' : 'NO'}}</span>\r\n        </div>\r\n        <div class=\"col\">\r\n          <app-attendance-status [record]=\"report.records.Monday\"></app-attendance-status>\r\n        </div>\r\n        <div class=\"col\">\r\n          <app-attendance-status [record]=\"report.records.Tuesday\"></app-attendance-status>\r\n        </div>\r\n        <div class=\"col\">\r\n          <app-attendance-status [record]=\"report.records.Wednesday\"></app-attendance-status>\r\n        </div>\r\n        <div class=\"col\">\r\n          <app-attendance-status [record]=\"report.records.Thursday\"></app-attendance-status>\r\n        </div>\r\n        <div class=\"col\">\r\n          <app-attendance-status [record]=\"report.records.Friday\"></app-attendance-status>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ },
 /* 937 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"backdrop\" [@backdrop]=\"showModal\">\r\n  <div class=\"modal\" [@modal]=\"showModal\">\r\n    <ng-content></ng-content>\r\n  </div>\r\n</div>"
+module.exports = "<app-modal [showModal]=\"showModal\">\r\n  <app-add-child (closeModal)=\"modalClosed($event)\" [rooms]=\"rooms\" [child]=\"selectedChild\"></app-add-child>\r\n</app-modal>\r\n<app-confirm-dialog [showDialog]=\"confirmDelete\" (closeDialog)=\"confirmDeleteChild($event)\" [message]=\"deleteMessage\"></app-confirm-dialog>\r\n<app-flex-card\r\n  [loading]=\"loading\"\r\n  [options]=\"tableOptions\"\r\n  [collection]=\"children\"\r\n  class=\"centre-children\">\r\n  <app-searchbar (searchFilter)=\"handleFilter($event)\"></app-searchbar>\r\n  <div class=\"row\" *ngFor=\"let child of children\" (click)=\"editChild(child)\">\r\n    <div class=\"col avatar-col\">\r\n      <img src={{child.picture}} alt=\"Child Avatar\" />\r\n    </div>\r\n    <div class=\"col name-col\">\r\n      {{child.name}}\r\n    </div>\r\n    <div class=\"col\">\r\n      {{child.room || '-'}}\r\n    </div>\r\n    <div class=\"col\">\r\n      <mdl-button class=\"remove-child\" mdl-button-type=\"icon\" mdl-colored=\"accent\" (click)=\"deleteChild($event, child)\">\r\n        <mdl-icon>delete</mdl-icon>\r\n      </mdl-button>\r\n    </div>\r\n  </div>\r\n  <mdl-button mdl-button-type=\"fab\" class=\"add-children\" mdl-colored=\"accent\" mdl-ripple mdl-shadow=\"8\" (click)=\"addChild()\">\r\n    <mdl-icon>add</mdl-icon>\r\n  </mdl-button>\r\n</app-flex-card>\r\n"
 
 /***/ },
 /* 938 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"navbar\" mdl-shadow=\"3\">\r\n  <!--//navbar-title-->\r\n  <div class=\"navbar-title\">\r\n    <div class=\"menu\">&nbsp;</div>\r\n    <div class=\"logo\">Little Vista</div>\r\n    <div class=\"sub-title\">{{title}}</div>\r\n  </div>\r\n  <!--//end navbar title-->\r\n  <!--//navbar holder-->\r\n  <div class=\"navbar-holder\" (window:resize)=\"onResize($event)\" [hidden]=\"!routes\">\r\n    <div [class.show]=\"showLeftArrow\" class=\"arrow arrow-back\" (click)=\"scroll()\" mdl-ripple>\r\n      <mdl-icon>arrow_back</mdl-icon>\r\n    </div>\r\n    <div class=\"navbar-scroll\" #nav>\r\n      <a\r\n        class=\"navbar-item\"\r\n        *ngFor=\"let route of routes\"\r\n        [routerLink]=\"[route.path]\"\r\n        routerLinkActive=\"active-route\"\r\n        >\r\n        <p>{{route.link}}</p>\r\n      </a>\r\n    </div>\r\n    <div [class.show]=\"showRightArrow\" class=\"arrow arrow-forward\" #arrow (click)=\"scroll('right')\" mdl-ripple>\r\n      <mdl-icon>arrow_forward</mdl-icon>\r\n    </div>\r\n  </div>\r\n  <!--//end navbar holder-->\r\n</div>"
+module.exports = "<div class=\"centre-details\" [mdl-shadow]=\"3\" *ngIf=\"profile\">\r\n  <div class=\"title\">\r\n    Centre Details\r\n  </div>\r\n  <div class=\"settings\">\r\n    <div class=\"col\">\r\n      <mdl-textfield type=\"text\" label=\"Centre Name\" [(ngModel)]=\"profile.additional.name\"></mdl-textfield>\r\n      <mdl-textfield type=\"text\" label=\"Address 1\" [(ngModel)]=\"profile.additional.address1\"></mdl-textfield>\r\n      <mdl-textfield type=\"text\" label=\"Address 2\" [(ngModel)]=\"profile.additional.address2\"></mdl-textfield>\r\n      <mdl-textfield type=\"text\" label=\"Address 3\" [(ngModel)]=\"profile.additional.address3\"></mdl-textfield>\r\n    </div>\r\n    <div class=\"col\">\r\n      <mdl-textfield type=\"text\" label=\"Main Contract\" [(ngModel)]=\"profile.additional.mainContact\"></mdl-textfield>\r\n      <mdl-textfield type=\"text\" label=\"Email Address\" [(ngModel)]=\"profile.additional.email\"></mdl-textfield>\r\n      <mdl-textfield type=\"text\" label=\"Work Phone\" [(ngModel)]=\"profile.additional.workPhone\"></mdl-textfield>\r\n      <mdl-textfield type=\"text\" label=\"Mobile\" [(ngModel)]=\"profile.additional.mobilePhone\"></mdl-textfield>\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"edit-picture\">\r\n    <img src={{profile.picture}} alt=\"Profile Picture\" />\r\n    <mdl-button mdl-button-type=\"raised\" mdl-ripple>\r\n      EDIT PROFILE IMAGE\r\n    </mdl-button>\r\n  </div>\r\n\r\n  <div class=\"save-button\">\r\n    <mdl-spinner [active]=\"saving\"></mdl-spinner>\r\n    <mdl-button mdl-button-type=\"raised\" mdl-ripple (click)=\"saveDetails()\">\r\n      SAVE\r\n    </mdl-button>\r\n  </div>\r\n</div>\r\n"
 
 /***/ },
 /* 939 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"navbar\">\r\n  {{title}}\r\n</div>\r\n"
+module.exports = "<app-add-new-families \r\n  [showModal]=\"showModal\"\r\n  [isEdit]=\"isEdit\"\r\n  [maxID]=\"maxID\"\r\n  [rooms]=\"rooms\"\r\n  [family]=\"selectedFamily\"\r\n  [selectedTabIndex]=\"selectedTabIndex\"\r\n  (closeModal)=\"modalClosed()\">\r\n</app-add-new-families>\r\n\r\n<app-flex-card\r\n  [loading]=\"loading\"\r\n  [options]=\"tableOptions\"\r\n  [collection]=\"families\"\r\n  class=\"centre-families\">\r\n  <app-searchbar (searchFilter)=\"handleFilter($event)\"></app-searchbar>\r\n  <div class=\"row\" *ngFor=\"let family of families;\">\r\n    <div class=\"col image-col\">\r\n      <img src=\"/assets/img/default_avatar.png\" atl=\"LittleVista LITE\" />\r\n    </div>\r\n    <div class=\"col name-col\" (click)=\"controlFamilies(true, family, 0)\">\r\n      <span>{{getChildrenNames(family.childrens)}}</span>\r\n    </div>\r\n    <div class=\"col name-col\" (click)=\"controlFamilies(true, family, 1)\">\r\n      <span>{{getGuardianNames(family.guardians)}}</span>\r\n    </div>\r\n    <div class=\"col empty-col\"></div>\r\n  </div>\r\n  <mdl-button mdl-button-type=\"fab\" class=\"add-families\" mdl-colored=\"accent\" mdl-ripple mdl-shadow=\"8\" (click)=\"controlFamilies(false)\">\r\n    <mdl-icon>add</mdl-icon>\r\n  </mdl-button>\r\n</app-flex-card>\r\n"
 
 /***/ },
 /* 940 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"searchbar\" [class.active]=\"activated\" #searchbar>\r\n    <mdl-icon class=\"search-button\" (click)=\"toggleState()\">search</mdl-icon>\r\n    <mdl-textfield #textfield [formControl]=\"filter\"></mdl-textfield>\r\n    <mdl-icon class=\"clear-button\" [hidden]=\"!textfield.value\" (click)=\"textfield.value = ''\">clear</mdl-icon>\r\n</div>\r\n"
+module.exports = "<div class=\"backdrop\" [@backdrop]=\"showModal\">\r\n  <div class=\"modal\" [@modal]=\"showModal\" [mdl-shadow]=\"6\">\r\n    <div class=\"add-families-header flex\">\r\n      <span class=\"tab flex\" (click)=\"selectFamiliesType(0)\" [class.active]=\"selectedTabIndex === 0\">1.Add Children</span>\r\n      <span class=\"tab flex\" (click)=\"selectFamiliesType(1)\" [class.active]=\"selectedTabIndex !== 0\">2.Add Guardian</span>\r\n      <span class=\"close\"><mdl-icon (click)=\"destroy()\" class=\"close-button\">close</mdl-icon></span>\r\n    </div>\r\n    <div class=\"add-families-body flex\">\r\n      <div class=\"add-families-inner flex column\">\r\n        <!--//start add child-->\r\n        <div class=\"row flex column\" *ngIf=\"selectedTabIndex === 0\">\r\n          \r\n          <div class=\"row flex row-header border-bottom\">\r\n            <div class=\"col flex\">Name</div>\r\n            <div class=\"col flex\">Date of Birth</div>\r\n            <div class=\"col flex\">Select a Room</div>\r\n            <div class=\"col flex\">Start Date</div>\r\n          </div>\r\n\r\n          <div class=\"row flex column flexible-container border-bottom\">\r\n            <div class=\"row flex border-bottom\" *ngFor=\"let children of family.childrens; let idx = index;\">\r\n              <div class=\"col flex\">\r\n                <mdl-textfield floating-label [(ngModel)]=\"children.name\" ></mdl-textfield>\r\n              </div>\r\n              <div class=\"col flex\">\r\n                <app-datepicker [(ngModel)]=\"children.birthdate\" ></app-datepicker>\r\n              </div>\r\n              <div class=\"col flex\">\r\n                <mdl-select [(ngModel)]=\"children.roomId\" placeholder=\"Select a Room\">\r\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\r\n                    {{room.name}}\r\n                  </mdl-option>\r\n                </mdl-select>\r\n              </div>\r\n              <div class=\"col flex\">\r\n                <app-datepicker [(ngModel)]=\"children.startdate\" view-format=\"Do MMM YYYY\"></app-datepicker>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"row flex add-button border-bottom\">\r\n            <div class=\"col flex\" (click)=\"addAnotherChild()\">Add another child</div>\r\n          </div>\r\n\r\n          <div class=\"row flex column sibling\" *ngIf=\"isTablet\">\r\n            <div class=\"row flex header\">\r\n              <div class=\"col\">Link a sibling</div>\r\n            </div>\r\n            <div class=\"row flex\">\r\n              <div class=\"col flex selector\">\r\n                <mdl-select [(ngModel)]=\"roomId\" placeholder=\"Select Room\">\r\n                  <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\r\n                    {{room.name}}\r\n                  </mdl-option>\r\n                </mdl-select>\r\n              </div>\r\n              <div class=\"col flex link-button\">\r\n                <mdl-button mdl-button-type=\"raised\" mdl-ripple>Link another sibling</mdl-button>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <!--//end add child-->\r\n        <!--//start add guardian-->\r\n        <div class=\"row flex column container\" *ngIf=\"selectedTabIndex !== 0\">\r\n\r\n          <div class=\"row flex row-header border-bottom\">\r\n            <div class=\"col flex\">Name</div>\r\n            <div class=\"col flex\">Email</div>\r\n            <div class=\"col flex\">Phone</div>\r\n            <div class=\"col flex\">Address</div>\r\n          </div>\r\n\r\n          <div class=\"row flex column flexible-container border-bottom\">\r\n            <div class=\"row flex border-bottom\" *ngFor=\"let guardian of family.guardians; let idx = index;\">\r\n              <div class=\"col flex\">\r\n                <mdl-textfield floating-label [(ngModel)]=\"guardian.name\"></mdl-textfield>\r\n              </div>\r\n              <div class=\"col flex\">\r\n                <mdl-textfield floating-label [(ngModel)]=\"guardian.email\"></mdl-textfield>\r\n              </div>\r\n              <div class=\"col flex\">\r\n                <mdl-textfield floating-label [(ngModel)]=\"guardian.phone\"></mdl-textfield>\r\n              </div>\r\n              <div class=\"col flex\">\r\n              <mdl-textfield floating-label [(ngModel)]=\"guardian.address\"></mdl-textfield>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"row flex add-button border-bottom\">\r\n            <div class=\"col flex\" (click)=\"addAnotherGuard()\">Add another guardian</div>\r\n          </div>\r\n          <div class=\"row flex padding-bottom30\"></div>\r\n        </div>\r\n        <!--//end add guardian-->\r\n        <div class=\"row flex\">\r\n          <div class=\"col flex error-msg\" [hidden]=\"!errorMessage\">{{errorMessage}}</div>\r\n          <div class=\"col flex save-btn\">\r\n            <button mdl-button mdl-ripple (click)=\"saveFamilies()\">SAVE</button>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ },
 /* 941 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"colored-button\" [class.light-green]=\"classes.indexOf('light-green') !== -1\" #button mdl-shadow=\"2\">\r\n  {{message}}\r\n</div>\r\n"
+module.exports = "<app-modal [showModal]=\"showModal\">\r\n  <app-add-room (closeModal)=\"modalClosed()\" [room]=\"selectedRoom\"></app-add-room>\r\n</app-modal>\r\n<app-confirm-dialog [showDialog]=\"confirmDelete\" (closeDialog)=\"confirmDeleteRoom($event)\" [message]=\"deleteMessage\"></app-confirm-dialog>\r\n<app-flex-card\r\n  [loading]=\"loading\"\r\n  [options]=\"tableOptions\"\r\n  [collection]=\"rooms\"\r\n  class=\"centre-rooms\">\r\n  <app-searchbar (searchFilter)=\"handleFilter($event)\"></app-searchbar>\r\n  <div class=\"row\" *ngFor=\"let room of rooms\" (click)=\"editRoom(room)\">\r\n    <div class=\"col name-col\">\r\n      {{room.name}}\r\n    </div>\r\n    <div class=\"col\">\r\n      {{room.ageGroup || '-'}}\r\n    </div>\r\n    <div class=\"col\">\r\n      {{room.capacity || '-'}}\r\n    </div>\r\n    <div class=\"col\">\r\n      <mdl-button class=\"remove-rooms\" mdl-button-type=\"icon\" mdl-colored=\"accent\" (click)=\"deleteRoom($event, room)\">\r\n        <mdl-icon>delete</mdl-icon>\r\n      </mdl-button>\r\n    </div>\r\n  </div>\r\n  <mdl-button mdl-button-type=\"fab\" class=\"add-rooms\" mdl-colored=\"accent\" mdl-ripple mdl-shadow=\"8\" (click)=\"showModal = true\">\r\n    <mdl-icon>add</mdl-icon>\r\n  </mdl-button>\r\n</app-flex-card>\r\n"
 
 /***/ },
 /* 942 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"ecce-modal\">\r\n  <div class=\"modal-header\">\r\n    <button\r\n      mdl-button mdl-button-type=\"icon\"\r\n      (click)=\"dismiss()\"\r\n      class=\"close-button\">\r\n      <mdl-icon>close</mdl-icon>\r\n    </button>\r\n    <div class=\"child-details\">\r\n      <p class=\"name\">\r\n        {{ pageModel.name }}\r\n      </p>\r\n      <div class=\"ecce-status\">\r\n        STATUS\r\n        <app-colored-button\r\n          [message]=\"pageModel.status ? 'ECCE' : 'NOT ECCE'\"\r\n          (click)=\"toggleStatus()\"\r\n          type=\"status\">\r\n        </app-colored-button>\r\n      </div>\r\n      <div class=\"start-date\">\r\n        <app-datepicker\r\n          [(ngModel)]=\"date\"\r\n          label=\"Start Date\"\r\n          view-format=\"Do MMM YYYY\">\r\n        </app-datepicker>\r\n      </div>\r\n    </div>\r\n    <div class=\"control-pills\">\r\n      <button mdl-button [class.active-pill]=\"step === 0\" [disabled]=\"true\">\r\n        ECCE Days\r\n      </button>\r\n      <button mdl-button [class.active-pill]=\"step === 1\" [disabled]=\"true\">\r\n        Optional Extras &amp; Other Costs\r\n      </button>\r\n    </div>\r\n  </div>\r\n  <div class=\"modal-body\">\r\n    <div *ngIf=\"step === 0\" class=\"ecce\">\r\n        <div class=\"payment-model\">\r\n          <p class=\"header\">\r\n            How do you charge for this child:\r\n          </p>\r\n          <mdl-switch [(ngModel)]=\"pageModel.monthly\">\r\n           {{pageModel.monthly ? 'Monthly' : 'Weekly' }}\r\n         </mdl-switch>\r\n        </div>\r\n        <div class=\"row\">\r\n          <div class=\"col\">\r\n            <p class=\"header\">\r\n              Please select a weekly ECCE model for this child:\r\n            </p>\r\n            <div class=\"button-bar\">\r\n              <label>Annual Model: </label>\r\n              <app-list-buttons\r\n                [values]=\"pageModel.annualModel\"\r\n                [interactive]=\"true\"\r\n                (change)=\"handleAnnualModel($event)\"\r\n                [buttons]=\"'38::38 WEEK|41::41 WEEK|50::50 WEEK|52::52 WEEK'\"\r\n                [toggle]=\"true\"></app-list-buttons>\r\n            </div>\r\n          </div>\r\n          <div class=\"col\">\r\n            <div class=\"weekly-total\">\r\n              <p class=\"header\">\r\n                Weekly ECCE Total\r\n              </p>\r\n              <p class=\"total-value\">\r\n                {{weeklyTotal | currency:'EUR':'1-1.2'}}\r\n              </p>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"button-bar\">\r\n          <label>Days in Attendance: </label>\r\n          <app-list-buttons\r\n            [values]=\"pageModel.days\"\r\n            [interactive]=\"true\"\r\n            (change)=\"handleDays($event)\"\r\n            [buttons]=\"'monday::MONDAY|tuesday::TUESDAY|wednesday::WEDNESDAY|thursday::THURSDAY|friday::FRIDAY'\">\r\n          </app-list-buttons>\r\n        </div>\r\n        <p class=\"error-message\" [hidden]=\"!errorMessage\">\r\n          {{errorMessage}}\r\n        </p>\r\n    </div>\r\n    <div *ngIf=\"step === 1\" class=\"costs\">\r\n      <div class=\"row\">\r\n        <div class=\"col col-40\">\r\n          <p class=\"header\">\r\n            Enter {{ pageModel.monthly ? 'Monthly' : 'Weekly' }} Parent Fee Before ECCE\r\n          </p>\r\n        </div>\r\n        <div class=\"col col-10\">\r\n          <mdl-textfield\r\n            class=\"with-currency euro\"\r\n            step=\"any\"\r\n            [(ngModel)]=\"pageModel.normalFee\"\r\n            type=\"number\">\r\n          </mdl-textfield>\r\n        </div>\r\n      </div>\r\n      <div class=\"parent-fee\">\r\n      </div>\r\n      <p class=\"header\">\r\n        Add Optional Weekly Extras for this child\r\n      </p>\r\n      <div class=\"row extras\">\r\n        <div class=\"col col-10\">\r\n          <p>Meals</p>\r\n          <mdl-textfield\r\n            class=\"with-currency euro\"\r\n            type=\"number\"\r\n            step=\"any\"\r\n            [(ngModel)]=\"pageModel.extras.meals\"></mdl-textfield>\r\n        </div>\r\n        <div class=\"col col-10\">\r\n          <p>Extra Hours</p>\r\n          <mdl-textfield\r\n            class=\"with-currency euro\"\r\n            type=\"number\"\r\n            step=\"any\"\r\n            [(ngModel)]=\"pageModel.extras.hours\"></mdl-textfield>\r\n        </div>\r\n        <div class=\"col col-10\">\r\n          <p>Trips</p>\r\n          <mdl-textfield\r\n            class=\"with-currency euro\"\r\n            type=\"number\"\r\n            step=\"any\"\r\n            [(ngModel)]=\"pageModel.extras.trips\"></mdl-textfield>\r\n        </div>\r\n        <div class=\"col col-10\">\r\n          <p>Other</p>\r\n          <mdl-textfield\r\n            class=\"with-currency euro\"\r\n            type=\"number\"\r\n            step=\"any\"\r\n            [(ngModel)]=\"pageModel.extras.other\"></mdl-textfield>\r\n        </div>\r\n        <div class=\"col col-10\">\r\n          <p>Voluntary</p>\r\n          <mdl-textfield\r\n            class=\"with-currency euro\"\r\n            type=\"number\"\r\n            step=\"any\"\r\n            [(ngModel)]=\"pageModel.extras.voluntary\"></mdl-textfield>\r\n        </div>\r\n        <div class=\"col\">\r\n          <p>Total weekly extras</p>\r\n          <span class=\"extras-value\">\r\n            {{weeklyTotalExtras | currency:'EUR':'1-1.2'}}\r\n          </span>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"row totals\">\r\n        <div class=\"col  col-90\">\r\n          <p class=\"header\">\r\n            {{ pageModel.monthly ? 'Monthly' : 'Weekly' }} Parent Reduced Fee\r\n          </p>\r\n          <p class=\"fee\">\r\n            {{ reducedFee  | currency:'EUR':'1-1.2' }}\r\n          </p>\r\n        </div>\r\n        <div class=\"col col-10\">\r\n          <p class=\"header\">\r\n            Total Annual ECCE\r\n          </p>\r\n          <p class=\"fee\">\r\n            {{\r\n              (capitation === 'HIGH' ? 2850 : 2451)\r\n              | currency:'EUR':'1-1.2'\r\n            }}\r\n          </p>\r\n        </div>\r\n      </div>\r\n\r\n    </div>\r\n  </div>\r\n  <div class=\"control-bar\">\r\n    <button\r\n      [hidden]=\"step === 0\"\r\n      (click)=\"step = step - 1\"\r\n      mdl-button>\r\n        Back\r\n    </button>\r\n    <button\r\n      mdl-button\r\n      [hidden]=\"step === 1\"\r\n      [disabled]=\"isDisabled()\"\r\n      (click)=\"step = step + 1\"\r\n      class=\"button-right\">\r\n        Next\r\n    </button>\r\n    <div class=\"button-right\" [hidden]=\"step !== 1\">\r\n        <mdl-spinner [active]=\"saving\"></mdl-spinner>\r\n        <button\r\n          mdl-button\r\n          [disabled]=\"isDisabled()\"\r\n          (click)=\"saveChanges()\">\r\n            Save\r\n        </button>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"centre-subventions\" [mdl-shadow]=\"3\" *ngIf=\"centre\">\r\n  <div class=\"title\">\r\n    ECCE\r\n  </div>\r\n  <div class=\"ecce\">\r\n    <div class=\"col\">\r\n      <div class=\"parameter\">\r\n        <div class=\"mask\" *ngIf=\"!editing\"></div>\r\n        <span class=\"name\">ECCE Capitations</span>\r\n        <app-ecce-capitations [model]=\"centre.ecceSettings.capitations\" (valueSet)=\"centre.ecceSettings.capitations = $event\"></app-ecce-capitations>\r\n      </div>\r\n      <div class=\"details\">\r\n        <p>Selecting the LOW capitation rate will configure your setting with a weekly ECCE rate of €64.50. This is the standard weekly rate.</p>\r\n        <p>Selecting the HIGH capitation rate will configure your setting with a weekly ECCE rate of €75. Please only select this rate if you are in receipt of the higher capitation.</p>\r\n        <p>To confirm your eligibility please consult the DCYA website or consult this <a href=\"http://www.dcya.gov.ie/documents/ecce-scheme/20160728ECCEHigherCapitationFAQsJuly2016.pdf\" target=\"_blank\">link</a></p>\r\n      </div>\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"save-button\">\r\n    <mdl-spinner [active]=\"saving\"></mdl-spinner>\r\n    <mdl-button mdl-button-type=\"raised\" class=\"edit\" mdl-ripple (click)=\"editing = true\" *ngIf=\"!editing\">\r\n      EDIT\r\n    </mdl-button>\r\n    <mdl-button mdl-button-type=\"raised\" class=\"cancel\" mdl-ripple (click)=\"cancel()\" *ngIf=\"editing\">\r\n      CANCEL\r\n    </mdl-button>\r\n    <mdl-button mdl-button-type=\"raised\" mdl-ripple (click)=\"saveDetails()\" *ngIf=\"editing\">\r\n      SAVE\r\n    </mdl-button>\r\n  </div>\r\n</div>\r\n"
 
 /***/ },
 /* 943 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"list-buttons\" [class.interactive]=\"interactive\">\r\n  <app-colored-button\r\n    *ngFor=\"let button of _buttons\"\r\n    [message]=\"button.name\"\r\n    [type]=\"button.status\"\r\n    [classes]=\"classes\"\r\n    (click)=\"interactive && toggleChange(button)\"></app-colored-button>\r\n</div>\r\n"
+module.exports = "<div class=\"simple-modal\">\r\n  <mdl-icon (click)=\"dismiss()\" class=\"close-button\">close</mdl-icon>\r\n  <p class=\"title\">{{isEdit ? 'Edit' : 'Add'}} Child</p>\r\n  <mdl-textfield\r\n    label=\"Child Name\" floating-label\r\n    [(ngModel)]=\"name\"></mdl-textfield>\r\n  <app-datepicker [(ngModel)]=\"date\" [label]=\"'Date of Birth'\"></app-datepicker>\r\n  <div class=\"select-row\">\r\n    <mdl-select\r\n      [(ngModel)]=\"roomId\"\r\n      placeholder=\"Select Room\">\r\n      <mdl-option *ngFor=\"let room of rooms\" [value]=\"room.id\">\r\n        {{room.name}}\r\n      </mdl-option>\r\n    </mdl-select>\r\n  </div>\r\n  <p class=\"error-message\">{{errorMessage}}</p>\r\n  <div class=\"save-button\">\r\n    <mdl-button mdl-ripple (click)=\"saveChild()\">Save</mdl-button>\r\n    <mdl-spinner [active]=\"saving\"></mdl-spinner>\r\n  </div>\r\n</div>\r\n"
 
 /***/ },
 /* 944 */
 /***/ function(module, exports) {
 
-module.exports = "<app-navbar title=\"Subventions\"></app-navbar>\r\n<div class=\"layout-content\">\r\n  <app-modal [showModal]=\"!!selectedChild\">\r\n    <app-ecce-modal [child]=\"selectedChild\" (closeModal)=\"selectedChild = null\"></app-ecce-modal>\r\n  </app-modal>\r\n  <app-flex-card\r\n    [loading]=\"loading\"\r\n    [options]=\"tableOptions\"\r\n    [collection]=\"subventions\"\r\n    class=\"ecce-subventions\">\r\n    <app-searchbar (searchFilter)=\"handleFilter($event)\"></app-searchbar>\r\n    <div class=\"row\" *ngFor=\"let person of subventions\" (click)=\"selectedChild = person\">\r\n      <div class=\"col child-name\">\r\n        {{person.name}}\r\n      </div>\r\n      <div class=\"col start-date\">\r\n        {{person.startDate ? (person.startDate | date:'dd/MM/yyyy') : ''}}\r\n      </div>\r\n      <div class=\"col status\">\r\n        <app-colored-button  [message]=\"person.status ? 'ECCE' : 'NOT ECCE'\" type=\"status\"></app-colored-button>\r\n      </div>\r\n      <div class=\"col attendance\">\r\n        <div>\r\n          <app-list-buttons [values]=\"person.days\" [buttons]=\"'monday::MONDAY|tuesday::TUESDAY|wednesday::WEDNESDAY|thursday::THURSDAY|friday::FRIDAY'\"></app-list-buttons>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </app-flex-card>\r\n</div>\r\n"
+module.exports = "<div class=\"simple-modal\">\r\n  <mdl-icon (click)=\"dismiss()\" class=\"close-button\">close</mdl-icon>\r\n  <p class=\"title\">{{room ? 'Edit' : 'Add'}} Room</p>\r\n  <mdl-textfield\r\n    label=\"Room Name\" floating-label\r\n    class=\"room-name\"\r\n    [(ngModel)]=\"name\">\r\n  </mdl-textfield>\r\n  <div class=\"select-row\">\r\n    <mdl-select\r\n      [(ngModel)]=\"ageFrom\"\r\n      (change)=\"handleSelect($event, 'from')\"\r\n      placeholder=\"Age Group (from)\">\r\n      <mdl-option *ngFor=\"let option of ageFromAvailable\" [value]=\"option\">\r\n        {{option}}\r\n      </mdl-option>\r\n    </mdl-select>\r\n    <mdl-select\r\n      #ageToSelect\r\n      [(ngModel)]=\"ageTo\"\r\n      (change)=\"handleSelect($event, 'to')\"\r\n      placeholder=\"Age Group (to)\">\r\n      <mdl-option *ngFor=\"let option of ageToAvailable\" [value]=\"option\">\r\n        {{option}}\r\n      </mdl-option>\r\n    </mdl-select>\r\n  </div>\r\n  <div class=\"select-row\">\r\n    <mdl-textfield\r\n      label=\"Capacity\" floating-label\r\n      class=\"capacity\"\r\n      pattern=\"-?[0-9]*(\\.[0-9]+)?\"\r\n      error-msg=\"Capacity needs to be a number\"\r\n      [(ngModel)]=\"capacity\">\r\n    </mdl-textfield>\r\n    <div class=\"ecce-capitations\">\r\n      <label>ECCE Capitations</label>\r\n      <app-ecce-capitations [model]=\"ecceCapitations\" (valueSet)=\"ecceCapitations = $event\"></app-ecce-capitations>\r\n    </div>\r\n  </div>\r\n  <p class=\"error-message\">{{errorMessage}}</p>\r\n  <div class=\"save-button\">\r\n    <mdl-spinner [active]=\"saving\"></mdl-spinner>\r\n    <button mdl-button mdl-ripple (click)=\"saveRoom()\">Save</button>\r\n  </div>\r\n</div>\r\n"
 
 /***/ },
 /* 945 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"verify\">\r\n  <mdl-progress [indeterminate]=\"true\" *ngIf=\"loading\"></mdl-progress>\r\n  <div class=\"vista-logo\">\r\n    <img src=\"/assets/img/logo-large.png\" alt=\"Little Vista logo\" />\r\n  </div>\r\n  <div class=\"stabilizer\">\r\n    <p>\r\n      {{message}}\r\n    </p>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"capitations\">\r\n  <span\r\n    [mdl-tooltip]=\"offTooltip\"\r\n    [class.off]=\"value == 'low'\"\r\n    (click)=\"setValue('low')\">\r\n      LOW\r\n  </span>\r\n  <span\r\n    [mdl-tooltip]=\"mixedTooltip\"\r\n    [class.mixed]=\"value == 'mixed'\"\r\n    (click)=\"setValue('mixed')\">\r\n      MIXED\r\n  </span>\r\n  <span\r\n    [mdl-tooltip]=\"onTooltip\"\r\n    [class.on]=\"value == 'high'\"\r\n    (click)=\"setValue('high')\">\r\n      HIGH\r\n  </span>\r\n\r\n  <mdl-tooltip #onTooltip=\"mdlTooltip\">\r\n    Set High weekly rate - €75. Please check eligibility\r\n  </mdl-tooltip>\r\n  <mdl-tooltip #mixedTooltip=\"mdlTooltip\">\r\n    For centres in receipt of the high capitation but using the low to calculate fees\r\n  </mdl-tooltip>\r\n  <mdl-tooltip #offTooltip=\"mdlTooltip\">\r\n    Set LOW weekly rate - €64.50\r\n  </mdl-tooltip>\r\n</div>\r\n"
 
 /***/ },
 /* 946 */
+/***/ function(module, exports) {
+
+module.exports = "<!--<app-navbar ></app-navbar>-->\r\n<app-navbar-small [routes]=\"routes\" title=\"Centre Setup\"></app-navbar-small>\r\n<div class=\"layout-content\">\r\n  <router-outlet></router-outlet>\r\n</div>\r\n"
+
+/***/ },
+/* 947 */
+/***/ function(module, exports) {
+
+module.exports = "<app-modal [showModal]=\"!!showDialog\">\r\n  <div class=\"simple-modal\">\r\n    <div class=\"dialog-content\">\r\n      <p>{{ message }}</p>\r\n      <div class=\"modal-controls\">\r\n        <mdl-button mdl-ripple mdl-colored=\"accent\" (click)=\"close(false)\">\r\n          Cancel\r\n        </mdl-button>\r\n        <mdl-button mdl-ripple (click)=\"close(true)\">Ok</mdl-button>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</app-modal>\r\n"
+
+/***/ },
+/* 948 */
+/***/ function(module, exports) {
+
+module.exports = "<div class=\"datepicker-wrapper\">\r\n  <mdl-textfield\r\n    type=\"text\"\r\n    class=\"ng-datepicker-input\"\r\n    [label]=\"label\"\r\n    floating-label\r\n    (click)=\"toggle()\"\r\n    [ngModel]=\"viewDate\"\r\n    readonly>\r\n  </mdl-textfield>\r\n  <div class=\"ng-datepicker\" *ngIf=\"opened\">\r\n    <div class=\"controls\">\r\n      <div class=\"left\">\r\n        <mdl-icon class=\"prev-year-btn\" (click)=\"prevYear()\">keyboard_arrow_left</mdl-icon>\r\n        <mdl-icon class=\"prev-month-btn\" (click)=\"prevMonth()\">arrow_back</mdl-icon>\r\n      </div>\r\n      <span class=\"date\">\r\n        {{ date.format('MMMM YYYY') }}\r\n      </span>\r\n      <div class=\"right\">\r\n        <mdl-icon class=\"next-month-btn\" (click)=\"nextMonth()\">arrow_forward</mdl-icon>\r\n        <mdl-icon class=\"next-year-btn\" (click)=\"nextYear()\">keyboard_arrow_right</mdl-icon>\r\n      </div>\r\n    </div>\r\n    <div class=\"day-names\">\r\n      <span>Mon</span>\r\n      <span>Tue</span>\r\n      <span>Wed</span>\r\n      <span>Thu</span>\r\n      <span>Fri</span>\r\n      <span>Sat</span>\r\n      <span>Sun</span>\r\n    </div>\r\n    <div class=\"calendar\">\r\n      <span\r\n        *ngFor=\"let d of days; let i = index;\"\r\n        (click)=\"selectDate($event, i)\"\r\n        class=\"day\" [ngClass]=\"{'disabled': !d.enabled, 'selected': d.selected, 'today': d.today}\">\r\n          {{ d.day }}\r\n        </span>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+
+/***/ },
+/* 949 */
+/***/ function(module, exports) {
+
+module.exports = "<div class=\"flex-card\" [mdl-shadow]=\"tableShadow\">\r\n  <ng-content select=\"app-searchbar\"></ng-content>\r\n  <div class=\"row tooltips\">\r\n    <template ngFor let-tooltip [ngForOf]=\"options.tooltips\">\r\n      <div\r\n        *ngIf=\"!tooltip.inactive\"\r\n        [ngClass]=\"['col', tooltip.className || '', resolveClass(tooltip.value)]\"\r\n        (click)=\"changeSort(tooltip.value)\">\r\n        {{tooltip.caption || tooltip.value}}\r\n      </div>\r\n      <div\r\n        *ngIf=\"tooltip.inactive\"\r\n        [ngClass]=\"['col', tooltip.className || '']\">\r\n        {{tooltip.caption || tooltip.value}}\r\n      </div>\r\n    </template>\r\n  </div>\r\n  <mdl-progress indeterminate=\"true\" *ngIf=\"loading\"></mdl-progress>\r\n  <ng-content></ng-content>\r\n</div>\r\n"
+
+/***/ },
+/* 950 */
+/***/ function(module, exports) {
+
+module.exports = "<div class=\"backdrop\" [@backdrop]=\"showModal\">\r\n  <div class=\"modal\" [@modal]=\"showModal\">\r\n    <ng-content></ng-content>\r\n  </div>\r\n</div>"
+
+/***/ },
+/* 951 */
+/***/ function(module, exports) {
+
+module.exports = "<div class=\"navbar\" mdl-shadow=\"3\">\r\n  <!--//navbar-title-->\r\n  <div class=\"navbar-title\">\r\n    <div class=\"menu\">&nbsp;</div>\r\n    <div class=\"logo\">Little Vista</div>\r\n    <div class=\"sub-title\">{{title}}</div>\r\n  </div>\r\n  <!--//end navbar title-->\r\n  <!--//navbar holder-->\r\n  <div class=\"navbar-holder\" (window:resize)=\"onResize($event)\" [hidden]=\"!routes\">\r\n    <div [class.show]=\"showLeftArrow\" class=\"arrow arrow-back\" (click)=\"scroll()\" mdl-ripple>\r\n      <mdl-icon>arrow_back</mdl-icon>\r\n    </div>\r\n    <div class=\"navbar-scroll\" #nav>\r\n      <a\r\n        class=\"navbar-item\"\r\n        *ngFor=\"let route of routes\"\r\n        [routerLink]=\"[route.path]\"\r\n        routerLinkActive=\"active-route\"\r\n        >\r\n        <p>{{route.link}}</p>\r\n      </a>\r\n    </div>\r\n    <div [class.show]=\"showRightArrow\" class=\"arrow arrow-forward\" #arrow (click)=\"scroll('right')\" mdl-ripple>\r\n      <mdl-icon>arrow_forward</mdl-icon>\r\n    </div>\r\n  </div>\r\n  <!--//end navbar holder-->\r\n</div>"
+
+/***/ },
+/* 952 */
+/***/ function(module, exports) {
+
+module.exports = "<div class=\"navbar\">\r\n  {{title}}\r\n</div>\r\n"
+
+/***/ },
+/* 953 */
+/***/ function(module, exports) {
+
+module.exports = "<div class=\"searchbar\" [class.active]=\"activated\" #searchbar>\r\n    <mdl-icon class=\"search-button\" (click)=\"toggleState()\">search</mdl-icon>\r\n    <mdl-textfield #textfield [formControl]=\"filter\"></mdl-textfield>\r\n    <mdl-icon class=\"clear-button\" [hidden]=\"!textfield.value\" (click)=\"textfield.value = ''\">clear</mdl-icon>\r\n</div>\r\n"
+
+/***/ },
+/* 954 */
+/***/ function(module, exports) {
+
+module.exports = "<div class=\"colored-button\" [class.light-green]=\"classes.indexOf('light-green') !== -1\" #button mdl-shadow=\"2\">\r\n  {{message}}\r\n</div>\r\n"
+
+/***/ },
+/* 955 */
+/***/ function(module, exports) {
+
+module.exports = "<div class=\"ecce-modal\">\r\n  <div class=\"modal-header\">\r\n    <button\r\n      mdl-button mdl-button-type=\"icon\"\r\n      (click)=\"dismiss()\"\r\n      class=\"close-button\">\r\n      <mdl-icon>close</mdl-icon>\r\n    </button>\r\n    <div class=\"child-details\">\r\n      <p class=\"name\">\r\n        {{ pageModel.name }}\r\n      </p>\r\n      <div class=\"ecce-status\">\r\n        STATUS\r\n        <app-colored-button\r\n          [message]=\"pageModel.status ? 'ECCE' : 'NOT ECCE'\"\r\n          (click)=\"toggleStatus()\"\r\n          type=\"status\">\r\n        </app-colored-button>\r\n      </div>\r\n      <div class=\"start-date\">\r\n        <app-datepicker\r\n          [(ngModel)]=\"date\"\r\n          label=\"Start Date\"\r\n          view-format=\"Do MMM YYYY\">\r\n        </app-datepicker>\r\n      </div>\r\n    </div>\r\n    <div class=\"control-pills\">\r\n      <button mdl-button [class.active-pill]=\"step === 0\" [disabled]=\"true\">\r\n        ECCE Days\r\n      </button>\r\n      <button mdl-button [class.active-pill]=\"step === 1\" [disabled]=\"true\">\r\n        Optional Extras &amp; Other Costs\r\n      </button>\r\n    </div>\r\n  </div>\r\n  <div class=\"modal-body\">\r\n    <div *ngIf=\"step === 0\" class=\"ecce\">\r\n        <div class=\"payment-model\">\r\n          <p class=\"header\">\r\n            How do you charge for this child:\r\n          </p>\r\n          <mdl-switch [(ngModel)]=\"pageModel.monthly\">\r\n           {{pageModel.monthly ? 'Monthly' : 'Weekly' }}\r\n         </mdl-switch>\r\n        </div>\r\n        <div class=\"row\">\r\n          <div class=\"col\">\r\n            <p class=\"header\">\r\n              Please select a weekly ECCE model for this child:\r\n            </p>\r\n            <div class=\"button-bar\">\r\n              <label>Annual Model: </label>\r\n              <app-list-buttons\r\n                [values]=\"pageModel.annualModel\"\r\n                [interactive]=\"true\"\r\n                (change)=\"handleAnnualModel($event)\"\r\n                [buttons]=\"'38::38 WEEK|41::41 WEEK|50::50 WEEK|52::52 WEEK'\"\r\n                [toggle]=\"true\"></app-list-buttons>\r\n            </div>\r\n          </div>\r\n          <div class=\"col\">\r\n            <div class=\"weekly-total\">\r\n              <p class=\"header\">\r\n                Weekly ECCE Total\r\n              </p>\r\n              <p class=\"total-value\">\r\n                {{weeklyTotal | currency:'EUR':'1-1.2'}}\r\n              </p>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"button-bar\">\r\n          <label>Days in Attendance: </label>\r\n          <app-list-buttons\r\n            [values]=\"pageModel.days\"\r\n            [interactive]=\"true\"\r\n            (change)=\"handleDays($event)\"\r\n            [buttons]=\"'monday::MONDAY|tuesday::TUESDAY|wednesday::WEDNESDAY|thursday::THURSDAY|friday::FRIDAY'\">\r\n          </app-list-buttons>\r\n        </div>\r\n        <p class=\"error-message\" [hidden]=\"!errorMessage\">\r\n          {{errorMessage}}\r\n        </p>\r\n    </div>\r\n    <div *ngIf=\"step === 1\" class=\"costs\">\r\n      <div class=\"row\">\r\n        <div class=\"col col-40\">\r\n          <p class=\"header\">\r\n            Enter {{ pageModel.monthly ? 'Monthly' : 'Weekly' }} Parent Fee Before ECCE\r\n          </p>\r\n        </div>\r\n        <div class=\"col col-10\">\r\n          <mdl-textfield\r\n            class=\"with-currency euro\"\r\n            step=\"any\"\r\n            [(ngModel)]=\"pageModel.normalFee\"\r\n            type=\"number\">\r\n          </mdl-textfield>\r\n        </div>\r\n      </div>\r\n      <div class=\"parent-fee\">\r\n      </div>\r\n      <p class=\"header\">\r\n        Add Optional Weekly Extras for this child\r\n      </p>\r\n      <div class=\"row extras\">\r\n        <div class=\"col col-10\">\r\n          <p>Meals</p>\r\n          <mdl-textfield\r\n            class=\"with-currency euro\"\r\n            type=\"number\"\r\n            step=\"any\"\r\n            [(ngModel)]=\"pageModel.extras.meals\"></mdl-textfield>\r\n        </div>\r\n        <div class=\"col col-10\">\r\n          <p>Extra Hours</p>\r\n          <mdl-textfield\r\n            class=\"with-currency euro\"\r\n            type=\"number\"\r\n            step=\"any\"\r\n            [(ngModel)]=\"pageModel.extras.hours\"></mdl-textfield>\r\n        </div>\r\n        <div class=\"col col-10\">\r\n          <p>Trips</p>\r\n          <mdl-textfield\r\n            class=\"with-currency euro\"\r\n            type=\"number\"\r\n            step=\"any\"\r\n            [(ngModel)]=\"pageModel.extras.trips\"></mdl-textfield>\r\n        </div>\r\n        <div class=\"col col-10\">\r\n          <p>Other</p>\r\n          <mdl-textfield\r\n            class=\"with-currency euro\"\r\n            type=\"number\"\r\n            step=\"any\"\r\n            [(ngModel)]=\"pageModel.extras.other\"></mdl-textfield>\r\n        </div>\r\n        <div class=\"col col-10\">\r\n          <p>Voluntary</p>\r\n          <mdl-textfield\r\n            class=\"with-currency euro\"\r\n            type=\"number\"\r\n            step=\"any\"\r\n            [(ngModel)]=\"pageModel.extras.voluntary\"></mdl-textfield>\r\n        </div>\r\n        <div class=\"col\">\r\n          <p>Total weekly extras</p>\r\n          <span class=\"extras-value\">\r\n            {{weeklyTotalExtras | currency:'EUR':'1-1.2'}}\r\n          </span>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"row totals\">\r\n        <div class=\"col  col-90\">\r\n          <p class=\"header\">\r\n            {{ pageModel.monthly ? 'Monthly' : 'Weekly' }} Parent Reduced Fee\r\n          </p>\r\n          <p class=\"fee\">\r\n            {{ reducedFee  | currency:'EUR':'1-1.2' }}\r\n          </p>\r\n        </div>\r\n        <div class=\"col col-10\">\r\n          <p class=\"header\">\r\n            Total Annual ECCE\r\n          </p>\r\n          <p class=\"fee\">\r\n            {{\r\n              (capitation === 'HIGH' ? 2850 : 2451)\r\n              | currency:'EUR':'1-1.2'\r\n            }}\r\n          </p>\r\n        </div>\r\n      </div>\r\n\r\n    </div>\r\n  </div>\r\n  <div class=\"control-bar\">\r\n    <button\r\n      [hidden]=\"step === 0\"\r\n      (click)=\"step = step - 1\"\r\n      mdl-button>\r\n        Back\r\n    </button>\r\n    <button\r\n      mdl-button\r\n      [hidden]=\"step === 1\"\r\n      [disabled]=\"isDisabled()\"\r\n      (click)=\"step = step + 1\"\r\n      class=\"button-right\">\r\n        Next\r\n    </button>\r\n    <div class=\"button-right\" [hidden]=\"step !== 1\">\r\n        <mdl-spinner [active]=\"saving\"></mdl-spinner>\r\n        <button\r\n          mdl-button\r\n          [disabled]=\"isDisabled()\"\r\n          (click)=\"saveChanges()\">\r\n            Save\r\n        </button>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+
+/***/ },
+/* 956 */
+/***/ function(module, exports) {
+
+module.exports = "<div class=\"list-buttons\" [class.interactive]=\"interactive\">\r\n  <app-colored-button\r\n    *ngFor=\"let button of _buttons\"\r\n    [message]=\"button.name\"\r\n    [type]=\"button.status\"\r\n    [classes]=\"classes\"\r\n    (click)=\"interactive && toggleChange(button)\"></app-colored-button>\r\n</div>\r\n"
+
+/***/ },
+/* 957 */
+/***/ function(module, exports) {
+
+module.exports = "<app-navbar title=\"Subventions\"></app-navbar>\r\n<div class=\"layout-content\">\r\n  <app-modal [showModal]=\"!!selectedChild\">\r\n    <app-ecce-modal [child]=\"selectedChild\" (closeModal)=\"selectedChild = null\"></app-ecce-modal>\r\n  </app-modal>\r\n  <app-flex-card\r\n    [loading]=\"loading\"\r\n    [options]=\"tableOptions\"\r\n    [collection]=\"subventions\"\r\n    class=\"ecce-subventions\">\r\n    <app-searchbar (searchFilter)=\"handleFilter($event)\"></app-searchbar>\r\n    <div class=\"row\" *ngFor=\"let person of subventions\" (click)=\"selectedChild = person\">\r\n      <div class=\"col child-name\">\r\n        {{person.name}}\r\n      </div>\r\n      <div class=\"col start-date\">\r\n        {{person.startDate ? (person.startDate | date:'dd/MM/yyyy') : ''}}\r\n      </div>\r\n      <div class=\"col status\">\r\n        <app-colored-button  [message]=\"person.status ? 'ECCE' : 'NOT ECCE'\" type=\"status\"></app-colored-button>\r\n      </div>\r\n      <div class=\"col attendance\">\r\n        <div>\r\n          <app-list-buttons [values]=\"person.days\" [buttons]=\"'monday::MONDAY|tuesday::TUESDAY|wednesday::WEDNESDAY|thursday::THURSDAY|friday::FRIDAY'\"></app-list-buttons>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </app-flex-card>\r\n</div>\r\n"
+
+/***/ },
+/* 958 */
+/***/ function(module, exports) {
+
+module.exports = "<div class=\"verify\">\r\n  <mdl-progress [indeterminate]=\"true\" *ngIf=\"loading\"></mdl-progress>\r\n  <div class=\"vista-logo\">\r\n    <img src=\"/assets/img/logo-large.png\" alt=\"Little Vista logo\" />\r\n  </div>\r\n  <div class=\"stabilizer\">\r\n    <p>\r\n      {{message}}\r\n    </p>\r\n  </div>\r\n</div>\r\n"
+
+/***/ },
+/* 959 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -21839,106 +22265,106 @@ exports.Scheduler = Scheduler;
 //# sourceMappingURL=Scheduler.js.map
 
 /***/ },
-/* 947 */
+/* 960 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var bindCallback_1 = __webpack_require__(1092);
+var bindCallback_1 = __webpack_require__(1105);
 Observable_1.Observable.bindCallback = bindCallback_1.bindCallback;
 //# sourceMappingURL=bindCallback.js.map
 
 /***/ },
-/* 948 */
+/* 961 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var bindNodeCallback_1 = __webpack_require__(1093);
+var bindNodeCallback_1 = __webpack_require__(1106);
 Observable_1.Observable.bindNodeCallback = bindNodeCallback_1.bindNodeCallback;
 //# sourceMappingURL=bindNodeCallback.js.map
 
 /***/ },
-/* 949 */
+/* 962 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var combineLatest_1 = __webpack_require__(1094);
+var combineLatest_1 = __webpack_require__(1107);
 Observable_1.Observable.combineLatest = combineLatest_1.combineLatest;
 //# sourceMappingURL=combineLatest.js.map
 
 /***/ },
-/* 950 */
+/* 963 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var concat_1 = __webpack_require__(1095);
+var concat_1 = __webpack_require__(1108);
 Observable_1.Observable.concat = concat_1.concat;
 //# sourceMappingURL=concat.js.map
 
 /***/ },
-/* 951 */
+/* 964 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var defer_1 = __webpack_require__(1096);
+var defer_1 = __webpack_require__(1109);
 Observable_1.Observable.defer = defer_1.defer;
 //# sourceMappingURL=defer.js.map
 
 /***/ },
-/* 952 */
+/* 965 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var ajax_1 = __webpack_require__(1098);
+var ajax_1 = __webpack_require__(1111);
 Observable_1.Observable.ajax = ajax_1.ajax;
 //# sourceMappingURL=ajax.js.map
 
 /***/ },
-/* 953 */
+/* 966 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var webSocket_1 = __webpack_require__(1099);
+var webSocket_1 = __webpack_require__(1112);
 Observable_1.Observable.webSocket = webSocket_1.webSocket;
 //# sourceMappingURL=webSocket.js.map
 
 /***/ },
-/* 954 */
+/* 967 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var empty_1 = __webpack_require__(1100);
+var empty_1 = __webpack_require__(1113);
 Observable_1.Observable.empty = empty_1.empty;
 //# sourceMappingURL=empty.js.map
 
 /***/ },
-/* 955 */
+/* 968 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var forkJoin_1 = __webpack_require__(1101);
+var forkJoin_1 = __webpack_require__(1114);
 Observable_1.Observable.forkJoin = forkJoin_1.forkJoin;
 //# sourceMappingURL=forkJoin.js.map
 
 /***/ },
-/* 956 */
+/* 969 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21949,29 +22375,29 @@ Observable_1.Observable.from = from_1.from;
 //# sourceMappingURL=from.js.map
 
 /***/ },
-/* 957 */
+/* 970 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var fromEvent_1 = __webpack_require__(1102);
+var fromEvent_1 = __webpack_require__(1115);
 Observable_1.Observable.fromEvent = fromEvent_1.fromEvent;
 //# sourceMappingURL=fromEvent.js.map
 
 /***/ },
-/* 958 */
+/* 971 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var fromEventPattern_1 = __webpack_require__(1103);
+var fromEventPattern_1 = __webpack_require__(1116);
 Observable_1.Observable.fromEventPattern = fromEventPattern_1.fromEventPattern;
 //# sourceMappingURL=fromEventPattern.js.map
 
 /***/ },
-/* 959 */
+/* 972 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21982,62 +22408,62 @@ Observable_1.Observable.fromPromise = fromPromise_1.fromPromise;
 //# sourceMappingURL=fromPromise.js.map
 
 /***/ },
-/* 960 */
+/* 973 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var GenerateObservable_1 = __webpack_require__(1083);
+var GenerateObservable_1 = __webpack_require__(1096);
 Observable_1.Observable.generate = GenerateObservable_1.GenerateObservable.create;
 //# sourceMappingURL=generate.js.map
 
 /***/ },
-/* 961 */
+/* 974 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var if_1 = __webpack_require__(1104);
+var if_1 = __webpack_require__(1117);
 Observable_1.Observable.if = if_1._if;
 //# sourceMappingURL=if.js.map
 
 /***/ },
-/* 962 */
+/* 975 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var interval_1 = __webpack_require__(1105);
+var interval_1 = __webpack_require__(1118);
 Observable_1.Observable.interval = interval_1.interval;
 //# sourceMappingURL=interval.js.map
 
 /***/ },
-/* 963 */
+/* 976 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var merge_1 = __webpack_require__(1106);
+var merge_1 = __webpack_require__(1119);
 Observable_1.Observable.merge = merge_1.merge;
 //# sourceMappingURL=merge.js.map
 
 /***/ },
-/* 964 */
+/* 977 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var never_1 = __webpack_require__(1107);
+var never_1 = __webpack_require__(1120);
 Observable_1.Observable.never = never_1.never;
 //# sourceMappingURL=never.js.map
 
 /***/ },
-/* 965 */
+/* 978 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22048,158 +22474,15 @@ Observable_1.Observable.of = of_1.of;
 //# sourceMappingURL=of.js.map
 
 /***/ },
-/* 966 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var onErrorResumeNext_1 = __webpack_require__(790);
-Observable_1.Observable.onErrorResumeNext = onErrorResumeNext_1.onErrorResumeNextStatic;
-//# sourceMappingURL=onErrorResumeNext.js.map
-
-/***/ },
-/* 967 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var pairs_1 = __webpack_require__(1108);
-Observable_1.Observable.pairs = pairs_1.pairs;
-//# sourceMappingURL=pairs.js.map
-
-/***/ },
-/* 968 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var race_1 = __webpack_require__(791);
-Observable_1.Observable.race = race_1.raceStatic;
-//# sourceMappingURL=race.js.map
-
-/***/ },
-/* 969 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var range_1 = __webpack_require__(1109);
-Observable_1.Observable.range = range_1.range;
-//# sourceMappingURL=range.js.map
-
-/***/ },
-/* 970 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var throw_1 = __webpack_require__(1110);
-Observable_1.Observable.throw = throw_1._throw;
-//# sourceMappingURL=throw.js.map
-
-/***/ },
-/* 971 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var timer_1 = __webpack_require__(1111);
-Observable_1.Observable.timer = timer_1.timer;
-//# sourceMappingURL=timer.js.map
-
-/***/ },
-/* 972 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var using_1 = __webpack_require__(1112);
-Observable_1.Observable.using = using_1.using;
-//# sourceMappingURL=using.js.map
-
-/***/ },
-/* 973 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var zip_1 = __webpack_require__(1113);
-Observable_1.Observable.zip = zip_1.zip;
-//# sourceMappingURL=zip.js.map
-
-/***/ },
-/* 974 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var audit_1 = __webpack_require__(1114);
-Observable_1.Observable.prototype.audit = audit_1.audit;
-//# sourceMappingURL=audit.js.map
-
-/***/ },
-/* 975 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var auditTime_1 = __webpack_require__(1115);
-Observable_1.Observable.prototype.auditTime = auditTime_1.auditTime;
-//# sourceMappingURL=auditTime.js.map
-
-/***/ },
-/* 976 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var buffer_1 = __webpack_require__(1116);
-Observable_1.Observable.prototype.buffer = buffer_1.buffer;
-//# sourceMappingURL=buffer.js.map
-
-/***/ },
-/* 977 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var bufferCount_1 = __webpack_require__(1117);
-Observable_1.Observable.prototype.bufferCount = bufferCount_1.bufferCount;
-//# sourceMappingURL=bufferCount.js.map
-
-/***/ },
-/* 978 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var bufferTime_1 = __webpack_require__(1118);
-Observable_1.Observable.prototype.bufferTime = bufferTime_1.bufferTime;
-//# sourceMappingURL=bufferTime.js.map
-
-/***/ },
 /* 979 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var bufferToggle_1 = __webpack_require__(1119);
-Observable_1.Observable.prototype.bufferToggle = bufferToggle_1.bufferToggle;
-//# sourceMappingURL=bufferToggle.js.map
+var onErrorResumeNext_1 = __webpack_require__(792);
+Observable_1.Observable.onErrorResumeNext = onErrorResumeNext_1.onErrorResumeNextStatic;
+//# sourceMappingURL=onErrorResumeNext.js.map
 
 /***/ },
 /* 980 */
@@ -22208,9 +22491,9 @@ Observable_1.Observable.prototype.bufferToggle = bufferToggle_1.bufferToggle;
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var bufferWhen_1 = __webpack_require__(1120);
-Observable_1.Observable.prototype.bufferWhen = bufferWhen_1.bufferWhen;
-//# sourceMappingURL=bufferWhen.js.map
+var pairs_1 = __webpack_require__(1121);
+Observable_1.Observable.pairs = pairs_1.pairs;
+//# sourceMappingURL=pairs.js.map
 
 /***/ },
 /* 981 */
@@ -22219,12 +22502,155 @@ Observable_1.Observable.prototype.bufferWhen = bufferWhen_1.bufferWhen;
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var cache_1 = __webpack_require__(1121);
+var race_1 = __webpack_require__(793);
+Observable_1.Observable.race = race_1.raceStatic;
+//# sourceMappingURL=race.js.map
+
+/***/ },
+/* 982 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var range_1 = __webpack_require__(1122);
+Observable_1.Observable.range = range_1.range;
+//# sourceMappingURL=range.js.map
+
+/***/ },
+/* 983 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var throw_1 = __webpack_require__(1123);
+Observable_1.Observable.throw = throw_1._throw;
+//# sourceMappingURL=throw.js.map
+
+/***/ },
+/* 984 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var timer_1 = __webpack_require__(1124);
+Observable_1.Observable.timer = timer_1.timer;
+//# sourceMappingURL=timer.js.map
+
+/***/ },
+/* 985 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var using_1 = __webpack_require__(1125);
+Observable_1.Observable.using = using_1.using;
+//# sourceMappingURL=using.js.map
+
+/***/ },
+/* 986 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var zip_1 = __webpack_require__(1126);
+Observable_1.Observable.zip = zip_1.zip;
+//# sourceMappingURL=zip.js.map
+
+/***/ },
+/* 987 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var audit_1 = __webpack_require__(1127);
+Observable_1.Observable.prototype.audit = audit_1.audit;
+//# sourceMappingURL=audit.js.map
+
+/***/ },
+/* 988 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var auditTime_1 = __webpack_require__(1128);
+Observable_1.Observable.prototype.auditTime = auditTime_1.auditTime;
+//# sourceMappingURL=auditTime.js.map
+
+/***/ },
+/* 989 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var buffer_1 = __webpack_require__(1129);
+Observable_1.Observable.prototype.buffer = buffer_1.buffer;
+//# sourceMappingURL=buffer.js.map
+
+/***/ },
+/* 990 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var bufferCount_1 = __webpack_require__(1130);
+Observable_1.Observable.prototype.bufferCount = bufferCount_1.bufferCount;
+//# sourceMappingURL=bufferCount.js.map
+
+/***/ },
+/* 991 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var bufferTime_1 = __webpack_require__(1131);
+Observable_1.Observable.prototype.bufferTime = bufferTime_1.bufferTime;
+//# sourceMappingURL=bufferTime.js.map
+
+/***/ },
+/* 992 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var bufferToggle_1 = __webpack_require__(1132);
+Observable_1.Observable.prototype.bufferToggle = bufferToggle_1.bufferToggle;
+//# sourceMappingURL=bufferToggle.js.map
+
+/***/ },
+/* 993 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var bufferWhen_1 = __webpack_require__(1133);
+Observable_1.Observable.prototype.bufferWhen = bufferWhen_1.bufferWhen;
+//# sourceMappingURL=bufferWhen.js.map
+
+/***/ },
+/* 994 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var cache_1 = __webpack_require__(1134);
 Observable_1.Observable.prototype.cache = cache_1.cache;
 //# sourceMappingURL=cache.js.map
 
 /***/ },
-/* 982 */
+/* 995 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22236,40 +22662,40 @@ Observable_1.Observable.prototype._catch = catch_1._catch;
 //# sourceMappingURL=catch.js.map
 
 /***/ },
-/* 983 */
+/* 996 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var combineAll_1 = __webpack_require__(1122);
+var combineAll_1 = __webpack_require__(1135);
 Observable_1.Observable.prototype.combineAll = combineAll_1.combineAll;
 //# sourceMappingURL=combineAll.js.map
 
 /***/ },
-/* 984 */
+/* 997 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var combineLatest_1 = __webpack_require__(719);
+var combineLatest_1 = __webpack_require__(720);
 Observable_1.Observable.prototype.combineLatest = combineLatest_1.combineLatest;
 //# sourceMappingURL=combineLatest.js.map
 
 /***/ },
-/* 985 */
+/* 998 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var concat_1 = __webpack_require__(720);
+var concat_1 = __webpack_require__(721);
 Observable_1.Observable.prototype.concat = concat_1.concat;
 //# sourceMappingURL=concat.js.map
 
 /***/ },
-/* 986 */
+/* 999 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22280,7 +22706,7 @@ Observable_1.Observable.prototype.concatAll = concatAll_1.concatAll;
 //# sourceMappingURL=concatAll.js.map
 
 /***/ },
-/* 987 */
+/* 1000 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22291,162 +22717,162 @@ Observable_1.Observable.prototype.concatMap = concatMap_1.concatMap;
 //# sourceMappingURL=concatMap.js.map
 
 /***/ },
-/* 988 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var concatMapTo_1 = __webpack_require__(1123);
-Observable_1.Observable.prototype.concatMapTo = concatMapTo_1.concatMapTo;
-//# sourceMappingURL=concatMapTo.js.map
-
-/***/ },
-/* 989 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var count_1 = __webpack_require__(1124);
-Observable_1.Observable.prototype.count = count_1.count;
-//# sourceMappingURL=count.js.map
-
-/***/ },
-/* 990 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var debounce_1 = __webpack_require__(1125);
-Observable_1.Observable.prototype.debounce = debounce_1.debounce;
-//# sourceMappingURL=debounce.js.map
-
-/***/ },
-/* 991 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var debounceTime_1 = __webpack_require__(1126);
-Observable_1.Observable.prototype.debounceTime = debounceTime_1.debounceTime;
-//# sourceMappingURL=debounceTime.js.map
-
-/***/ },
-/* 992 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var defaultIfEmpty_1 = __webpack_require__(1127);
-Observable_1.Observable.prototype.defaultIfEmpty = defaultIfEmpty_1.defaultIfEmpty;
-//# sourceMappingURL=defaultIfEmpty.js.map
-
-/***/ },
-/* 993 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var delay_1 = __webpack_require__(1128);
-Observable_1.Observable.prototype.delay = delay_1.delay;
-//# sourceMappingURL=delay.js.map
-
-/***/ },
-/* 994 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var delayWhen_1 = __webpack_require__(1129);
-Observable_1.Observable.prototype.delayWhen = delayWhen_1.delayWhen;
-//# sourceMappingURL=delayWhen.js.map
-
-/***/ },
-/* 995 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var dematerialize_1 = __webpack_require__(1130);
-Observable_1.Observable.prototype.dematerialize = dematerialize_1.dematerialize;
-//# sourceMappingURL=dematerialize.js.map
-
-/***/ },
-/* 996 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var distinct_1 = __webpack_require__(785);
-Observable_1.Observable.prototype.distinct = distinct_1.distinct;
-//# sourceMappingURL=distinct.js.map
-
-/***/ },
-/* 997 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var distinctKey_1 = __webpack_require__(1131);
-Observable_1.Observable.prototype.distinctKey = distinctKey_1.distinctKey;
-//# sourceMappingURL=distinctKey.js.map
-
-/***/ },
-/* 998 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var distinctUntilChanged_1 = __webpack_require__(786);
-Observable_1.Observable.prototype.distinctUntilChanged = distinctUntilChanged_1.distinctUntilChanged;
-//# sourceMappingURL=distinctUntilChanged.js.map
-
-/***/ },
-/* 999 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var distinctUntilKeyChanged_1 = __webpack_require__(1132);
-Observable_1.Observable.prototype.distinctUntilKeyChanged = distinctUntilKeyChanged_1.distinctUntilKeyChanged;
-//# sourceMappingURL=distinctUntilKeyChanged.js.map
-
-/***/ },
-/* 1000 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var do_1 = __webpack_require__(1133);
-Observable_1.Observable.prototype.do = do_1._do;
-Observable_1.Observable.prototype._do = do_1._do;
-//# sourceMappingURL=do.js.map
-
-/***/ },
 /* 1001 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var elementAt_1 = __webpack_require__(1134);
+var concatMapTo_1 = __webpack_require__(1136);
+Observable_1.Observable.prototype.concatMapTo = concatMapTo_1.concatMapTo;
+//# sourceMappingURL=concatMapTo.js.map
+
+/***/ },
+/* 1002 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var count_1 = __webpack_require__(1137);
+Observable_1.Observable.prototype.count = count_1.count;
+//# sourceMappingURL=count.js.map
+
+/***/ },
+/* 1003 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var debounce_1 = __webpack_require__(1138);
+Observable_1.Observable.prototype.debounce = debounce_1.debounce;
+//# sourceMappingURL=debounce.js.map
+
+/***/ },
+/* 1004 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var debounceTime_1 = __webpack_require__(1139);
+Observable_1.Observable.prototype.debounceTime = debounceTime_1.debounceTime;
+//# sourceMappingURL=debounceTime.js.map
+
+/***/ },
+/* 1005 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var defaultIfEmpty_1 = __webpack_require__(1140);
+Observable_1.Observable.prototype.defaultIfEmpty = defaultIfEmpty_1.defaultIfEmpty;
+//# sourceMappingURL=defaultIfEmpty.js.map
+
+/***/ },
+/* 1006 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var delay_1 = __webpack_require__(1141);
+Observable_1.Observable.prototype.delay = delay_1.delay;
+//# sourceMappingURL=delay.js.map
+
+/***/ },
+/* 1007 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var delayWhen_1 = __webpack_require__(1142);
+Observable_1.Observable.prototype.delayWhen = delayWhen_1.delayWhen;
+//# sourceMappingURL=delayWhen.js.map
+
+/***/ },
+/* 1008 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var dematerialize_1 = __webpack_require__(1143);
+Observable_1.Observable.prototype.dematerialize = dematerialize_1.dematerialize;
+//# sourceMappingURL=dematerialize.js.map
+
+/***/ },
+/* 1009 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var distinct_1 = __webpack_require__(787);
+Observable_1.Observable.prototype.distinct = distinct_1.distinct;
+//# sourceMappingURL=distinct.js.map
+
+/***/ },
+/* 1010 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var distinctKey_1 = __webpack_require__(1144);
+Observable_1.Observable.prototype.distinctKey = distinctKey_1.distinctKey;
+//# sourceMappingURL=distinctKey.js.map
+
+/***/ },
+/* 1011 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var distinctUntilChanged_1 = __webpack_require__(788);
+Observable_1.Observable.prototype.distinctUntilChanged = distinctUntilChanged_1.distinctUntilChanged;
+//# sourceMappingURL=distinctUntilChanged.js.map
+
+/***/ },
+/* 1012 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var distinctUntilKeyChanged_1 = __webpack_require__(1145);
+Observable_1.Observable.prototype.distinctUntilKeyChanged = distinctUntilKeyChanged_1.distinctUntilKeyChanged;
+//# sourceMappingURL=distinctUntilKeyChanged.js.map
+
+/***/ },
+/* 1013 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var do_1 = __webpack_require__(1146);
+Observable_1.Observable.prototype.do = do_1._do;
+Observable_1.Observable.prototype._do = do_1._do;
+//# sourceMappingURL=do.js.map
+
+/***/ },
+/* 1014 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var elementAt_1 = __webpack_require__(1147);
 Observable_1.Observable.prototype.elementAt = elementAt_1.elementAt;
 //# sourceMappingURL=elementAt.js.map
 
 /***/ },
-/* 1002 */
+/* 1015 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22457,40 +22883,40 @@ Observable_1.Observable.prototype.every = every_1.every;
 //# sourceMappingURL=every.js.map
 
 /***/ },
-/* 1003 */
+/* 1016 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var exhaust_1 = __webpack_require__(1135);
+var exhaust_1 = __webpack_require__(1148);
 Observable_1.Observable.prototype.exhaust = exhaust_1.exhaust;
 //# sourceMappingURL=exhaust.js.map
 
 /***/ },
-/* 1004 */
+/* 1017 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var exhaustMap_1 = __webpack_require__(1136);
+var exhaustMap_1 = __webpack_require__(1149);
 Observable_1.Observable.prototype.exhaustMap = exhaustMap_1.exhaustMap;
 //# sourceMappingURL=exhaustMap.js.map
 
 /***/ },
-/* 1005 */
+/* 1018 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var expand_1 = __webpack_require__(1137);
+var expand_1 = __webpack_require__(1150);
 Observable_1.Observable.prototype.expand = expand_1.expand;
 //# sourceMappingURL=expand.js.map
 
 /***/ },
-/* 1006 */
+/* 1019 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22501,41 +22927,41 @@ Observable_1.Observable.prototype.filter = filter_1.filter;
 //# sourceMappingURL=filter.js.map
 
 /***/ },
-/* 1007 */
+/* 1020 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var finally_1 = __webpack_require__(1138);
+var finally_1 = __webpack_require__(1151);
 Observable_1.Observable.prototype.finally = finally_1._finally;
 Observable_1.Observable.prototype._finally = finally_1._finally;
 //# sourceMappingURL=finally.js.map
 
 /***/ },
-/* 1008 */
+/* 1021 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var find_1 = __webpack_require__(787);
+var find_1 = __webpack_require__(789);
 Observable_1.Observable.prototype.find = find_1.find;
 //# sourceMappingURL=find.js.map
 
 /***/ },
-/* 1009 */
+/* 1022 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var findIndex_1 = __webpack_require__(1139);
+var findIndex_1 = __webpack_require__(1152);
 Observable_1.Observable.prototype.findIndex = findIndex_1.findIndex;
 //# sourceMappingURL=findIndex.js.map
 
 /***/ },
-/* 1010 */
+/* 1023 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22546,40 +22972,40 @@ Observable_1.Observable.prototype.first = first_1.first;
 //# sourceMappingURL=first.js.map
 
 /***/ },
-/* 1011 */
+/* 1024 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var groupBy_1 = __webpack_require__(1140);
+var groupBy_1 = __webpack_require__(1153);
 Observable_1.Observable.prototype.groupBy = groupBy_1.groupBy;
 //# sourceMappingURL=groupBy.js.map
 
 /***/ },
-/* 1012 */
+/* 1025 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var ignoreElements_1 = __webpack_require__(1141);
+var ignoreElements_1 = __webpack_require__(1154);
 Observable_1.Observable.prototype.ignoreElements = ignoreElements_1.ignoreElements;
 //# sourceMappingURL=ignoreElements.js.map
 
 /***/ },
-/* 1013 */
+/* 1026 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var isEmpty_1 = __webpack_require__(1142);
+var isEmpty_1 = __webpack_require__(1155);
 Observable_1.Observable.prototype.isEmpty = isEmpty_1.isEmpty;
 //# sourceMappingURL=isEmpty.js.map
 
 /***/ },
-/* 1014 */
+/* 1027 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22590,19 +23016,19 @@ Observable_1.Observable.prototype.last = last_1.last;
 //# sourceMappingURL=last.js.map
 
 /***/ },
-/* 1015 */
+/* 1028 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var let_1 = __webpack_require__(1143);
+var let_1 = __webpack_require__(1156);
 Observable_1.Observable.prototype.let = let_1.letProto;
 Observable_1.Observable.prototype.letBind = let_1.letProto;
 //# sourceMappingURL=let.js.map
 
 /***/ },
-/* 1016 */
+/* 1029 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22613,51 +23039,51 @@ Observable_1.Observable.prototype.map = map_1.map;
 //# sourceMappingURL=map.js.map
 
 /***/ },
-/* 1017 */
+/* 1030 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var mapTo_1 = __webpack_require__(1144);
+var mapTo_1 = __webpack_require__(1157);
 Observable_1.Observable.prototype.mapTo = mapTo_1.mapTo;
 //# sourceMappingURL=mapTo.js.map
 
 /***/ },
-/* 1018 */
+/* 1031 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var materialize_1 = __webpack_require__(1145);
+var materialize_1 = __webpack_require__(1158);
 Observable_1.Observable.prototype.materialize = materialize_1.materialize;
 //# sourceMappingURL=materialize.js.map
 
 /***/ },
-/* 1019 */
+/* 1032 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var max_1 = __webpack_require__(1146);
+var max_1 = __webpack_require__(1159);
 Observable_1.Observable.prototype.max = max_1.max;
 //# sourceMappingURL=max.js.map
 
 /***/ },
-/* 1020 */
+/* 1033 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var merge_1 = __webpack_require__(788);
+var merge_1 = __webpack_require__(790);
 Observable_1.Observable.prototype.merge = merge_1.merge;
 //# sourceMappingURL=merge.js.map
 
 /***/ },
-/* 1021 */
+/* 1034 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22668,7 +23094,7 @@ Observable_1.Observable.prototype.mergeAll = mergeAll_1.mergeAll;
 //# sourceMappingURL=mergeAll.js.map
 
 /***/ },
-/* 1022 */
+/* 1035 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22680,52 +23106,52 @@ Observable_1.Observable.prototype.flatMap = mergeMap_1.mergeMap;
 //# sourceMappingURL=mergeMap.js.map
 
 /***/ },
-/* 1023 */
+/* 1036 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var mergeMapTo_1 = __webpack_require__(789);
+var mergeMapTo_1 = __webpack_require__(791);
 Observable_1.Observable.prototype.flatMapTo = mergeMapTo_1.mergeMapTo;
 Observable_1.Observable.prototype.mergeMapTo = mergeMapTo_1.mergeMapTo;
 //# sourceMappingURL=mergeMapTo.js.map
 
 /***/ },
-/* 1024 */
+/* 1037 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var mergeScan_1 = __webpack_require__(1147);
+var mergeScan_1 = __webpack_require__(1160);
 Observable_1.Observable.prototype.mergeScan = mergeScan_1.mergeScan;
 //# sourceMappingURL=mergeScan.js.map
 
 /***/ },
-/* 1025 */
+/* 1038 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var min_1 = __webpack_require__(1148);
+var min_1 = __webpack_require__(1161);
 Observable_1.Observable.prototype.min = min_1.min;
 //# sourceMappingURL=min.js.map
 
 /***/ },
-/* 1026 */
+/* 1039 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var multicast_1 = __webpack_require__(681);
+var multicast_1 = __webpack_require__(682);
 Observable_1.Observable.prototype.multicast = multicast_1.multicast;
 //# sourceMappingURL=multicast.js.map
 
 /***/ },
-/* 1027 */
+/* 1040 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22736,106 +23162,106 @@ Observable_1.Observable.prototype.observeOn = observeOn_1.observeOn;
 //# sourceMappingURL=observeOn.js.map
 
 /***/ },
-/* 1028 */
+/* 1041 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var onErrorResumeNext_1 = __webpack_require__(790);
+var onErrorResumeNext_1 = __webpack_require__(792);
 Observable_1.Observable.prototype.onErrorResumeNext = onErrorResumeNext_1.onErrorResumeNext;
 //# sourceMappingURL=onErrorResumeNext.js.map
 
 /***/ },
-/* 1029 */
+/* 1042 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var pairwise_1 = __webpack_require__(1149);
+var pairwise_1 = __webpack_require__(1162);
 Observable_1.Observable.prototype.pairwise = pairwise_1.pairwise;
 //# sourceMappingURL=pairwise.js.map
 
 /***/ },
-/* 1030 */
+/* 1043 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var partition_1 = __webpack_require__(1150);
+var partition_1 = __webpack_require__(1163);
 Observable_1.Observable.prototype.partition = partition_1.partition;
 //# sourceMappingURL=partition.js.map
 
 /***/ },
-/* 1031 */
+/* 1044 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var pluck_1 = __webpack_require__(1151);
+var pluck_1 = __webpack_require__(1164);
 Observable_1.Observable.prototype.pluck = pluck_1.pluck;
 //# sourceMappingURL=pluck.js.map
 
 /***/ },
-/* 1032 */
+/* 1045 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var publish_1 = __webpack_require__(1152);
+var publish_1 = __webpack_require__(1165);
 Observable_1.Observable.prototype.publish = publish_1.publish;
 //# sourceMappingURL=publish.js.map
 
 /***/ },
-/* 1033 */
+/* 1046 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var publishBehavior_1 = __webpack_require__(1153);
+var publishBehavior_1 = __webpack_require__(1166);
 Observable_1.Observable.prototype.publishBehavior = publishBehavior_1.publishBehavior;
 //# sourceMappingURL=publishBehavior.js.map
 
 /***/ },
-/* 1034 */
+/* 1047 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var publishLast_1 = __webpack_require__(1154);
+var publishLast_1 = __webpack_require__(1167);
 Observable_1.Observable.prototype.publishLast = publishLast_1.publishLast;
 //# sourceMappingURL=publishLast.js.map
 
 /***/ },
-/* 1035 */
+/* 1048 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var publishReplay_1 = __webpack_require__(1155);
+var publishReplay_1 = __webpack_require__(1168);
 Observable_1.Observable.prototype.publishReplay = publishReplay_1.publishReplay;
 //# sourceMappingURL=publishReplay.js.map
 
 /***/ },
-/* 1036 */
+/* 1049 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var race_1 = __webpack_require__(791);
+var race_1 = __webpack_require__(793);
 Observable_1.Observable.prototype.race = race_1.race;
 //# sourceMappingURL=race.js.map
 
 /***/ },
-/* 1037 */
+/* 1050 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22846,158 +23272,15 @@ Observable_1.Observable.prototype.reduce = reduce_1.reduce;
 //# sourceMappingURL=reduce.js.map
 
 /***/ },
-/* 1038 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var repeat_1 = __webpack_require__(1156);
-Observable_1.Observable.prototype.repeat = repeat_1.repeat;
-//# sourceMappingURL=repeat.js.map
-
-/***/ },
-/* 1039 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var repeatWhen_1 = __webpack_require__(1157);
-Observable_1.Observable.prototype.repeatWhen = repeatWhen_1.repeatWhen;
-//# sourceMappingURL=repeatWhen.js.map
-
-/***/ },
-/* 1040 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var retry_1 = __webpack_require__(1158);
-Observable_1.Observable.prototype.retry = retry_1.retry;
-//# sourceMappingURL=retry.js.map
-
-/***/ },
-/* 1041 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var retryWhen_1 = __webpack_require__(1159);
-Observable_1.Observable.prototype.retryWhen = retryWhen_1.retryWhen;
-//# sourceMappingURL=retryWhen.js.map
-
-/***/ },
-/* 1042 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var sample_1 = __webpack_require__(1160);
-Observable_1.Observable.prototype.sample = sample_1.sample;
-//# sourceMappingURL=sample.js.map
-
-/***/ },
-/* 1043 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var sampleTime_1 = __webpack_require__(1161);
-Observable_1.Observable.prototype.sampleTime = sampleTime_1.sampleTime;
-//# sourceMappingURL=sampleTime.js.map
-
-/***/ },
-/* 1044 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var scan_1 = __webpack_require__(1162);
-Observable_1.Observable.prototype.scan = scan_1.scan;
-//# sourceMappingURL=scan.js.map
-
-/***/ },
-/* 1045 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var sequenceEqual_1 = __webpack_require__(1163);
-Observable_1.Observable.prototype.sequenceEqual = sequenceEqual_1.sequenceEqual;
-//# sourceMappingURL=sequenceEqual.js.map
-
-/***/ },
-/* 1046 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var share_1 = __webpack_require__(1164);
-Observable_1.Observable.prototype.share = share_1.share;
-//# sourceMappingURL=share.js.map
-
-/***/ },
-/* 1047 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var single_1 = __webpack_require__(1165);
-Observable_1.Observable.prototype.single = single_1.single;
-//# sourceMappingURL=single.js.map
-
-/***/ },
-/* 1048 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var skip_1 = __webpack_require__(1166);
-Observable_1.Observable.prototype.skip = skip_1.skip;
-//# sourceMappingURL=skip.js.map
-
-/***/ },
-/* 1049 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var skipUntil_1 = __webpack_require__(1167);
-Observable_1.Observable.prototype.skipUntil = skipUntil_1.skipUntil;
-//# sourceMappingURL=skipUntil.js.map
-
-/***/ },
-/* 1050 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-var Observable_1 = __webpack_require__(13);
-var skipWhile_1 = __webpack_require__(1168);
-Observable_1.Observable.prototype.skipWhile = skipWhile_1.skipWhile;
-//# sourceMappingURL=skipWhile.js.map
-
-/***/ },
 /* 1051 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var startWith_1 = __webpack_require__(1169);
-Observable_1.Observable.prototype.startWith = startWith_1.startWith;
-//# sourceMappingURL=startWith.js.map
+var repeat_1 = __webpack_require__(1169);
+Observable_1.Observable.prototype.repeat = repeat_1.repeat;
+//# sourceMappingURL=repeat.js.map
 
 /***/ },
 /* 1052 */
@@ -23006,9 +23289,9 @@ Observable_1.Observable.prototype.startWith = startWith_1.startWith;
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var subscribeOn_1 = __webpack_require__(1170);
-Observable_1.Observable.prototype.subscribeOn = subscribeOn_1.subscribeOn;
-//# sourceMappingURL=subscribeOn.js.map
+var repeatWhen_1 = __webpack_require__(1170);
+Observable_1.Observable.prototype.repeatWhen = repeatWhen_1.repeatWhen;
+//# sourceMappingURL=repeatWhen.js.map
 
 /***/ },
 /* 1053 */
@@ -23017,10 +23300,9 @@ Observable_1.Observable.prototype.subscribeOn = subscribeOn_1.subscribeOn;
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var switch_1 = __webpack_require__(1171);
-Observable_1.Observable.prototype.switch = switch_1._switch;
-Observable_1.Observable.prototype._switch = switch_1._switch;
-//# sourceMappingURL=switch.js.map
+var retry_1 = __webpack_require__(1171);
+Observable_1.Observable.prototype.retry = retry_1.retry;
+//# sourceMappingURL=retry.js.map
 
 /***/ },
 /* 1054 */
@@ -23029,9 +23311,9 @@ Observable_1.Observable.prototype._switch = switch_1._switch;
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var switchMap_1 = __webpack_require__(1172);
-Observable_1.Observable.prototype.switchMap = switchMap_1.switchMap;
-//# sourceMappingURL=switchMap.js.map
+var retryWhen_1 = __webpack_require__(1172);
+Observable_1.Observable.prototype.retryWhen = retryWhen_1.retryWhen;
+//# sourceMappingURL=retryWhen.js.map
 
 /***/ },
 /* 1055 */
@@ -23040,9 +23322,9 @@ Observable_1.Observable.prototype.switchMap = switchMap_1.switchMap;
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var switchMapTo_1 = __webpack_require__(1173);
-Observable_1.Observable.prototype.switchMapTo = switchMapTo_1.switchMapTo;
-//# sourceMappingURL=switchMapTo.js.map
+var sample_1 = __webpack_require__(1173);
+Observable_1.Observable.prototype.sample = sample_1.sample;
+//# sourceMappingURL=sample.js.map
 
 /***/ },
 /* 1056 */
@@ -23051,9 +23333,9 @@ Observable_1.Observable.prototype.switchMapTo = switchMapTo_1.switchMapTo;
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var take_1 = __webpack_require__(1174);
-Observable_1.Observable.prototype.take = take_1.take;
-//# sourceMappingURL=take.js.map
+var sampleTime_1 = __webpack_require__(1174);
+Observable_1.Observable.prototype.sampleTime = sampleTime_1.sampleTime;
+//# sourceMappingURL=sampleTime.js.map
 
 /***/ },
 /* 1057 */
@@ -23062,9 +23344,9 @@ Observable_1.Observable.prototype.take = take_1.take;
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var takeLast_1 = __webpack_require__(1175);
-Observable_1.Observable.prototype.takeLast = takeLast_1.takeLast;
-//# sourceMappingURL=takeLast.js.map
+var scan_1 = __webpack_require__(1175);
+Observable_1.Observable.prototype.scan = scan_1.scan;
+//# sourceMappingURL=scan.js.map
 
 /***/ },
 /* 1058 */
@@ -23073,9 +23355,9 @@ Observable_1.Observable.prototype.takeLast = takeLast_1.takeLast;
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var takeUntil_1 = __webpack_require__(1176);
-Observable_1.Observable.prototype.takeUntil = takeUntil_1.takeUntil;
-//# sourceMappingURL=takeUntil.js.map
+var sequenceEqual_1 = __webpack_require__(1176);
+Observable_1.Observable.prototype.sequenceEqual = sequenceEqual_1.sequenceEqual;
+//# sourceMappingURL=sequenceEqual.js.map
 
 /***/ },
 /* 1059 */
@@ -23084,9 +23366,9 @@ Observable_1.Observable.prototype.takeUntil = takeUntil_1.takeUntil;
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var takeWhile_1 = __webpack_require__(1177);
-Observable_1.Observable.prototype.takeWhile = takeWhile_1.takeWhile;
-//# sourceMappingURL=takeWhile.js.map
+var share_1 = __webpack_require__(1177);
+Observable_1.Observable.prototype.share = share_1.share;
+//# sourceMappingURL=share.js.map
 
 /***/ },
 /* 1060 */
@@ -23095,9 +23377,9 @@ Observable_1.Observable.prototype.takeWhile = takeWhile_1.takeWhile;
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var throttle_1 = __webpack_require__(1178);
-Observable_1.Observable.prototype.throttle = throttle_1.throttle;
-//# sourceMappingURL=throttle.js.map
+var single_1 = __webpack_require__(1178);
+Observable_1.Observable.prototype.single = single_1.single;
+//# sourceMappingURL=single.js.map
 
 /***/ },
 /* 1061 */
@@ -23106,9 +23388,9 @@ Observable_1.Observable.prototype.throttle = throttle_1.throttle;
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var throttleTime_1 = __webpack_require__(1179);
-Observable_1.Observable.prototype.throttleTime = throttleTime_1.throttleTime;
-//# sourceMappingURL=throttleTime.js.map
+var skip_1 = __webpack_require__(1179);
+Observable_1.Observable.prototype.skip = skip_1.skip;
+//# sourceMappingURL=skip.js.map
 
 /***/ },
 /* 1062 */
@@ -23117,9 +23399,9 @@ Observable_1.Observable.prototype.throttleTime = throttleTime_1.throttleTime;
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var timeInterval_1 = __webpack_require__(792);
-Observable_1.Observable.prototype.timeInterval = timeInterval_1.timeInterval;
-//# sourceMappingURL=timeInterval.js.map
+var skipUntil_1 = __webpack_require__(1180);
+Observable_1.Observable.prototype.skipUntil = skipUntil_1.skipUntil;
+//# sourceMappingURL=skipUntil.js.map
 
 /***/ },
 /* 1063 */
@@ -23128,9 +23410,9 @@ Observable_1.Observable.prototype.timeInterval = timeInterval_1.timeInterval;
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var timeout_1 = __webpack_require__(1180);
-Observable_1.Observable.prototype.timeout = timeout_1.timeout;
-//# sourceMappingURL=timeout.js.map
+var skipWhile_1 = __webpack_require__(1181);
+Observable_1.Observable.prototype.skipWhile = skipWhile_1.skipWhile;
+//# sourceMappingURL=skipWhile.js.map
 
 /***/ },
 /* 1064 */
@@ -23139,9 +23421,9 @@ Observable_1.Observable.prototype.timeout = timeout_1.timeout;
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var timeoutWith_1 = __webpack_require__(1181);
-Observable_1.Observable.prototype.timeoutWith = timeoutWith_1.timeoutWith;
-//# sourceMappingURL=timeoutWith.js.map
+var startWith_1 = __webpack_require__(1182);
+Observable_1.Observable.prototype.startWith = startWith_1.startWith;
+//# sourceMappingURL=startWith.js.map
 
 /***/ },
 /* 1065 */
@@ -23150,9 +23432,9 @@ Observable_1.Observable.prototype.timeoutWith = timeoutWith_1.timeoutWith;
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var timestamp_1 = __webpack_require__(793);
-Observable_1.Observable.prototype.timestamp = timestamp_1.timestamp;
-//# sourceMappingURL=timestamp.js.map
+var subscribeOn_1 = __webpack_require__(1183);
+Observable_1.Observable.prototype.subscribeOn = subscribeOn_1.subscribeOn;
+//# sourceMappingURL=subscribeOn.js.map
 
 /***/ },
 /* 1066 */
@@ -23161,12 +23443,156 @@ Observable_1.Observable.prototype.timestamp = timestamp_1.timestamp;
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var toArray_1 = __webpack_require__(1182);
+var switch_1 = __webpack_require__(1184);
+Observable_1.Observable.prototype.switch = switch_1._switch;
+Observable_1.Observable.prototype._switch = switch_1._switch;
+//# sourceMappingURL=switch.js.map
+
+/***/ },
+/* 1067 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var switchMap_1 = __webpack_require__(1185);
+Observable_1.Observable.prototype.switchMap = switchMap_1.switchMap;
+//# sourceMappingURL=switchMap.js.map
+
+/***/ },
+/* 1068 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var switchMapTo_1 = __webpack_require__(1186);
+Observable_1.Observable.prototype.switchMapTo = switchMapTo_1.switchMapTo;
+//# sourceMappingURL=switchMapTo.js.map
+
+/***/ },
+/* 1069 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var take_1 = __webpack_require__(1187);
+Observable_1.Observable.prototype.take = take_1.take;
+//# sourceMappingURL=take.js.map
+
+/***/ },
+/* 1070 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var takeLast_1 = __webpack_require__(1188);
+Observable_1.Observable.prototype.takeLast = takeLast_1.takeLast;
+//# sourceMappingURL=takeLast.js.map
+
+/***/ },
+/* 1071 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var takeUntil_1 = __webpack_require__(1189);
+Observable_1.Observable.prototype.takeUntil = takeUntil_1.takeUntil;
+//# sourceMappingURL=takeUntil.js.map
+
+/***/ },
+/* 1072 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var takeWhile_1 = __webpack_require__(1190);
+Observable_1.Observable.prototype.takeWhile = takeWhile_1.takeWhile;
+//# sourceMappingURL=takeWhile.js.map
+
+/***/ },
+/* 1073 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var throttle_1 = __webpack_require__(1191);
+Observable_1.Observable.prototype.throttle = throttle_1.throttle;
+//# sourceMappingURL=throttle.js.map
+
+/***/ },
+/* 1074 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var throttleTime_1 = __webpack_require__(1192);
+Observable_1.Observable.prototype.throttleTime = throttleTime_1.throttleTime;
+//# sourceMappingURL=throttleTime.js.map
+
+/***/ },
+/* 1075 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var timeInterval_1 = __webpack_require__(794);
+Observable_1.Observable.prototype.timeInterval = timeInterval_1.timeInterval;
+//# sourceMappingURL=timeInterval.js.map
+
+/***/ },
+/* 1076 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var timeout_1 = __webpack_require__(1193);
+Observable_1.Observable.prototype.timeout = timeout_1.timeout;
+//# sourceMappingURL=timeout.js.map
+
+/***/ },
+/* 1077 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var timeoutWith_1 = __webpack_require__(1194);
+Observable_1.Observable.prototype.timeoutWith = timeoutWith_1.timeoutWith;
+//# sourceMappingURL=timeoutWith.js.map
+
+/***/ },
+/* 1078 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var timestamp_1 = __webpack_require__(795);
+Observable_1.Observable.prototype.timestamp = timestamp_1.timestamp;
+//# sourceMappingURL=timestamp.js.map
+
+/***/ },
+/* 1079 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+var Observable_1 = __webpack_require__(13);
+var toArray_1 = __webpack_require__(1195);
 Observable_1.Observable.prototype.toArray = toArray_1.toArray;
 //# sourceMappingURL=toArray.js.map
 
 /***/ },
-/* 1067 */
+/* 1080 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23177,95 +23603,95 @@ Observable_1.Observable.prototype.toPromise = toPromise_1.toPromise;
 //# sourceMappingURL=toPromise.js.map
 
 /***/ },
-/* 1068 */
+/* 1081 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var window_1 = __webpack_require__(1183);
+var window_1 = __webpack_require__(1196);
 Observable_1.Observable.prototype.window = window_1.window;
 //# sourceMappingURL=window.js.map
 
 /***/ },
-/* 1069 */
+/* 1082 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var windowCount_1 = __webpack_require__(1184);
+var windowCount_1 = __webpack_require__(1197);
 Observable_1.Observable.prototype.windowCount = windowCount_1.windowCount;
 //# sourceMappingURL=windowCount.js.map
 
 /***/ },
-/* 1070 */
+/* 1083 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var windowTime_1 = __webpack_require__(1185);
+var windowTime_1 = __webpack_require__(1198);
 Observable_1.Observable.prototype.windowTime = windowTime_1.windowTime;
 //# sourceMappingURL=windowTime.js.map
 
 /***/ },
-/* 1071 */
+/* 1084 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var windowToggle_1 = __webpack_require__(1186);
+var windowToggle_1 = __webpack_require__(1199);
 Observable_1.Observable.prototype.windowToggle = windowToggle_1.windowToggle;
 //# sourceMappingURL=windowToggle.js.map
 
 /***/ },
-/* 1072 */
+/* 1085 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var windowWhen_1 = __webpack_require__(1187);
+var windowWhen_1 = __webpack_require__(1200);
 Observable_1.Observable.prototype.windowWhen = windowWhen_1.windowWhen;
 //# sourceMappingURL=windowWhen.js.map
 
 /***/ },
-/* 1073 */
+/* 1086 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var withLatestFrom_1 = __webpack_require__(1188);
+var withLatestFrom_1 = __webpack_require__(1201);
 Observable_1.Observable.prototype.withLatestFrom = withLatestFrom_1.withLatestFrom;
 //# sourceMappingURL=withLatestFrom.js.map
 
 /***/ },
-/* 1074 */
+/* 1087 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var zip_1 = __webpack_require__(721);
+var zip_1 = __webpack_require__(722);
 Observable_1.Observable.prototype.zip = zip_1.zipProto;
 //# sourceMappingURL=zip.js.map
 
 /***/ },
-/* 1075 */
+/* 1088 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var zipAll_1 = __webpack_require__(1189);
+var zipAll_1 = __webpack_require__(1202);
 Observable_1.Observable.prototype.zipAll = zipAll_1.zipAll;
 //# sourceMappingURL=zipAll.js.map
 
 /***/ },
-/* 1076 */
+/* 1089 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23278,7 +23704,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 var Observable_1 = __webpack_require__(13);
 var tryCatch_1 = __webpack_require__(370);
 var errorObject_1 = __webpack_require__(231);
-var AsyncSubject_1 = __webpack_require__(696);
+var AsyncSubject_1 = __webpack_require__(697);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -23435,7 +23861,7 @@ function dispatchError(arg) {
 //# sourceMappingURL=BoundCallbackObservable.js.map
 
 /***/ },
-/* 1077 */
+/* 1090 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23448,7 +23874,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 var Observable_1 = __webpack_require__(13);
 var tryCatch_1 = __webpack_require__(370);
 var errorObject_1 = __webpack_require__(231);
-var AsyncSubject_1 = __webpack_require__(696);
+var AsyncSubject_1 = __webpack_require__(697);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -23617,7 +24043,7 @@ function dispatchError(arg) {
 //# sourceMappingURL=BoundNodeCallbackObservable.js.map
 
 /***/ },
-/* 1078 */
+/* 1091 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23716,7 +24142,7 @@ var DeferSubscriber = (function (_super) {
 //# sourceMappingURL=DeferObservable.js.map
 
 /***/ },
-/* 1079 */
+/* 1092 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23804,7 +24230,7 @@ exports.ErrorObservable = ErrorObservable;
 //# sourceMappingURL=ErrorObservable.js.map
 
 /***/ },
-/* 1080 */
+/* 1093 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23922,7 +24348,7 @@ var ForkJoinSubscriber = (function (_super) {
 //# sourceMappingURL=ForkJoinObservable.js.map
 
 /***/ },
-/* 1081 */
+/* 1094 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24060,7 +24486,7 @@ exports.FromEventObservable = FromEventObservable;
 //# sourceMappingURL=FromEventObservable.js.map
 
 /***/ },
-/* 1082 */
+/* 1095 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24174,7 +24600,7 @@ exports.FromEventPatternObservable = FromEventPatternObservable;
 //# sourceMappingURL=FromEventPatternObservable.js.map
 
 /***/ },
-/* 1083 */
+/* 1096 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24315,7 +24741,7 @@ exports.GenerateObservable = GenerateObservable;
 //# sourceMappingURL=GenerateObservable.js.map
 
 /***/ },
-/* 1084 */
+/* 1097 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24382,7 +24808,7 @@ var IfSubscriber = (function (_super) {
 //# sourceMappingURL=IfObservable.js.map
 
 /***/ },
-/* 1085 */
+/* 1098 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24392,7 +24818,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var isNumeric_1 = __webpack_require__(722);
+var isNumeric_1 = __webpack_require__(723);
 var Observable_1 = __webpack_require__(13);
 var async_1 = __webpack_require__(666);
 /**
@@ -24476,7 +24902,7 @@ exports.IntervalObservable = IntervalObservable;
 //# sourceMappingURL=IntervalObservable.js.map
 
 /***/ },
-/* 1086 */
+/* 1099 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24487,7 +24913,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Observable_1 = __webpack_require__(13);
-var noop_1 = __webpack_require__(800);
+var noop_1 = __webpack_require__(802);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -24541,7 +24967,7 @@ exports.NeverObservable = NeverObservable;
 //# sourceMappingURL=NeverObservable.js.map
 
 /***/ },
-/* 1087 */
+/* 1100 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24632,7 +25058,7 @@ exports.PairsObservable = PairsObservable;
 //# sourceMappingURL=PairsObservable.js.map
 
 /***/ },
-/* 1088 */
+/* 1101 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24734,7 +25160,7 @@ exports.RangeObservable = RangeObservable;
 //# sourceMappingURL=RangeObservable.js.map
 
 /***/ },
-/* 1089 */
+/* 1102 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24745,8 +25171,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Observable_1 = __webpack_require__(13);
-var asap_1 = __webpack_require__(795);
-var isNumeric_1 = __webpack_require__(722);
+var asap_1 = __webpack_require__(797);
+var isNumeric_1 = __webpack_require__(723);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -24791,7 +25217,7 @@ exports.SubscribeOnObservable = SubscribeOnObservable;
 //# sourceMappingURL=SubscribeOnObservable.js.map
 
 /***/ },
-/* 1090 */
+/* 1103 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24801,11 +25227,11 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var isNumeric_1 = __webpack_require__(722);
+var isNumeric_1 = __webpack_require__(723);
 var Observable_1 = __webpack_require__(13);
 var async_1 = __webpack_require__(666);
 var isScheduler_1 = __webpack_require__(372);
-var isDate_1 = __webpack_require__(699);
+var isDate_1 = __webpack_require__(700);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -24904,7 +25330,7 @@ exports.TimerObservable = TimerObservable;
 //# sourceMappingURL=TimerObservable.js.map
 
 /***/ },
-/* 1091 */
+/* 1104 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24971,27 +25397,27 @@ var UsingSubscriber = (function (_super) {
 //# sourceMappingURL=UsingObservable.js.map
 
 /***/ },
-/* 1092 */
+/* 1105 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var BoundCallbackObservable_1 = __webpack_require__(1076);
+var BoundCallbackObservable_1 = __webpack_require__(1089);
 exports.bindCallback = BoundCallbackObservable_1.BoundCallbackObservable.create;
 //# sourceMappingURL=bindCallback.js.map
 
 /***/ },
-/* 1093 */
+/* 1106 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var BoundNodeCallbackObservable_1 = __webpack_require__(1077);
+var BoundNodeCallbackObservable_1 = __webpack_require__(1090);
 exports.bindNodeCallback = BoundNodeCallbackObservable_1.BoundNodeCallbackObservable.create;
 //# sourceMappingURL=bindNodeCallback.js.map
 
 /***/ },
-/* 1094 */
+/* 1107 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24999,7 +25425,7 @@ exports.bindNodeCallback = BoundNodeCallbackObservable_1.BoundNodeCallbackObserv
 var isScheduler_1 = __webpack_require__(372);
 var isArray_1 = __webpack_require__(146);
 var ArrayObservable_1 = __webpack_require__(232);
-var combineLatest_1 = __webpack_require__(719);
+var combineLatest_1 = __webpack_require__(720);
 /* tslint:enable:max-line-length */
 /**
  * Combines multiple Observables to create an Observable whose values are
@@ -25068,27 +25494,27 @@ exports.combineLatest = combineLatest;
 //# sourceMappingURL=combineLatest.js.map
 
 /***/ },
-/* 1095 */
+/* 1108 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var concat_1 = __webpack_require__(720);
+var concat_1 = __webpack_require__(721);
 exports.concat = concat_1.concatStatic;
 //# sourceMappingURL=concat.js.map
 
 /***/ },
-/* 1096 */
+/* 1109 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var DeferObservable_1 = __webpack_require__(1078);
+var DeferObservable_1 = __webpack_require__(1091);
 exports.defer = DeferObservable_1.DeferObservable.create;
 //# sourceMappingURL=defer.js.map
 
 /***/ },
-/* 1097 */
+/* 1110 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25103,10 +25529,10 @@ var Subscriber_1 = __webpack_require__(24);
 var Observable_1 = __webpack_require__(13);
 var Subscription_1 = __webpack_require__(145);
 var root_1 = __webpack_require__(46);
-var ReplaySubject_1 = __webpack_require__(697);
+var ReplaySubject_1 = __webpack_require__(698);
 var tryCatch_1 = __webpack_require__(370);
 var errorObject_1 = __webpack_require__(231);
-var assign_1 = __webpack_require__(1206);
+var assign_1 = __webpack_require__(1219);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -25299,27 +25725,27 @@ exports.WebSocketSubject = WebSocketSubject;
 //# sourceMappingURL=WebSocketSubject.js.map
 
 /***/ },
-/* 1098 */
+/* 1111 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var AjaxObservable_1 = __webpack_require__(784);
+var AjaxObservable_1 = __webpack_require__(786);
 exports.ajax = AjaxObservable_1.AjaxObservable.create;
 //# sourceMappingURL=ajax.js.map
 
 /***/ },
-/* 1099 */
+/* 1112 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var WebSocketSubject_1 = __webpack_require__(1097);
+var WebSocketSubject_1 = __webpack_require__(1110);
 exports.webSocket = WebSocketSubject_1.WebSocketSubject.create;
 //# sourceMappingURL=webSocket.js.map
 
 /***/ },
-/* 1100 */
+/* 1113 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25329,137 +25755,137 @@ exports.empty = EmptyObservable_1.EmptyObservable.create;
 //# sourceMappingURL=empty.js.map
 
 /***/ },
-/* 1101 */
+/* 1114 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var ForkJoinObservable_1 = __webpack_require__(1080);
+var ForkJoinObservable_1 = __webpack_require__(1093);
 exports.forkJoin = ForkJoinObservable_1.ForkJoinObservable.create;
 //# sourceMappingURL=forkJoin.js.map
 
 /***/ },
-/* 1102 */
+/* 1115 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var FromEventObservable_1 = __webpack_require__(1081);
+var FromEventObservable_1 = __webpack_require__(1094);
 exports.fromEvent = FromEventObservable_1.FromEventObservable.create;
 //# sourceMappingURL=fromEvent.js.map
 
 /***/ },
-/* 1103 */
+/* 1116 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var FromEventPatternObservable_1 = __webpack_require__(1082);
+var FromEventPatternObservable_1 = __webpack_require__(1095);
 exports.fromEventPattern = FromEventPatternObservable_1.FromEventPatternObservable.create;
 //# sourceMappingURL=fromEventPattern.js.map
 
 /***/ },
-/* 1104 */
+/* 1117 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var IfObservable_1 = __webpack_require__(1084);
+var IfObservable_1 = __webpack_require__(1097);
 exports._if = IfObservable_1.IfObservable.create;
 //# sourceMappingURL=if.js.map
 
 /***/ },
-/* 1105 */
+/* 1118 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var IntervalObservable_1 = __webpack_require__(1085);
+var IntervalObservable_1 = __webpack_require__(1098);
 exports.interval = IntervalObservable_1.IntervalObservable.create;
 //# sourceMappingURL=interval.js.map
 
 /***/ },
-/* 1106 */
+/* 1119 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var merge_1 = __webpack_require__(788);
+var merge_1 = __webpack_require__(790);
 exports.merge = merge_1.mergeStatic;
 //# sourceMappingURL=merge.js.map
 
 /***/ },
-/* 1107 */
+/* 1120 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var NeverObservable_1 = __webpack_require__(1086);
+var NeverObservable_1 = __webpack_require__(1099);
 exports.never = NeverObservable_1.NeverObservable.create;
 //# sourceMappingURL=never.js.map
 
 /***/ },
-/* 1108 */
+/* 1121 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var PairsObservable_1 = __webpack_require__(1087);
+var PairsObservable_1 = __webpack_require__(1100);
 exports.pairs = PairsObservable_1.PairsObservable.create;
 //# sourceMappingURL=pairs.js.map
 
 /***/ },
-/* 1109 */
+/* 1122 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var RangeObservable_1 = __webpack_require__(1088);
+var RangeObservable_1 = __webpack_require__(1101);
 exports.range = RangeObservable_1.RangeObservable.create;
 //# sourceMappingURL=range.js.map
 
 /***/ },
-/* 1110 */
+/* 1123 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var ErrorObservable_1 = __webpack_require__(1079);
+var ErrorObservable_1 = __webpack_require__(1092);
 exports._throw = ErrorObservable_1.ErrorObservable.create;
 //# sourceMappingURL=throw.js.map
 
 /***/ },
-/* 1111 */
+/* 1124 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var TimerObservable_1 = __webpack_require__(1090);
+var TimerObservable_1 = __webpack_require__(1103);
 exports.timer = TimerObservable_1.TimerObservable.create;
 //# sourceMappingURL=timer.js.map
 
 /***/ },
-/* 1112 */
+/* 1125 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var UsingObservable_1 = __webpack_require__(1091);
+var UsingObservable_1 = __webpack_require__(1104);
 exports.using = UsingObservable_1.UsingObservable.create;
 //# sourceMappingURL=using.js.map
 
 /***/ },
-/* 1113 */
+/* 1126 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var zip_1 = __webpack_require__(721);
+var zip_1 = __webpack_require__(722);
 exports.zip = zip_1.zipStatic;
 //# sourceMappingURL=zip.js.map
 
 /***/ },
-/* 1114 */
+/* 1127 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25575,7 +26001,7 @@ var AuditSubscriber = (function (_super) {
 //# sourceMappingURL=audit.js.map
 
 /***/ },
-/* 1115 */
+/* 1128 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25685,7 +26111,7 @@ function dispatchNext(subscriber) {
 //# sourceMappingURL=auditTime.js.map
 
 /***/ },
-/* 1116 */
+/* 1129 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25767,7 +26193,7 @@ var BufferSubscriber = (function (_super) {
 //# sourceMappingURL=buffer.js.map
 
 /***/ },
-/* 1117 */
+/* 1130 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25887,7 +26313,7 @@ var BufferCountSubscriber = (function (_super) {
 //# sourceMappingURL=bufferCount.js.map
 
 /***/ },
-/* 1118 */
+/* 1131 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26091,7 +26517,7 @@ function dispatchBufferClose(arg) {
 //# sourceMappingURL=bufferTime.js.map
 
 /***/ },
-/* 1119 */
+/* 1132 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26249,7 +26675,7 @@ var BufferToggleSubscriber = (function (_super) {
 //# sourceMappingURL=bufferToggle.js.map
 
 /***/ },
-/* 1120 */
+/* 1133 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26377,13 +26803,13 @@ var BufferWhenSubscriber = (function (_super) {
 //# sourceMappingURL=bufferWhen.js.map
 
 /***/ },
-/* 1121 */
+/* 1134 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Observable_1 = __webpack_require__(13);
-var ReplaySubject_1 = __webpack_require__(697);
+var ReplaySubject_1 = __webpack_require__(698);
 /**
  * @param bufferSize
  * @param windowTime
@@ -26432,12 +26858,12 @@ exports.cache = cache;
 //# sourceMappingURL=cache.js.map
 
 /***/ },
-/* 1122 */
+/* 1135 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var combineLatest_1 = __webpack_require__(719);
+var combineLatest_1 = __webpack_require__(720);
 /**
  * Converts a higher-order Observable into a first-order Observable by waiting
  * for the outer Observable to complete, then applying {@link combineLatest}.
@@ -26485,12 +26911,12 @@ exports.combineAll = combineAll;
 //# sourceMappingURL=combineAll.js.map
 
 /***/ },
-/* 1123 */
+/* 1136 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var mergeMapTo_1 = __webpack_require__(789);
+var mergeMapTo_1 = __webpack_require__(791);
 /**
  * Projects each source value to the same Observable which is merged multiple
  * times in a serialized fashion on the output Observable.
@@ -26548,7 +26974,7 @@ exports.concatMapTo = concatMapTo;
 //# sourceMappingURL=concatMapTo.js.map
 
 /***/ },
-/* 1124 */
+/* 1137 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26662,7 +27088,7 @@ var CountSubscriber = (function (_super) {
 //# sourceMappingURL=count.js.map
 
 /***/ },
-/* 1125 */
+/* 1138 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26795,7 +27221,7 @@ var DebounceSubscriber = (function (_super) {
 //# sourceMappingURL=debounce.js.map
 
 /***/ },
-/* 1126 */
+/* 1139 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26917,7 +27343,7 @@ function dispatchNext(subscriber) {
 //# sourceMappingURL=debounceTime.js.map
 
 /***/ },
-/* 1127 */
+/* 1140 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26999,7 +27425,7 @@ var DefaultIfEmptySubscriber = (function (_super) {
 //# sourceMappingURL=defaultIfEmpty.js.map
 
 /***/ },
-/* 1128 */
+/* 1141 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27010,7 +27436,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var async_1 = __webpack_require__(666);
-var isDate_1 = __webpack_require__(699);
+var isDate_1 = __webpack_require__(700);
 var Subscriber_1 = __webpack_require__(24);
 var Notification_1 = __webpack_require__(373);
 /**
@@ -27140,7 +27566,7 @@ var DelayMessage = (function () {
 //# sourceMappingURL=delay.js.map
 
 /***/ },
-/* 1129 */
+/* 1142 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27336,7 +27762,7 @@ var SubscriptionDelaySubscriber = (function (_super) {
 //# sourceMappingURL=delayWhen.js.map
 
 /***/ },
-/* 1130 */
+/* 1143 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27412,12 +27838,12 @@ var DeMaterializeSubscriber = (function (_super) {
 //# sourceMappingURL=dematerialize.js.map
 
 /***/ },
-/* 1131 */
+/* 1144 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var distinct_1 = __webpack_require__(785);
+var distinct_1 = __webpack_require__(787);
 /**
  * Returns an Observable that emits all items emitted by the source Observable that are distinct by comparison from previous items,
  * using a property accessed by using the key provided to check if the two items are distinct.
@@ -27444,12 +27870,12 @@ exports.distinctKey = distinctKey;
 //# sourceMappingURL=distinctKey.js.map
 
 /***/ },
-/* 1132 */
+/* 1145 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var distinctUntilChanged_1 = __webpack_require__(786);
+var distinctUntilChanged_1 = __webpack_require__(788);
 /**
  * Returns an Observable that emits all items emitted by the source Observable that are distinct by comparison from the previous item,
  * using a property accessed by using the key provided to check if the two items are distinct.
@@ -27473,7 +27899,7 @@ exports.distinctUntilKeyChanged = distinctUntilKeyChanged;
 //# sourceMappingURL=distinctUntilKeyChanged.js.map
 
 /***/ },
-/* 1133 */
+/* 1146 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27591,7 +28017,7 @@ var DoSubscriber = (function (_super) {
 //# sourceMappingURL=do.js.map
 
 /***/ },
-/* 1134 */
+/* 1147 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27602,7 +28028,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(24);
-var ArgumentOutOfRangeError_1 = __webpack_require__(698);
+var ArgumentOutOfRangeError_1 = __webpack_require__(699);
 /**
  * Emits the single value at the specified `index` in a sequence of emissions
  * from the source Observable.
@@ -27692,7 +28118,7 @@ var ElementAtSubscriber = (function (_super) {
 //# sourceMappingURL=elementAt.js.map
 
 /***/ },
-/* 1135 */
+/* 1148 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27788,7 +28214,7 @@ var SwitchFirstSubscriber = (function (_super) {
 //# sourceMappingURL=exhaust.js.map
 
 /***/ },
-/* 1136 */
+/* 1149 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27931,7 +28357,7 @@ var SwitchFirstMapSubscriber = (function (_super) {
 //# sourceMappingURL=exhaustMap.js.map
 
 /***/ },
-/* 1137 */
+/* 1150 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28087,7 +28513,7 @@ exports.ExpandSubscriber = ExpandSubscriber;
 //# sourceMappingURL=expand.js.map
 
 /***/ },
-/* 1138 */
+/* 1151 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28136,12 +28562,12 @@ var FinallySubscriber = (function (_super) {
 //# sourceMappingURL=finally.js.map
 
 /***/ },
-/* 1139 */
+/* 1152 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var find_1 = __webpack_require__(787);
+var find_1 = __webpack_require__(789);
 /**
  * Emits only the index of the first value emitted by the source Observable that
  * meets some condition.
@@ -28183,7 +28609,7 @@ exports.findIndex = findIndex;
 //# sourceMappingURL=findIndex.js.map
 
 /***/ },
-/* 1140 */
+/* 1153 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28197,8 +28623,8 @@ var Subscriber_1 = __webpack_require__(24);
 var Subscription_1 = __webpack_require__(145);
 var Observable_1 = __webpack_require__(13);
 var Subject_1 = __webpack_require__(64);
-var Map_1 = __webpack_require__(1204);
-var FastMap_1 = __webpack_require__(1202);
+var Map_1 = __webpack_require__(1217);
+var FastMap_1 = __webpack_require__(1215);
 /**
  * Groups the items emitted by an Observable according to a specified criterion,
  * and emits these grouped items as `GroupedObservables`, one
@@ -28421,7 +28847,7 @@ var InnerRefCountSubscription = (function (_super) {
 //# sourceMappingURL=groupBy.js.map
 
 /***/ },
-/* 1141 */
+/* 1154 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28432,7 +28858,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(24);
-var noop_1 = __webpack_require__(800);
+var noop_1 = __webpack_require__(802);
 /**
  * Ignores all items emitted by the source Observable and only passes calls of `complete` or `error`.
  *
@@ -28474,7 +28900,7 @@ var IgnoreElementsSubscriber = (function (_super) {
 //# sourceMappingURL=ignoreElements.js.map
 
 /***/ },
-/* 1142 */
+/* 1155 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28532,7 +28958,7 @@ var IsEmptySubscriber = (function (_super) {
 //# sourceMappingURL=isEmpty.js.map
 
 /***/ },
-/* 1143 */
+/* 1156 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -28550,7 +28976,7 @@ exports.letProto = letProto;
 //# sourceMappingURL=let.js.map
 
 /***/ },
-/* 1144 */
+/* 1157 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28619,7 +29045,7 @@ var MapToSubscriber = (function (_super) {
 //# sourceMappingURL=mapTo.js.map
 
 /***/ },
-/* 1145 */
+/* 1158 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28708,7 +29134,7 @@ var MaterializeSubscriber = (function (_super) {
 //# sourceMappingURL=materialize.js.map
 
 /***/ },
-/* 1146 */
+/* 1159 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28736,7 +29162,7 @@ exports.max = max;
 //# sourceMappingURL=max.js.map
 
 /***/ },
-/* 1147 */
+/* 1160 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28848,7 +29274,7 @@ exports.MergeScanSubscriber = MergeScanSubscriber;
 //# sourceMappingURL=mergeScan.js.map
 
 /***/ },
-/* 1148 */
+/* 1161 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28875,7 +29301,7 @@ exports.min = min;
 //# sourceMappingURL=min.js.map
 
 /***/ },
-/* 1149 */
+/* 1162 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28958,12 +29384,12 @@ var PairwiseSubscriber = (function (_super) {
 //# sourceMappingURL=pairwise.js.map
 
 /***/ },
-/* 1150 */
+/* 1163 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var not_1 = __webpack_require__(1207);
+var not_1 = __webpack_require__(1220);
 var filter_1 = __webpack_require__(375);
 /**
  * Splits the source Observable into two, one with values that satisfy a
@@ -29016,7 +29442,7 @@ exports.partition = partition;
 //# sourceMappingURL=partition.js.map
 
 /***/ },
-/* 1151 */
+/* 1164 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29080,13 +29506,13 @@ function plucker(props, length) {
 //# sourceMappingURL=pluck.js.map
 
 /***/ },
-/* 1152 */
+/* 1165 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var Subject_1 = __webpack_require__(64);
-var multicast_1 = __webpack_require__(681);
+var multicast_1 = __webpack_require__(682);
 /**
  * Returns a ConnectableObservable, which is a variety of Observable that waits until its connect method is called
  * before it begins emitting items to those Observers that have subscribed to it.
@@ -29108,13 +29534,13 @@ exports.publish = publish;
 //# sourceMappingURL=publish.js.map
 
 /***/ },
-/* 1153 */
+/* 1166 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var BehaviorSubject_1 = __webpack_require__(148);
-var multicast_1 = __webpack_require__(681);
+var multicast_1 = __webpack_require__(682);
 /**
  * @param value
  * @return {ConnectableObservable<T>}
@@ -29128,13 +29554,13 @@ exports.publishBehavior = publishBehavior;
 //# sourceMappingURL=publishBehavior.js.map
 
 /***/ },
-/* 1154 */
+/* 1167 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var AsyncSubject_1 = __webpack_require__(696);
-var multicast_1 = __webpack_require__(681);
+var AsyncSubject_1 = __webpack_require__(697);
+var multicast_1 = __webpack_require__(682);
 /**
  * @return {ConnectableObservable<T>}
  * @method publishLast
@@ -29147,13 +29573,13 @@ exports.publishLast = publishLast;
 //# sourceMappingURL=publishLast.js.map
 
 /***/ },
-/* 1155 */
+/* 1168 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var ReplaySubject_1 = __webpack_require__(697);
-var multicast_1 = __webpack_require__(681);
+var ReplaySubject_1 = __webpack_require__(698);
+var multicast_1 = __webpack_require__(682);
 /**
  * @param bufferSize
  * @param windowTime
@@ -29171,7 +29597,7 @@ exports.publishReplay = publishReplay;
 //# sourceMappingURL=publishReplay.js.map
 
 /***/ },
-/* 1156 */
+/* 1169 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29252,7 +29678,7 @@ var RepeatSubscriber = (function (_super) {
 //# sourceMappingURL=repeat.js.map
 
 /***/ },
-/* 1157 */
+/* 1170 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29364,7 +29790,7 @@ var RepeatWhenSubscriber = (function (_super) {
 //# sourceMappingURL=repeatWhen.js.map
 
 /***/ },
-/* 1158 */
+/* 1171 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29439,7 +29865,7 @@ var RetrySubscriber = (function (_super) {
 //# sourceMappingURL=retry.js.map
 
 /***/ },
-/* 1159 */
+/* 1172 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29551,7 +29977,7 @@ var RetryWhenSubscriber = (function (_super) {
 //# sourceMappingURL=retryWhen.js.map
 
 /***/ },
-/* 1160 */
+/* 1173 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29643,7 +30069,7 @@ var SampleSubscriber = (function (_super) {
 //# sourceMappingURL=sample.js.map
 
 /***/ },
-/* 1161 */
+/* 1174 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29740,7 +30166,7 @@ function dispatchNotification(state) {
 //# sourceMappingURL=sampleTime.js.map
 
 /***/ },
-/* 1162 */
+/* 1175 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29854,7 +30280,7 @@ var ScanSubscriber = (function (_super) {
 //# sourceMappingURL=scan.js.map
 
 /***/ },
-/* 1163 */
+/* 1176 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30024,12 +30450,12 @@ var SequenceEqualCompareToSubscriber = (function (_super) {
 //# sourceMappingURL=sequenceEqual.js.map
 
 /***/ },
-/* 1164 */
+/* 1177 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var multicast_1 = __webpack_require__(681);
+var multicast_1 = __webpack_require__(682);
 var Subject_1 = __webpack_require__(64);
 function shareSubjectFactory() {
     return new Subject_1.Subject();
@@ -30054,7 +30480,7 @@ exports.share = share;
 //# sourceMappingURL=share.js.map
 
 /***/ },
-/* 1165 */
+/* 1178 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30155,7 +30581,7 @@ var SingleSubscriber = (function (_super) {
 //# sourceMappingURL=single.js.map
 
 /***/ },
-/* 1166 */
+/* 1179 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30212,7 +30638,7 @@ var SkipSubscriber = (function (_super) {
 //# sourceMappingURL=skip.js.map
 
 /***/ },
-/* 1167 */
+/* 1180 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30289,7 +30715,7 @@ var SkipUntilSubscriber = (function (_super) {
 //# sourceMappingURL=skipUntil.js.map
 
 /***/ },
-/* 1168 */
+/* 1181 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30361,7 +30787,7 @@ var SkipWhileSubscriber = (function (_super) {
 //# sourceMappingURL=skipWhile.js.map
 
 /***/ },
-/* 1169 */
+/* 1182 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30369,7 +30795,7 @@ var SkipWhileSubscriber = (function (_super) {
 var ArrayObservable_1 = __webpack_require__(232);
 var ScalarObservable_1 = __webpack_require__(234);
 var EmptyObservable_1 = __webpack_require__(233);
-var concat_1 = __webpack_require__(720);
+var concat_1 = __webpack_require__(721);
 var isScheduler_1 = __webpack_require__(372);
 /**
  * Returns an Observable that emits the items in a specified Iterable before it begins to emit items emitted by the
@@ -30410,12 +30836,12 @@ exports.startWith = startWith;
 //# sourceMappingURL=startWith.js.map
 
 /***/ },
-/* 1170 */
+/* 1183 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var SubscribeOnObservable_1 = __webpack_require__(1089);
+var SubscribeOnObservable_1 = __webpack_require__(1102);
 /**
  * Asynchronously subscribes Observers to this Observable on the specified Scheduler.
  *
@@ -30435,7 +30861,7 @@ exports.subscribeOn = subscribeOn;
 //# sourceMappingURL=subscribeOn.js.map
 
 /***/ },
-/* 1171 */
+/* 1184 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30549,7 +30975,7 @@ var SwitchSubscriber = (function (_super) {
 //# sourceMappingURL=switch.js.map
 
 /***/ },
-/* 1172 */
+/* 1185 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30694,7 +31120,7 @@ var SwitchMapSubscriber = (function (_super) {
 //# sourceMappingURL=switchMap.js.map
 
 /***/ },
-/* 1173 */
+/* 1186 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30826,7 +31252,7 @@ var SwitchMapToSubscriber = (function (_super) {
 //# sourceMappingURL=switchMapTo.js.map
 
 /***/ },
-/* 1174 */
+/* 1187 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30837,7 +31263,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(24);
-var ArgumentOutOfRangeError_1 = __webpack_require__(698);
+var ArgumentOutOfRangeError_1 = __webpack_require__(699);
 var EmptyObservable_1 = __webpack_require__(233);
 /**
  * Emits only the first `count` values emitted by the source Observable.
@@ -30920,7 +31346,7 @@ var TakeSubscriber = (function (_super) {
 //# sourceMappingURL=take.js.map
 
 /***/ },
-/* 1175 */
+/* 1188 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30931,7 +31357,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Subscriber_1 = __webpack_require__(24);
-var ArgumentOutOfRangeError_1 = __webpack_require__(698);
+var ArgumentOutOfRangeError_1 = __webpack_require__(699);
 var EmptyObservable_1 = __webpack_require__(233);
 /**
  * Emits only the last `count` values emitted by the source Observable.
@@ -31033,7 +31459,7 @@ var TakeLastSubscriber = (function (_super) {
 //# sourceMappingURL=takeLast.js.map
 
 /***/ },
-/* 1176 */
+/* 1189 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31114,7 +31540,7 @@ var TakeUntilSubscriber = (function (_super) {
 //# sourceMappingURL=takeUntil.js.map
 
 /***/ },
-/* 1177 */
+/* 1190 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31212,7 +31638,7 @@ var TakeWhileSubscriber = (function (_super) {
 //# sourceMappingURL=takeWhile.js.map
 
 /***/ },
-/* 1178 */
+/* 1191 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31326,7 +31752,7 @@ var ThrottleSubscriber = (function (_super) {
 //# sourceMappingURL=throttle.js.map
 
 /***/ },
-/* 1179 */
+/* 1192 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31427,7 +31853,7 @@ function dispatchNext(arg) {
 //# sourceMappingURL=throttleTime.js.map
 
 /***/ },
-/* 1180 */
+/* 1193 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31438,7 +31864,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var async_1 = __webpack_require__(666);
-var isDate_1 = __webpack_require__(699);
+var isDate_1 = __webpack_require__(700);
 var Subscriber_1 = __webpack_require__(24);
 /**
  * @param due
@@ -31535,7 +31961,7 @@ var TimeoutSubscriber = (function (_super) {
 //# sourceMappingURL=timeout.js.map
 
 /***/ },
-/* 1181 */
+/* 1194 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31546,7 +31972,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var async_1 = __webpack_require__(666);
-var isDate_1 = __webpack_require__(699);
+var isDate_1 = __webpack_require__(700);
 var OuterSubscriber_1 = __webpack_require__(143);
 var subscribeToResult_1 = __webpack_require__(144);
 /**
@@ -31651,7 +32077,7 @@ var TimeoutWithSubscriber = (function (_super) {
 //# sourceMappingURL=timeoutWith.js.map
 
 /***/ },
-/* 1182 */
+/* 1195 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31702,7 +32128,7 @@ var ToArraySubscriber = (function (_super) {
 //# sourceMappingURL=toArray.js.map
 
 /***/ },
-/* 1183 */
+/* 1196 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31818,7 +32244,7 @@ var WindowSubscriber = (function (_super) {
 //# sourceMappingURL=window.js.map
 
 /***/ },
-/* 1184 */
+/* 1197 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31955,7 +32381,7 @@ var WindowCountSubscriber = (function (_super) {
 //# sourceMappingURL=windowCount.js.map
 
 /***/ },
-/* 1185 */
+/* 1198 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32130,7 +32556,7 @@ function dispatchWindowClose(arg) {
 //# sourceMappingURL=windowTime.js.map
 
 /***/ },
-/* 1186 */
+/* 1199 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32316,7 +32742,7 @@ var WindowToggleSubscriber = (function (_super) {
 //# sourceMappingURL=windowToggle.js.map
 
 /***/ },
-/* 1187 */
+/* 1200 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32449,7 +32875,7 @@ var WindowSubscriber = (function (_super) {
 //# sourceMappingURL=windowWhen.js.map
 
 /***/ },
-/* 1188 */
+/* 1201 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32585,12 +33011,12 @@ var WithLatestFromSubscriber = (function (_super) {
 //# sourceMappingURL=withLatestFrom.js.map
 
 /***/ },
-/* 1189 */
+/* 1202 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var zip_1 = __webpack_require__(721);
+var zip_1 = __webpack_require__(722);
 /**
  * @param project
  * @return {Observable<R>|WebSocketSubject<T>|Observable<T>}
@@ -32604,7 +33030,7 @@ exports.zipAll = zipAll;
 //# sourceMappingURL=zipAll.js.map
 
 /***/ },
-/* 1190 */
+/* 1203 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32654,7 +33080,7 @@ exports.Action = Action;
 //# sourceMappingURL=Action.js.map
 
 /***/ },
-/* 1191 */
+/* 1204 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32664,8 +33090,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncAction_1 = __webpack_require__(688);
-var AnimationFrame_1 = __webpack_require__(1201);
+var AsyncAction_1 = __webpack_require__(689);
+var AnimationFrame_1 = __webpack_require__(1214);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @ignore
@@ -32713,7 +33139,7 @@ exports.AnimationFrameAction = AnimationFrameAction;
 //# sourceMappingURL=AnimationFrameAction.js.map
 
 /***/ },
-/* 1192 */
+/* 1205 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32723,7 +33149,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncScheduler_1 = __webpack_require__(689);
+var AsyncScheduler_1 = __webpack_require__(690);
 var AnimationFrameScheduler = (function (_super) {
     __extends(AnimationFrameScheduler, _super);
     function AnimationFrameScheduler() {
@@ -32756,7 +33182,7 @@ exports.AnimationFrameScheduler = AnimationFrameScheduler;
 //# sourceMappingURL=AnimationFrameScheduler.js.map
 
 /***/ },
-/* 1193 */
+/* 1206 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32766,8 +33192,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Immediate_1 = __webpack_require__(1203);
-var AsyncAction_1 = __webpack_require__(688);
+var Immediate_1 = __webpack_require__(1216);
+var AsyncAction_1 = __webpack_require__(689);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @ignore
@@ -32815,7 +33241,7 @@ exports.AsapAction = AsapAction;
 //# sourceMappingURL=AsapAction.js.map
 
 /***/ },
-/* 1194 */
+/* 1207 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32825,7 +33251,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncScheduler_1 = __webpack_require__(689);
+var AsyncScheduler_1 = __webpack_require__(690);
 var AsapScheduler = (function (_super) {
     __extends(AsapScheduler, _super);
     function AsapScheduler() {
@@ -32858,7 +33284,7 @@ exports.AsapScheduler = AsapScheduler;
 //# sourceMappingURL=AsapScheduler.js.map
 
 /***/ },
-/* 1195 */
+/* 1208 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32868,7 +33294,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncAction_1 = __webpack_require__(688);
+var AsyncAction_1 = __webpack_require__(689);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @ignore
@@ -32911,7 +33337,7 @@ exports.QueueAction = QueueAction;
 //# sourceMappingURL=QueueAction.js.map
 
 /***/ },
-/* 1196 */
+/* 1209 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32921,7 +33347,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var AsyncScheduler_1 = __webpack_require__(689);
+var AsyncScheduler_1 = __webpack_require__(690);
 var QueueScheduler = (function (_super) {
     __extends(QueueScheduler, _super);
     function QueueScheduler() {
@@ -32933,18 +33359,18 @@ exports.QueueScheduler = QueueScheduler;
 //# sourceMappingURL=QueueScheduler.js.map
 
 /***/ },
-/* 1197 */
+/* 1210 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var AnimationFrameAction_1 = __webpack_require__(1191);
-var AnimationFrameScheduler_1 = __webpack_require__(1192);
+var AnimationFrameAction_1 = __webpack_require__(1204);
+var AnimationFrameScheduler_1 = __webpack_require__(1205);
 exports.animationFrame = new AnimationFrameScheduler_1.AnimationFrameScheduler(AnimationFrameAction_1.AnimationFrameAction);
 //# sourceMappingURL=animationFrame.js.map
 
 /***/ },
-/* 1198 */
+/* 1211 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32956,8 +33382,8 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Observable_1 = __webpack_require__(13);
 var Subscription_1 = __webpack_require__(145);
-var SubscriptionLoggable_1 = __webpack_require__(798);
-var applyMixins_1 = __webpack_require__(799);
+var SubscriptionLoggable_1 = __webpack_require__(800);
+var applyMixins_1 = __webpack_require__(801);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @ignore
@@ -32996,7 +33422,7 @@ applyMixins_1.applyMixins(ColdObservable, [SubscriptionLoggable_1.SubscriptionLo
 //# sourceMappingURL=ColdObservable.js.map
 
 /***/ },
-/* 1199 */
+/* 1212 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33008,8 +33434,8 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Subject_1 = __webpack_require__(64);
 var Subscription_1 = __webpack_require__(145);
-var SubscriptionLoggable_1 = __webpack_require__(798);
-var applyMixins_1 = __webpack_require__(799);
+var SubscriptionLoggable_1 = __webpack_require__(800);
+var applyMixins_1 = __webpack_require__(801);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @ignore
@@ -33050,7 +33476,7 @@ applyMixins_1.applyMixins(HotObservable, [SubscriptionLoggable_1.SubscriptionLog
 //# sourceMappingURL=HotObservable.js.map
 
 /***/ },
-/* 1200 */
+/* 1213 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33062,10 +33488,10 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Observable_1 = __webpack_require__(13);
 var Notification_1 = __webpack_require__(373);
-var ColdObservable_1 = __webpack_require__(1198);
-var HotObservable_1 = __webpack_require__(1199);
-var SubscriptionLog_1 = __webpack_require__(797);
-var VirtualTimeScheduler_1 = __webpack_require__(794);
+var ColdObservable_1 = __webpack_require__(1211);
+var HotObservable_1 = __webpack_require__(1212);
+var SubscriptionLog_1 = __webpack_require__(799);
+var VirtualTimeScheduler_1 = __webpack_require__(796);
 var defaultMaxFrame = 750;
 var TestScheduler = (function (_super) {
     __extends(TestScheduler, _super);
@@ -33279,7 +33705,7 @@ exports.TestScheduler = TestScheduler;
 //# sourceMappingURL=TestScheduler.js.map
 
 /***/ },
-/* 1201 */
+/* 1214 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33319,7 +33745,7 @@ exports.AnimationFrame = new RequestAnimationFrameDefinition(root_1.root);
 //# sourceMappingURL=AnimationFrame.js.map
 
 /***/ },
-/* 1202 */
+/* 1215 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -33356,7 +33782,7 @@ exports.FastMap = FastMap;
 //# sourceMappingURL=FastMap.js.map
 
 /***/ },
-/* 1203 */
+/* 1216 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33571,18 +33997,18 @@ exports.Immediate = new ImmediateDefinition(root_1.root);
 //# sourceMappingURL=Immediate.js.map
 
 /***/ },
-/* 1204 */
+/* 1217 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 var root_1 = __webpack_require__(46);
-var MapPolyfill_1 = __webpack_require__(1205);
+var MapPolyfill_1 = __webpack_require__(1218);
 exports.Map = root_1.root.Map || (function () { return MapPolyfill_1.MapPolyfill; })();
 //# sourceMappingURL=Map.js.map
 
 /***/ },
-/* 1205 */
+/* 1218 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -33635,7 +34061,7 @@ exports.MapPolyfill = MapPolyfill;
 //# sourceMappingURL=MapPolyfill.js.map
 
 /***/ },
-/* 1206 */
+/* 1219 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33672,7 +34098,7 @@ exports.assign = Object.assign;
 //# sourceMappingURL=assign.js.map
 
 /***/ },
-/* 1207 */
+/* 1220 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -33689,7 +34115,7 @@ exports.not = not;
 //# sourceMappingURL=not.js.map
 
 /***/ },
-/* 1208 */
+/* 1221 */
 /***/ function(module, exports) {
 
 module.exports = function(module) {
@@ -33715,7 +34141,7 @@ module.exports = function(module) {
 
 
 /***/ },
-/* 1209 */
+/* 1222 */
 /***/ function(module, exports, __webpack_require__) {
 
 var map = {
@@ -33744,7 +34170,7 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 1209;
+webpackContext.id = 1222;
 
 
 /***/ }

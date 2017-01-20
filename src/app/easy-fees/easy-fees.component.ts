@@ -11,6 +11,9 @@ export class EasyFeesComponent implements OnInit {
     path: 'intro',
     link: 'Get Started'
   }, {
+    path: 'view',
+    link: 'Dashboard'
+  }, {
     path: 'setup',
     link: 'Easy Fees Setup'
   }];

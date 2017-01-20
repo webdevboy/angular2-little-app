@@ -8,6 +8,9 @@ import { ChooseOrgTypeComponent } from './components/choose-org-type/choose-org-
 import { EasyFeesManagerService } from './easy-fees-manager.service';
 
 import { routing } from './easy-fees.routing';
+import { EasyFeesDashboardComponent } from './easy-fees-dashboard/easy-fees-dashboard.component';
+import { AccordionPaymentsViewComponent } from './components/accordion-payments-view/accordion-payments-view.component';
+import { PopupPrintMandateComponent } from './components/popup-print-mandate/popup-print-mandate.component';
 
 @NgModule({
   imports: [
@@ -18,7 +21,10 @@ import { routing } from './easy-fees.routing';
     EasyFeesComponent,
     EasyFeesIntroComponent,
     EasyFeesSetupComponent,
-    ChooseOrgTypeComponent
+    ChooseOrgTypeComponent,
+    EasyFeesDashboardComponent,
+    AccordionPaymentsViewComponent,
+    PopupPrintMandateComponent
   ],
   providers: [
     EasyFeesManagerService

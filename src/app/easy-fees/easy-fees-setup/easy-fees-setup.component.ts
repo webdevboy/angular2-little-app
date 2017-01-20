@@ -47,13 +47,12 @@ const COMPANY_TYPES = [
 ];
 const FREQUENCIES = ['WEEKLY', 'MONTHLY', 'QUARTERLY', 'BIANNUALLY', 'ANNUALLY'];
 
-
-
 @Component({
   selector: 'app-easy-fees-setup',
   templateUrl: './easy-fees-setup.component.html',
   styleUrls: ['./easy-fees-setup.component.scss']
 })
+
 export class EasyFeesSetupComponent implements OnInit {
 
   public COMPANY_TYPES: any = [...COMPANY_TYPES];
@@ -142,7 +141,6 @@ export class EasyFeesSetupComponent implements OnInit {
       })
     });
 
-
     const formChanges$ = this.merchantSignupForm.valueChanges.subscribe( formData => {
       let collecting = formData.step1.alreadyCollecting;
       let different = formData.step1.differentName;
@@ -175,13 +173,11 @@ export class EasyFeesSetupComponent implements OnInit {
 
     this.recoverFormData();
 
-
     this.easyFeesManager.getCurrentStatus().subscribe( res => {
       console.log(res);
     }, e => {
       console.error(e);
     });
-
   }
 
   ngOnInit() {
@@ -190,7 +186,7 @@ export class EasyFeesSetupComponent implements OnInit {
   recoverFormData() {
     let dependentKeys = ['creditorSchemeId', 'companyName'];
     let dependencyResolver = (key) => {
-      let dependencies = {
+     let dependencies = {
         creditorSchemeId: 'alreadyCollecting',
         companyName: 'differentName'
       }
@@ -237,7 +233,6 @@ export class EasyFeesSetupComponent implements OnInit {
     return form && form.valid;
   }
 
-
   onDragOver(event) {
     this.highlightDropZone = true;
     return false;
@@ -279,7 +274,6 @@ export class EasyFeesSetupComponent implements OnInit {
   removeFile(index: any) {
     this.uploadFiles = [...this.uploadFiles.slice(0, index), ...this.uploadFiles.slice(index+1)];
   }
-
 
   composeForm() {
     let merchantForm = this.merchantSignupForm.value;

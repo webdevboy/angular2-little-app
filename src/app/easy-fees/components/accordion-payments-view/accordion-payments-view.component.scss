@@ -1,0 +1,172 @@
+mdl-textfield{
+    padding: 0px;
+    width: 100%;
+}
+.payment-view{
+    background-color: #faf9f8;
+    .accordion-header{
+        border-top: 1px solid #79a699;
+        height: 30px;
+        background-color: #94cbbb;
+        color: white;
+        font-size: 1.2em;
+        font-weight: bold;
+        align-items: center;
+    }
+    .accordion-body{
+        min-height: 50px;
+        .email-invoice{
+            width: 50%;
+            padding: 10px;
+        }
+        .pp-icons{
+            margin-left: 10px;
+            text-indent: 0px;
+            border-radius: 5px;
+            font-size: 0.8em;
+            text-align: center;
+            align-items: center;
+            color: white;
+            padding: 0px 12px;
+            height: 25px;
+            line-height: 25px;
+            white-space: nowrap;
+            display: inline-block;
+            &.icon-active{
+                background-color: #76b75f;
+            }
+            &.icon-pastdue{
+                background-color: #d2b13d;
+                font-weight: bold;
+            }
+            &.icon-inarrears{
+                background-color: #ce813a;
+            }
+            &.icon-projected{
+                background-color: #7775aa;
+            }
+            &.icon-remove{
+                background-color: #e23a69;
+            }
+            &.icon-late{
+                background: rgba(206,130,58,1);
+                background: -moz-linear-gradient(left, rgba(206,130,58,1) 0%, rgba(206,130,58,1) 51%, rgba(210,178,61,1) 51%, rgba(210,178,61,1) 100%);
+                background: -webkit-gradient(left top, right top, color-stop(0%, rgba(206,130,58,1)), color-stop(51%, rgba(206,130,58,1)), color-stop(51%, rgba(210,178,61,1)), color-stop(100%, rgba(210,178,61,1)));
+                background: -webkit-linear-gradient(left, rgba(206,130,58,1) 0%, rgba(206,130,58,1) 51%, rgba(210,178,61,1) 51%, rgba(210,178,61,1) 100%);
+                background: -o-linear-gradient(left, rgba(206,130,58,1) 0%, rgba(206,130,58,1) 51%, rgba(210,178,61,1) 51%, rgba(210,178,61,1) 100%);
+                background: -ms-linear-gradient(left, rgba(206,130,58,1) 0%, rgba(206,130,58,1) 51%, rgba(210,178,61,1) 51%, rgba(210,178,61,1) 100%);
+                background: linear-gradient(to right, rgba(206,130,58,1) 0%, rgba(206,130,58,1) 51%, rgba(210,178,61,1) 51%, rgba(210,178,61,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce823a', endColorstr='#d2b23d', GradientType=1 );
+            }
+            &.icon-unpaid{
+                border: 1px solid #76b75f;
+                font-weight: bold;
+                height: 23px;
+                color: #76b75f;
+                .iv{
+                    border: 1px solid #76b75f;
+                    border-radius: 50%;
+                    width: 10px;
+                    height: 10px;
+                    line-height: 10px;
+                    display: inline-block;
+                }
+            }
+            &.icon-paid{
+                background-color: #76b75f;
+                font-weight: bold;
+                color: white;
+                .iv{
+                    background-color:white;
+                    border-radius: 50%;
+                    color: #76b75f;
+                    width: 10px;
+                    height: 10px;
+                    line-height: 10px;
+                    display: inline-block;
+                }
+            }
+
+        }
+        .pp-icons:first-child{
+            margin: 0px;
+        }
+
+        .accordion-body-inner{
+            padding: 20px;
+            .mandate{
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+            }
+            .not-sent{
+                border: 2px solid #76b75f;
+            }
+            .pending{
+                background-color: #d2b13d;
+                border: 2px solid #d2b13d;
+            }
+            .active{
+                background-color: #76b75f;
+                border: 2px solid #76b75f;
+            }
+            
+            .v-payments{
+                height: 300px;
+                flex: 10;
+                .v-header{
+                    height: 30px;
+                    border-bottom: 1px solid #999;
+                    font-weight: bold;
+                    color: #444;
+                    font-size: 1.1em;
+                    align-items: center;
+                    .not-bold{
+                        font-weight: normal;
+                        font-size: 0.9em;
+                    }
+                }
+                .v-body{
+                    height: 220px;
+                    overflow-y: auto;
+                    padding: 10px 0px;
+                    color: #8b8681;
+                    .col{
+                        height: 30px;
+                        align-items: center;
+                    }
+                }
+                .v-footer{
+                    height: 50px;
+                    .col{
+                        padding: 5px 0px;
+                    }
+                }
+                .width-8{
+                    width: 80%;
+                }
+                .width-1{
+                    width: 3%;
+                }
+                .width-2{
+                    width: 17%;
+                }
+            }
+
+            .direct-debit{
+                flex: 10;
+            }
+
+            .total-area{
+                flex: 10;
+                .invoice-list{
+                    padding-top: 20px;
+                    .row{
+                        padding: 10px 0px;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}
