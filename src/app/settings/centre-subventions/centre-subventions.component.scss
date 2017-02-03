@@ -1,0 +1,74 @@
+.centre-subventions {
+  background: #fdfdfd;
+  border-radius: 5px;
+  margin-right: 20px;
+
+  .title {
+    padding: 50px 20px 15px 30px;
+    border-bottom: 1px solid #d7d7d7;
+    color: #6d6d6d;
+    font-size: 1.4rem;
+  }
+
+  .ecce {
+    text-align: center;
+
+    .mask {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 100;
+    }
+
+    .col {
+      display: inline-block;
+      width: 45%;
+      max-width: 45%;
+      margin: 15px;
+
+      .parameter {
+        position: relative;
+        width: 100%;
+        min-height: 20px;
+        border-bottom: 1px dashed;
+        padding-bottom: 10px;
+
+        .name {
+          float: left;
+        }
+        app-ecce-capitations {
+          float: right;
+        }
+
+        mdl-switch {
+          float: right;
+          width: 0;
+        }
+      }
+
+      .details p {
+        text-align: left;
+        font-size: smaller;
+        line-height: 1.2em;
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .save-button {
+    padding: 30px;
+    text-align: right;
+
+    mdl-button {
+      background-color: #96e1de;
+
+      .edit {
+      }
+
+      &.cancel {
+        background-color: #f3c2cd;
+        margin-right: 20px;
+      }
+    }
+  }
+}

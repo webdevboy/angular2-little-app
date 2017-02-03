@@ -1,0 +1,51 @@
+.centre-details {
+  background: #fdfdfd;
+  border-radius: 5px;
+  margin-right: 20px;
+
+  .title {
+    padding: 50px 20px 15px 30px;
+    border-bottom: 1px solid #d7d7d7;
+    color: #6d6d6d;
+    font-size: 1.4rem;
+  }
+
+  .settings {
+    text-align: center;
+
+    .col {
+      display: inline-block;
+      max-width: 45%;
+      margin: 15px;
+
+      mdl-textfield {
+        width: 100%;
+
+      }
+    }
+  }
+
+  .edit-picture {
+    padding: 30px;
+    img {
+      border-radius: 50%;
+      width: 4rem;
+      height: auto;
+      margin-right: 15px;
+    }
+  }
+  .save-button {
+    padding: 30px;
+    text-align: right;
+  }
+
+  .edit-picture, .save-button {
+    mdl-button {
+      background-color: #96e1de;
+      color: #5b5b5b;
+    }
+    mdl-spinner {
+      vertical-align: middle;
+    }
+  }
+}

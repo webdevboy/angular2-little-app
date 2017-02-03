@@ -1,0 +1,29 @@
+<app-navbar title="Subventions"></app-navbar>
+<div class="layout-content">
+  <app-modal [showModal]="!!selectedChild">
+    <app-ecce-modal [child]="selectedChild" (closeModal)="selectedChild = null"></app-ecce-modal>
+  </app-modal>
+  <app-flex-card
+    [loading]="loading"
+    [options]="tableOptions"
+    [collection]="subventions"
+    class="ecce-subventions">
+    <app-searchbar (searchFilter)="handleFilter($event)"></app-searchbar>
+    <div class="row" *ngFor="let person of subventions" (click)="selectedChild = person">
+      <div class="col child-name">
+        {{person.name}}
+      </div>
+      <div class="col start-date">
+        {{person.startDate ? (person.startDate | date:'dd/MM/yyyy') : ''}}
+      </div>
+      <div class="col status">
+        <app-colored-button  [message]="person.status ? 'ECCE' : 'NOT ECCE'" type="status"></app-colored-button>
+      </div>
+      <div class="col attendance">
+        <div>
+          <app-list-buttons [values]="person.days" [buttons]="'monday::MONDAY|tuesday::TUESDAY|wednesday::WEDNESDAY|thursday::THURSDAY|friday::FRIDAY'"></app-list-buttons>
+        </div>
+      </div>
+    </div>
+  </app-flex-card>
+</div>

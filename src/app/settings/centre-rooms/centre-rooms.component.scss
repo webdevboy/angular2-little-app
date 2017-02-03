@@ -1,0 +1,19 @@
+/* Warning: this component uses no ViewEncapsulation */
+.centre-rooms {
+  .flex-card {
+    margin: 0;
+    margin-right: 20px;
+
+    .row {
+      text-align: center;
+      .name-col {
+        text-align: left;
+      }
+    }
+  }
+  .add-rooms {
+    position: fixed;
+    right: 20px;
+    bottom: 5vh;
+  }
+}

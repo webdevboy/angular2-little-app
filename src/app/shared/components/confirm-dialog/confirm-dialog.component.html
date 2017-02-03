@@ -1,0 +1,13 @@
+<app-modal [showModal]="!!showDialog">
+  <div class="simple-modal">
+    <div class="dialog-content">
+      <p>{{ message }}</p>
+      <div class="modal-controls">
+        <mdl-button mdl-ripple mdl-colored="accent" (click)="close(false)">
+          Cancel
+        </mdl-button>
+        <mdl-button mdl-ripple (click)="close(true)">Ok</mdl-button>
+      </div>
+    </div>
+  </div>
+</app-modal>

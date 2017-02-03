@@ -1,0 +1,5 @@
+<div class="searchbar" [class.active]="activated" #searchbar>
+    <mdl-icon class="search-button" (click)="toggleState()">search</mdl-icon>
+    <mdl-textfield #textfield [formControl]="filter"></mdl-textfield>
+    <mdl-icon class="clear-button" [hidden]="!textfield.value" (click)="textfield.value = ''">clear</mdl-icon>
+</div>

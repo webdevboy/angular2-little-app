@@ -1,0 +1,59 @@
+<div class="dashboard" mdl-shadow="2">
+  <mdl-layout mdl-layout-drawer mdl-layout-header #mdlLayout="mdlLayout">
+    <mdl-layout-drawer class="drawer" mdl-shadow="8">
+      <div class="drawer-content">
+        <div class="profile-settings">
+          <div class="drawer-logo"></div>
+        </div>
+        <div class="profile-info" *ngIf="profile">
+          <p>
+            {{profile.additional.name}}
+          </p>
+          <img src={{profile.picture}} alt="Avatar" />
+          <p>
+            {{profile.name}}
+          </p>
+        </div>
+        <div class="nav-container">
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" routerLink="/dashboard" (click)="mdlLayout.closeDrawer()">
+              <mdl-icon>dashboard</mdl-icon>
+              Dashboard
+            </a>
+            <a class="mdl-navigation__link" routerLink="/dashboard/subventions" (click)="mdlLayout.closeDrawer()">
+              <mdl-icon>content_paste</mdl-icon>
+              Subventions
+            </a>
+            <a class="mdl-navigation__link" routerLink="/dashboard/attendance" (click)="mdlLayout.closeDrawer()">
+              <mdl-icon>assignment_turned_in</mdl-icon>
+              Attendance
+            </a>
+            <a class="mdl-navigation__link" routerLink="/dashboard/reports" (click)="mdlLayout.closeDrawer()">
+              <mdl-icon>event_note</mdl-icon>
+              Reports
+            </a>
+            <a class="mdl-navigation__link" routerLink="/dashboard/easy-fees" (click)="mdlLayout.closeDrawer()">
+              <mdl-icon>credit_card</mdl-icon>
+              Easy Fees
+            </a>
+            <a class="mdl-navigation__link" routerLink="/dashboard/occupancy" (click)="mdlLayout.closeDrawer()">
+              <mdl-icon>event_note</mdl-icon>
+              Occupancy Plan
+            </a>
+            <a class="mdl-navigation__link" routerLink="/dashboard/settings" (click)="mdlLayout.closeDrawer()">
+              <mdl-icon>settings</mdl-icon>
+              Centre Setup
+            </a>
+            <a class="mdl-navigation__link" routerLink="/" (click)="logout()">
+              <mdl-icon>exit_to_app</mdl-icon>
+              Logout
+            </a>
+          </nav>
+        </div>
+      </div>
+    </mdl-layout-drawer>
+    <mdl-layout-content class="main-content">
+      <router-outlet></router-outlet>
+    </mdl-layout-content>
+  </mdl-layout>
+</div>

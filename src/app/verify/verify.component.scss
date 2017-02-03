@@ -1,0 +1,31 @@
+.verify {
+  margin: 5px 30px;
+  float: left;
+  mdl-progress {
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   width: 100%;
+  }
+  .vista-logo {
+    img {
+      max-width: 15rem;
+    }
+  }
+
+  .stabilizer {
+    position: fixed;
+    top: 40vh;
+    right: 0;
+    left: 0;
+    p {
+      width: 100vw;
+      font-size: 2.5rem;
+      line-height: 3rem;
+      color: #fff;
+      text-align: center;
+    }
+
+  }
+}
