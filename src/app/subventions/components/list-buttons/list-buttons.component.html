@@ -1,8 +1,0 @@
-<div class="list-buttons" [class.interactive]="interactive">
-  <app-colored-button
-    *ngFor="let button of _buttons"
-    [message]="button.name"
-    [type]="button.status"
-    [classes]="classes"
-    (click)="interactive && toggleChange(button)"></app-colored-button>
-</div>
