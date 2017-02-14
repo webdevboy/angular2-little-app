@@ -1,0 +1,20 @@
+<div class="flex-card" [mdl-shadow]="tableShadow">
+  <ng-content select="app-searchbar"></ng-content>
+  <div class="row tooltips">
+    <template ngFor let-tooltip [ngForOf]="options.tooltips">
+      <div
+        *ngIf="!tooltip.inactive"
+        [ngClass]="['col', tooltip.className || '', resolveClass(tooltip.value)]"
+        (click)="changeSort(tooltip.value)">
+        {{tooltip.caption || tooltip.value}}
+      </div>
+      <div
+        *ngIf="tooltip.inactive"
+        [ngClass]="['col', tooltip.className || '']">
+        {{tooltip.caption || tooltip.value}}
+      </div>
+    </template>
+  </div>
+  <mdl-progress indeterminate="true" *ngIf="loading"></mdl-progress>
+  <ng-content></ng-content>
+</div>

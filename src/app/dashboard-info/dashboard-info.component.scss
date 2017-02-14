@@ -1,0 +1,59 @@
+.layout-content {
+	background-color: #ffffff;
+	padding: 0;
+
+	.header {
+    background-color: #f4f5f7;
+
+    img {
+      display: block;
+      width: 500px;
+      height: auto;
+      margin: auto;
+    }
+
+    .header-children {
+      width: 80%;
+      padding: 25px;
+    }
+	}
+
+  .main-content {
+    padding: 80px 15px;
+    max-width: 1044px;
+    margin-left: auto;
+    margin-right: auto;
+
+    p.title {
+      margin: 0 0 24px 12px;
+    }
+
+    .mdl-grid {
+      .mdl-card {
+        position: relative;
+        .mdl-card__media {
+          background-color: transparent;
+          img {
+            width: 100%;
+          }
+        }
+        .mdl-card__supporting-text {
+          height: auto;
+          color: black;
+          padding-bottom: 56px;
+        }
+        .mdl-card__actions {
+          position: absolute;
+          bottom: 0;
+        }
+        .card-button {
+          border-top: none;
+          font-size: 16px;
+          text-decoration: none;
+          color: #8bc34a;
+        }
+      }
+
+    }
+  }
+}

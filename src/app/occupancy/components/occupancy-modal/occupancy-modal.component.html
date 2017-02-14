@@ -1,0 +1,12 @@
+<div class="backdrop" [@backdrop]="showOccupancyModal">
+  <div class="modal" [@modal]="showOccupancyModal">
+    <div class="modal-header flex">
+      <span class="title flex">{{name}}</span>
+      <span class="info flex">{{title}}</span>
+      <span class="btn"><mdl-icon (click)="destroy()" class="close-button">close</mdl-icon></span>
+    </div>
+    <div class="modal-body flex">
+      <ng-content></ng-content>
+    </div>
+  </div>
+</div>

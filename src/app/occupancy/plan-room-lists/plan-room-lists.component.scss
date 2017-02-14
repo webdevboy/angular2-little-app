@@ -1,0 +1,145 @@
+.padding5{
+    padding: 15px 0px !important;
+}
+//plan room list
+.room-lists{
+    border-radius: 5px;
+    .panel-header{
+        background-color: #54c3be;
+        border-radius: 5px 5px 0px 0px;
+        font-size: 1.1em;
+        font-weight: bold;
+        min-height: 40px;
+        line-height: 40px;
+        .header-title{
+            color: white;
+            word-wrap: break-word;
+        }
+       .btn-tab{
+            button{
+                color: white;
+                font-size: 0.8em;
+                font-weight: bold;
+            }
+            &.active{
+                border-bottom: 2px solid white;
+            }
+        }
+    }
+    .panel-body{
+        border-radius: 0px 0px 5px 5px;
+        background-color: white;
+        min-height: 30px;
+        padding: 20px;
+        .panel-body-inner{
+            color: #525252;
+            .trans-title{
+                align-items: flex-end;
+            }
+        }
+        .header{
+            color: #999;
+        }
+        .filter{
+            justify-content: flex-end;
+        }
+        .footer{
+            padding: 10px 0px;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+    }
+    .mdl-textfield{
+        padding: none !important;
+    }
+    .icon{
+        font-size: 1em;
+        color: #6dc49c;
+        &.stuff-no{
+            color: #afafaf !important;
+        }
+    }
+    .col{
+        cursor: pointer;
+    }
+
+    .picker-row {
+        position: relative;
+        height: 50px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+
+        mdl-icon {
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .month-picker {
+            display: inline-flex;
+            align-items: center;
+            line-height: 50px;
+            font-size: 1.8rem;
+
+            .title {
+                font-weight: 300;
+            }
+        }
+
+        .week-picker {
+            display: inline-flex;
+            align-items: center;
+            margin-left: 20px;
+
+            .title {
+                margin: 0 10px;
+                font-size: 1.4rem;
+            }
+        }
+    }
+    .select-month-and-view-occupancy{
+        padding-bottom: 20px;
+        .select-month{
+            .col{
+                height: 35px;
+                align-items: center;
+                color: #999;
+            }
+            .active{
+                border-bottom: 4px solid #16aae2;
+            }
+        }
+        .view-occupancy{
+            padding: 10px 0px;
+            background-color: #f8fafb;
+            border: 1px solid #e2e4e6;
+            .apm-repeat{
+                font-size: 0.9em;
+            }
+            .op-empty{
+                width: 80%;
+                padding-top: 80%;
+                border: 2px solid #65b9e8;
+                border-radius: 5px;
+                overflow: hidden;
+                position: relative;
+                .op-full{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 2px;
+                    background-color: #65b9e8;
+                    position: absolute;
+                    bottom: 0px;
+                }
+                &.least{
+                    border-color: #a5d0ee;
+                    .op-full{
+                        background-color: #a5d0ee;
+                    }
+                }
+            }
+        }
+    }
+}

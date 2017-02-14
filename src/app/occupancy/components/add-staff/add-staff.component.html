@@ -1,0 +1,144 @@
+<div class="backdrop" [@backdrop]="showOccupancyModal">
+  <div class="modal" [@modal]="showOccupancyModal">
+    <div class="modal-header flex">
+      <span class="title flex">{{title}}</span>
+      <span class="btn"><mdl-icon (click)="destroy()" class="close-button">close</mdl-icon></span>
+    </div>
+    <div class="modal-body flex" mdl-shadow="3">
+ 
+      <div class="staff-container flex">
+        <div class="add-staff flex column">
+          <div class="row flex">
+              <span class="col flex strong-text">Name</span>
+              <span class="col flex strong-text">Qualification</span>
+              <span class="col flex strong-text">Start Date</span>
+              <span class="col flex strong-text">End Date</span>
+          </div>
+          <div class="row flex">
+              <span class="col flex">
+                <mdl-textfield [(ngModel)]="staff.name"></mdl-textfield>
+              </span>
+              <span class="col flex">
+                <mdl-select [(ngModel)]="staff.qualification" placeholder="Select Qualification">
+                  <mdl-option [value]="0">Select Qualification</mdl-option>
+                  <mdl-option *ngFor="let qualifi of qualification" [value]="qualifi.id">
+                    {{qualifi.name}}
+                  </mdl-option>
+                </mdl-select>
+              </span>
+              <span class="col flex">
+                <app-datepicker [(ngModel)]="staff.startdate"></app-datepicker>
+              </span>
+              <span class="col flex">
+                <app-datepicker [(ngModel)]="staff.enddate"></app-datepicker>
+              </span>
+          </div>
+          <div class="row flex">
+              <span class="col flex strong-text">Assign to Rooms</span>
+          </div>
+          <div class="row flex green-color">
+              <span class="col flex flex1 strong-text"></span>
+              <span class="col flex flex2 strong-text text-indent">Mon</span>
+              <span class="col flex flex2 strong-text text-indent">Tue</span>
+              <span class="col flex flex2 strong-text text-indent" >Weds</span>
+              <span class="col flex flex2 strong-text text-indent">Thurs</span>
+              <span class="col flex flex2 strong-text text-indent">Fri</span>
+          </div>
+          <div class="row flex">
+              <span class="col flex flex1 strong-text align-center">AM</span>
+              <span class="col flex flex2">
+                <mdl-select [(ngModel)]="staff.assignedRoom.mon.am" placeholder="Select Room">
+                  <mdl-option [value]="0">NOT IN</mdl-option>
+                  <mdl-option *ngFor="let room of rooms" [value]="room.id">
+                    {{room.name}}
+                  </mdl-option>
+                </mdl-select>
+              </span>
+              <span class="col flex flex2">
+                <mdl-select [(ngModel)]="staff.assignedRoom.tue.am" placeholder="Select Room">
+                  <mdl-option [value]="0">NOT IN</mdl-option>
+                  <mdl-option *ngFor="let room of rooms" [value]="room.id">
+                    {{room.name}}
+                  </mdl-option>
+                </mdl-select>
+              </span>
+              <span class="col flex flex2">
+                <mdl-select [(ngModel)]="staff.assignedRoom.wed.am" placeholder="Select Room">
+                  <mdl-option [value]="0">NOT IN</mdl-option>
+                  <mdl-option *ngFor="let room of rooms" [value]="room.id">
+                    {{room.name}}
+                  </mdl-option>
+                </mdl-select>
+              </span>
+              <span class="col flex flex2">
+                <mdl-select [(ngModel)]="staff.assignedRoom.thu.am" placeholder="Select Room">
+                  <mdl-option [value]="0">NOT IN</mdl-option>
+                  <mdl-option *ngFor="let room of rooms" [value]="room.id">
+                    {{room.name}}
+                  </mdl-option>
+                </mdl-select>
+              </span>
+              <span class="col flex flex2">
+                <mdl-select [(ngModel)]="staff.assignedRoom.fri.am" placeholder="Select Room">
+                  <mdl-option [value]="0">NOT IN</mdl-option>
+                  <mdl-option *ngFor="let room of rooms" [value]="room.id">
+                    {{room.name}}
+                  </mdl-option>
+                </mdl-select>
+              </span>
+          </div>
+          <div class="row flex">
+              <span class="col flex flex1 strong-text align-center">PM</span>
+              <span class="col flex flex2">
+                <mdl-select [(ngModel)]="staff.assignedRoom.mon.pm" placeholder="Select Room">
+                  <mdl-option [value]="0">NOT IN</mdl-option>
+                  <mdl-option *ngFor="let room of rooms" [value]="room.id">
+                    {{room.name}}
+                  </mdl-option>
+                </mdl-select>
+              </span>
+              <span class="col flex flex2">
+                <mdl-select [(ngModel)]="staff.assignedRoom.tue.pm" placeholder="Select Room">
+                  <mdl-option [value]="0">NOT IN</mdl-option>
+                  <mdl-option *ngFor="let room of rooms" [value]="room.id">
+                    {{room.name}}
+                  </mdl-option>
+                </mdl-select>
+              </span>
+              <span class="col flex flex2">
+                <mdl-select [(ngModel)]="staff.assignedRoom.wed.pm" placeholder="Select Room">
+                  <mdl-option [value]="0">NOT IN</mdl-option>
+                  <mdl-option *ngFor="let room of rooms" [value]="room.id">
+                    {{room.name}}
+                  </mdl-option>
+                </mdl-select>
+              </span>
+              <span class="col flex flex2">
+                <mdl-select [(ngModel)]="staff.assignedRoom.thu.pm" placeholder="Select Room">
+                  <mdl-option [value]="0">NOT IN</mdl-option>
+                  <mdl-option *ngFor="let room of rooms" [value]="room.id">
+                    {{room.name}}
+                  </mdl-option>
+                </mdl-select>
+              </span>
+              <span class="col flex flex2">
+                <mdl-select [(ngModel)]="staff.assignedRoom.fri.pm" placeholder="Select Room">
+                  <mdl-option [value]="0">NOT IN</mdl-option>
+                  <mdl-option *ngFor="let room of rooms" [value]="room.id">
+                    {{room.name}}
+                  </mdl-option>
+                </mdl-select>
+              </span>
+          </div>
+          <br><br>
+          <div class="btn-picker flex flex2">
+            <span class="col flex flex5 error">{{errorMessage}}</span>
+            <span class="col flex flex1 btn">
+              <button mdl-button mdl-ripple class="green-color" (click)="saveStaff()">SAVE</button>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

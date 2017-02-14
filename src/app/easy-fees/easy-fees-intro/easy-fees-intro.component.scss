@@ -1,0 +1,86 @@
+.easy-fees-intro {
+  margin: auto 30px;
+  .intro-header {
+    margin: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header-text {
+      color: #868686;
+      margin: 0;
+      margin-right: 50px;
+      font-weight: bolder;
+    }
+
+    mdl-button {
+      background-color: #42bfb8;
+      color: #fff;
+      text-transform: capitalize;
+    }
+  }
+  .fee-policy {
+    display: flex;
+    height: 120px;
+    background-color: #c2c1c1;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 8px;
+
+    p {
+      margin: 0;
+      font-size: 1.6rem;
+    }
+  }
+
+  .info-cards {
+    display: flex;
+    flex-flow: wrap row;
+
+    .info-card {
+      flex: 0 0 calc(25% - 16px);
+      margin: 8px;
+      border-radius: 4px;
+      overflow: hidden;
+      background-color: #fff;
+      color: #757676;
+      position: relative;
+      @media screen and (max-width: 850px) {
+        flex: 0 0 calc(50% - 16px);
+      }
+      .card-media {
+        text-align: center;
+        img {
+          width: 101%;
+        }
+      }
+      .card-body {
+        padding: 25px 15px;
+        margin-bottom: 30px;
+        .card-title {
+          font-size: 1.6rem;
+          font-weight: bold;
+        }
+        .card-subtitle {
+          font-size: 1.2rem;
+        }
+        .card-text {
+          font-size: 1rem;
+          line-height: 1.2rem;
+        }
+      }
+      .card-actions {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 5px;
+        text-align: center;
+        mdl-button {
+          color: #8ec24a;
+        }
+      }
+    }
+  }
+}

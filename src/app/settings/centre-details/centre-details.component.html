@@ -1,0 +1,33 @@
+<div class="centre-details" [mdl-shadow]="3" *ngIf="profile">
+  <div class="title">
+    Centre Details
+  </div>
+  <div class="settings">
+    <div class="col">
+      <mdl-textfield type="text" label="Centre Name" [(ngModel)]="profile.additional.name"></mdl-textfield>
+      <mdl-textfield type="text" label="Address 1" [(ngModel)]="profile.additional.address1"></mdl-textfield>
+      <mdl-textfield type="text" label="Address 2" [(ngModel)]="profile.additional.address2"></mdl-textfield>
+      <mdl-textfield type="text" label="Address 3" [(ngModel)]="profile.additional.address3"></mdl-textfield>
+    </div>
+    <div class="col">
+      <mdl-textfield type="text" label="Main Contract" [(ngModel)]="profile.additional.mainContact"></mdl-textfield>
+      <mdl-textfield type="text" label="Email Address" [(ngModel)]="profile.additional.email"></mdl-textfield>
+      <mdl-textfield type="text" label="Work Phone" [(ngModel)]="profile.additional.workPhone"></mdl-textfield>
+      <mdl-textfield type="text" label="Mobile" [(ngModel)]="profile.additional.mobilePhone"></mdl-textfield>
+    </div>
+  </div>
+
+  <div class="edit-picture">
+    <img src={{profile.picture}} alt="Profile Picture" />
+    <mdl-button mdl-button-type="raised" mdl-ripple>
+      EDIT PROFILE IMAGE
+    </mdl-button>
+  </div>
+
+  <div class="save-button">
+    <mdl-spinner [active]="saving"></mdl-spinner>
+    <mdl-button mdl-button-type="raised" mdl-ripple (click)="saveDetails()">
+      SAVE
+    </mdl-button>
+  </div>
+</div>

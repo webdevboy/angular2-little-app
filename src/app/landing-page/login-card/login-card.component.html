@@ -1,0 +1,17 @@
+<div class="login-card">
+  <div class="card-title">
+    <mdl-progress [indeterminate]="true" *ngIf="loading"></mdl-progress>
+    <img class="vista-logo" src="/assets/img/logo-small.png" alt="Little Vista logo" />
+    <span>LITE</span>
+  </div>
+  <div class="card-body" (keydown.enter)="login()">
+    <mdl-textfield type="text" label="Email or CentreID" floating-label [(ngModel)]="username"></mdl-textfield>
+    <mdl-textfield type="password" label="Password" floating-label [(ngModel)]="password"></mdl-textfield>
+    <p class="error-message">
+      {{errorMessage}}
+    </p>
+    <mdl-button mdl-button-type="raised" mdl-ripple (click)="login()">
+      Login
+    </mdl-button>
+  </div>
+</div>

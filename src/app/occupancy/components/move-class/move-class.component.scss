@@ -1,0 +1,81 @@
+//general
+.left{
+    width: 10%;
+}
+
+mdl-select {
+    max-width: 150px;
+}
+
+.text-indent{
+    text-indent: 20px;
+}
+//move class
+
+.backdrop {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .modal {
+    position: relative;
+    min-width: 30%;
+    max-width: 95%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: white;
+    .modal-header{
+      border-radius: 5px 5px 0 0;
+      background-color: #54c3be;
+      color: white;
+      height: 50px;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1.2em;
+      font-weight: bold;
+      .title{
+          text-indent: 15px;
+      }
+      .btn{
+          padding-right: 15px;
+          cursor: pointer;
+      }
+    }
+    .modal-body{
+        .move-container{
+            min-width: 960px;
+            padding: 20px;
+            .move-class{
+                color: #525252;
+                .green-color{
+                    color: #54c3be;
+                }
+                .date-picker{
+                    justify-content: space-around;
+                }
+                .room-picker{
+                    justify-content: space-around;
+                    .left{
+                        justify-content: center;
+                        align-items: center;
+                        display: flex;
+                    }
+                }
+                .btn-picker{
+                    justify-content: flex-end;
+
+                    button{
+                        font-size: 1.2em;
+                    }
+                }
+            }
+        }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.attendance-status {
+  span {
+    color: #878787;
+    float: left;
+  }
+  p {
+    text-align: right;
+    margin: 0;
+    font-weight: 500;
+  }
+  &.inactive {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-color: darkgrey;
+  }
+}
