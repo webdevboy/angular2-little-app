@@ -1,0 +1,21 @@
+<div class="presence-bar">
+  <mdl-button
+    mdl-ripple mdl-colored="accent"
+    (click)="updateAttendance(attendanceStates.IN)"
+    class="status-in" [class.active]="child.attendanceState == 'IN'">
+      IN
+  </mdl-button>
+  <mdl-button
+    mdl-ripple mdl-colored="accent"
+    (click)="updateAttendance(attendanceStates.OUT)"
+    class="status-out" [class.active]="child.attendanceState == 'OUT'">
+      OUT
+  </mdl-button>
+  <mdl-button
+    mdl-ripple mdl-colored="accent"
+    (click)="updateAttendance(attendanceStates.ABSENT)"
+    class="status-absent"
+    [class.active]="child.attendanceState == 'ABSENT'">
+      ABSENT
+  </mdl-button>
+</div>

@@ -1,0 +1,27 @@
+div.capitations {
+  display: inline-block;
+  span {
+    float: left;
+    margin: 3px 10px;
+    font-weight: bold;
+    color: lightgray;
+    cursor: pointer;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &.on {
+      color: red;
+    }
+
+    &.off {
+      color: green;
+    }
+
+    &.mixed {
+      color: darkorange;
+    }
+  }
+
+}

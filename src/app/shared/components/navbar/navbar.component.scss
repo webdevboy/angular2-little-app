@@ -1,0 +1,14 @@
+.navbar {
+  height: 20px;
+  background-color: #b9c5d8;
+  color: #fff;
+  padding: 13px 0px 15px 4rem;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    padding-left: 10px;
+  }
+}

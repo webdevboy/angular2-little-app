@@ -1,0 +1,97 @@
+@import '../variables';
+
+.reports-draft {
+  background-color: #fdfdfd;
+  border-radius: 5px;
+  margin-right: 20px;
+  .picker-row {
+    position: relative;
+    background-color: $background-gray-light;
+    color: #fff;
+    height: 50px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+    mdl-icon {
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    .month-picker {
+      display: inline-flex;
+      align-items: center;
+      line-height: 50px;
+      font-size: 1.8rem;
+
+      .title {
+        font-weight: 300;
+      }
+
+    }
+
+    .week-picker {
+      display: inline-flex;
+      align-items: center;
+      margin-left: 20px;
+
+      .title {
+        margin: 0 10px;
+        font-size: 1.4rem;
+      }
+    }
+
+    i {
+      position: absolute;
+      right: 0;
+      margin: 5px 10px;
+      font-size: 2.8em;
+      cursor: pointer;
+    }
+  }
+  .row {
+    border-bottom: 1px solid #d7d7d7;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    text-align: left;
+    font-weight: 500;
+    color: #000;
+    transition: background-color .28s cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+      background-color: #eeeeee;
+    }
+    &.tooltips {
+      color: #878787;
+      p {
+        margin: 0;
+        font-weight: 500;
+      }
+      span {
+        color: rgba(0, 0, 0, .3);
+      }
+      &:hover {
+        background-color: #fdfdfd;
+      }
+    }
+    .col {
+      flex: 1;
+      padding: 15px;
+
+      &.child-name {
+        color: #656565;
+      }
+      &.child-status {
+        flex: 0 0 5%;
+        color: #878787;
+      }
+
+      &.inactive {
+        background-color: #eeeeee;
+      }
+    }
+  }
+
+}

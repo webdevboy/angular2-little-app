@@ -1,0 +1,119 @@
+.navbar{
+  display: flex;
+  background-color: white;
+  height: 70px;
+  -moz-box-shadow: 0 0 5px #afafaf;
+  -webkit-box-shadow: 0 0 5px #afafaf;
+  box-shadow: 0 0 5px #afafaf;
+  position: relative;
+
+  .navbar-title{
+    display: flex;
+    align-items: center;
+    flex: 4;
+    /*padding-left: 7vw;*/
+    .menu{
+      width: 80px;
+    }
+    .logo{
+      color: #a187af;
+      font-weight: 800;
+      font-size: 2em;
+    }
+    .sub-title{
+      color: #a187af;
+      font-size: 1.5em;
+      padding-left: 1vw;
+    }
+  }
+  .navbar-alert{
+    width: 70px;
+    height: 70px;
+    margin: 0px;
+    background-color: #54c3be;
+    color: white;
+    position: relative;
+    .icon{
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      mdl-icon{
+        font-size: 2.5em;
+      }
+    }
+    .point{
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #6363e6;
+      position: absolute;
+      top: 25px;
+      left: 37px;
+    }
+  }
+  .navbar-holder {
+    flex: 6;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    .navbar-scroll {
+      display: inline-flex;
+      transition: all .5s ease;
+      .navbar-item {
+        display: inline-flex;
+        align-items: center;
+        color: #4a4a4a;
+        cursor: pointer;
+        font-weight: 500;
+        text-decoration: none;
+        white-space: nowrap;
+        p{
+          margin: 0;
+          padding: 0.6vh 1.5vw;
+        }
+        &.active-route p{
+          border: 2px solid #a187af;
+          border-radius: 5px;
+        }
+      }
+    }
+    .arrow {
+      position: absolute;
+      display: inline-flex;
+      height: 100%;
+      align-items: center;
+      cursor: pointer;
+      min-width: 60px;
+      justify-content: center;
+      top: 0;
+      opacity: 0;
+      visibility: hidden;
+      &.show {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+    .arrow-back {
+      left: 0px;
+      z-index: 1; // Bug (?)
+      background-image: linear-gradient(to right ,rgba(255,255,255,1) 65% ,rgba(255,255,255,0) 100%);
+    }
+    .arrow-forward {
+      right: 0px;
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, white 35%, white 100%)
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+    .logo{
+      font-size: 1.5em !important;
+    }
+    .sub-title{
+      font-size: 1.3em !important;
+    }
+}

@@ -1,0 +1,16 @@
+<div class="attendance-status" [hidden]="record.ABSENT">
+  <p>
+    <span>IN:</span>
+    {{record.IN || '-'}}
+  </p>
+  <p>
+    <span>OUT:</span>
+    {{record.OUT || '-'}}
+  </p>
+</div>
+<div class="attendance-status" [hidden]="!record.ABSENT">
+  <p>
+    <span>ABSENT:</span>
+    {{record.ABSENT || '-'}}
+  </p>
+</div>

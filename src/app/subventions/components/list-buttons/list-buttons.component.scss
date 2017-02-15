@@ -1,0 +1,7 @@
+.list-buttons {
+  &.interactive {
+    app-colored-button {
+      cursor: pointer;
+    }
+  }
+}

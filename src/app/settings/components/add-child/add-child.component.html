@@ -1,0 +1,22 @@
+<div class="simple-modal">
+  <mdl-icon (click)="dismiss()" class="close-button">close</mdl-icon>
+  <p class="title">{{isEdit ? 'Edit' : 'Add'}} Child</p>
+  <mdl-textfield
+    label="Child Name" floating-label
+    [(ngModel)]="name"></mdl-textfield>
+  <app-datepicker [(ngModel)]="date" [label]="'Date of Birth'"></app-datepicker>
+  <div class="select-row">
+    <mdl-select
+      [(ngModel)]="roomId"
+      placeholder="Select Room">
+      <mdl-option *ngFor="let room of rooms" [value]="room.id">
+        {{room.name}}
+      </mdl-option>
+    </mdl-select>
+  </div>
+  <p class="error-message">{{errorMessage}}</p>
+  <div class="save-button">
+    <mdl-button mdl-ripple (click)="saveChild()">Save</mdl-button>
+    <mdl-spinner [active]="saving"></mdl-spinner>
+  </div>
+</div>

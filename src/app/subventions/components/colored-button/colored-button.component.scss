@@ -1,0 +1,31 @@
+.colored-button {
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin: 5px;
+  color: #fff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  &.ecce {
+    background-color: #8ec278;
+    padding: 5px 20px;
+  }
+  &.not-ecce {
+    background-color: #e3bd54;
+  }
+
+  &.active {
+    background-color: #7395c9;
+    &.light-green {
+      background-color: #6bc8b7;
+    }
+  }
+  &.inactive {
+    background-color: #b9b9b9;
+  }
+
+}
